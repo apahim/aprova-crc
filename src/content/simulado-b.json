@@ -1,1 +1,602 @@
-[]
+[
+  {
+    "stem": "Uma entidade adquiriu, em 02/01/X1, uma licença de uso de software por R$ 120.000, com vida útil definida de 5 anos, valor residual nulo e amortização linear. Em 31/12/X2, o valor contábil líquido dessa licença será de:",
+    "options": [
+      "R$ 48.000",
+      "R$ 96.000",
+      "R$ 72.000",
+      "R$ 60.000"
+    ],
+    "correct": 2,
+    "explanation": "Amortização anual = 120.000 ÷ 5 = 24.000; em dois anos, 48.000 acumulados. Valor contábil = 120.000 − 48.000 = 72.000.",
+    "area": "Contabilidade Geral"
+  },
+  {
+    "stem": "Um ativo imobilizado tem valor contábil de R$ 500.000. Seu valor justo líquido das despesas de venda é de R$ 380.000 e seu valor em uso é de R$ 420.000. Segundo o CPC 01, a perda por redução ao valor recuperável a ser reconhecida é de:",
+    "options": [
+      "R$ 80.000",
+      "R$ 120.000",
+      "R$ 100.000",
+      "R$ 0"
+    ],
+    "correct": 0,
+    "explanation": "O valor recuperável é o maior entre o valor justo líquido (380.000) e o valor em uso (420.000), ou seja, 420.000. Perda = 500.000 − 420.000 = 80.000.",
+    "area": "Contabilidade Geral"
+  },
+  {
+    "stem": "Entre os fatos abaixo, aquele que constitui um fato contábil modificativo diminutivo é:",
+    "options": [
+      "O recebimento de duplicatas de clientes à vista",
+      "A compra de um equipamento a prazo, ativando-o",
+      "O pagamento, em dinheiro, de salários já provisionados no mês anterior",
+      "O reconhecimento da despesa de depreciação do mês sobre as máquinas da fábrica"
+    ],
+    "correct": 3,
+    "explanation": "A despesa de depreciação reduz o ativo e o patrimônio líquido (modificativo diminutivo). As demais opções não reduzem o PL: são permutativos ou mistos aumentativos/diminutivos apenas de ativo e passivo.",
+    "area": "Contabilidade Geral"
+  },
+  {
+    "stem": "Uma companhia apurou lucro líquido de R$ 200.000 no exercício. O estatuto prevê dividendo obrigatório de 25% do lucro líquido ajustado. Considerando a constituição de reserva legal de 5% do lucro líquido (limite de 20% do capital ainda não atingido) e inexistência de outras destinações ou ajustes, o dividendo obrigatório é de:",
+    "options": [
+      "R$ 50.000",
+      "R$ 47.500",
+      "R$ 40.000",
+      "R$ 95.000"
+    ],
+    "correct": 1,
+    "explanation": "Reserva legal = 5% × 200.000 = 10.000. Lucro ajustado = 190.000. Dividendo = 25% × 190.000 = 47.500.",
+    "area": "Contabilidade Geral"
+  },
+  {
+    "stem": "Para elaborar a Demonstração do Valor Adicionado (DVA), uma companhia reuniu os dados: receita bruta de vendas de R$ 1.000.000 (incluindo tributos); insumos adquiridos de terceiros de R$ 400.000 (incluindo tributos); depreciação de R$ 50.000; e receita de equivalência patrimonial de R$ 30.000. O valor adicionado total a distribuir é de:",
+    "options": [
+      "R$ 550.000",
+      "R$ 580.000",
+      "R$ 600.000",
+      "R$ 630.000"
+    ],
+    "correct": 1,
+    "explanation": "VA bruto = 1.000.000 − 400.000 = 600.000; VA líquido = 600.000 − 50.000 = 550.000; VA total a distribuir = 550.000 + 30.000 (valor recebido em transferência) = 580.000.",
+    "area": "Contabilidade Geral"
+  },
+  {
+    "stem": "Em 31/12, uma empresa constituiu provisão para contingências de R$ 100.000, cuja dedução fiscal só ocorrerá quando houver o efetivo pagamento. Com alíquota combinada de 34% de IRPJ/CSLL, de acordo com o CPC 32, deve-se reconhecer:",
+    "options": [
+      "Passivo fiscal diferido de R$ 34.000",
+      "Ativo fiscal diferido de R$ 66.000",
+      "Nenhum tributo diferido, pois a diferença é permanente",
+      "Ativo fiscal diferido de R$ 34.000"
+    ],
+    "correct": 3,
+    "explanation": "Trata-se de diferença temporária dedutível, que gera ativo fiscal diferido = 100.000 × 34% = 34.000 (sujeito à probabilidade de lucro tributável futuro).",
+    "area": "Contabilidade Geral"
+  },
+  {
+    "stem": "De acordo com o CPC 29, a variação do valor justo, líquido das despesas de venda, de um ativo biológico no período deve ser reconhecida:",
+    "options": [
+      "No resultado do período em que ocorrer",
+      "Em ajustes de avaliação patrimonial, no patrimônio líquido",
+      "Em reserva de reavaliação, até a venda do ativo",
+      "Apenas no resultado do período em que o ativo for vendido"
+    ],
+    "correct": 0,
+    "explanation": "O CPC 29 determina que o ganho ou a perda na mensuração do ativo biológico ao valor justo menos despesas de venda seja incluído no resultado do período em que ocorrer.",
+    "area": "Contabilidade Geral"
+  },
+  {
+    "stem": "Em 01/10, uma empresa pagou antecipadamente R$ 12.000 de prêmio de seguro com vigência de 12 meses. Em 31/12 do mesmo ano, após o ajuste pelo regime de competência, o saldo da conta \"Seguros a Apropriar\" no ativo será de:",
+    "options": [
+      "R$ 3.000",
+      "R$ 12.000",
+      "R$ 9.000",
+      "R$ 6.000"
+    ],
+    "correct": 2,
+    "explanation": "Em 3 meses decorridos, a despesa é 12.000 ÷ 12 × 3 = 3.000. O saldo no ativo é 12.000 − 3.000 = 9.000.",
+    "area": "Contabilidade Geral"
+  },
+  {
+    "stem": "Uma entidade adquiriu, por R$ 90.909, um título de dívida com valor de face de R$ 100.000, resgatável em 1 ano, mantido para receber fluxos de caixa contratuais (custo amortizado). A taxa efetiva é de 10% ao ano. A receita financeira a apropriar ao longo do ano é de, aproximadamente:",
+    "options": [
+      "R$ 10.000",
+      "R$ 9.000",
+      "R$ 4.545",
+      "R$ 9.091"
+    ],
+    "correct": 3,
+    "explanation": "Pela taxa efetiva: 90.909 × 10% ≈ 9.091, que corresponde à diferença entre o valor de face e o valor pago (100.000 − 90.909).",
+    "area": "Contabilidade Geral"
+  },
+  {
+    "stem": "Uma empresa quitou uma duplicata a pagar de R$ 10.000 antes do vencimento, desembolsando R$ 9.000 em razão de desconto concedido pelo fornecedor. O efeito dessa operação é:",
+    "options": [
+      "Redução do caixa em R$ 10.000 e nenhum efeito no patrimônio líquido",
+      "Redução do caixa em R$ 9.000 e aumento do patrimônio líquido em R$ 1.000",
+      "Redução do caixa em R$ 9.000 e do passivo em R$ 9.000, sem efeito no patrimônio líquido",
+      "Redução do caixa em R$ 9.000 e aumento do patrimônio líquido em R$ 10.000"
+    ],
+    "correct": 1,
+    "explanation": "Débito em Fornecedores 10.000; crédito em Caixa 9.000 e em Descontos Obtidos 1.000 (receita financeira). Logo o PL aumenta em 1.000.",
+    "area": "Contabilidade Geral"
+  },
+  {
+    "stem": "De acordo com o CPC 24 (Evento Subsequente), entre os eventos ocorridos após o período de reporte e antes da autorização para divulgação das demonstrações, aquele que NÃO requer ajuste nos valores reconhecidos é:",
+    "options": [
+      "A falência de cliente, evidenciando que o saldo a receber já estava deteriorado na data de reporte",
+      "A sentença judicial que confirma obrigação presente já existente na data de reporte",
+      "A redução do valor de mercado de investimentos ocorrida após a data de reporte",
+      "A descoberta de fraude que mostra que as demonstrações estavam incorretas"
+    ],
+    "correct": 2,
+    "explanation": "A queda posterior de valor de mercado reflete condições surgidas após o período (evento que não originou ajuste). Os demais fornecem evidência de condições já existentes na data de reporte (eventos que originam ajustes).",
+    "area": "Contabilidade Geral"
+  },
+  {
+    "stem": "Segundo a Resolução CFC 750/93 (com as alterações da Resolução CFC 1.282/10), o princípio que determina a adoção do menor valor para os componentes do ativo e do maior para os do passivo, quando houver alternativas igualmente válidas para quantificar mutações patrimoniais, é o da:",
+    "options": [
+      "Prudência",
+      "Competência",
+      "Oportunidade",
+      "Continuidade"
+    ],
+    "correct": 0,
+    "explanation": "É o enunciado do princípio da Prudência, que impõe o grau de precaução na mensuração, sem permitir excessos ou reduções deliberadas.",
+    "area": "Teoria da Contabilidade e Princípios"
+  },
+  {
+    "stem": "De acordo com a Estrutura Conceitual (CPC 00 R2), para que uma descrição represente fidedignamente um fenômeno, ela deve ser:",
+    "options": [
+      "Completa, neutra e livre de erro",
+      "Comparável, verificável e tempestiva",
+      "Confirmatória, preditiva e material",
+      "Compreensível, relevante e prudente"
+    ],
+    "correct": 0,
+    "explanation": "Completude, neutralidade e ausência de erro são os atributos da representação fidedigna. As demais listas misturam características de melhoria ou componentes da relevância.",
+    "area": "Teoria da Contabilidade e Princípios"
+  },
+  {
+    "stem": "Segundo o CPC 00 (R2), ativo é:",
+    "options": [
+      "Um bem de propriedade jurídica da entidade, com valor monetário conhecido",
+      "Um direito cujo custo seja mensurável com segurança e que gere caixa certo no futuro",
+      "Um recurso econômico presente controlado pela entidade como resultado de eventos passados",
+      "Um item adquirido com recursos próprios que seja registrado ao custo histórico"
+    ],
+    "correct": 2,
+    "explanation": "A definição vigente baseia-se em recurso econômico presente (direito com potencial de gerar benefícios) controlado como resultado de evento passado, sem exigir propriedade jurídica.",
+    "area": "Teoria da Contabilidade e Princípios"
+  },
+  {
+    "stem": "A ITG 1000 (Modelo Contábil para Microempresa e Empresa de Pequeno Porte) destina-se a entidades:",
+    "options": [
+      "Constituídas como sociedades anônimas de capital aberto",
+      "Enquadradas como microempresa ou empresa de pequeno porte, nos termos da Lei Complementar 123/2006",
+      "Integrantes da administração pública direta e indireta",
+      "Instituições financeiras autorizadas a funcionar pelo Banco Central"
+    ],
+    "correct": 1,
+    "explanation": "A ITG 1000 é aplicável às ME e EPP conforme a LC 123/2006, que podem adotar essa simplificação contábil.",
+    "area": "Teoria da Contabilidade e Princípios"
+  },
+  {
+    "stem": "Um processo produz dois coprodutos, A e B, com custo conjunto de R$ 80.000 até o ponto de separação. Foram produzidas 500 unidades de cada um. Receita de venda: A = R$ 150.000; B = R$ 50.000. Rateando o custo conjunto pelo valor de mercado, o custo atribuído ao produto B é de:",
+    "options": [
+      "R$ 40.000",
+      "R$ 25.000",
+      "R$ 30.000",
+      "R$ 20.000"
+    ],
+    "correct": 3,
+    "explanation": "B representa 50.000 ÷ 200.000 = 25% do valor de mercado total; 25% × 80.000 = 20.000. O rateio por quantidade daria 40.000.",
+    "area": "Contabilidade de Custos"
+  },
+  {
+    "stem": "Uma empresa adota custo-padrão. O padrão de mão de obra direta é de 2 horas por unidade, a R$ 15 por hora. Foram produzidas 1.000 unidades, com uso real de 2.200 horas, ao custo de R$ 14 por hora. A variação de eficiência (quantidade) da mão de obra direta foi de:",
+    "options": [
+      "R$ 3.000 favorável",
+      "R$ 3.000 desfavorável",
+      "R$ 2.200 favorável",
+      "R$ 2.800 desfavorável"
+    ],
+    "correct": 1,
+    "explanation": "Horas-padrão = 1.000 × 2 = 2.000. Variação de eficiência = (2.200 − 2.000) × 15 = 3.000, desfavorável. A variação de taxa seria (14 − 15) × 2.200 = 2.200 favorável.",
+    "area": "Contabilidade de Custos"
+  },
+  {
+    "stem": "Em um sistema de custeio por processo, os custos de conversão do período somaram R$ 27.000. No período, 800 unidades foram concluídas e 200 permaneceram em elaboração com 50% de conversão concluído (sem estoque inicial). O custo de conversão atribuído aos produtos em elaboração é de:",
+    "options": [
+      "R$ 3.000",
+      "R$ 5.400",
+      "R$ 6.000",
+      "R$ 2.700"
+    ],
+    "correct": 0,
+    "explanation": "Unidades equivalentes = 800 + (200 × 50%) = 900. Custo por equivalente = 27.000 ÷ 900 = 30. Em elaboração: 100 equivalentes × 30 = 3.000.",
+    "area": "Contabilidade de Custos"
+  },
+  {
+    "stem": "Uma empresa tem 1.000 horas-máquina disponíveis (fator limitante) e deve escolher o produto a priorizar. Produto X: preço R$ 100, custos e despesas variáveis R$ 60, 2 horas por unidade. Produto Y: preço R$ 120, custos e despesas variáveis R$ 66, 3 horas por unidade. A decisão correta é:",
+    "options": [
+      "Priorizar Y, pois possui a maior margem de contribuição unitária (R$ 54)",
+      "Priorizar Y, pois possui o maior preço de venda",
+      "Indiferente, pois ambos geram margem de contribuição positiva",
+      "Priorizar X, pois sua margem de contribuição por hora-máquina (R$ 20) supera a de Y (R$ 18)"
+    ],
+    "correct": 3,
+    "explanation": "MC unitária: X = 40 e Y = 54. Por hora-máquina: X = 40 ÷ 2 = 20; Y = 54 ÷ 3 = 18. Com fator limitante, prioriza-se a maior MC por unidade do recurso escasso.",
+    "area": "Contabilidade Gerencial"
+  },
+  {
+    "stem": "Uma empresa tem custos fixos anuais de R$ 120.000, dos quais R$ 30.000 correspondem à depreciação (sem desembolso). A margem de contribuição é de R$ 20 por unidade. O ponto de equilíbrio financeiro, em unidades, é de:",
+    "options": [
+      "6.000",
+      "7.500",
+      "4.500",
+      "1.500"
+    ],
+    "correct": 2,
+    "explanation": "PE financeiro = (120.000 − 30.000) ÷ 20 = 4.500 unidades. O PE contábil seria 120.000 ÷ 20 = 6.000.",
+    "area": "Contabilidade Gerencial"
+  },
+  {
+    "stem": "Uma empresa tem receita de R$ 500.000, custos e despesas variáveis de R$ 300.000 e custos fixos de R$ 120.000. Mantida a estrutura de custos, se a receita aumentar 10%, o lucro operacional aumentará:",
+    "options": [
+      "10%",
+      "40%",
+      "25%",
+      "15%"
+    ],
+    "correct": 2,
+    "explanation": "MC = 200.000; lucro = 80.000; grau de alavancagem operacional = 200.000 ÷ 80.000 = 2,5. Aumento do lucro = 2,5 × 10% = 25%.",
+    "area": "Contabilidade Gerencial"
+  },
+  {
+    "stem": "Uma empresa fabrica um componente com custo variável de R$ 30 por unidade, custos fixos específicos evitáveis de R$ 40.000 por ano e custos fixos comuns rateados de R$ 25.000 por ano (inevitáveis). Para um volume anual de 5.000 unidades, um fornecedor oferece o componente a R$ 40 a unidade. A melhor decisão é:",
+    "options": [
+      "Comprar, com vantagem de R$ 15.000",
+      "Comprar, com vantagem de R$ 10.000",
+      "Fabricar, com vantagem de R$ 25.000",
+      "Fabricar, com vantagem de R$ 10.000"
+    ],
+    "correct": 3,
+    "explanation": "Custos relevantes para fabricar: 5.000 × 30 + 40.000 = 190.000. Comprar: 5.000 × 40 = 200.000. Os custos fixos comuns são irrelevantes. Vantagem de fabricar = 10.000.",
+    "area": "Contabilidade Gerencial"
+  },
+  {
+    "stem": "Entre as atribuições típicas da controladoria numa organização, destaca-se:",
+    "options": [
+      "Coordenar o planejamento e o controle e fornecer informações que deem suporte ao processo de gestão e à avaliação de desempenho",
+      "Emitir opinião independente sobre as demonstrações contábeis para usuários externos",
+      "Exercer autoridade de linha sobre os gestores das áreas operacionais",
+      "Limitar-se à escrituração fiscal e ao cumprimento de obrigações acessórias"
+    ],
+    "correct": 0,
+    "explanation": "A controladoria atua como órgão de staff, integrando planejamento, controle e informação gerencial. A opinião independente é função da auditoria externa.",
+    "area": "Controladoria"
+  },
+  {
+    "stem": "Uma divisão apresentou lucro operacional líquido após impostos de R$ 240.000, com capital investido de R$ 1.000.000. O custo de capital é de 18% ao ano. O valor econômico adicionado (EVA) da divisão é de:",
+    "options": [
+      "R$ 240.000",
+      "R$ 60.000",
+      "R$ 420.000",
+      "R$ 180.000"
+    ],
+    "correct": 1,
+    "explanation": "Custo do capital = 18% × 1.000.000 = 180.000. EVA = 240.000 − 180.000 = 60.000.",
+    "area": "Controladoria"
+  },
+  {
+    "stem": "Um município recebeu, por doação sem contrapartida, um veículo de uma entidade privada. Sob a ótica da contabilidade aplicada ao setor público, esse fato:",
+    "options": [
+      "Gera receita orçamentária de capital e variação patrimonial qualitativa",
+      "Constitui apenas variação patrimonial qualitativa, sem alterar o patrimônio líquido",
+      "Gera variação patrimonial diminutiva, por corresponder a obrigação futura",
+      "Gera variação patrimonial aumentativa, sem execução orçamentária"
+    ],
+    "correct": 3,
+    "explanation": "A doação de bem sem ingresso de recursos financeiros não é receita orçamentária; o ativo é reconhecido com contrapartida em VPA, que aumenta o patrimônio líquido.",
+    "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+    "stem": "Um município precisa realizar uma despesa para a qual não há dotação orçamentária específica, sem que se trate de situação urgente e imprevisível. Deve-se abrir crédito adicional:",
+    "options": [
+      "Especial",
+      "Suplementar",
+      "Extraordinário",
+      "Reaberto, por decreto de ofício"
+    ],
+    "correct": 0,
+    "explanation": "Crédito especial atende despesas para as quais não há dotação específica. O suplementar reforça dotação existente e o extraordinário atende despesas urgentes e imprevisíveis (guerra, comoção interna, calamidade pública).",
+    "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+    "stem": "No Brasil, em relação aos regimes contábeis no setor público, é correto afirmar que:",
+    "options": [
+      "No orçamento, a receita e a despesa são reconhecidas pelo regime de competência, e no patrimonial pelo regime de caixa",
+      "No orçamento, a receita é reconhecida pela arrecadação e a despesa pelo empenho; a contabilidade patrimonial adota o regime de competência",
+      "A receita é reconhecida pelo lançamento e a despesa pelo pagamento em ambos os enfoques",
+      "A contabilidade patrimonial adota o regime de caixa, e o orçamento, o de competência"
+    ],
+    "correct": 1,
+    "explanation": "A Lei 4.320/64 define o regime misto no âmbito orçamentário (receita arrecadada e despesa empenhada), enquanto as NBC TSP exigem competência para os aspectos patrimoniais.",
+    "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+    "stem": "No Plano de Contas Aplicado ao Setor Público (PCASP), o registro da aprovação da Lei Orçamentária Anual (previsão da receita e fixação da despesa) ocorre nas contas da classe:",
+    "options": [
+      "6 – Controles da execução do planejamento e orçamento",
+      "3 – Variações patrimoniais diminutivas",
+      "5 – Controles da aprovação do planejamento e orçamento",
+      "8 – Controles credores"
+    ],
+    "correct": 2,
+    "explanation": "A classe 5 registra a aprovação do orçamento; a classe 6 registra sua execução (receita realizada, empenho, liquidação, pagamento).",
+    "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+    "stem": "Segundo a NBC TSP aplicável ao ativo imobilizado, um bem recebido por transação sem contraprestação (como uma doação) deve ser inicialmente mensurado:",
+    "options": [
+      "Ao valor justo na data de aquisição",
+      "Por valor zero, evidenciando-se apenas em nota explicativa",
+      "Pelo valor contábil registrado pelo doador",
+      "Pelo custo de reposição estimado para o exercício seguinte"
+    ],
+    "correct": 0,
+    "explanation": "Ativos obtidos sem contraprestação são mensurados inicialmente pelo valor justo na data de aquisição.",
+    "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+    "stem": "Segundo a NBC TA 240, o risco de não detecção de distorção relevante resultante de fraude é maior do que o resultante de erro porque a fraude:",
+    "options": [
+      "Sempre envolve valores superiores à materialidade",
+      "É cometida exclusivamente pela alta administração",
+      "Pode envolver esquemas sofisticados, conluio, falsificação e ocultação deliberada",
+      "É por definição um erro de estimativa contábil"
+    ],
+    "correct": 2,
+    "explanation": "A fraude é ato intencional e pode ser ocultada por conluio, falsificação ou omissões, o que torna sua detecção mais difícil do que a de erros não intencionais.",
+    "area": "Auditoria Contábil"
+  },
+  {
+    "stem": "Numa empresa, o mesmo funcionário solicita compras, recebe as mercadorias no almoxarifado e autoriza os pagamentos aos fornecedores. A principal deficiência de controle interno observada é:",
+    "options": [
+      "Falta de plano de contingência de tecnologia",
+      "Excesso de supervisão gerencial",
+      "Ausência de conciliação bancária mensal",
+      "Ausência de segregação de funções"
+    ],
+    "correct": 3,
+    "explanation": "A concentração de autorização, custódia e registro em uma só pessoa viola a segregação de funções e aumenta o risco de erros e fraudes.",
+    "area": "Auditoria Contábil"
+  },
+  {
+    "stem": "Durante a auditoria, o auditor não conseguiu obter evidência apropriada e suficiente sobre os estoques. Os possíveis efeitos são relevantes, mas não generalizados nas demonstrações. O tipo de opinião adequado é:",
+    "options": [
+      "Opinião não modificada",
+      "Opinião com ressalva",
+      "Opinião adversa",
+      "Abstenção de opinião"
+    ],
+    "correct": 1,
+    "explanation": "Limitação de escopo com possíveis efeitos relevantes, mas não generalizados, leva à opinião com ressalva (NBC TA 705). A abstenção exige efeitos relevantes e generalizados.",
+    "area": "Auditoria Contábil"
+  },
+  {
+    "stem": "No processo judicial civil, é correto afirmar sobre o assistente técnico:",
+    "options": [
+      "É nomeado pelo juiz e se sujeita às mesmas hipóteses de suspeição do perito",
+      "É profissional de confiança da parte e não está sujeito a impedimento ou suspeição",
+      "É auxiliar do juízo e deve ser pago por ambas as partes igualmente",
+      "É vedado de acompanhar as diligências do perito"
+    ],
+    "correct": 1,
+    "explanation": "O assistente técnico é indicado pela parte, de sua confiança, e, diferentemente do perito, não está sujeito a impedimento ou suspeição.",
+    "area": "Perícia Contábil"
+  },
+  {
+    "stem": "Segundo o Código de Processo Civil, ao arbitrar os honorários periciais, o juiz poderá autorizar o pagamento ao perito, no início dos trabalhos, de até:",
+    "options": [
+      "30% dos honorários arbitrados",
+      "70% dos honorários arbitrados",
+      "100% dos honorários arbitrados",
+      "50% dos honorários arbitrados"
+    ],
+    "correct": 3,
+    "explanation": "O CPC admite o levantamento de até 50% no início dos trabalhos, ficando o remanescente para depois de entregue o laudo e prestados os esclarecimentos.",
+    "area": "Perícia Contábil"
+  },
+  {
+    "stem": "Em uma dissolução parcial de sociedade, o contrato social é omisso quanto ao critério de apuração de haveres e o perito levantou balanço de determinação, com ativos avaliados a valor de mercado. O patrimônio líquido contábil era de R$ 800.000 e a mais-valia dos ativos foi de R$ 200.000. O sócio retirante detém 20% do capital. Seus haveres são de:",
+    "options": [
+      "R$ 160.000",
+      "R$ 40.000",
+      "R$ 200.000",
+      "R$ 250.000"
+    ],
+    "correct": 2,
+    "explanation": "No balanço de determinação, o PL ajustado = 800.000 + 200.000 = 1.000.000. Haveres = 20% × 1.000.000 = 200.000.",
+    "area": "Perícia Contábil"
+  },
+  {
+    "stem": "De acordo com o Código de Ética Profissional do Contador, constitui vedação ao profissional:",
+    "options": [
+      "Assinar documentos ou peças contábeis elaborados por outrem, sem sua orientação, supervisão e fiscalização",
+      "Manter sigilo sobre as informações obtidas no exercício da profissão",
+      "Zelar pela honra, dignidade e conservação da classe",
+      "Exercer a profissão com zelo, diligência e honestidade"
+    ],
+    "correct": 0,
+    "explanation": "Assinar peças elaboradas por terceiros sem orientação, supervisão e fiscalização é vedado. As demais opções são deveres do contador.",
+    "area": "Legislação e Ética Profissional"
+  },
+  {
+    "stem": "Um auditor independente também escritura a contabilidade e elabora as demonstrações contábeis da entidade que audita. A principal ameaça à independência nessa situação é:",
+    "options": [
+      "Familiaridade",
+      "Intimidação",
+      "Autorrevisão",
+      "Defesa de interesses"
+    ],
+    "correct": 2,
+    "explanation": "O auditor acabaria revisando o resultado de seu próprio trabalho, configurando ameaça de autorrevisão.",
+    "area": "Legislação e Ética Profissional"
+  },
+  {
+    "stem": "As penalidades de natureza ética previstas no Código de Ética Profissional do Contador são:",
+    "options": [
+      "Multa, suspensão e cassação do registro",
+      "Advertência reservada, censura reservada e censura pública",
+      "Advertência pública, multa e detenção",
+      "Censura pública, suspensão do registro e detenção"
+    ],
+    "correct": 1,
+    "explanation": "O Código de Ética prevê advertência reservada, censura reservada e censura pública, conforme a gravidade da infração.",
+    "area": "Legislação e Ética Profissional"
+  },
+  {
+    "stem": "Quanto à natureza jurídica, o Conselho Federal de Contabilidade e os Conselhos Regionais de Contabilidade são:",
+    "options": [
+      "Autarquias de fiscalização do exercício profissional",
+      "Sociedades de economia mista prestadoras de serviço contábil",
+      "Associações privadas de adesão facultativa",
+      "Sindicatos representativos da categoria"
+    ],
+    "correct": 0,
+    "explanation": "Os conselhos de fiscalização profissional possuem natureza de autarquia, fiscalizando e disciplinando o exercício da profissão contábil.",
+    "area": "Legislação e Ética Profissional"
+  },
+  {
+    "stem": "Em um contrato bilateral, uma das partes exige o pagamento da outra sem ter cumprido sua própria prestação. A defesa cabível, prevista no Código Civil, é:",
+    "options": [
+      "A resolução por onerosidade excessiva",
+      "A cláusula penal compensatória",
+      "O vício redibitório",
+      "A exceção do contrato não cumprido"
+    ],
+    "correct": 3,
+    "explanation": "Em contratos bilaterais, nenhum contratante pode exigir o cumprimento da obrigação do outro antes de cumprir a sua (exceptio non adimpleti contractus).",
+    "area": "Noções de Direito e Legislação Aplicada"
+  },
+  {
+    "stem": "Um cheque é emitido em São Paulo para ser pago em Recife. Segundo a Lei do Cheque, o prazo de apresentação para pagamento é de:",
+    "options": [
+      "60 dias, contados da emissão",
+      "30 dias, contados da emissão",
+      "90 dias, contados da emissão",
+      "180 dias, contados da emissão"
+    ],
+    "correct": 0,
+    "explanation": "Para cheques emitidos em praça diferente da do pagamento, o prazo é de 60 dias; na mesma praça, é de 30 dias.",
+    "area": "Noções de Direito e Legislação Aplicada"
+  },
+  {
+    "stem": "Na sociedade limitada, de acordo com o Código Civil, a responsabilidade dos sócios é:",
+    "options": [
+      "Ilimitada e subsidiária por todas as dívidas da sociedade",
+      "Restrita ao valor das quotas, mas todos respondem solidariamente pela integralização do capital social",
+      "Limitada à quota de cada sócio, sem responsabilidade solidária pelo capital",
+      "Ilimitada para o sócio administrador e limitada para os demais"
+    ],
+    "correct": 1,
+    "explanation": "Cada sócio responde até o valor de suas quotas, mas todos respondem solidariamente pela integralização do capital.",
+    "area": "Noções de Direito e Legislação Aplicada"
+  },
+  {
+    "stem": "Segundo o Código Tributário Nacional, constitui exemplo de obrigação tributária acessória:",
+    "options": [
+      "O pagamento do ICMS devido no mês",
+      "O pagamento de multa por atraso no recolhimento",
+      "O recolhimento de juros de mora sobre tributo em atraso",
+      "A emissão de nota fiscal nas operações de venda"
+    ],
+    "correct": 3,
+    "explanation": "A obrigação acessória tem por objeto prestações positivas ou negativas no interesse da arrecadação ou da fiscalização, como emitir documentos fiscais. Pagar tributo ou penalidade pecuniária é obrigação principal.",
+    "area": "Noções de Direito e Legislação Aplicada"
+  },
+  {
+    "stem": "Um empregado com salário mensal de R$ 3.000 vai gozar 30 dias de férias, após cumprir o período aquisitivo. Pelas regras da CLT e da Constituição, o valor a receber a título de férias, incluído o adicional, é de:",
+    "options": [
+      "R$ 3.000",
+      "R$ 3.300",
+      "R$ 4.000",
+      "R$ 4.500"
+    ],
+    "correct": 2,
+    "explanation": "O terço constitucional é 3.000 ÷ 3 = 1.000. Total = 3.000 + 1.000 = 4.000.",
+    "area": "Noções de Direito e Legislação Aplicada"
+  },
+  {
+    "stem": "Assinale a alternativa que completa adequadamente, com coesão e coerência, o período: \"O faturamento caiu 12% no trimestre; ______, a diretoria decidiu rever a política de preços.\"",
+    "options": [
+      "contudo",
+      "portanto",
+      "ainda que",
+      "visto que"
+    ],
+    "correct": 1,
+    "explanation": "Há relação de conclusão entre a queda do faturamento e a decisão da diretoria, expressa por \"portanto\". As demais opções expressam oposição, concessão ou causa.",
+    "area": "Língua Portuguesa Aplicada"
+  },
+  {
+    "stem": "Assinale a frase que está correta quanto à norma-padrão da língua portuguesa:",
+    "options": [
+      "Houveram divergências relevantes entre os saldos conciliados.",
+      "Fazem dois anos que o balanço não é auditado.",
+      "Os documentos a que o auditor se referiu foram arquivados.",
+      "Prefiro mais gastar com auditoria do que com multas."
+    ],
+    "correct": 2,
+    "explanation": "\"Referir-se a\" exige a preposição \"a\". Nas demais, \"haver\" e \"fazer\" (tempo) são impessoais e ficam no singular, e \"preferir\" dispensa \"mais\" e exige \"a\".",
+    "area": "Língua Portuguesa Aplicada"
+  },
+  {
+    "stem": "Assinale a frase corretamente pontuada:",
+    "options": [
+      "O contador, que assinou o laudo, respondeu pelo conteúdo.",
+      "O contador, que assinou o laudo respondeu pelo conteúdo.",
+      "O contador que assinou o laudo, respondeu pelo conteúdo.",
+      "O contador que assinou, o laudo respondeu pelo conteúdo."
+    ],
+    "correct": 0,
+    "explanation": "A oração adjetiva explicativa deve ser isolada por duas vírgulas, e não se separa o sujeito do verbo por vírgula isolada.",
+    "area": "Língua Portuguesa Aplicada"
+  },
+  {
+    "stem": "Uma aplicação rende taxa efetiva de 21% ao ano. A taxa efetiva semestral equivalente, no regime de juros compostos, é de:",
+    "options": [
+      "10,5%",
+      "9,5%",
+      "11%",
+      "10%"
+    ],
+    "correct": 3,
+    "explanation": "(1 + i)² = 1,21, logo 1 + i = 1,10 e i = 10% ao semestre.",
+    "area": "Matemática Financeira e Estatística"
+  },
+  {
+    "stem": "Um financiamento de R$ 120.000 será pago em 4 parcelas mensais pelo Sistema de Amortização Constante (SAC), com juros de 2% ao mês sobre o saldo devedor. O valor da segunda prestação é de:",
+    "options": [
+      "R$ 32.400",
+      "R$ 31.800",
+      "R$ 31.200",
+      "R$ 33.000"
+    ],
+    "correct": 1,
+    "explanation": "Amortização = 120.000 ÷ 4 = 30.000. Após a 1ª parcela o saldo é 90.000; juros = 1.800. 2ª prestação = 30.000 + 1.800 = 31.800.",
+    "area": "Matemática Financeira e Estatística"
+  },
+  {
+    "stem": "Em uma amostra de 20 lançamentos contábeis, 6 contêm erro. Dois lançamentos são sorteados, sem reposição. A probabilidade de ambos conterem erro é de:",
+    "options": [
+      "3/38",
+      "9/100",
+      "3/10",
+      "1/19"
+    ],
+    "correct": 0,
+    "explanation": "P = (6/20) × (5/19) = 30/380 = 3/38. Com reposição seria (6/20)² = 9/100.",
+    "area": "Matemática Financeira e Estatística"
+  }
+]

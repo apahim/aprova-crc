@@ -1,1 +1,602 @@
-[]
+[
+ {
+  "stem": "A Cia. Alfa apresentava Ativo de R$ 500.000 e Passivo exigível de R$ 320.000. Em seguida, comprou mercadorias a prazo por R$ 40.000 e pagou, em dinheiro, um empréstimo de R$ 50.000. Após esses dois fatos, o Patrimônio Líquido da Cia. Alfa é de:",
+  "options": [
+   "R$ 130.000",
+   "R$ 180.000",
+   "R$ 230.000",
+   "R$ 220.000"
+  ],
+  "correct": 1,
+  "explanation": "O PL inicial é 500.000 − 320.000 = 180.000. A compra a prazo (aumenta Ativo e Passivo) e o pagamento do empréstimo (reduz Ativo e Passivo) não alteram o PL.",
+  "area": "Contabilidade Geral"
+ },
+ {
+  "stem": "Uma empresa comercial adquiriu, a prazo, mercadorias para revenda por R$ 20.000, valor que já inclui ICMS de 18%, integralmente recuperável. O valor a ser registrado na conta Estoques é de:",
+  "options": [
+   "R$ 20.000",
+   "R$ 3.600",
+   "R$ 23.600",
+   "R$ 16.400"
+  ],
+  "correct": 3,
+  "explanation": "O ICMS recuperável (20.000 × 18% = 3.600) é lançado em ICMS a Recuperar e não compõe o custo do estoque: 20.000 − 3.600 = 16.400.",
+  "area": "Contabilidade Geral"
+ },
+ {
+  "stem": "A ficha de estoque de uma mercadoria apresentou: estoque inicial de 100 un. a R$ 10,00; compra de 200 un. a R$ 12,00; venda de 150 un.; nova compra de 100 un. a R$ 14,00; venda de 180 un. Pelo método PEPS (primeiro a entrar, primeiro a sair), o CMV total do período é de:",
+  "options": [
+   "R$ 3.820",
+   "R$ 3.932",
+   "R$ 4.100",
+   "R$ 3.600"
+  ],
+  "correct": 0,
+  "explanation": "1ª venda: 100×10 + 50×12 = 1.600. Restam 150 un. a R$ 12. 2ª venda: 150×12 + 30×14 = 2.220. CMV = 1.600 + 2.220 = 3.820 (3.932 seria média móvel; 4.100, UEPS).",
+  "area": "Contabilidade Geral"
+ },
+ {
+  "stem": "Uma máquina adquirida por R$ 120.000, com vida útil de 10 anos e valor residual de R$ 20.000, é depreciada pelo método linear. Ao final do 4º ano de uso, foi vendida à vista por R$ 70.000. O resultado contábil da venda foi:",
+  "options": [
+   "Ganho de R$ 10.000",
+   "Perda de R$ 50.000",
+   "Perda de R$ 10.000",
+   "Perda de R$ 2.000"
+  ],
+  "correct": 2,
+  "explanation": "Depreciação anual = (120.000 − 20.000)/10 = 10.000; acumulada em 4 anos = 40.000; valor contábil = 80.000. Venda por 70.000 gera perda de 10.000.",
+  "area": "Contabilidade Geral"
+ },
+ {
+  "stem": "Dados do exercício: lucro líquido R$ 80.000; depreciação R$ 15.000; aumento de Clientes R$ 20.000; aumento de Fornecedores R$ 8.000; redução de Estoques R$ 5.000; ganho na venda de imobilizado R$ 6.000. Pelo método indireto, o caixa líquido gerado pelas atividades operacionais é de:",
+  "options": [
+   "R$ 88.000",
+   "R$ 82.000",
+   "R$ 94.000",
+   "R$ 66.000"
+  ],
+  "correct": 1,
+  "explanation": "80.000 + 15.000 (depreciação) − 20.000 (clientes) + 8.000 (fornecedores) + 5.000 (estoques) − 6.000 (ganho, que pertence às atividades de investimento) = 82.000.",
+  "area": "Contabilidade Geral"
+ },
+ {
+  "stem": "Uma empresa firmou contrato único para vender um equipamento (preço individual de venda de R$ 90.000) e prestar serviço de instalação distinto (preço individual de R$ 10.000), por R$ 80.000 no total. Conforme o CPC 47, o valor do preço da transação a ser alocado à obrigação de desempenho de instalação é:",
+  "options": [
+   "R$ 8.000",
+   "R$ 10.000",
+   "R$ 72.000",
+   "R$ 40.000"
+  ],
+  "correct": 0,
+  "explanation": "A alocação é proporcional aos preços individuais de venda: instalação = 80.000 × 10.000/100.000 = 8.000 (equipamento = 72.000).",
+  "area": "Contabilidade Geral"
+ },
+ {
+  "stem": "Uma entidade é ré em três ações, com valores estimados de forma confiável: A, perda provável, R$ 300.000; B, perda possível, R$ 200.000; C, perda remota, R$ 100.000. O tratamento correto segundo o CPC 25 é:",
+  "options": [
+   "Provisão de R$ 500.000 (A e B); C apenas divulgada",
+   "Provisão de R$ 300.000; B e C divulgadas em nota",
+   "Nenhuma provisão; as três ações apenas divulgadas",
+   "Provisão de R$ 300.000; B divulgada em nota como passivo contingente; nada a registrar ou divulgar em C"
+  ],
+  "correct": 3,
+  "explanation": "Perda provável com estimativa confiável gera provisão; perda possível exige apenas divulgação de passivo contingente; perda remota não exige reconhecimento nem divulgação.",
+  "area": "Contabilidade Geral"
+ },
+ {
+  "stem": "Uma empresa tributada pelo lucro real anual apurou lucro antes do IRPJ de R$ 300.000, com adições de R$ 50.000 e exclusões de R$ 20.000. Considerando alíquota de 15% e adicional de 10% sobre a parcela do lucro real que exceder R$ 240.000 no ano, o IRPJ devido é de:",
+  "options": [
+   "R$ 49.500",
+   "R$ 51.000",
+   "R$ 58.500",
+   "R$ 82.500"
+  ],
+  "correct": 2,
+  "explanation": "Lucro real = 300.000 + 50.000 − 20.000 = 330.000. IRPJ = 15% × 330.000 = 49.500, mais adicional de 10% × 90.000 = 9.000; total 58.500.",
+  "area": "Contabilidade Geral"
+ },
+ {
+  "stem": "No exercício, a empresa constituiu provisão para contingências cíveis de R$ 50.000, cuja dedutibilidade fiscal só ocorrerá quando do desembolso. Sendo a alíquota combinada de IRPJ e CSLL de 34% e havendo expectativa de lucros tributáveis futuros, o efeito contábil é o reconhecimento de:",
+  "options": [
+   "Passivo fiscal diferido de R$ 17.000, aumentando a despesa de tributos",
+   "Ativo fiscal diferido de R$ 17.000, reduzindo a despesa de tributos sobre o lucro",
+   "Ativo fiscal diferido de R$ 50.000",
+   "Nenhum registro, pois o tributo diferido só é reconhecido quando houver pagamento"
+  ],
+  "correct": 1,
+  "explanation": "A diferença temporária dedutível (50.000 × 34% = 17.000) gera ativo fiscal diferido, com crédito na despesa de IR/CSLL (tributo diferido).",
+  "area": "Contabilidade Geral"
+ },
+ {
+  "stem": "Segundo o CPC 06 (R2), um arrendatário firmou contrato de 3 anos com pagamento de R$ 10.000 ao final de cada ano, sendo a taxa incremental de 10% a.a. O valor presente das parcelas é de R$ 24.869. Imediatamente após o pagamento da 1ª parcela, o saldo do passivo de arrendamento é de, aproximadamente:",
+  "options": [
+   "R$ 17.356",
+   "R$ 14.869",
+   "R$ 22.382",
+   "R$ 27.356"
+  ],
+  "correct": 0,
+  "explanation": "Juros do 1º ano = 24.869 × 10% = 2.486,90. Saldo = 24.869 + 2.486,90 − 10.000 ≈ 17.356. (14.869 ignora os juros.)",
+  "area": "Contabilidade Geral"
+ },
+ {
+  "stem": "Uma companhia apurou lucro líquido de R$ 300.000 no exercício e mantinha prejuízos acumulados de R$ 100.000 de exercícios anteriores, já absorvidos na apuração do lucro líquido ajustado. O estatuto prevê dividendo obrigatório de 25% do lucro líquido ajustado e a reserva legal já atingiu o limite do capital social. O dividendo obrigatório do exercício é de:",
+  "options": [
+   "R$ 75.000",
+   "R$ 50.000",
+   "R$ 25.000",
+   "R$ 100.000"
+  ],
+  "correct": 1,
+  "explanation": "O lucro líquido ajustado absorve os prejuízos acumulados: 300.000 − 100.000 = 200.000. Dividendo = 25% × 200.000 = R$ 50.000. R$ 75.000 seria o valor se os prejuízos fossem ignorados.",
+  "area": "Contabilidade Geral"
+ },
+ {
+  "stem": "O preço que seria recebido pela venda de um ativo, ou pago pela transferência de um passivo, em transação não forçada entre participantes do mercado na data de mensuração, corresponde à base de mensuração denominada:",
+  "options": [
+   "Custo histórico",
+   "Valor em uso",
+   "Valor justo",
+   "Custo corrente"
+  ],
+  "correct": 2,
+  "explanation": "Essa é a definição de valor justo, que é um preço de saída (de mercado), diferentemente do custo histórico e do custo corrente, baseados em preços de entrada.",
+  "area": "Teoria da Contabilidade e Princípios"
+ },
+ {
+  "stem": "A empresa pagou, em 01/10, o prêmio anual de seguro de R$ 12.000, com vigência de 12 meses a partir dessa data. Em 31/12, em obediência ao regime de competência, devem constar:",
+  "options": [
+   "Despesa de seguros de R$ 12.000 e nenhum ativo",
+   "Despesa de seguros de R$ 3.000 e Seguros a Apropriar (ativo) de R$ 9.000",
+   "Despesa de seguros de R$ 9.000 e Seguros a Apropriar de R$ 3.000",
+   "Despesa de seguros de R$ 1.000 e Seguros a Apropriar de R$ 11.000"
+  ],
+  "correct": 1,
+  "explanation": "Três meses decorridos: 12.000 × 3/12 = 3.000 de despesa; o restante (9.000) é despesa antecipada no ativo, apropriada nos meses seguintes.",
+  "area": "Teoria da Contabilidade e Princípios"
+ },
+ {
+  "stem": "O sócio majoritário usou R$ 8.000 do caixa da sociedade para pagar a mensalidade escolar dos filhos. Sob a ótica do princípio da entidade, esse valor deve ser tratado como:",
+  "options": [
+   "Retirada do sócio (redução do PL ou direito a receber dele), e não despesa da entidade",
+   "Despesa operacional da sociedade, dedutível do resultado",
+   "Custo de produção do período",
+   "Aumento do capital social"
+  ],
+  "correct": 0,
+  "explanation": "O patrimônio da entidade não se confunde com o dos sócios; gastos pessoais são retirada/adiantamento, nunca despesa operacional.",
+  "area": "Teoria da Contabilidade e Princípios"
+ },
+ {
+  "stem": "Em dezembro de 20X1, a diretoria decidiu internamente reformar a fábrica em 20X2, sem contrato assinado, sem obrigação legal e sem ter criado expectativa nos terceiros. Em 31/12/20X1, de acordo com a estrutura conceitual e o CPC 25, a entidade:",
+  "options": [
+   "Reconhece passivo pelo valor estimado da reforma",
+   "Reconhece provisão com contrapartida em ativo imobilizado",
+   "Não reconhece passivo, pois inexiste obrigação presente decorrente de evento passado",
+   "Reconhece passivo contingente no balanço"
+  ],
+  "correct": 2,
+  "explanation": "Um passivo exige obrigação presente resultante de evento passado. A mera intenção da administração não gera obrigação.",
+  "area": "Teoria da Contabilidade e Princípios"
+ },
+ {
+  "stem": "Os custos indiretos de fabricação de R$ 80.000 são rateados por horas-máquina: o produto A utilizou 150 h, e o total foi de 500 h. O produto A teve custos diretos de R$ 36.000 e foram produzidas 600 unidades. O custo unitário de A é de:",
+  "options": [
+   "R$ 60,00",
+   "R$ 126,67",
+   "R$ 100,00",
+   "R$ 193,33"
+  ],
+  "correct": 2,
+  "explanation": "CIF de A = 80.000 × 150/500 = 24.000. Custo total = 36.000 + 24.000 = 60.000; ÷ 600 = 100,00.",
+  "area": "Contabilidade de Custos"
+ },
+ {
+  "stem": "Uma indústria vende seu produto a R$ 100,00, com custo variável de R$ 60,00 e comissão de R$ 10,00 por unidade. Há capacidade ociosa e os custos fixos não se alteram. Um cliente propõe a compra de 1.000 unidades a R$ 75,00, sem comissão. O efeito da aceitação do pedido no resultado é:",
+  "options": [
+   "Aumento de R$ 5.000",
+   "Aumento de R$ 30.000",
+   "Aumento de R$ 75.000",
+   "Aumento de R$ 15.000"
+  ],
+  "correct": 3,
+  "explanation": "A margem de contribuição do pedido é 75 − 60 = 15 por unidade (sem comissão): 15 × 1.000 = 15.000, e os custos fixos são irrelevantes.",
+  "area": "Contabilidade de Custos"
+ },
+ {
+  "stem": "Preço de venda unitário R$ 90,00; custos e despesas variáveis R$ 54,00 por unidade; custos e despesas fixos R$ 180.000. Para obter lucro de R$ 54.000, a empresa deve vender:",
+  "options": [
+   "6.500 unidades",
+   "5.000 unidades",
+   "1.500 unidades",
+   "2.600 unidades"
+  ],
+  "correct": 0,
+  "explanation": "MC unitária = 90 − 54 = 36. Quantidade = (180.000 + 54.000)/36 = 6.500 unidades (5.000 seria o ponto de equilíbrio contábil).",
+  "area": "Contabilidade de Custos"
+ },
+ {
+  "stem": "Balanço: Caixa R$ 40.000; Clientes R$ 80.000; Estoques R$ 120.000 (total do Ativo Circulante R$ 240.000); Passivo Circulante R$ 150.000. O índice de liquidez seca é de:",
+  "options": [
+   "1,60",
+   "0,80",
+   "0,27",
+   "0,53"
+  ],
+  "correct": 1,
+  "explanation": "Liquidez seca = (AC − Estoques)/PC = (240.000 − 120.000)/150.000 = 0,80.",
+  "area": "Contabilidade Gerencial"
+ },
+ {
+  "stem": "Em uma DRE, a receita líquida foi de R$ 500.000, o CMV de R$ 325.000 e as despesas operacionais de R$ 105.000. Na análise vertical, o lucro operacional representa, em relação à receita líquida:",
+  "options": [
+   "35%",
+   "21%",
+   "14%",
+   "65%"
+  ],
+  "correct": 2,
+  "explanation": "Lucro operacional = 500.000 − 325.000 − 105.000 = 70.000; 70.000/500.000 = 14%.",
+  "area": "Contabilidade Gerencial"
+ },
+ {
+  "stem": "Uma empresa tem prazo médio de estocagem de 45 dias, prazo médio de recebimento de 30 dias e prazo médio de pagamento de 40 dias. Seu ciclo financeiro é de:",
+  "options": [
+   "35 dias",
+   "75 dias",
+   "115 dias",
+   "5 dias"
+  ],
+  "correct": 0,
+  "explanation": "Ciclo operacional = 45 + 30 = 75 dias; ciclo financeiro = 75 − 40 = 35 dias.",
+  "area": "Contabilidade Gerencial"
+ },
+ {
+  "stem": "A previsão de vendas é de 10.000 unidades. O estoque inicial é de 1.500 unidades e a política exige estoque final de 2.000 unidades. A produção a ser orçada é de:",
+  "options": [
+   "10.000 unidades",
+   "9.500 unidades",
+   "13.500 unidades",
+   "10.500 unidades"
+  ],
+  "correct": 3,
+  "explanation": "Produção = vendas + estoque final desejado − estoque inicial = 10.000 + 2.000 − 1.500 = 10.500.",
+  "area": "Contabilidade Gerencial"
+ },
+ {
+  "stem": "Entre as atribuições típicas da controladoria, em contraste com a tesouraria, está:",
+  "options": [
+   "Coordenar o processo orçamentário e analisar o desempenho realizado em relação ao orçado",
+   "Negociar linhas de crédito com instituições financeiras",
+   "Administrar o fluxo de caixa diário e as aplicações financeiras",
+   "Emitir opinião independente sobre as demonstrações contábeis"
+  ],
+  "correct": 0,
+  "explanation": "A controladoria coordena planejamento, orçamento e controle gerencial. Captação e caixa são da tesouraria; a opinião independente é da auditoria externa.",
+  "area": "Controladoria"
+ },
+ {
+  "stem": "O gerente de uma filial decide preços e compras e é avaliado pelo resultado (receitas menos custos e despesas), mas não decide sobre investimentos de capital. A filial é classificada como centro de:",
+  "options": [
+   "Custos",
+   "Lucro",
+   "Investimento",
+   "Despesas discricionárias"
+  ],
+  "correct": 1,
+  "explanation": "O gestor responde por receitas e custos, o que caracteriza centro de lucro; centro de investimento exigiria autonomia sobre ativos e capital.",
+  "area": "Controladoria"
+ },
+ {
+  "stem": "Na execução da despesa pública orçamentária, o estágio em que a Administração verifica o direito adquirido pelo credor, com base nos documentos comprobatórios da entrega do material ou da prestação do serviço, é a:",
+  "options": [
+   "Licitação",
+   "Empenho",
+   "Programação financeira",
+   "Liquidação"
+  ],
+  "correct": 3,
+  "explanation": "A liquidação (Lei 4.320/64) apura a origem e o objeto do que se deve pagar, a importância exata e a quem se deve pagar, após o empenho e antes do pagamento.",
+  "area": "Contabilidade Aplicada ao Setor Público"
+ },
+ {
+  "stem": "Um município empenhou R$ 100.000 para uma obra. Até 31/12, foram medidos e liquidados R$ 60.000, sem pagamento algum; o saldo restante não foi executado. Quanto aos restos a pagar, tem-se:",
+  "options": [
+   "R$ 60.000 processados e R$ 40.000 não processados",
+   "R$ 100.000 processados",
+   "R$ 100.000 não processados",
+   "R$ 40.000 processados e R$ 60.000 não processados"
+  ],
+  "correct": 0,
+  "explanation": "Restos a pagar processados são os empenhos já liquidados e não pagos (60.000); os não processados são empenhados e ainda não liquidados (40.000).",
+  "area": "Contabilidade Aplicada ao Setor Público"
+ },
+ {
+  "stem": "Um município tem receita corrente líquida de R$ 200 milhões e despesa total com pessoal do Executivo de R$ 104 milhões. Considerando o limite de 54% da RCL para o Executivo e o limite prudencial de 95% desse limite, a situação é:",
+  "options": [
+   "Acima do limite máximo, devendo eliminar o excesso em dois quadrimestres",
+   "Acima do limite prudencial, mas abaixo do máximo, ficando sujeito às vedações do art. 22 da LRF",
+   "Dentro do limite de alerta, sem qualquer vedação",
+   "Regular, pois o limite do Executivo é de 60% da RCL"
+  ],
+  "correct": 1,
+  "explanation": "Despesa = 104/200 = 52% da RCL. Limite máximo = 54% (108 milhões); prudencial = 51,3% (102,6 milhões). Logo, 52% está entre os dois.",
+  "area": "Contabilidade Aplicada ao Setor Público"
+ },
+ {
+  "stem": "No PCASP, a arrecadação de impostos reconhecida como variação patrimonial aumentativa é registrada em contas da classe:",
+  "options": [
+   "3 – Variações Patrimoniais Diminutivas",
+   "6 – Controles da execução do planejamento e orçamento",
+   "4 – Variações Patrimoniais Aumentativas",
+   "8 – Controles credores"
+  ],
+  "correct": 2,
+  "explanation": "As VPAs integram a classe 4. A classe 3 registra VPDs; a classe 6 controla a execução orçamentária (como a receita realizada), mas não o aspecto patrimonial.",
+  "area": "Contabilidade Aplicada ao Setor Público"
+ },
+ {
+  "stem": "A demonstração que evidencia receitas e despesas orçamentárias, os recebimentos e pagamentos extraorçamentários e os saldos de caixa do exercício anterior e do seguinte é o:",
+  "options": [
+   "Balanço Financeiro",
+   "Balanço Orçamentário",
+   "Balanço Patrimonial",
+   "Demonstração das Variações Patrimoniais"
+  ],
+  "correct": 0,
+  "explanation": "O Balanço Financeiro apresenta ingressos e dispêndios orçamentários e extraorçamentários, conjugados com os saldos de disponibilidades.",
+  "area": "Contabilidade Aplicada ao Setor Público"
+ },
+ {
+  "stem": "Ao concluir que os controles internos do cliente são deficientes (risco de controle alto), o auditor, para manter o risco de auditoria em nível aceitavelmente baixo, deve:",
+  "options": [
+   "Aumentar o risco de detecção e reduzir os testes substantivos",
+   "Confiar nos controles e diminuir o tamanho das amostras",
+   "Reduzir o risco de detecção aceitável, ampliando a natureza, a época e a extensão dos testes substantivos",
+   "Dispensar a definição de materialidade"
+  ],
+  "correct": 2,
+  "explanation": "Risco de detecção varia inversamente ao risco de distorção relevante. Com controles fracos, o auditor precisa de mais evidência substantiva.",
+  "area": "Auditoria Contábil"
+ },
+ {
+  "stem": "O auditor não conseguiu obter evidência apropriada e suficiente sobre os estoques, e os possíveis efeitos dessa limitação são relevantes e generalizados nas demonstrações contábeis. O relatório deve conter:",
+  "options": [
+   "Opinião com ressalva",
+   "Opinião adversa",
+   "Opinião sem ressalva, com parágrafo de ênfase",
+   "Abstenção de opinião"
+  ],
+  "correct": 3,
+  "explanation": "Quando não obtém evidência e os possíveis efeitos são relevantes e generalizados, o auditor se abstém de opinar. A ressalva caberia se os efeitos não fossem generalizados.",
+  "area": "Auditoria Contábil"
+ },
+ {
+  "stem": "No planejamento, o auditor fixou a materialidade global em 5% do lucro antes do imposto de renda, que é de R$ 3.000.000, e a materialidade para execução em 70% da global. A materialidade para execução é de:",
+  "options": [
+   "R$ 150.000",
+   "R$ 105.000",
+   "R$ 45.000",
+   "R$ 2.100.000"
+  ],
+  "correct": 1,
+  "explanation": "Global = 5% × 3.000.000 = 150.000. Execução = 70% × 150.000 = 105.000.",
+  "area": "Auditoria Contábil"
+ },
+ {
+  "stem": "O documento escrito em que o perito-contador assistente técnico apresenta sua opinião fundamentada sobre a matéria periciada ou sobre o laudo do perito nomeado pelo juízo denomina-se:",
+  "options": [
+   "Parecer pericial contábil",
+   "Laudo pericial contábil",
+   "Termo de diligência",
+   "Relatório de auditoria"
+  ],
+  "correct": 0,
+  "explanation": "O laudo é a peça do perito nomeado; o parecer é a manifestação técnica do assistente. O termo de diligência formaliza solicitações.",
+  "area": "Perícia Contábil"
+ },
+ {
+  "stem": "O perito-contador nomeado pelo juiz solicitou documentos à empresa periciada, que não os apresentou. A providência adequada é:",
+  "options": [
+   "Apreender os documentos por conta própria",
+   "Concluir o laudo com base em presunções, sem registrar a recusa",
+   "Formalizar a solicitação em termo de diligência, com prazo, e comunicar ao juízo o eventual descumprimento",
+   "Arquivar o processo e devolver os honorários"
+  ],
+  "correct": 2,
+  "explanation": "O perito não tem poder de apreensão. Deve registrar formalmente as diligências e, persistindo a recusa, informar o juízo.",
+  "area": "Perícia Contábil"
+ },
+ {
+  "stem": "Um perito-contador nomeado pelo juiz propõe à parte autora cobrar honorários correspondentes a 10% do valor que ela vier a receber na ação. Essa proposta é:",
+  "options": [
+   "Admissível, se pactuada por escrito",
+   "Inadmissível, pois condiciona a remuneração ao resultado e compromete a independência e a imparcialidade do perito",
+   "Admissível, desde que o percentual não exceda 10%",
+   "Admissível, se a outra parte for informada"
+  ],
+  "correct": 1,
+  "explanation": "O perito do juízo deve ser imparcial; seus honorários são arbitrados em juízo, e a remuneração atrelada ao êxito da parte é incompatível com isso.",
+  "area": "Perícia Contábil"
+ },
+ {
+  "stem": "Um concorrente do cliente de um contador oferece pagamento para saber a margem de lucro e a carteira de clientes dessa empresa, informações conhecidas pelo contador em razão do trabalho. A conduta ética é:",
+  "options": [
+   "Fornecer os dados, desde que o pagamento seja declarado",
+   "Fornecer apenas as informações que não sejam contábeis",
+   "Fornecer os dados após comunicar ao cliente, independentemente de ele autorizar",
+   "Recusar, pois o sigilo profissional impõe guardar reserva sobre as informações, salvo autorização ou dever legal"
+  ],
+  "correct": 3,
+  "explanation": "O contabilista deve guardar sigilo sobre o que souber em razão do exercício profissional, exceto se houver autorização do cliente ou obrigação legal.",
+  "area": "Legislação e Ética Profissional"
+ },
+ {
+  "stem": "Constitui infração ao Código de Ética Profissional do Contabilista:",
+  "options": [
+   "Cobrar honorários por serviço efetivamente prestado",
+   "Assinar demonstrações contábeis elaboradas por outra pessoa sem orientação, supervisão e fiscalização suas",
+   "Solicitar ao cliente a documentação necessária à escrituração",
+   "Recusar serviço incompatível com sua capacidade técnica"
+  ],
+  "correct": 1,
+  "explanation": "É vedado assinar documentos ou peças contábeis elaborados por outrem, alheio à sua orientação, supervisão e fiscalização.",
+  "area": "Legislação e Ética Profissional"
+ },
+ {
+  "stem": "Quanto à estrutura do Sistema CFC/CRCs, é correto afirmar que:",
+  "options": [
+   "O CRC registra e fiscaliza os profissionais em sua jurisdição, e o CFC é a instância recursal de suas decisões",
+   "O CFC registra diretamente os profissionais e o CRC julga os recursos",
+   "Os CRCs editam as normas gerais da profissão e o CFC fiscaliza localmente",
+   "Das decisões dos CRCs cabe recurso ao Ministério da Fazenda"
+  ],
+  "correct": 0,
+  "explanation": "Os CRCs atuam como órgãos regionais de registro, fiscalização e julgamento em 1ª instância; o CFC regula e julga os recursos.",
+  "area": "Legislação e Ética Profissional"
+ },
+ {
+  "stem": "Um bacharel em Ciências Contábeis concluiu o curso, mas ainda não foi aprovado no Exame de Suficiência. Quanto ao registro como contador no CRC:",
+  "options": [
+   "Pode obtê-lo apresentando apenas o diploma, pois o Exame é facultativo",
+   "Pode atuar como contador sem registro, desde que sob supervisão",
+   "Não pode obtê-lo enquanto não for aprovado, pois a aprovação é requisito legal",
+   "Pode obter registro definitivo mediante pagamento da anuidade"
+  ],
+  "correct": 2,
+  "explanation": "Para o bacharel, o registro como contador exige diploma, aprovação no Exame de Suficiência e inscrição no CRC.",
+  "area": "Legislação e Ética Profissional"
+ },
+ {
+  "stem": "O capital de R$ 100.000 de uma sociedade limitada está assim distribuído: o sócio A subscreveu R$ 60.000 e integralizou R$ 30.000; o sócio B subscreveu R$ 40.000 e integralizou tudo. A sociedade está insolvente. Quanto à parcela não integralizada, é correto afirmar que:",
+  "options": [
+   "Apenas A responde, e B está isento",
+   "Os sócios respondem ilimitadamente pelas dívidas sociais",
+   "Nenhum sócio responde, pois a sociedade tem personalidade jurídica",
+   "Os sócios respondem solidariamente pela integralização do capital, podendo B ser cobrado pelos R$ 30.000 faltantes"
+  ],
+  "correct": 3,
+  "explanation": "Na limitada, a responsabilidade é restrita ao valor das quotas, mas todos respondem solidariamente pela integralização do capital social.",
+  "area": "Noções de Direito e Legislação Aplicada"
+ },
+ {
+  "stem": "Em um contrato bilateral de compra e venda, o fornecedor, que deveria entregar primeiro a mercadoria, exige o pagamento sem tê-la entregue. O comprador pode opor:",
+  "options": [
+   "A exceção de contrato não cumprido",
+   "A resolução por onerosidade excessiva",
+   "A evicção",
+   "O vício redibitório"
+  ],
+  "correct": 0,
+  "explanation": "Nos contratos bilaterais, nenhuma das partes pode exigir a obrigação da outra antes de cumprir a sua (CC, art. 476).",
+  "area": "Noções de Direito e Legislação Aplicada"
+ },
+ {
+  "stem": "O contribuinte apura o ICMS do mês, antecipa o pagamento e fica sujeito à posterior conferência da autoridade fiscal. Essa modalidade de lançamento é:",
+  "options": [
+   "De ofício",
+   "Por declaração",
+   "Por homologação",
+   "Por arbitramento"
+  ],
+  "correct": 2,
+  "explanation": "No lançamento por homologação (CTN, art. 150), o sujeito passivo apura e antecipa o pagamento, e a autoridade o homologa posteriormente.",
+  "area": "Noções de Direito e Legislação Aplicada"
+ },
+ {
+  "stem": "Um empregado pede demissão de seu emprego. As verbas rescisórias devidas, em regra, incluem:",
+  "options": [
+   "Aviso prévio indenizado e multa de 40% do FGTS",
+   "Saldo de salário, 13º salário proporcional e férias proporcionais acrescidas de 1/3",
+   "Multa de 40% do FGTS e acesso ao seguro-desemprego",
+   "Apenas o saldo de salário"
+  ],
+  "correct": 1,
+  "explanation": "No pedido de demissão não há multa de 40% do FGTS nem seguro-desemprego, mas são devidos saldo de salário, 13º e férias proporcionais com 1/3.",
+  "area": "Noções de Direito e Legislação Aplicada"
+ },
+ {
+  "stem": "Um empregado admitido em 2018 foi dispensado em 10/03/2024 e ajuizou reclamação trabalhista em 15/02/2026. Quanto à prescrição:",
+  "options": [
+   "O prazo de 2 anos já expirou, e o direito de ação foi perdido",
+   "Ele pode pleitear créditos desde a admissão, em 2018",
+   "A ação está no prazo de 2 anos após a extinção do contrato, podendo pleitear créditos dos 5 anos anteriores ao ajuizamento (desde 15/02/2021)",
+   "O prazo é de 5 anos da dispensa, mas só alcança os últimos 2 anos de contrato"
+  ],
+  "correct": 2,
+  "explanation": "A Constituição fixa prescrição de 5 anos para créditos, até o limite de 2 anos após a extinção do contrato. A ação foi ajuizada em menos de 2 anos.",
+  "area": "Noções de Direito e Legislação Aplicada"
+ },
+ {
+  "stem": "Assinale a frase em que o uso do acento grave indicativo de crase está correto.",
+  "options": [
+   "O relatório foi entregue à todos os sócios.",
+   "A auditoria começará às 9h e terminará à tarde.",
+   "Cabe ao contador responder à perguntas dos auditores.",
+   "O CRC aplicou multa à Pedro."
+  ],
+  "correct": 1,
+  "explanation": "'Às 9h' e 'à tarde' são locuções com artigo feminino. Não há crase antes de pronome indefinido masculino, de palavra no plural sem artigo nem de nome masculino.",
+  "area": "Língua Portuguesa Aplicada"
+ },
+ {
+  "stem": "Em “Em virtude de a empresa ter apresentado prejuízo, os sócios não receberam dividendos”, a reescrita que mantém o sentido e a relação lógica é:",
+  "options": [
+   "Embora a empresa tenha apresentado prejuízo, os sócios não receberam dividendos.",
+   "Caso a empresa apresente prejuízo, os sócios não receberão dividendos.",
+   "Como a empresa apresentou prejuízo, os sócios não receberam dividendos.",
+   "Para que a empresa apresentasse prejuízo, os sócios não receberam dividendos."
+  ],
+  "correct": 2,
+  "explanation": "“Em virtude de” expressa causa, como a conjunção “como” no sentido causal. As demais opções expressam concessão, condição e finalidade.",
+  "area": "Língua Portuguesa Aplicada"
+ },
+ {
+  "stem": "Leia: “Provisão não é mera expectativa de desembolso. Exige obrigação presente decorrente de evento passado, saída de recursos provável e estimativa confiável do valor. Se faltar algum requisito, cabe apenas a divulgação, quando a saída não for remota.” Do trecho, depreende-se que:",
+  "options": [
+   "Toda expectativa de desembolso deve ser provisionada",
+   "A estimativa confiável é dispensável quando a saída é provável",
+   "Havendo saída remota, a divulgação em nota é obrigatória",
+   "A mera possibilidade de perda não basta para reconhecer provisão; faltando requisito, pode haver apenas divulgação"
+  ],
+  "correct": 3,
+  "explanation": "O texto condiciona a provisão a três requisitos cumulativos e limita a divulgação aos casos em que a saída não é remota.",
+  "area": "Língua Portuguesa Aplicada"
+ },
+ {
+  "stem": "Um capital de R$ 10.000 é aplicado a juros compostos de 2% ao mês durante 3 meses. Sabendo que (1,02)³ = 1,061208, o montante é de:",
+  "options": [
+   "R$ 10.612,08",
+   "R$ 10.600,00",
+   "R$ 10.200,00",
+   "R$ 10.824,32"
+  ],
+  "correct": 0,
+  "explanation": "M = 10.000 × 1,061208 = 10.612,08. R$ 10.600 seria o resultado com juros simples.",
+  "area": "Matemática Financeira e Estatística"
+ },
+ {
+  "stem": "Um financiamento de R$ 120.000 será pago em 4 parcelas anuais, com juros de 10% a.a., pelos sistemas SAC e Price. A parcela Price é de aproximadamente R$ 37.857. Comparando os sistemas, é correto afirmar que:",
+  "options": [
+   "A 1ª parcela do SAC é menor que a da Price, e o total de juros no SAC é maior",
+   "A 1ª parcela do SAC é de R$ 42.000, maior que a da Price, e o total de juros pago no SAC é menor",
+   "As duas parcelas iniciais e os totais de juros são iguais",
+   "Na Price, a amortização é constante e igual a R$ 30.000"
+  ],
+  "correct": 1,
+  "explanation": "SAC: amortização de 30.000, juros iniciais de 12.000 e 1ª parcela de 42.000; juros totais = 30.000. Price: 4 × 37.857 ≈ 151.426, com juros de ≈ 31.426.",
+  "area": "Matemática Financeira e Estatística"
+ },
+ {
+  "stem": "Considere os valores de uma população: 2, 4, 4, 4, 5, 5, 7, 9. A média, a mediana e o desvio-padrão populacional são, respectivamente:",
+  "options": [
+   "5; 4; 2",
+   "5; 4,5; 4",
+   "5; 4,5; 2",
+   "4,5; 5; 2"
+  ],
+  "correct": 2,
+  "explanation": "Média = 40/8 = 5. Mediana = (4+5)/2 = 4,5. Soma dos quadrados dos desvios = 32; variância = 4; desvio-padrão = 2.",
+  "area": "Matemática Financeira e Estatística"
+ }
+]

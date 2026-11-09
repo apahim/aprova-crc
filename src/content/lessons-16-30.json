@@ -1,1 +1,747 @@
-{}
+{
+  "16": {
+    "objectives": [
+      "Calcular o custo de aquisição das mercadorias, excluindo tributos recuperáveis e incluindo fretes de compra",
+      "Apurar o CMV pelos critérios PEPS e média ponderada móvel",
+      "Diferenciar devolução de compras, devolução de vendas e abatimentos",
+      "Construir a sequência receita bruta, receita líquida e lucro bruto"
+    ],
+    "sections": [
+      {
+        "h": "Custo de aquisição do estoque",
+        "p": [
+          "As mercadorias entram no estoque pelo custo de aquisição: preço de compra, mais fretes e seguros pagos pelo comprador até o local de armazenagem, menos descontos incondicionais e menos tributos que a empresa pode recuperar. O que é recuperável não é custo, porque será compensado com tributos devidos na venda.",
+          "Já o frete pago na entrega ao cliente é despesa de vendas, pois ocorre depois de a mercadoria estar pronta para venda."
+        ],
+        "formula": "Custo = Preço + Frete e seguro de compra − Descontos incondicionais − Tributos recuperáveis"
+      },
+      {
+        "h": "Compras, vendas e devoluções",
+        "p": [
+          "Compras e vendas podem ser à vista (Caixa ou Bancos) ou a prazo (Fornecedores ou Clientes). A forma de pagamento altera só a contrapartida."
+        ],
+        "list": [
+          "Devolução de compras reduz o estoque e o saldo de Fornecedores.",
+          "Devolução de vendas é dedução da receita bruta e devolve a mercadoria ao estoque pelo custo.",
+          "Abatimentos e descontos incondicionais concedidos reduzem a receita bruta.",
+          "Descontos condicionais por pagamento antecipado são despesa financeira."
+        ]
+      },
+      {
+        "h": "CMV pela ficha de estoque",
+        "p": [
+          "No inventário permanente, cada saída é valorizada no momento da venda. Exemplo: estoque inicial de 100 un a R$ 10 (R$ 1.000) e compra de 100 un a R$ 14 (R$ 1.400). Há 200 un disponíveis, no total de R$ 2.400. Venda de 150 un.",
+          "Pelo PEPS (primeiro que entra, primeiro que sai): CMV = 100 × 10 + 50 × 14 = R$ 1.700 e estoque final = R$ 700. Pela média ponderada: custo médio = 2.400 ÷ 200 = R$ 12, CMV = R$ 1.800 e estoque final = R$ 600. Em preços crescentes, o PEPS gera menor CMV e maior lucro. O UEPS não é aceito pelo CPC 16 (R1)."
+        ],
+        "formula": "CMV = Estoque inicial + Compras líquidas − Estoque final"
+      },
+      {
+        "h": "Receita líquida e lucro bruto",
+        "p": [
+          "Exemplo: receita bruta de R$ 50.000, devoluções de R$ 2.000 e tributos sobre vendas de R$ 8.000 resultam em receita líquida de R$ 40.000. Com CMV de R$ 24.000, o lucro bruto é R$ 16.000, ou seja, margem bruta de 40% sobre a receita líquida."
+        ],
+        "formula": "Lucro bruto = Receita líquida − CMV"
+      }
+    ],
+    "pitfalls": [
+      "Incluir no estoque o ICMS recuperável, quando ele deve ser excluído do custo.",
+      "Lançar o frete de venda como custo da mercadoria, quando é despesa de vendas.",
+      "Tratar devolução de vendas como despesa, e não como dedução da receita bruta.",
+      "Esquecer de baixar o estoque pelo custo na devolução de vendas.",
+      "Esquecer que o UEPS é vedado e que PEPS e média são os critérios aceitos."
+    ],
+    "refs": ["CPC 16 (R1)", "CPC 26 (R1)"]
+  },
+  "17": {
+    "objectives": [
+      "Contabilizar ICMS, IPI, PIS e COFINS sobre vendas como deduções da receita bruta",
+      "Aplicar a não cumulatividade para apurar o imposto a recolher",
+      "Distinguir tributos recuperáveis e não recuperáveis nas compras",
+      "Calcular a receita líquida após tributos sobre vendas"
+    ],
+    "sections": [
+      {
+        "h": "Tributos sobre vendas como dedução",
+        "p": [
+          "ICMS, PIS, COFINS e ISS incidem sobre a venda e são deduções da receita bruta na DRE, por isso a receita líquida é menor que o valor faturado. O débito é na dedução e o crédito é em obrigação tributária no passivo circulante. O IPI é tratado de forma diferente: ele é cobrado do comprador por fora e, em regra, não compõe a receita da empresa."
+        ]
+      },
+      {
+        "h": "ICMS e não cumulatividade",
+        "p": [
+          "O ICMS é não cumulativo: o imposto destacado nas compras gera crédito, e o destacado nas vendas gera débito. Paga-se a diferença. Exemplo: compra de mercadorias por R$ 10.000 com ICMS de 18% (R$ 1.800 de crédito, estoque de R$ 8.200) e venda por R$ 20.000 com ICMS de 18% (R$ 3.600 de débito). O ICMS a recolher é R$ 3.600 − R$ 1.800 = R$ 1.800."
+        ],
+        "formula": "ICMS a recolher = ICMS sobre vendas − ICMS recuperável das compras"
+      },
+      {
+        "h": "PIS e COFINS",
+        "p": [
+          "No regime não cumulativo (em geral, lucro real), as alíquotas são de 1,65% (PIS) e 7,6% (COFINS), com direito a crédito sobre certas aquisições. No regime cumulativo (em geral, lucro presumido), são de 0,65% e 3%, sem créditos. A jurisprudência do STF reconheceu que o ICMS destacado não integra a base dessas contribuições.",
+          "Seguindo o exemplo: a base de venda é 20.000 − 3.600 = R$ 16.400, e PIS = R$ 270,60 e COFINS = R$ 1.246,40. Na compra, a base é 10.000 − 1.800 = R$ 8.200, e os créditos são R$ 135,30 e R$ 623,20. Recolhe-se PIS de R$ 135,30 e COFINS de R$ 623,20."
+        ]
+      },
+      {
+        "h": "Efeito na receita líquida",
+        "p": [
+          "Receita bruta de R$ 20.000 menos ICMS (R$ 3.600), PIS (R$ 270,60) e COFINS (R$ 1.246,40) resulta em receita líquida de R$ 14.883,00. Os créditos de ICMS, PIS e COFINS sobre compras não vão para o resultado: reduzem o custo do estoque e liquidam os débitos de venda."
+        ],
+        "list": [
+          "IPI recuperável (indústria) não entra no custo do estoque.",
+          "IPI não recuperável (comércio, em geral) compõe o custo.",
+          "ICMS-ST pago na compra pode integrar o custo, conforme a situação.",
+          "Imposto de importação sempre compõe o custo."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Registrar tributos sobre vendas como despesa operacional, quando são dedução da receita bruta.",
+      "Somar o IPI à receita da empresa.",
+      "Esquecer que o crédito de ICMS reduz o custo do estoque, em vez de ser receita.",
+      "Aplicar alíquotas de PIS e COFINS do regime cumulativo em empresa não cumulativa.",
+      "Confundir tributo sobre o faturamento (ICMS, PIS, COFINS) com tributo sobre o lucro (IRPJ e CSLL)."
+    ],
+    "refs": ["CPC 16 (R1)", "CPC 26 (R1)", "Lei 6.404/76"]
+  },
+  "18": {
+    "objectives": [
+      "Contabilizar salários, retenções e encargos sociais da folha de pagamento",
+      "Calcular provisões mensais de férias e 13º salário com seus encargos",
+      "Diferenciar despesa da empresa e valores retidos de terceiros",
+      "Registrar o ISS sobre serviços como dedução da receita e obrigação a recolher"
+    ],
+    "sections": [
+      {
+        "h": "Estrutura da folha de pagamento",
+        "p": [
+          "O salário bruto é a despesa do mês pelo regime de competência. Dele saem as retenções do empregado (INSS e IRRF), que não são despesa da empresa: são obrigações com terceiros, recolhidas depois. O restante é o salário líquido a pagar."
+        ],
+        "formula": "Salário líquido = Salário bruto − INSS do empregado − IRRF"
+      },
+      {
+        "h": "Encargos sociais do empregador",
+        "p": [
+          "Os encargos são despesa da empresa e geram passivo. O INSS patronal é contribuição previdenciária do empregador, em geral de 20% sobre a folha, mais adicionais como RAT e terceiros, que variam conforme a atividade e o regime tributário. O FGTS é de 8% sobre a remuneração e é depositado em conta do trabalhador. Com a folha bruta de R$ 10.000, o INSS patronal (20%) é R$ 2.000 e o FGTS é R$ 800."
+        ]
+      },
+      {
+        "h": "Provisões de férias e 13º salário",
+        "p": [
+          "Férias e 13º são direitos que se adquirem mês a mês, então a despesa é reconhecida mensalmente, mesmo que o pagamento ocorra depois. A provisão de férias inclui o adicional de 1/3, e os encargos incidem sobre ambas.",
+          "Exemplo, com salário de R$ 3.600: 13º = 3.600 ÷ 12 = R$ 300. Férias = 300 + 1/3 de 300 = R$ 400. As provisões somam R$ 700. Encargos de 28% (INSS patronal de 20% e FGTS de 8%) = 700 × 0,28 = R$ 196. A despesa mensal total com essas provisões e encargos é R$ 896."
+        ]
+      },
+      {
+        "h": "ISS sobre serviços",
+        "p": [
+          "O ISS é imposto municipal sobre a prestação de serviços. É dedução da receita bruta e fica no passivo até o recolhimento. Com receita de serviços de R$ 10.000 e alíquota de 5%, o ISS é R$ 500 e a receita líquida é R$ 9.500."
+        ],
+        "list": [
+          "Débito: ISS sobre serviços (dedução). Crédito: ISS a recolher.",
+          "ISS retido de terceiros é obrigação, não despesa.",
+          "A alíquota é definida pelo município, dentro dos limites legais."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Contabilizar INSS e IRRF do empregado como despesa da empresa.",
+      "Esquecer o adicional de 1/3 na provisão de férias.",
+      "Calcular a provisão do 13º dividindo por 13, em vez de por 12.",
+      "Omitir os encargos (INSS e FGTS) sobre as provisões.",
+      "Tratar o ISS como despesa administrativa, e não como dedução da receita."
+    ],
+    "refs": ["CPC 26 (R1)", "CPC 33 (R1)", "Lei 6.404/76"]
+  },
+  "19": {
+    "objectives": [
+      "Distinguir a apuração do IRPJ e da CSLL no lucro real e no lucro presumido",
+      "Contabilizar a provisão e o pagamento ou parcelamento de tributos sobre o lucro",
+      "Identificar diferenças temporárias tributáveis e dedutíveis conforme o CPC 32",
+      "Calcular ativo e passivo fiscal diferido"
+    ],
+    "sections": [
+      {
+        "h": "IRPJ e CSLL no lucro real",
+        "p": [
+          "No lucro real, parte-se do lucro contábil e fazem-se adições (despesas indedutíveis) e exclusões, chegando ao lucro tributável. A alíquota do IRPJ é de 15%, mais adicional de 10% sobre a parcela do lucro que excede R$ 20.000 por mês (R$ 240.000 por ano). A CSLL tem, em geral, alíquota de 9%. A soma de 25% de IRPJ com 9% de CSLL é 34%, usada nos exemplos de tributos diferidos."
+        ]
+      },
+      {
+        "h": "Lucro presumido",
+        "p": [
+          "No lucro presumido, a base é um percentual da receita bruta definido em lei conforme a atividade (por exemplo, 8% para comércio no IRPJ e 32% para serviços). Exemplo trimestral de comércio com receita de R$ 1.000.000: base do IRPJ = R$ 80.000; IRPJ de 15% = R$ 12.000; adicional = (80.000 − 60.000) × 10% = R$ 2.000; total de R$ 14.000. Na CSLL, com presunção de 12%, a base é R$ 120.000 e o valor, a 9%, é R$ 10.800."
+        ]
+      },
+      {
+        "h": "Provisão, pagamento e parcelamento",
+        "p": [
+          "O tributo é reconhecido pelo regime de competência: D Despesa com IRPJ/CSLL e C IRPJ/CSLL a recolher. O pagamento baixa a obrigação contra Caixa ou Bancos. Em caso de parcelamento, a dívida continua no passivo, atualizada por juros; os juros e a multa são despesa financeira ou outras despesas, conforme o caso."
+        ]
+      },
+      {
+        "h": "Tributos diferidos (CPC 32)",
+        "p": [
+          "Diferenças temporárias surgem quando o tratamento contábil e o fiscal diferem no tempo. As dedutíveis geram ativo fiscal diferido, e as tributáveis geram passivo fiscal diferido. O ativo só é reconhecido se houver lucro tributável futuro provável.",
+          "Exemplo 1: provisão para contingência de R$ 100.000, indedutível até o pagamento, gera ativo diferido de 34% × 100.000 = R$ 34.000 (D Ativo fiscal diferido, C Receita de IR diferido). Exemplo 2: receita de R$ 50.000 reconhecida agora, mas tributada apenas no recebimento, gera passivo diferido de 34% × 50.000 = R$ 17.000."
+        ],
+        "formula": "Tributo diferido = Diferença temporária × Alíquota"
+      }
+    ],
+    "pitfalls": [
+      "Aplicar o adicional de 10% sobre todo o lucro, em vez de apenas sobre o excedente do limite.",
+      "Confundir diferença temporária dedutível (ativo) com tributável (passivo).",
+      "Reconhecer ativo diferido sem expectativa de lucro tributável futuro.",
+      "Considerar IRPJ e CSLL como dedução da receita bruta, quando são despesa abaixo do resultado antes dos tributos.",
+      "Esquecer que o lucro presumido usa a receita bruta como ponto de partida, e não o lucro contábil."
+    ],
+    "refs": ["CPC 32", "CPC 26 (R1)", "Lei 6.404/76"]
+  },
+  "20": {
+    "objectives": [
+      "Aplicar o mini-simulado em condições semelhantes às do exame",
+      "Corrigir as respostas e identificar lacunas das sessões 16 a 19",
+      "Classificar cada erro por causa para direcionar a revisão",
+      "Gerenciar o tempo por questão"
+    ],
+    "sections": [
+      {
+        "h": "Como aplicar",
+        "p": [
+          "O mini-simulado tem 12 questões, três para cada sessão (16: operações com mercadorias; 17: tributos sobre vendas; 18: folha e ISS; 19: IRPJ, CSLL e tributos diferidos). Resolva em ambiente silencioso, sem consulta a materiais, anotações, internet ou calculadora externa, usando apenas papel para rascunho."
+        ],
+        "list": [
+          "Tempo máximo de 55 minutos, cronometrado do início ao fim.",
+          "Marque a alternativa e uma sinalização de confiança (certeza, dúvida ou chute).",
+          "Não volte a questões respondidas após o fim do tempo.",
+          "Questões com cálculo longo devem ser deixadas para o fim da primeira passada."
+        ]
+      },
+      {
+        "h": "Estratégia durante a prova",
+        "p": [
+          "Faça duas passadas. Na primeira, resolva o que domina em até 3 minutos por questão e marque as demais. Na segunda, use o tempo restante nas marcadas. Nunca deixe questão em branco, pois não há penalização por erro."
+        ]
+      },
+      {
+        "h": "Como corrigir",
+        "p": [
+          "Corrija com o gabarito e calcule o percentual de acerto geral e por sessão. Como meta de treino, busque ao menos 60% (8 de 12) no geral e nenhuma sessão zerada. Para cada questão errada ou acertada por chute, refaça o raciocínio por escrito antes de olhar a explicação."
+        ]
+      },
+      {
+        "h": "Classificação dos erros",
+        "list": [
+          "Erro conceitual: não sabia a regra (ex.: o que é tributo recuperável). Ação: reler a sessão.",
+          "Erro de cálculo: sabia a regra, mas errou a conta. Ação: refazer exercícios numéricos.",
+          "Erro de interpretação: não entendeu o enunciado. Ação: sublinhar comandos como 'exceto' e 'não'.",
+          "Erro de atenção ou de tempo: deixou de ler uma alternativa ou se apressou. Ação: treinar o ritmo.",
+          "Acerto por chute: contar como erro conceitual para fins de revisão."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Consultar material no meio do simulado e perder o valor diagnóstico do resultado.",
+      "Gastar tempo demais em uma questão de cálculo e abandonar questões fáceis.",
+      "Comemorar a nota geral e ignorar a sessão com pior desempenho.",
+      "Corrigir apenas as erradas e não revisar os acertos por chute.",
+      "Não registrar a causa de cada erro, repetindo o mesmo erro no simulado seguinte."
+    ],
+    "refs": ["CPC 16 (R1)", "CPC 32"]
+  },
+  "21": {
+    "objectives": [
+      "Descrever a estrutura do Balanço Patrimonial segundo a Lei 6.404/76",
+      "Classificar contas em circulante e não circulante",
+      "Identificar as contas retificadoras e seu efeito",
+      "Aplicar o critério do ciclo operacional na classificação"
+    ],
+    "sections": [
+      {
+        "h": "Estrutura e equação fundamental",
+        "p": [
+          "O Balanço Patrimonial é a demonstração da posição patrimonial e financeira em uma data. O ativo (bens e direitos) é financiado por capital de terceiros (passivo) e capital próprio (patrimônio líquido). No exemplo, ativo circulante de R$ 120.000 mais não circulante de R$ 280.000 somam R$ 400.000, igual a passivo circulante de R$ 90.000, não circulante de R$ 110.000 e PL de R$ 200.000."
+        ],
+        "formula": "Ativo = Passivo + Patrimônio Líquido"
+      },
+      {
+        "h": "Grupos e subgrupos",
+        "list": [
+          "Ativo: circulante e não circulante (realizável a longo prazo, investimentos, imobilizado e intangível).",
+          "Passivo: circulante e não circulante.",
+          "Patrimônio líquido: capital social, reservas de capital, ajustes de avaliação patrimonial, reservas de lucros, ações em tesouraria e prejuízos acumulados.",
+          "O ativo é ordenado por grau decrescente de liquidez, e o passivo por grau decrescente de exigibilidade.",
+          "O grupo Ativo Diferido foi extinto."
+        ]
+      },
+      {
+        "h": "Circulante versus não circulante",
+        "p": [
+          "São circulantes os ativos que se realizam, e os passivos que se vencem, no exercício social seguinte, ou seja, em até 12 meses após a data do balanço. Quando o ciclo operacional da empresa for superior a 12 meses, ele substitui esse prazo. O ciclo operacional vai da aquisição do insumo até o recebimento da venda; é comum em construção civil, estaleiros e vinícolas.",
+          "Uma dívida de longo prazo cuja parcela vence no ano seguinte tem essa parcela reclassificada para o passivo circulante."
+        ]
+      },
+      {
+        "h": "Contas retificadoras",
+        "p": [
+          "Contas retificadoras têm saldo contrário ao do grupo e reduzem o valor líquido. Exemplo: Máquinas de R$ 100.000 menos Depreciação acumulada de R$ 30.000 resultam em valor contábil de R$ 70.000."
+        ],
+        "list": [
+          "Depreciação, amortização e exaustão acumuladas.",
+          "Perdas esperadas com créditos de liquidação duvidosa (PECLD).",
+          "Ajuste a valor presente.",
+          "Capital a integralizar e ações em tesouraria no PL."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Tratar o prazo de 12 meses como absoluto, ignorando o ciclo operacional maior.",
+      "Classificar Estoques como não circulantes por serem de baixo giro, quando seguem o ciclo operacional.",
+      "Esquecer de reclassificar a parcela de longo prazo que passou a vencer em até 12 meses.",
+      "Somar a depreciação acumulada ao ativo, em vez de subtraí-la.",
+      "Incluir o ativo diferido como grupo, que foi extinto."
+    ],
+    "refs": ["Lei 6.404/76", "CPC 26 (R1)"]
+  },
+  "22": {
+    "objectives": [
+      "Montar a DRE em sua sequência legal, da receita bruta ao lucro líquido",
+      "Diferenciar a apresentação das despesas por natureza e por função",
+      "Explicar o que compõe o resultado abrangente",
+      "Calcular lucro líquido e resultado abrangente em exemplo numérico"
+    ],
+    "sections": [
+      {
+        "h": "Estrutura da DRE",
+        "p": [
+          "A DRE apresenta o desempenho da entidade no período, pelo regime de competência. Começa na receita bruta, deduz devoluções, abatimentos e tributos sobre vendas, e chega à receita líquida. Subtraído o CMV, CPV ou CSP, tem-se o lucro bruto. Seguem as despesas operacionais (vendas, gerais e administrativas, outras receitas e despesas), o resultado financeiro, o resultado antes dos tributos, o IRPJ e a CSLL, e o lucro líquido."
+        ]
+      },
+      {
+        "h": "Exemplo numérico",
+        "p": [
+          "Receita bruta de R$ 500.000, menos deduções de R$ 90.000, resulta em receita líquida de R$ 410.000. Com CMV de R$ 220.000, o lucro bruto é R$ 190.000. Despesas de vendas de R$ 40.000 e administrativas de R$ 30.000 levam a R$ 120.000. O resultado financeiro líquido de −R$ 10.000 leva o resultado antes dos tributos a R$ 110.000. Com IRPJ e CSLL de 34% (R$ 37.400), o lucro líquido é R$ 72.600."
+        ],
+        "formula": "Lucro líquido = Resultado antes dos tributos − IRPJ e CSLL"
+      },
+      {
+        "h": "Despesas por natureza e por função",
+        "p": [
+          "Na classificação por função, as despesas são agrupadas pela atividade a que servem (custo das vendas, vendas, administração); é a forma usual das companhias brasileiras. Na classificação por natureza, agrupam-se por tipo (salários, depreciação, matéria-prima consumida). O CPC 26 permite ambas e, se a função for usada, exige divulgação adicional da natureza, ao menos de depreciação e de benefícios a empregados."
+        ]
+      },
+      {
+        "h": "Resultado abrangente",
+        "p": [
+          "O resultado abrangente é o lucro líquido somado aos outros resultados abrangentes (ORA), que são variações do patrimônio líquido que não passam pelo resultado. Exemplos: ajustes de conversão de investidas no exterior, ganhos e perdas de instrumentos financeiros mensurados ao valor justo por ORA e remensurações de planos de benefício definido. Com ORA de R$ 5.000, o resultado abrangente do exemplo seria R$ 72.600 + R$ 5.000 = R$ 77.600."
+        ],
+        "formula": "Resultado abrangente = Lucro líquido + ORA"
+      }
+    ],
+    "pitfalls": [
+      "Tratar tributos sobre vendas como despesa operacional, quando são dedução da receita bruta.",
+      "Incluir o IRPJ e a CSLL antes do resultado financeiro ou do lucro bruto.",
+      "Confundir lucro bruto (receita líquida − CMV) com lucro operacional.",
+      "Achar que o ORA é lucro distribuível, quando ele não passa pelo resultado do período.",
+      "Supor que a apresentação por natureza é proibida."
+    ],
+    "refs": ["CPC 26 (R1)", "Lei 6.404/76"]
+  },
+  "23": {
+    "objectives": [
+      "Explicar o objetivo da DMPL e da DLPA",
+      "Descrever a estrutura de cada demonstração",
+      "Distinguir as duas quanto à abrangência e às contas movimentadas",
+      "Aplicar o cálculo de destinação do lucro em exemplo numérico"
+    ],
+    "sections": [
+      {
+        "h": "Objetivo e natureza",
+        "p": [
+          "A DLPA (Demonstração de Lucros ou Prejuízos Acumulados) mostra apenas a movimentação da conta Lucros ou Prejuízos Acumulados: saldo inicial, ajustes de exercícios anteriores, reversões de reservas, lucro líquido do período e as destinações. A DMPL (Demonstração das Mutações do Patrimônio Líquido) é mais ampla: mostra a variação de todas as contas do PL e a evolução de cada uma, inclusive as de ORA."
+        ]
+      },
+      {
+        "h": "Estrutura da DMPL",
+        "p": [
+          "É uma matriz com as colunas de cada conta do PL (capital social, reservas de capital, reservas de lucros, ajustes de avaliação patrimonial, ações em tesouraria, lucros acumulados e total) e as linhas das movimentações."
+        ],
+        "list": [
+          "Saldos iniciais e ajustes de práticas contábeis ou de erros de períodos anteriores.",
+          "Aumentos de capital, aquisição de ações próprias e outras transações com sócios.",
+          "Lucro líquido e outros resultados abrangentes do período.",
+          "Constituição e reversão de reservas, e dividendos.",
+          "Saldos finais."
+        ]
+      },
+      {
+        "h": "Exemplo de destinação do lucro",
+        "p": [
+          "Lucro líquido de R$ 100.000. A reserva legal é de 5% do lucro líquido (R$ 5.000), até o limite de 20% do capital social. Pelo estatuto do exemplo, o dividendo obrigatório é de 25% do lucro líquido ajustado, de R$ 100.000 − R$ 5.000 = R$ 95.000, ou seja, R$ 23.750. O saldo, R$ 100.000 − R$ 5.000 − R$ 23.750 = R$ 71.250, é retido em reserva de lucros. Essas movimentações aparecem na DLPA e na DMPL."
+        ],
+        "formula": "Dividendo = % do estatuto × (Lucro líquido − Reserva legal)"
+      },
+      {
+        "h": "Quando usar cada uma",
+        "p": [
+          "A DMPL é exigida para as companhias abertas e é a demonstração usual das demais sociedades que seguem o CPC; a DLPA pode ser incluída na DMPL, que a substitui quando apresentada. Nas sociedades por ações, a Lei exige que o lucro seja totalmente destinado, sem manter saldo de lucros acumulados no balanço do fim do exercício. Outras entidades, como sociedades limitadas, podem manter saldo."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Achar que a DLPA mostra a movimentação de todo o PL.",
+      "Calcular o dividendo obrigatório sobre o lucro antes de descontar a reserva legal.",
+      "Esquecer que ORA e aumentos de capital aparecem na DMPL, e não na DLPA.",
+      "Manter saldo de lucros acumulados em S.A. no fim do exercício.",
+      "Tratar dividendos distribuídos como despesa do período, quando reduzem o PL."
+    ],
+    "refs": ["Lei 6.404/76", "CPC 26 (R1)"]
+  },
+  "24": {
+    "objectives": [
+      "Elaborar a DFC pelos métodos direto e indireto",
+      "Classificar fluxos em operacional, investimento e financiamento",
+      "Calcular o caixa líquido operacional em exemplo numérico",
+      "Estruturar a DVA e identificar a riqueza criada"
+    ],
+    "sections": [
+      {
+        "h": "DFC: atividades e classificação",
+        "p": [
+          "A DFC (CPC 03) explica a variação de caixa e equivalentes de caixa no período. As atividades operacionais derivam da operação principal; as de investimento envolvem aquisição e venda de ativos de longo prazo; as de financiamento alteram o capital próprio e os empréstimos.",
+          "A DFC desconsidera operações que não movimentam caixa, como depreciação e provisões."
+        ],
+        "list": [
+          "Operacional: recebimento de clientes, pagamento de fornecedores e salários.",
+          "Investimento: compra de imobilizado e investimentos.",
+          "Financiamento: captação de empréstimos, aumento de capital e dividendos pagos."
+        ]
+      },
+      {
+        "h": "Método indireto e método direto",
+        "p": [
+          "No indireto, parte-se do lucro e ajusta-se por itens sem efeito em caixa e pelas variações do capital de giro. Exemplo: lucro de R$ 50.000 + depreciação de R$ 8.000 − aumento de clientes de R$ 10.000 + aumento de fornecedores de R$ 4.000 = caixa operacional de R$ 52.000.",
+          "No direto, mostram-se recebimentos e pagamentos brutos. Com receita de R$ 200.000 e despesas totais de R$ 150.000 (incluindo R$ 8.000 de depreciação), os recebimentos de clientes são R$ 190.000 (200.000 − 10.000) e os pagamentos são R$ 138.000 (142.000 − 4.000). O resultado é R$ 190.000 − R$ 138.000 = R$ 52.000, igual ao indireto."
+        ]
+      },
+      {
+        "h": "Fechando a DFC",
+        "p": [
+          "Somando investimento de −R$ 30.000 (compra de imobilizado) e financiamento de R$ 8.000 (empréstimo de R$ 20.000 menos dividendos de R$ 12.000), a variação do caixa é 52.000 − 30.000 + 8.000 = R$ 30.000."
+        ],
+        "formula": "Variação do caixa = FCO + FCI + FCF"
+      },
+      {
+        "h": "DVA e riqueza criada",
+        "p": [
+          "A DVA (CPC 09) mostra a riqueza gerada e como foi distribuída. Exemplo: receitas de R$ 300.000 menos insumos de R$ 150.000 dão valor adicionado bruto de R$ 150.000. Menos depreciação de R$ 10.000, o valor líquido é R$ 140.000. Somando R$ 5.000 recebidos em transferência (equivalência e receitas financeiras), há R$ 145.000 a distribuir, divididos em pessoal (R$ 60.000), tributos (R$ 45.000), remuneração de capital de terceiros (R$ 12.000) e de capital próprio (R$ 28.000). É obrigatória para companhias abertas."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Somar a depreciação ao caixa, quando ela é apenas ajuste no método indireto.",
+      "Subtrair, em vez de somar, o aumento de fornecedores no método indireto.",
+      "Achar que os métodos direto e indireto geram valores diferentes de caixa operacional.",
+      "Esquecer que a DVA parte da receita com tributos incluídos e que os tributos aparecem na distribuição.",
+      "Classificar a compra de imobilizado como atividade operacional."
+    ],
+    "refs": ["CPC 03 (R2)", "CPC 09", "Lei 6.404/76"]
+  },
+  "25": {
+    "objectives": [
+      "Aplicar o mini-simulado em condições de prova",
+      "Corrigir as respostas e medir o desempenho nas sessões 21 a 24",
+      "Classificar os erros por causa",
+      "Planejar a revisão a partir do diagnóstico"
+    ],
+    "sections": [
+      {
+        "h": "Como aplicar",
+        "p": [
+          "O mini-simulado tem 12 questões, três para cada sessão (21: Balanço Patrimonial; 22: DRE e resultado abrangente; 23: DMPL e DLPA; 24: DFC e DVA). Resolva sem consultar apostilas, normas ou anotações, em ambiente silencioso e apenas com papel de rascunho."
+        ],
+        "list": [
+          "Tempo máximo de 55 minutos, com cronômetro visível.",
+          "Anote para cada questão o nível de confiança: certeza, dúvida ou chute.",
+          "Deixe para o fim as questões com cálculo longo, como as de DFC.",
+          "Não deixe questões em branco."
+        ]
+      },
+      {
+        "h": "Como corrigir",
+        "p": [
+          "Confira com o gabarito e calcule o acerto geral e por sessão. Meta de treino: no mínimo 60% (8 de 12) no geral. Refaça por escrito as questões erradas, incluindo as acertadas por chute, antes de ler os comentários."
+        ]
+      },
+      {
+        "h": "Classificação dos erros",
+        "list": [
+          "Conceitual: desconhecia a estrutura ou a regra. Ação: reler a sessão correspondente.",
+          "Cálculo: errou o sinal ou a soma, comum em DFC e DRE. Ação: treinar exercícios numéricos.",
+          "Interpretação: confundiu demonstração com o comando da questão. Ação: ler o enunciado com atenção.",
+          "Atenção ou tempo: deixou passar uma alternativa ou se apressou. Ação: treinar o ritmo.",
+          "Chute: contar como erro conceitual."
+        ]
+      },
+      {
+        "h": "Plano de revisão",
+        "p": [
+          "Ordene as sessões do pior para o melhor desempenho e revise primeiro a pior. Em seguida, faça 5 questões novas do tema antes do próximo simulado. Refaça este mini-simulado após uma semana para verificar a evolução."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Consultar material durante a prova e invalidar o diagnóstico.",
+      "Confundir DLPA com DMPL ou DFC com DVA por pressa na leitura.",
+      "Errar o sinal das variações do capital de giro na DFC indireta.",
+      "Ignorar os acertos por chute na revisão.",
+      "Estudar só a sessão favorita e não corrigir a de pior desempenho."
+    ],
+    "refs": ["CPC 26 (R1)", "CPC 03 (R2)", "CPC 09", "Lei 6.404/76"]
+  },
+  "26": {
+    "objectives": [
+      "Identificar os Princípios de Contabilidade da Resolução CFC 750/93",
+      "Aplicar os princípios da competência, oportunidade e prudência a situações práticas",
+      "Distinguir as características qualitativas fundamentais e de melhoria",
+      "Reconhecer a continuidade como premissa na elaboração das demonstrações"
+    ],
+    "sections": [
+      {
+        "h": "Princípios de Contabilidade",
+        "p": [
+          "A Resolução CFC 750/93 (alterada em 2010) lista os princípios que orientam o reconhecimento e a mensuração patrimonial. São eles: entidade, continuidade, oportunidade, registro pelo valor original, competência e prudência."
+        ],
+        "list": [
+          "Entidade: o patrimônio da entidade é distinto do de seus sócios.",
+          "Continuidade: presume-se que a entidade continuará operando.",
+          "Oportunidade: os fatos devem ser registrados de forma tempestiva e íntegra.",
+          "Registro pelo valor original: os componentes entram pelo valor da transação, ajustável a mensurações posteriores admitidas.",
+          "Competência: receitas e despesas são reconhecidas no período a que se referem, independentemente do caixa.",
+          "Prudência: diante de alternativas, escolhe-se a que não superestime ativos e receitas nem subestime passivos e despesas."
+        ]
+      },
+      {
+        "h": "Competência na prática",
+        "p": [
+          "Se o salário de dezembro, de R$ 5.000, é pago em janeiro, a despesa e o passivo são reconhecidos em dezembro. O pagamento em janeiro só baixa o passivo e não gera nova despesa. Essa lógica separa o regime de competência do regime de caixa."
+        ]
+      },
+      {
+        "h": "Estrutura Conceitual (CPC 00)",
+        "p": [
+          "A Estrutura Conceitual define que o objetivo do relatório contábil-financeiro é fornecer informação útil a investidores, credores e outros. As características qualitativas fundamentais são a relevância (que inclui a materialidade) e a representação fidedigna (completa, neutra e livre de erros). As de melhoria são a comparabilidade, a verificabilidade, a tempestividade e a compreensibilidade.",
+          "A restrição de custo limita a informação que vale a pena ser fornecida. A continuidade é a premissa de preparação das demonstrações, e a prudência é tratada como apoio à neutralidade."
+        ]
+      },
+      {
+        "h": "Elementos das demonstrações",
+        "list": [
+          "Ativo: recurso econômico presente controlado pela entidade como resultado de eventos passados.",
+          "Passivo: obrigação presente de transferir recurso econômico como resultado de eventos passados.",
+          "Patrimônio líquido: interesse residual nos ativos após deduzir os passivos.",
+          "Receitas e despesas: aumentos e reduções do patrimônio líquido, exceto as relacionadas a sócios."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Confundir regime de competência com regime de caixa.",
+      "Interpretar prudência como autorização para criar reservas ocultas ou subestimar ativos de forma deliberada.",
+      "Trocar características fundamentais por características de melhoria.",
+      "Esquecer que o princípio da entidade separa o patrimônio pessoal do sócio do da empresa.",
+      "Achar que o registro pelo valor original impede qualquer mensuração posterior a valor justo."
+    ],
+    "refs": ["Resolução CFC 750/93", "CPC 00 (R2)"]
+  },
+  "27": {
+    "objectives": [
+      "Aplicar os três critérios de reconhecimento de uma provisão",
+      "Diferenciar provisão, passivo contingente e ativo contingente",
+      "Relacionar o grau de probabilidade ao tratamento contábil e à divulgação",
+      "Mensurar a provisão pela melhor estimativa"
+    ],
+    "sections": [
+      {
+        "h": "Critérios para reconhecer uma provisão",
+        "p": [
+          "Provisão é um passivo de prazo ou valor incerto. O CPC 25 exige três condições simultâneas: obrigação presente (legal ou não formalizada) como resultado de evento passado, saída de recursos provável (mais provável que não) e estimativa confiável do valor. Se faltar alguma, não há provisão."
+        ],
+        "list": [
+          "Obrigação presente: a empresa não tem alternativa realista de evitar a saída.",
+          "Provável: probabilidade maior que 50%.",
+          "Confiável: é possível mensurar com razoável precisão."
+        ]
+      },
+      {
+        "h": "Passivo e ativo contingentes",
+        "p": [
+          "Passivo contingente é uma obrigação possível, dependente de evento futuro incerto, ou uma obrigação presente que não satisfaz os critérios (saída improvável ou sem estimativa confiável). Não é reconhecido no balanço. Ativo contingente é um possível ativo, dependente de evento incerto, e também não é reconhecido. Quando o ganho é praticamente certo, o ativo deixa de ser contingente e é reconhecido."
+        ]
+      },
+      {
+        "h": "Probabilidade e divulgação",
+        "list": [
+          "Provável: reconhece a provisão e divulga.",
+          "Possível: não reconhece, mas divulga o passivo contingente.",
+          "Remota: não reconhece nem divulga.",
+          "Ativo contingente: divulga apenas se a entrada de benefícios for provável."
+        ]
+      },
+      {
+        "h": "Mensuração e exemplo",
+        "p": [
+          "A provisão é a melhor estimativa do desembolso para liquidar a obrigação. Se houver faixa de valores igualmente prováveis, usa-se o ponto médio: entre R$ 60.000 e R$ 100.000, a estimativa é R$ 80.000. Se o efeito do tempo for relevante, desconta-se a valor presente.",
+          "Exemplo: ação trabalhista com perda provável de R$ 80.000. O lançamento é D Despesa com provisões R$ 80.000 e C Provisão para contingências R$ 80.000, no passivo. Eventual reembolso por seguro só é reconhecido, como ativo separado, quando praticamente certo."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Provisionar contingência apenas possível, em vez de só divulgar.",
+      "Reconhecer ativo contingente com base em decisão favorável ainda recorrível e sem certeza prática.",
+      "Considerar provável uma probabilidade de exatamente 50% sem análise.",
+      "Descontar o reembolso do seguro do valor da provisão.",
+      "Provisionar prejuízos operacionais futuros, que não derivam de evento passado."
+    ],
+    "refs": ["CPC 25"]
+  },
+  "28": {
+    "objectives": [
+      "Aplicar os cinco passos do CPC 47",
+      "Distinguir satisfação de obrigação ao longo do tempo e em um ponto no tempo",
+      "Alocar o preço da transação às obrigações de desempenho",
+      "Calcular a receita de contrato de construção pelo método dos custos incorridos"
+    ],
+    "sections": [
+      {
+        "h": "Os cinco passos",
+        "p": [
+          "O CPC 47 reconhece a receita quando o controle do bem ou serviço é transferido ao cliente, pelo valor que a entidade espera receber em troca."
+        ],
+        "list": [
+          "1. Identificar o contrato com o cliente.",
+          "2. Identificar as obrigações de desempenho distintas.",
+          "3. Determinar o preço da transação.",
+          "4. Alocar o preço às obrigações, com base nos preços de venda individuais.",
+          "5. Reconhecer a receita quando (ou à medida que) a obrigação é satisfeita."
+        ]
+      },
+      {
+        "h": "Ao longo do tempo ou em um ponto no tempo",
+        "p": [
+          "A receita é reconhecida ao longo do tempo se um dos critérios for atendido: o cliente recebe e consome os benefícios simultaneamente; o desempenho cria ou melhora um ativo controlado pelo cliente; ou o ativo não tem uso alternativo para a entidade e há direito executável ao pagamento pelo que foi feito. Caso contrário, é em um ponto no tempo, quando o controle é transferido (por exemplo, na entrega de mercadorias)."
+        ]
+      },
+      {
+        "h": "Alocação do preço",
+        "p": [
+          "Um pacote tem equipamento (preço individual de R$ 90.000) e serviço (R$ 30.000), vendido por R$ 100.000. A soma dos preços individuais é R$ 120.000. O equipamento recebe 90/120 × 100.000 = R$ 75.000, e o serviço recebe 30/120 × 100.000 = R$ 25.000."
+        ]
+      },
+      {
+        "h": "Construção e outras situações",
+        "p": [
+          "Contrato de construção com preço de R$ 1.000.000 e custo total estimado de R$ 800.000. No ano 1, custos incorridos de R$ 240.000 representam 240/800 = 30% do progresso. A receita é R$ 300.000, o custo é R$ 240.000 e o lucro é R$ 60.000.",
+          "Na venda de bens, a receita é em um ponto no tempo. Em serviços recorrentes, como consultoria mensal, é ao longo do tempo. Quando há direito de devolução, parte do valor é passivo de reembolso. Se a entidade atua como agente, reconhece como receita apenas a comissão."
+        ],
+        "formula": "Receita do período = % de progresso × Preço da transação − Receita já reconhecida"
+      }
+    ],
+    "pitfalls": [
+      "Reconhecer receita na assinatura do contrato, e não na transferência de controle.",
+      "Alocar o preço em partes iguais, em vez de proporcionalmente aos preços individuais.",
+      "Reconhecer como receita o valor bruto quando a entidade é agente.",
+      "Calcular o progresso dividindo o custo incorrido pelo preço, em vez de pelo custo total estimado.",
+      "Esquecer a receita já reconhecida de períodos anteriores na construção."
+    ],
+    "refs": ["CPC 47"]
+  },
+  "29": {
+    "objectives": [
+      "Aplicar o modelo do direito de uso na contabilidade do arrendatário",
+      "Calcular o passivo de arrendamento, os juros e a depreciação",
+      "Diferenciar arrendamento financeiro e operacional na visão do arrendador",
+      "Explicar em linhas gerais a venda com arrendamento de volta"
+    ],
+    "sections": [
+      {
+        "h": "Modelo do arrendatário",
+        "p": [
+          "Pelo CPC 06 (R2), o arrendatário reconhece, no início, um ativo de direito de uso e um passivo de arrendamento, ambos pelo valor presente dos pagamentos, descontados pela taxa implícita ou, se não disponível, pela taxa incremental. Há isenções para arrendamentos de curto prazo (12 meses ou menos) e de ativos de baixo valor, cujos pagamentos podem ser despesa linear."
+        ]
+      },
+      {
+        "h": "Exemplo numérico",
+        "p": [
+          "Contrato de 3 anos, com pagamentos de R$ 10.000 ao fim de cada ano, taxa de 10% ao ano. Valor presente = 10.000/1,1 + 10.000/1,21 + 10.000/1,331 = 9.090,91 + 8.264,46 + 7.513,15 = R$ 24.868,52. Lançamento inicial: D Ativo de direito de uso e C Passivo de arrendamento, ambos de R$ 24.868,52.",
+          "No ano 1, os juros são 10% × 24.868,52 = R$ 2.486,85. Dos R$ 10.000 pagos, R$ 7.513,15 amortizam o principal, e o saldo cai para R$ 17.355,37. No ano 2, os juros são R$ 1.735,54, a amortização é R$ 8.264,46 e o saldo é R$ 9.090,91. No ano 3, os juros são R$ 909,09 e a amortização é R$ 9.090,91, zerando o passivo. O direito de uso é depreciado, em linha reta, em 24.868,52 ÷ 3 = cerca de R$ 8.289,51 ao ano."
+        ]
+      },
+      {
+        "h": "Efeito no resultado",
+        "p": [
+          "O resultado passa a mostrar despesa de depreciação e despesa financeira, e não mais a despesa de aluguel. No ano 1, o total é 8.289,51 + 2.486,85 = R$ 10.776,36, maior que o pagamento nos primeiros anos."
+        ]
+      },
+      {
+        "h": "Arrendador e venda com arrendamento de volta",
+        "list": [
+          "Arrendamento financeiro: transfere substancialmente os riscos e benefícios; o arrendador baixa o ativo e reconhece um recebível pelo investimento líquido.",
+          "Arrendamento operacional: não transfere; o ativo permanece no balanço, e a receita é reconhecida, em geral, de forma linear.",
+          "Venda com arrendamento de volta: se a transferência atender ao CPC 47 como venda, o vendedor-arrendatário reconhece o direito de uso pela parte do valor contábil retida e o ganho apenas sobre os direitos transferidos.",
+          "Se a transferência não for venda, é um financiamento."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Continuar lançando o pagamento do arrendamento como despesa de aluguel, fora das isenções.",
+      "Descontar os pagamentos pela taxa errada ou somá-los sem trazer a valor presente.",
+      "Calcular os juros sobre o pagamento, e não sobre o saldo do passivo.",
+      "Achar que o modelo de direito de uso vale também para o arrendador.",
+      "Reconhecer todo o ganho em venda com arrendamento de volta, sem ajustar à parte retida."
+    ],
+    "refs": ["CPC 06 (R2)", "CPC 47"]
+  },
+  "30": {
+    "objectives": [
+      "Diferenciar influência significativa, controle e controle compartilhado",
+      "Aplicar o método da equivalência patrimonial",
+      "Descrever o método de aquisição da combinação de negócios",
+      "Calcular o goodwill em exemplo simples"
+    ],
+    "sections": [
+      {
+        "h": "Influência significativa e controle",
+        "p": [
+          "Influência significativa é o poder de participar das decisões financeiras e operacionais da investida, sem controlá-las. Presume-se a partir de 20% do poder de voto, salvo prova em contrário. A investida é coligada e é avaliada pelo método da equivalência patrimonial (CPC 18). Quando há controle (CPC 36), a investida é controlada e suas demonstrações são consolidadas. Em um empreendimento controlado em conjunto, aplica-se o CPC 19."
+        ]
+      },
+      {
+        "h": "Método da equivalência patrimonial",
+        "p": [
+          "O investimento inicia ao custo e é ajustado pela participação do investidor nas variações do patrimônio líquido da investida. O lucro aumenta o investimento e o resultado, o prejuízo os reduz, e os dividendos recebidos reduzem o investimento, pois são devolução do capital já reconhecido.",
+          "Exemplo: a investida tem PL de R$ 1.000.000. A empresa adquire 30% por R$ 300.000 (igual ao valor patrimonial proporcional). A investida lucra R$ 200.000 e o investidor reconhece 30% × 200.000 = R$ 60.000 (D Investimentos, C Resultado de equivalência). A investida distribui R$ 50.000 de dividendos, e o investidor recebe R$ 15.000 (D Caixa, C Investimentos). Saldo final: 300.000 + 60.000 − 15.000 = R$ 345.000, que confere com 30% × (1.000.000 + 200.000 − 50.000) = 30% × 1.150.000."
+        ],
+        "formula": "Equivalência = % de participação × Lucro (ou prejuízo) da investida"
+      },
+      {
+        "h": "Combinação de negócios",
+        "p": [
+          "O CPC 15 (R1) exige o método de aquisição: identificar o adquirente, determinar a data da aquisição, reconhecer e mensurar os ativos identificáveis adquiridos e os passivos assumidos pelo valor justo e reconhecer o goodwill ou o ganho por compra vantajosa. Os custos de transação da aquisição são despesa do período."
+        ]
+      },
+      {
+        "h": "Goodwill",
+        "p": [
+          "O goodwill é o excedente da contraprestação transferida (mais a participação dos não controladores) sobre o valor justo dos ativos líquidos identificáveis. Exemplo: pagamento de R$ 900.000 por 100% de empresa cujos ativos líquidos identificáveis valem R$ 750.000 dá goodwill de R$ 150.000. Se o preço fosse menor que o valor justo, haveria ganho por compra vantajosa no resultado. O goodwill não é amortizado e passa por teste de redução ao valor recuperável (CPC 01 (R1)) ao menos uma vez por ano."
+        ],
+        "formula": "Goodwill = Contraprestação + Não controladores − Valor justo dos ativos líquidos identificáveis"
+      }
+    ],
+    "pitfalls": [
+      "Registrar dividendos recebidos de coligada como receita, em vez de redução do investimento.",
+      "Aplicar a equivalência patrimonial a investimentos sem influência significativa.",
+      "Calcular a equivalência sobre o PL total da investida, em vez de sobre o lucro do período.",
+      "Amortizar o goodwill, em vez de testá-lo anualmente por redução ao valor recuperável.",
+      "Capitalizar os custos de transação da aquisição no goodwill."
+    ],
+    "refs": ["CPC 18 (R2)", "CPC 15 (R1)", "CPC 36 (R3)", "CPC 19 (R2)", "CPC 01 (R1)"]
+  }
+}

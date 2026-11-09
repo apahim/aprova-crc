@@ -46,7 +46,7 @@ for (const f of ['simulado-a.json', 'simulado-b.json', 'simulado-c.json']) {
 }
 
 // --- Mini-simulados ---
-const minis = read('src/content/minis.json');
+const minis = {...read('src/content/minis-a.json'), ...read('src/content/minis-b.json')};
 const miniExpect = {20: 12, 25: 12, 35: 12, 40: 12, 50: 12, 55: 12};
 for (const [id, n] of Object.entries(miniExpect)) {
   const qs = minis[id];

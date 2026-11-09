@@ -1,1 +1,752 @@
-{}
+{
+  "1": {
+    "objectives": [
+      "Definir patrimônio como o conjunto de bens, direitos e obrigações de uma entidade",
+      "Distinguir ativo, passivo e patrimônio líquido segundo a Estrutura Conceitual",
+      "Aplicar a equação fundamental para encontrar o elemento desconhecido",
+      "Classificar a situação líquida como positiva, nula ou negativa"
+    ],
+    "sections": [
+      {
+        "h": "O que é patrimônio",
+        "p": [
+          "Patrimônio é o conjunto de bens, direitos e obrigações de uma entidade, avaliável em moeda. Os bens e direitos formam o lado positivo (o que a entidade tem e tem a receber); as obrigações formam o lado que precisa ser pago ou entregue a terceiros.",
+          "A Contabilidade estuda o patrimônio sob a ótica da entidade, separado do patrimônio pessoal dos sócios. É o princípio da entidade: a empresa e seus donos são pessoas distintas para fins contábeis."
+        ]
+      },
+      {
+        "h": "Ativo",
+        "p": [
+          "Pela Estrutura Conceitual (CPC 00 R2), ativo é um recurso econômico presente, controlado pela entidade como resultado de eventos passados. Recurso econômico é um direito que tem potencial de produzir benefícios econômicos.",
+          "O ponto central é o controle, não a propriedade jurídica. Um bem arrendado pode ser ativo se a entidade controlar o direito de uso; um bem registrado em seu nome, mas sem controle, pode não ser."
+        ]
+      },
+      {
+        "h": "Passivo e patrimônio líquido",
+        "p": [
+          "Passivo é uma obrigação presente da entidade de transferir um recurso econômico, como resultado de eventos passados. Pode ser legal (contrato, lei) ou não formalizada, quando a prática da empresa criou expectativa válida em terceiros.",
+          "Patrimônio líquido é o interesse residual nos ativos depois de deduzidos todos os passivos. Ele representa o que pertence aos proprietários: capital integralizado, reservas e lucros retidos, menos prejuízos acumulados."
+        ]
+      },
+      {
+        "h": "Equação fundamental e situação líquida",
+        "p": [
+          "Exemplo: uma empresa tem Caixa de R$ 80.000, Estoques de R$ 120.000 e Máquinas de R$ 300.000. Deve a fornecedores R$ 150.000 e a bancos R$ 170.000. O ativo soma R$ 500.000 e o passivo soma R$ 320.000; logo, o PL é R$ 180.000.",
+          "Se o ativo for maior que o passivo, a situação líquida é positiva. Se forem iguais, é nula. Se o passivo exceder o ativo, o PL é negativo e fala-se em passivo a descoberto."
+        ],
+        "formula": "Ativo = Passivo + Patrimônio Líquido  →  PL = Ativo − Passivo"
+      },
+      {
+        "h": "Resumo para a prova",
+        "list": [
+          "Ativo: recurso econômico controlado, de evento passado",
+          "Passivo: obrigação presente de transferir recurso econômico",
+          "PL: participação residual dos proprietários",
+          "Probabilidade de benefício não é mais exigida na definição, apenas no reconhecimento"
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Confundir propriedade jurídica com controle: a definição de ativo exige controle.",
+      "Achar que PL é um passivo para com os sócios; ele é o residual, e não uma obrigação exigível.",
+      "Incluir bens pessoais dos sócios no patrimônio da empresa, violando o princípio da entidade.",
+      "Esquecer que um prejuízo acumulado reduz o PL e pode torná-lo negativo."
+    ],
+    "refs": ["CPC 00 (R2) – Estrutura Conceitual", "Lei 6.404/76"]
+  },
+  "2": {
+    "objectives": [
+      "Aplicar a equação patrimonial A = P + PL a fatos do dia a dia",
+      "Classificar fatos contábeis em permutativos, modificativos e mistos",
+      "Calcular o efeito de cada fato sobre ativo, passivo e PL",
+      "Identificar quando um fato altera ou não o patrimônio líquido"
+    ],
+    "sections": [
+      {
+        "h": "Fato contábil e equação patrimonial",
+        "p": [
+          "Fato contábil é todo acontecimento que provoca variação quantitativa ou qualitativa no patrimônio. A equação A = P + PL deve permanecer equilibrada após cada fato; o que muda é a composição ou o total dos elementos.",
+          "A classificação depende apenas de uma pergunta: o patrimônio líquido foi alterado?"
+        ],
+        "formula": "A = P + PL"
+      },
+      {
+        "h": "Classificação dos fatos",
+        "list": [
+          "Permutativos: não alteram o PL; trocam elementos entre si (ou aumentam/diminuem A e P juntos)",
+          "Modificativos aumentativos: elevam o PL (receitas, ganhos)",
+          "Modificativos diminutivos: reduzem o PL (despesas, perdas)",
+          "Mistos: combinam fato permutativo com modificativo na mesma operação"
+        ]
+      },
+      {
+        "h": "Exemplo numérico encadeado",
+        "p": [
+          "Início: Caixa R$ 100.000 e Capital R$ 100.000 (A = 100.000; PL = 100.000).",
+          "1) Compra de móveis à vista por R$ 20.000: Caixa cai e Móveis sobe. Permutativo; A segue R$ 100.000. 2) Compra de mercadorias a prazo por R$ 30.000: A = R$ 130.000; P = R$ 30.000; PL = R$ 100.000. Permutativo, pois o PL não mudou.",
+          "3) Serviço prestado à vista por R$ 15.000: Caixa sobe e há receita. Modificativo aumentativo; A = R$ 145.000; PL = R$ 115.000. 4) Aluguel pago de R$ 5.000: modificativo diminutivo; A = R$ 140.000; PL = R$ 110.000."
+        ]
+      },
+      {
+        "h": "Fato misto",
+        "p": [
+          "Continuando: paga-se o fornecedor de R$ 30.000 com juros de R$ 1.000, total de R$ 31.000. O Caixa cai R$ 31.000, o passivo cai R$ 30.000 (parte permutativa) e o PL cai R$ 1.000 (parte modificativa diminutiva).",
+          "Resultado final: Caixa R$ 59.000 + Móveis R$ 20.000 + Mercadorias R$ 30.000 = A de R$ 109.000; P = zero; PL = R$ 109.000. A equação segue válida."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Classificar compra a prazo como modificativa: ela aumenta A e P, mas o PL não muda.",
+      "Esquecer que pagamento com juros é fato misto, não puramente permutativo.",
+      "Achar que todo fato que altera o total do ativo altera o PL.",
+      "Tratar a retirada de dinheiro pelo sócio (distribuição) como despesa, e não como redução direta do PL."
+    ],
+    "refs": ["CPC 00 (R2) – Estrutura Conceitual"]
+  },
+  "3": {
+    "objectives": [
+      "Explicar o método das partidas dobradas",
+      "Identificar a natureza devedora ou credora de cada grupo de contas",
+      "Efetuar lançamentos por fórmulas simples e compostas",
+      "Verificar o equilíbrio entre débitos e créditos"
+    ],
+    "sections": [
+      {
+        "h": "Método das partidas dobradas",
+        "p": [
+          "Todo fato contábil gera, no mínimo, um débito e um crédito de igual valor. Débito é o lançamento no lado esquerdo da conta; crédito, no lado direito. Os termos não significam bom ou ruim, apenas lado.",
+          "Por isso a soma dos débitos é sempre igual à soma dos créditos em cada lançamento e, consequentemente, no balancete."
+        ],
+        "formula": "Σ Débitos = Σ Créditos"
+      },
+      {
+        "h": "Natureza e movimento das contas",
+        "list": [
+          "Ativo e despesas: natureza devedora; débito aumenta e crédito diminui",
+          "Passivo e PL: natureza credora; crédito aumenta e débito diminui",
+          "Receitas: natureza credora; crédito aumenta",
+          "Contas retificadoras têm natureza oposta à da conta que retificam"
+        ]
+      },
+      {
+        "h": "Fórmulas de lançamento",
+        "p": [
+          "A 1ª fórmula tem uma conta debitada e uma creditada. A 2ª tem uma conta debitada e várias creditadas. A 3ª tem várias debitadas e uma creditada. A 4ª tem várias debitadas e várias creditadas. Em todas, o total debitado é igual ao total creditado."
+        ]
+      },
+      {
+        "h": "Exemplos de lançamentos",
+        "p": [
+          "Compra de mercadorias à vista por R$ 8.000: D – Estoques / C – Caixa, R$ 8.000. Venda de serviço a prazo por R$ 12.000: D – Clientes / C – Receita de Serviços, R$ 12.000. Pagamento de salários de R$ 4.000: D – Despesa com Salários / C – Caixa, R$ 4.000.",
+          "Pagamento de fornecedor de R$ 10.000 com juros de R$ 1.000, total de R$ 11.000: D – Fornecedores R$ 10.000; D – Juros Passivos R$ 1.000; C – Caixa R$ 11.000. Débitos = R$ 11.000 = créditos (3ª fórmula)."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Achar que débito sempre aumenta: ele diminui contas de passivo e PL.",
+      "Creditar despesa para aumentá-la; despesa cresce a débito.",
+      "Confundir receita a receber (Clientes, ativo, devedora) com a receita em si (credora).",
+      "Pensar que saldo credor em Caixa é normal; indica erro ou lançamento indevido."
+    ],
+    "refs": ["CPC 00 (R2) – Estrutura Conceitual", "ITG 2000 (R1) – Escrituração Contábil"]
+  },
+  "4": {
+    "objectives": [
+      "Descrever a finalidade e a estrutura de um plano de contas",
+      "Distinguir contas patrimoniais de contas de resultado",
+      "Reconhecer o saldo normal e as contas retificadoras",
+      "Interpretar a codificação hierárquica de contas"
+    ],
+    "sections": [
+      {
+        "h": "Plano de contas",
+        "p": [
+          "É a relação ordenada das contas que a entidade usa para registrar seus fatos. Ele padroniza a escrituração, facilita relatórios e permite comparar períodos. Deve ser adaptado à atividade e ao porte da empresa.",
+          "As contas sintéticas totalizam grupos e não recebem lançamentos. As analíticas são as de último nível e recebem os lançamentos."
+        ]
+      },
+      {
+        "h": "Codificação",
+        "p": [
+          "A codificação é hierárquica: 1 – Ativo; 1.1 – Circulante; 1.1.01 – Caixa e Equivalentes; 1.1.01.001 – Caixa Geral. Cada nível acrescentado detalha a conta. A ordem usual é Ativo (1), Passivo (2), PL (3), Receitas (4) e Despesas/Custos (5), mas isso é convenção, não norma."
+        ]
+      },
+      {
+        "h": "Contas patrimoniais e de resultado",
+        "p": [
+          "Contas patrimoniais (reais) compõem ativo, passivo e PL e seus saldos passam de um exercício para o outro. Contas de resultado (nominais ou transitórias) incluem receitas e despesas e são zeradas no encerramento, com o resultado transferido para Lucros ou Prejuízos Acumulados.",
+          "Exemplo: receitas de R$ 200.000 e despesas de R$ 150.000 geram lucro de R$ 50.000, que é transferido ao PL."
+        ]
+      },
+      {
+        "h": "Saldos e contas retificadoras",
+        "list": [
+          "Saldo devedor normal: ativo e despesas",
+          "Saldo credor normal: passivo, PL e receitas",
+          "Retificadoras do ativo: Depreciação Acumulada, PECLD, Perdas por Redução ao Valor Recuperável",
+          "Retificadoras do PL: Prejuízos Acumulados, Ações em Tesouraria, Capital a Integralizar",
+          "Retificadora da receita: Deduções (devoluções, abatimentos, tributos sobre vendas)"
+        ],
+        "formula": "Valor contábil líquido = Custo − Depreciação Acumulada"
+      },
+      {
+        "h": "Exemplo de retificadora",
+        "p": [
+          "Veículos: R$ 80.000 (saldo devedor). (−) Depreciação Acumulada: R$ 16.000 (saldo credor). O valor líquido apresentado no balanço é R$ 64.000."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Achar que contas retificadoras têm a mesma natureza da conta principal.",
+      "Lançar valores em contas sintéticas; só as analíticas recebem lançamentos.",
+      "Confundir contas de resultado (zeradas no encerramento) com as patrimoniais (permanentes).",
+      "Tratar a depreciação acumulada como passivo; é retificadora do ativo."
+    ],
+    "refs": ["ITG 2000 (R1) – Escrituração Contábil", "Lei 6.404/76", "CPC 00 (R2)"]
+  },
+  "5": {
+    "objectives": [
+      "Revisar os conceitos essenciais das sessões 1 a 4",
+      "Autoavaliar o domínio de cada tópico com um checklist",
+      "Interpretar o resultado do mini-diagnóstico para priorizar o estudo",
+      "Organizar um caderno de erros com plano de correção"
+    ],
+    "sections": [
+      {
+        "h": "Checklist da semana 1",
+        "list": [
+          "Sessão 1: definir ativo (controle), passivo (obrigação presente) e PL (residual); aplicar PL = A − P",
+          "Sessão 2: classificar fatos permutativos, modificativos e mistos; saber quando o PL muda",
+          "Sessão 3: dominar débito e crédito, natureza das contas e as quatro fórmulas de lançamento",
+          "Sessão 4: distinguir sintéticas e analíticas, patrimoniais e de resultado, e conhecer retificadoras"
+        ]
+      },
+      {
+        "h": "Como se autoavaliar",
+        "p": [
+          "Para cada item, tente explicar em voz alta, sem consulta, em até um minuto. Se travar, marque o item como fraco. Depois resolva três questões do tema e confira o gabarito.",
+          "Teste rápido: Ativo de R$ 250.000 e Passivo de R$ 90.000. O PL é R$ 160.000. Se após uma compra a prazo de R$ 20.000 o PL continuar R$ 160.000, o fato foi permutativo e o novo ativo é R$ 270.000."
+        ]
+      },
+      {
+        "h": "Usando o mini-diagnóstico",
+        "p": [
+          "O mini-diagnóstico mostra o desempenho por tópico. Trate acima de 70% de acerto como dominado, entre 50% e 70% como em consolidação e abaixo de 50% como prioridade. Reveja a sessão correspondente antes de avançar.",
+          "Não repita as questões apenas para memorizar o gabarito; refaça a resolução com os mesmos passos."
+        ]
+      },
+      {
+        "h": "O que fazer com os erros",
+        "list": [
+          "Registrar cada erro com o tema e a causa (conceito, cálculo ou leitura)",
+          "Reescrever a resolução correta com suas palavras",
+          "Refazer a questão após 48 horas",
+          "Revisar os erros de leitura, que costumam ser os mais fáceis de eliminar"
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Revisar apenas relendo o texto, sem resolver questões.",
+      "Decorar o gabarito do diagnóstico em vez de entender o raciocínio.",
+      "Ignorar erros de distração, que se repetem na prova real.",
+      "Avançar para a semana 2 com tópicos abaixo de 50% de acerto."
+    ],
+    "refs": ["CPC 00 (R2) – Estrutura Conceitual"]
+  },
+  "6": {
+    "objectives": [
+      "Listar os elementos essenciais do lançamento contábil",
+      "Diferenciar o Livro Diário do Livro Razão",
+      "Descrever a finalidade e a obrigatoriedade geral da ECD",
+      "Aplicar as formas de correção de lançamentos sem rasuras"
+    ],
+    "sections": [
+      {
+        "h": "Elementos essenciais do lançamento",
+        "p": [
+          "Segundo a ITG 2000, a escrituração deve ser feita em idioma e moeda corrente nacionais, em ordem cronológica, sem intervalos em branco, entrelinhas, borrões, rasuras ou emendas. O lançamento deve conter a data, a conta debitada, a conta creditada, o histórico e o valor.",
+          "Os lançamentos precisam ter documentação hábil (nota fiscal, contrato, recibo) que os comprove."
+        ],
+        "list": [
+          "Local e data do fato",
+          "Conta debitada e conta creditada",
+          "Histórico que explique a operação",
+          "Valor do lançamento"
+        ]
+      },
+      {
+        "h": "Livros Diário e Razão",
+        "p": [
+          "O Livro Diário registra todos os fatos em ordem cronológica de ocorrência; é o livro obrigatório. O Razão agrupa os lançamentos por conta e mostra o saldo de cada uma, apoiando a elaboração do balancete e das demonstrações.",
+          "Exemplo de razão: Caixa com saldo inicial de R$ 10.000 (devedor), débitos de R$ 5.000 e créditos de R$ 3.000. Saldo final = 10.000 + 5.000 − 3.000 = R$ 12.000 devedor."
+        ]
+      },
+      {
+        "h": "Correção de erros de escrituração",
+        "p": [
+          "Não se apaga lançamento. A correção é feita por estorno (anula o lançamento errado), por transferência (corrige conta indevida) ou por complementação (acrescenta valor insuficiente). Cada correção traz seu próprio histórico."
+        ]
+      },
+      {
+        "h": "Escrituração Contábil Digital (ECD)",
+        "p": [
+          "A ECD faz parte do SPED e substitui a escrituração em papel. Inclui, entre outros, Livro Diário, Razão, balancetes e demonstrações. O arquivo é assinado digitalmente e transmitido à Receita Federal.",
+          "Em regra, é obrigatória para pessoas jurídicas tributadas pelo lucro real e, em geral, para as do lucro presumido que distribuam lucros acima da base presumida sem escrituração completa. Optantes do Simples Nacional e MEI são, em regra, dispensados."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Achar que o Razão é obrigatório e o Diário é opcional; o Diário é o livro obrigatório.",
+      "Corrigir erro com rasura ou apagando; só se admitem estorno, transferência ou complementação.",
+      "Aceitar lançamento sem histórico ou sem documentação hábil.",
+      "Supor que a ECD é obrigatória para todo contribuinte, inclusive Simples e MEI."
+    ],
+    "refs": ["ITG 2000 (R1) – Escrituração Contábil", "Decreto 6.022/2007 (SPED)", "Lei 10.406/2002 (Código Civil)"]
+  },
+  "7": {
+    "objectives": [
+      "Diferenciar o regime de competência do regime de caixa",
+      "Aplicar o reconhecimento de receitas e despesas pela competência",
+      "Calcular o resultado nos dois regimes em um mesmo caso",
+      "Identificar contas de antecipação e de provisão ligadas à competência"
+    ],
+    "sections": [
+      {
+        "h": "Os dois regimes",
+        "p": [
+          "No regime de caixa, receitas e despesas são reconhecidas quando há entrada ou saída de dinheiro. No regime de competência, são reconhecidas quando ocorrem, independentemente do recebimento ou pagamento.",
+          "As demonstrações contábeis seguem a base da competência, conforme a Estrutura Conceitual e o CPC 26. O regime de caixa pode ser usado, em alguns casos, apenas para fins fiscais."
+        ]
+      },
+      {
+        "h": "Reconhecimento na competência",
+        "list": [
+          "Receita: quando a entidade cumpre a obrigação de desempenho e transfere o controle ao cliente",
+          "Despesa: quando incorrida, confrontada com as receitas do período",
+          "Despesa paga antecipadamente: ativo (despesa antecipada) apropriado ao longo do tempo",
+          "Despesa incorrida e não paga: passivo (a pagar)",
+          "Receita recebida antes de prestar o serviço: passivo (receita diferida)"
+        ]
+      },
+      {
+        "h": "Exemplo comparativo",
+        "p": [
+          "Em 2025, uma empresa: (a) vendeu serviços de R$ 30.000 em dezembro, a receber em fevereiro de 2026; (b) pagou em 01/10 um seguro de R$ 12.000 para 12 meses; (c) incorreu em salários de dezembro de R$ 8.000, pagos em janeiro.",
+          "Competência: receita R$ 30.000; despesa de seguro (3 meses × R$ 1.000) R$ 3.000; salários R$ 8.000. Resultado = 30.000 − 3.000 − 8.000 = R$ 19.000. O seguro a apropriar (ativo) é R$ 9.000 e os salários a pagar (passivo) são R$ 8.000.",
+          "Caixa: entradas zero; saídas R$ 12.000 (seguro). Resultado = −R$ 12.000. A diferença entre os regimes é de R$ 31.000."
+        ]
+      },
+      {
+        "h": "Princípio da confrontação",
+        "p": [
+          "Despesas são reconhecidas junto com as receitas que ajudaram a gerar. O custo das mercadorias vendidas, por exemplo, é reconhecido no mesmo período da venda, e não no da compra."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Reconhecer receita só no recebimento; na competência vale o momento do cumprimento da obrigação.",
+      "Lançar integralmente como despesa um seguro pago antecipadamente.",
+      "Esquecer a despesa incorrida e não paga (salários, juros, energia).",
+      "Dizer que o regime de caixa é aceito para as demonstrações contábeis em geral."
+    ],
+    "refs": ["CPC 00 (R2) – Estrutura Conceitual", "CPC 26 (R1) – Apresentação das Demonstrações Contábeis", "CPC 47 – Receita de Contrato com Cliente"]
+  },
+  "8": {
+    "objectives": [
+      "Elaborar e interpretar o balancete de verificação",
+      "Identificar ajustes contábeis de fim de período e seus lançamentos",
+      "Explicar o que o balancete equilibrado não garante",
+      "Descrever o encerramento do exercício e a apuração do resultado"
+    ],
+    "sections": [
+      {
+        "h": "Balancete de verificação",
+        "p": [
+          "É a relação de contas com seus saldos em determinada data, devedores de um lado e credores do outro. O total dos saldos devedores deve ser igual ao total dos credores. Pode ser sintético (grupos) ou analítico (cada conta).",
+          "Exemplo: Caixa R$ 40.000, Clientes R$ 30.000, Estoques R$ 50.000, Imobilizado R$ 80.000, CMV R$ 90.000 e Despesas R$ 40.000 somam R$ 330.000 de saldos devedores. Fornecedores R$ 35.000, Empréstimos R$ 45.000, Capital R$ 100.000 e Receita de Vendas R$ 150.000 somam R$ 330.000 de credores. Balancete fechado."
+        ]
+      },
+      {
+        "h": "Limites do balancete",
+        "p": [
+          "Um balancete equilibrado não garante que a escrituração esteja correta. Erros que não o desequilibram: lançamento omitido, lançamento em duplicidade, conta errada com valor correto e erros que se compensam. Já um valor lançado só a débito ou a crédito o desequilibra."
+        ]
+      },
+      {
+        "h": "Ajustes contábeis de fim de período",
+        "list": [
+          "Apropriação de despesas antecipadas (seguros, aluguéis)",
+          "Apropriação de receitas recebidas antecipadamente",
+          "Reconhecimento de despesas incorridas e não pagas (salários, juros)",
+          "Reconhecimento de receitas ganhas e não recebidas",
+          "Depreciação, amortização e perdas estimadas em créditos"
+        ]
+      },
+      {
+        "h": "Exemplo de ajuste",
+        "p": [
+          "Seguro de R$ 12.000 pago em 01/10 para 12 meses. Em 31/12, apropriam-se 3 meses: D – Despesa de Seguros R$ 3.000 / C – Seguros a Apropriar R$ 3.000. Salários de dezembro de R$ 8.000 ainda não pagos: D – Despesa com Salários / C – Salários a Pagar, R$ 8.000."
+        ]
+      },
+      {
+        "h": "Período contábil e encerramento",
+        "p": [
+          "O exercício social tem duração de um ano, com término fixado no estatuto ou contrato social. No encerramento, as contas de receita e despesa são zeradas contra a conta Apuração do Resultado do Exercício, e o lucro ou prejuízo é transferido ao PL."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Acreditar que balancete equilibrado prova que não há erros.",
+      "Ajustar a despesa antecipada pelo valor total pago, e não pelo período decorrido.",
+      "Zerar contas patrimoniais no encerramento; só as de resultado são encerradas.",
+      "Esquecer que ajustes de competência são feitos mesmo sem movimentação de caixa."
+    ],
+    "refs": ["Lei 6.404/76", "ITG 2000 (R1) – Escrituração Contábil", "CPC 26 (R1)"]
+  },
+  "9": {
+    "objectives": [
+      "Aplicar os critérios de reconhecimento de provisão do CPC 25",
+      "Distinguir provisão, passivo contingente e ativo contingente",
+      "Tratar mudança de estimativa contábil de forma prospectiva",
+      "Diferenciar erro de estimativa e corrigir erros conforme o CPC 23"
+    ],
+    "sections": [
+      {
+        "h": "Provisões (CPC 25)",
+        "p": [
+          "Provisão é um passivo de prazo ou valor incertos. É reconhecida quando há obrigação presente (legal ou não formalizada) resultante de evento passado, é provável a saída de recursos e é possível estimar o valor com confiabilidade. Faltando um critério, não há provisão.",
+          "Exemplo: ação trabalhista com perda provável e estimativa de R$ 60.000. Lançamento: D – Despesa com Provisão / C – Provisão para Contingências, R$ 60.000."
+        ]
+      },
+      {
+        "h": "Contingências",
+        "list": [
+          "Passivo contingente com saída provável: reconhece como provisão",
+          "Passivo contingente possível: apenas divulga em nota explicativa",
+          "Passivo contingente remoto: nem reconhece nem divulga",
+          "Ativo contingente: não se reconhece; divulga se a entrada de benefícios for provável",
+          "Ativo praticamente certo deixa de ser contingente e é reconhecido"
+        ]
+      },
+      {
+        "h": "Mudança de estimativa (CPC 23)",
+        "p": [
+          "Estimativas (vida útil, perdas esperadas, valor residual) são revisadas quando surgem novas informações. A mudança é reconhecida de forma prospectiva, no período da mudança e nos futuros, sem reapresentar períodos anteriores.",
+          "Exemplo: máquina de R$ 120.000, vida útil de 10 anos, sem valor residual (depreciação de R$ 12.000 por ano). Após 4 anos, o valor contábil é R$ 72.000. Se a vida total for revista para 8 anos, restam 4 anos: 72.000 ÷ 4 = R$ 18.000 por ano."
+        ]
+      },
+      {
+        "h": "Erros e mudança de política",
+        "p": [
+          "Erro é omissão ou distorção por uso incorreto de informação disponível que deveria ter sido considerada. A correção é retrospectiva: reapresentam-se os períodos anteriores ou, se for o caso, ajusta-se o saldo inicial de lucros acumulados do período mais antigo apresentado.",
+          "A mudança de política contábil também é, em regra, retrospectiva, e não deve ser confundida com mudança de estimativa."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Reconhecer provisão para perda apenas possível; nesse caso, só se divulga.",
+      "Reconhecer ativo contingente por ser provável; ele só é divulgado.",
+      "Aplicar mudança de estimativa de forma retrospectiva; ela é prospectiva.",
+      "Tratar o erro como mudança de estimativa e não reapresentar os períodos anteriores."
+    ],
+    "refs": ["CPC 25 – Provisões, Passivos Contingentes e Ativos Contingentes", "CPC 23 – Políticas Contábeis, Mudança de Estimativa e Retificação de Erro"]
+  },
+  "10": {
+    "objectives": [
+      "Revisar os conceitos das sessões 6 a 9",
+      "Autoavaliar o domínio de lançamentos, livros, competência, balancete e provisões",
+      "Resolver rapidamente cálculos de ajustes e de mudança de estimativa",
+      "Planejar a correção dos erros antes da semana 3"
+    ],
+    "sections": [
+      {
+        "h": "Checklist da semana 2",
+        "list": [
+          "Sessão 6: elementos do lançamento, Diário × Razão, correção por estorno, transferência ou complementação, ECD",
+          "Sessão 7: competência × caixa, despesa antecipada, despesa a pagar, confrontação",
+          "Sessão 8: balancete, limites do equilíbrio, ajustes de fim de período, encerramento",
+          "Sessão 9: critérios de provisão, contingências, estimativa (prospectiva) e erro (retrospectivo)"
+        ]
+      },
+      {
+        "h": "Autoavaliação com cálculo",
+        "p": [
+          "Teste 1: seguro de R$ 24.000 pago em 01/09 para 12 meses. Em 31/12 passaram 4 meses: despesa de R$ 8.000 e saldo a apropriar de R$ 16.000.",
+          "Teste 2: máquina de R$ 60.000, vida de 6 anos, sem residual. Após 2 anos, valor contábil de R$ 40.000. Revendo a vida total para 8 anos, restam 6 anos: 40.000 ÷ 6 = R$ 6.666,67 por ano, aplicando-se prospectivamente.",
+          "Se acertar os dois sem consulta e explicar o motivo de cada passo, o tópico está dominado."
+        ]
+      },
+      {
+        "h": "Perguntas de conferência rápida",
+        "list": [
+          "Qual livro é obrigatório e qual é o seu critério de ordenação?",
+          "Quando uma contingência é provisionada, apenas divulgada ou ignorada?",
+          "O que o balancete não detecta?",
+          "Mudança de estimativa e erro têm tratamentos iguais?"
+        ]
+      },
+      {
+        "h": "Tratamento dos erros",
+        "p": [
+          "Classifique cada erro como falha de conceito, de cálculo ou de leitura. Erros de conceito exigem retornar à sessão; os de cálculo pedem refazer exercícios do mesmo tipo; os de leitura pedem marcar palavras como não, exceto e incorreta. Refaça as questões erradas depois de dois dias."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Confundir regime de competência com apuração do lucro tributável.",
+      "Aplicar o efeito de uma mudança de estimativa sobre os períodos passados.",
+      "Dizer que balancete equilibrado garante a correção da escrituração.",
+      "Esquecer a divulgação de passivos contingentes possíveis em nota explicativa."
+    ],
+    "refs": ["ITG 2000 (R1)", "CPC 23", "CPC 25", "CPC 26 (R1)"]
+  },
+  "11": {
+    "objectives": [
+      "Aplicar os critérios de reconhecimento de ativos da Estrutura Conceitual",
+      "Diferenciar mensuração inicial e subsequente",
+      "Identificar as principais bases de mensuração",
+      "Calcular o valor presente de um direito a receber"
+    ],
+    "sections": [
+      {
+        "h": "Reconhecimento de ativos",
+        "p": [
+          "Um item é reconhecido quando atende à definição de ativo e sua inclusão fornece informação útil: relevante e que represente fielmente o ativo. A incerteza sobre a existência do ativo ou sobre a entrada de benefícios, e uma mensuração com alta incerteza, podem tornar o reconhecimento inadequado.",
+          "Não confunda reconhecimento (registrar no balanço) com divulgação (informar em nota explicativa)."
+        ]
+      },
+      {
+        "h": "Mensuração inicial e subsequente",
+        "p": [
+          "Na inicial, em regra, o ativo é medido pelo custo de aquisição ou produção, incluindo gastos necessários para colocá-lo em condição de uso. Na subsequente, aplica-se a base prevista na norma específica: custo menos depreciação e perdas, valor justo, custo amortizado, entre outras."
+        ]
+      },
+      {
+        "h": "Bases de mensuração",
+        "list": [
+          "Custo histórico: valor da transação na data do reconhecimento",
+          "Valor justo (CPC 46): preço que seria recebido pela venda do ativo em transação ordenada entre participantes do mercado",
+          "Valor em uso: valor presente dos fluxos de caixa esperados do ativo",
+          "Custo amortizado: custo inicial ajustado por amortizações e juros pela taxa efetiva",
+          "Valor realizável líquido (CPC 16): preço estimado de venda menos custos para completar e vender"
+        ]
+      },
+      {
+        "h": "Exemplos",
+        "p": [
+          "Valor presente: duplicata de R$ 10.000 a receber em um ano, com taxa de 10% ao ano. VP = 10.000 ÷ 1,10 = R$ 9.090,91. O ajuste a valor presente é R$ 909,09, reconhecido como receita financeira ao longo do prazo.",
+          "Estoque com custo de R$ 50.000 e valor realizável líquido de R$ 45.000 é registrado por R$ 45.000, reconhecendo perda de R$ 5.000."
+        ],
+        "formula": "VP = VF ÷ (1 + i)ⁿ"
+      },
+      {
+        "h": "Recuperabilidade",
+        "p": [
+          "Pelo CPC 01, o ativo não pode ficar registrado acima do valor recuperável, que é o maior entre o valor justo líquido de despesas de venda e o valor em uso."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Achar que valor justo é sempre a base da mensuração subsequente; a base depende da norma do ativo.",
+      "Confundir valor realizável líquido (estoques) com valor recuperável (CPC 01).",
+      "Usar o preço de venda bruto, sem deduzir custos de venda, para obter o valor realizável líquido.",
+      "Esquecer que o ajuste a valor presente é reconhecido ao longo do prazo, e não no ato."
+    ],
+    "refs": ["CPC 00 (R2) – Estrutura Conceitual", "CPC 01 (R1)", "CPC 12", "CPC 16 (R1)", "CPC 46"]
+  },
+  "12": {
+    "objectives": [
+      "Identificar o que é estoque e quem deve registrá-lo",
+      "Apurar o custo das saídas pelo PEPS e pela média ponderada",
+      "Aplicar o menor valor entre custo e valor realizável líquido",
+      "Mensurar ativos biológicos ao valor justo menos despesas de venda"
+    ],
+    "sections": [
+      {
+        "h": "Estoques (CPC 16)",
+        "p": [
+          "Estoques são ativos mantidos para venda no curso normal dos negócios, em produção para venda, ou na forma de materiais e suprimentos a serem consumidos. O custo inclui preço de compra, tributos não recuperáveis, transporte e seguro, deduzidos descontos comerciais e tributos recuperáveis.",
+          "Quem controla o bem o registra: mercadoria em consignação fica no estoque do consignante, e a mercadoria em trânsito é do comprador conforme as condições de entrega (como CIF ou FOB)."
+        ]
+      },
+      {
+        "h": "Métodos de custeio",
+        "p": [
+          "O CPC 16 admite PEPS (primeiro a entrar, primeiro a sair) e custo médio ponderado, e veda o UEPS.",
+          "Exemplo: saldo inicial de 100 un. a R$ 10 (R$ 1.000) e compra de 100 un. a R$ 12 (R$ 1.200). Venda de 150 un.",
+          "PEPS: CMV = 100 × 10 + 50 × 12 = R$ 1.600; estoque final = 50 × 12 = R$ 600. Média ponderada: custo médio = 2.200 ÷ 200 = R$ 11; CMV = 150 × 11 = R$ 1.650; estoque final = 50 × 11 = R$ 550."
+        ]
+      },
+      {
+        "h": "Menor entre custo e VRL",
+        "p": [
+          "Estoques são mensurados pelo menor valor entre o custo e o valor realizável líquido (VRL). Exemplo: custo de R$ 600; preço estimado de venda de R$ 800; despesas de venda de R$ 250. VRL = R$ 550. Perda estimada de R$ 50, reconhecida no resultado."
+        ],
+        "formula": "VRL = Preço estimado de venda − Custos para completar e vender"
+      },
+      {
+        "h": "Ativos biológicos (CPC 29)",
+        "p": [
+          "Ativo biológico é animal ou planta vivos. É mensurado ao valor justo menos despesas de venda no reconhecimento e ao final de cada período; a variação vai ao resultado. Exemplo: rebanho com valor justo de R$ 500.000 e despesas de venda de R$ 20.000 vale R$ 480.000; se subir para R$ 530.000, o ganho é R$ 50.000.",
+          "O produto agrícola colhido é medido ao valor justo menos despesas de venda no ponto de colheita e, depois, tratado como estoque (CPC 16)."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Usar UEPS, que é vedado pelo CPC 16.",
+      "Incluir tributos recuperáveis no custo do estoque.",
+      "Comparar custo com preço de venda bruto, sem deduzir as despesas de venda.",
+      "Registrar mercadoria em consignação no estoque do consignatário."
+    ],
+    "refs": ["CPC 16 (R1) – Estoques", "CPC 29 – Ativo Biológico e Produto Agrícola"]
+  },
+  "13": {
+    "objectives": [
+      "Aplicar os critérios de reconhecimento e custo do imobilizado",
+      "Diferenciar manutenção de substituição de partes",
+      "Calcular depreciação pelos métodos linear e de unidades produzidas",
+      "Explicar o teste de recuperabilidade do CPC 01"
+    ],
+    "sections": [
+      {
+        "h": "Reconhecimento e custo",
+        "p": [
+          "O imobilizado é reconhecido quando for provável que haverá benefícios econômicos futuros e o custo puder ser mensurado com confiabilidade. São bens tangíveis mantidos para uso na produção, em aluguel ou para fins administrativos, esperados para uso por mais de um período.",
+          "O custo inclui preço de compra, impostos de importação e não recuperáveis, gastos diretamente atribuíveis para colocar o bem em operação e estimativa de desmontagem. Não entram treinamento, custos administrativos gerais e perdas por ociosidade."
+        ]
+      },
+      {
+        "h": "Gastos posteriores e componentes",
+        "list": [
+          "Manutenção e reparos rotineiros: despesa do período",
+          "Substituição de partes que aumentam a vida útil: capitaliza e baixa o valor da parte substituída",
+          "Componentes com custo significativo: depreciados separadamente",
+          "Inspeções periódicas obrigatórias: capitalizadas como parte do bem"
+        ]
+      },
+      {
+        "h": "Depreciação",
+        "p": [
+          "Depreciação é a alocação sistemática do valor depreciável ao longo da vida útil. Começa quando o bem está disponível para uso e cessa na baixa ou na classificação como mantido para venda. Terrenos não são depreciados. Vida útil e valor residual são revistos ao menos ao fim de cada exercício, e a mudança é estimativa.",
+          "Métodos: linear, saldos decrescentes e unidades produzidas.",
+          "Exemplo linear: custo de R$ 150.000, residual de R$ 30.000 e vida útil de 10 anos. Valor depreciável = R$ 120.000; depreciação = R$ 12.000 por ano (R$ 1.000 por mês). Bem posto em uso em 01/07: 6 meses = R$ 6.000 no primeiro exercício."
+        ],
+        "formula": "Depreciação anual (linear) = (Custo − Valor residual) ÷ Vida útil"
+      },
+      {
+        "h": "Recuperabilidade (CPC 01)",
+        "p": [
+          "Se há indício de desvalorização, compara-se o valor contábil ao valor recuperável, o maior entre o valor justo líquido de despesas de venda e o valor em uso. Exemplo: valor contábil R$ 100.000, valor justo líquido R$ 70.000, valor em uso R$ 85.000. Recuperável = R$ 85.000; perda = R$ 15.000, reconhecida no resultado."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Depreciar terreno ou iniciar a depreciação na data da compra, e não na de disponibilidade para uso.",
+      "Esquecer de subtrair o valor residual no cálculo linear.",
+      "Capitalizar manutenção rotineira como se fosse substituição de parte.",
+      "Usar o menor valor, e não o maior, para obter o valor recuperável."
+    ],
+    "refs": ["CPC 27 – Ativo Imobilizado", "CPC 01 (R1) – Redução ao Valor Recuperável de Ativos", "CPC 23"]
+  },
+  "14": {
+    "objectives": [
+      "Aplicar os critérios de reconhecimento de ativos intangíveis",
+      "Diferenciar gastos com pesquisa e com desenvolvimento",
+      "Distinguir vida útil definida de indefinida e seus efeitos na amortização",
+      "Explicar a origem e o tratamento do ágio por expectativa de rentabilidade futura"
+    ],
+    "sections": [
+      {
+        "h": "Definição e reconhecimento",
+        "p": [
+          "Intangível é um ativo não monetário identificável e sem substância física, como software, licenças, patentes e direitos de uso. É identificável quando é separável ou decorre de direitos contratuais ou legais.",
+          "O reconhecimento exige controle, provável geração de benefícios econômicos futuros e custo mensurável com confiabilidade. Marcas, listas de clientes e ágio gerados internamente não são reconhecidos."
+        ]
+      },
+      {
+        "h": "Pesquisa e desenvolvimento",
+        "p": [
+          "Gastos com pesquisa são sempre despesa. Gastos com desenvolvimento são capitalizados apenas se a entidade demonstrar todos os critérios abaixo; os gastos anteriores ao atendimento deles não podem ser reconhecidos depois como ativo.",
+          "Exemplo: R$ 40.000 de pesquisa vão para despesa. Dos gastos de desenvolvimento, apenas os R$ 90.000 incorridos após o atendimento dos critérios são ativados."
+        ],
+        "list": [
+          "Viabilidade técnica de concluir o ativo",
+          "Intenção e capacidade de concluí-lo e de usá-lo ou vendê-lo",
+          "Geração provável de benefícios econômicos futuros",
+          "Recursos disponíveis para concluir o projeto",
+          "Capacidade de mensurar com confiabilidade os gastos atribuíveis"
+        ]
+      },
+      {
+        "h": "Vida útil e amortização",
+        "p": [
+          "Intangível com vida útil definida é amortizado de forma sistemática desde que esteja disponível para uso. Exemplo: licença de software de R$ 60.000 com vida útil de 5 anos gera amortização de R$ 12.000 por ano.",
+          "Intangível com vida útil indefinida não é amortizado, mas passa por teste de recuperabilidade (CPC 01) anualmente e sempre que houver indício de perda."
+        ]
+      },
+      {
+        "h": "Ágio por rentabilidade futura (goodwill)",
+        "p": [
+          "O goodwill só é reconhecido em combinação de negócios (CPC 15) e representa o excedente do valor pago sobre o valor justo líquido dos ativos identificáveis adquiridos. Exemplo: pagamento de R$ 1.000.000; ativos identificáveis a valor justo de R$ 1.200.000 e passivos assumidos de R$ 500.000. Líquido = R$ 700.000; goodwill = R$ 300.000.",
+          "Não é amortizado, mas é testado anualmente quanto à recuperabilidade. Se o valor pago for menor que o líquido, há compra vantajosa, reconhecida como ganho no resultado."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Capitalizar gastos de pesquisa; eles são despesa.",
+      "Amortizar o goodwill ou um intangível de vida útil indefinida.",
+      "Reconhecer marca ou goodwill gerados internamente.",
+      "Esquecer que o teste de recuperabilidade do intangível de vida indefinida é anual."
+    ],
+    "refs": ["CPC 04 (R1) – Ativo Intangível", "CPC 15 (R1) – Combinação de Negócios", "CPC 01 (R1)"]
+  },
+  "15": {
+    "objectives": [
+      "Revisar os conceitos das sessões 11 a 14",
+      "Autoavaliar o domínio de mensuração, estoques, imobilizado e intangíveis",
+      "Resolver cálculos típicos de custo, depreciação e recuperabilidade",
+      "Montar um plano de correção para os pontos fracos"
+    ],
+    "sections": [
+      {
+        "h": "Checklist da semana 3",
+        "list": [
+          "Sessão 11: critérios de reconhecimento e bases de mensuração (custo, valor justo, valor em uso, custo amortizado, VRL)",
+          "Sessão 12: PEPS × média ponderada, UEPS vedado, menor entre custo e VRL, ativo biológico",
+          "Sessão 13: custo do imobilizado, substituição de partes, depreciação e valor recuperável",
+          "Sessão 14: pesquisa × desenvolvimento, vida útil definida ou indefinida e goodwill"
+        ]
+      },
+      {
+        "h": "Autoavaliação com cálculos",
+        "p": [
+          "Teste 1: estoque inicial de 50 un. a R$ 20 e compra de 50 un. a R$ 24. Venda de 60 un. PEPS: CMV = 50 × 20 + 10 × 24 = R$ 1.240. Média: custo médio = 2.200 ÷ 100 = R$ 22; CMV = 60 × 22 = R$ 1.320.",
+          "Teste 2: equipamento de R$ 90.000, residual de R$ 10.000 e vida útil de 8 anos. Depreciação = 80.000 ÷ 8 = R$ 10.000 por ano.",
+          "Teste 3: valor contábil de R$ 50.000, valor justo líquido de R$ 40.000 e valor em uso de R$ 44.000. Recuperável = R$ 44.000; perda = R$ 6.000."
+        ]
+      },
+      {
+        "h": "Pontos que mais confundem",
+        "list": [
+          "VRL (estoques) × valor recuperável (CPC 01)",
+          "Manutenção (despesa) × substituição de parte (ativo)",
+          "Vida útil indefinida: sem amortização, mas com teste anual",
+          "Ativo biológico a valor justo × produto colhido como estoque"
+        ]
+      },
+      {
+        "h": "Tratamento dos erros",
+        "p": [
+          "Registre o erro, a causa e a fórmula correta. Refaça os cálculos em papel, sem calculadora, ao menos uma vez, e volte à sessão apenas nos itens em que errou por conceito. Antes de avançar, revise as questões erradas depois de dois dias."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Trocar PEPS por UEPS ou esquecer que a média ponderada considera o saldo inicial.",
+      "Ignorar o valor residual no cálculo da depreciação linear.",
+      "Confundir os testes de recuperabilidade (CPC 01) com a regra do menor valor dos estoques (CPC 16).",
+      "Amortizar o que é de vida indefinida e deixar de testar a recuperabilidade."
+    ],
+    "refs": ["CPC 01 (R1)", "CPC 04 (R1)", "CPC 16 (R1)", "CPC 27", "CPC 29"]
+  }
+}
