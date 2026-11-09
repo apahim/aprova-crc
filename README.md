@@ -1,10 +1,14 @@
 # Aprova CRC
 
-Site estático mobile-first para estudos do Exame de Suficiência CFC. 17 semanas, 85 sessões de 2h, sem login e sem salvar progresso.
+Site estático mobile-first para estudos do Exame de Suficiência do CFC. 17 semanas, 85 sessões de 2h, sem login e sem salvar progresso.
 
 ## Conteúdo
 
-O calendário das 85 sessões está cadastrado. **Aula 1 tem material demonstrativo ampliado e questões originais**. As demais sessões incluem objetivos e roteiro inicial; **não são 170 horas de aulas completas**. Não publique como curso integral sem revisão e produção didática adicional. Questões de exemplo são originais, não oficiais. Confira o edital de 2027 antes de usar como referência definitiva.
+- Calendário completo das 85 sessões, alinhado às 13 áreas de conhecimento do edital (prova com 50 questões, 4 alternativas, nota de corte 25/50).
+- Aulas com teoria, exemplos numéricos e pegadinhas frequentes; prática com questões comentadas em cada sessão.
+- Mini-simulados por bloco (12 questões) e simulados A, B e C (50 questões cada), no formato do exame.
+
+Todas as questões são **originais e extraoficiais**. Confira o edital da edição em que for prestar o exame antes de usar o conteúdo como referência definitiva.
 
 ## Rodar localmente
 
@@ -13,16 +17,27 @@ npm install
 npm run dev
 ```
 
-## Publicar no GitHub Pages pelo iPhone
+## Publicar no GitHub Pages
 
-1. Crie um repositório público `aprova-crc` em https://github.com/new (inicialmente vazio).
-2. No Safari, abra https://github.com/SEU_USUARIO/aprova-crc e use **Add file → Upload files**. O upload web de ZIP **não extrai** arquivos automaticamente. Para enviar a estrutura completa, use um editor Git web compatível com upload de pastas ou faça upload dos arquivos descompactados preservando as pastas; no iPhone, isso pode exigir um editor Git com suporte a diretórios. Alternativamente, use github.dev para criar/colar arquivos individualmente.
-3. Faça commit na branch `main`.
-4. Em **Settings → Pages → Build and deployment**, escolha **GitHub Actions**.
-5. Abra **Actions** e aguarde a execução de `Deploy GitHub Pages`.
-6. Acesse `https://SEU_USUARIO.github.io/aprova-crc/`.
+O deploy é automático via GitHub Actions a cada push na branch `main`:
 
-**Importante:** o GitHub não publica o ZIP diretamente. O projeto precisa estar extraído no repositório.
+1. Uma única vez: em **Settings → Pages → Build and deployment**, escolha **GitHub Actions** como fonte.
+2. Faça push para `main`; acompanhe a execução em **Actions → Deploy GitHub Pages**.
+3. O site fica em `https://SEU_USUARIO.github.io/aprova-crc/`.
+
+Para validar a estrutura do conteúdo (currículo, lições e bancos de questões):
+
+```sh
+node scripts/validate-content.mjs
+```
+
+## Estrutura de conteúdo
+
+- `src/curriculum.json` — as 85 sessões (id, semana, dia, bloco, título, tipo).
+- `src/content/lessons-*.json` — conteúdo didático por sessão (objetivos, seções, pegadinhas, referências).
+- `src/content/quizzes-*.json` — bancos de prática por sessão (6 questões cada).
+- `src/content/minis.json` — mini-simulados por bloco.
+- `src/content/simulado-[a|b|c].json` — simulados completos de 50 questões.
 
 ## Tecnologia
 
