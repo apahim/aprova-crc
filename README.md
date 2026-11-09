@@ -1,12 +1,13 @@
 # Aprova CRC
 
-Site estático mobile-first para estudos do Exame de Suficiência do CFC. 17 semanas, 85 sessões de 2h, sem login e sem salvar progresso.
+Site estático mobile-first para estudos do Exame de Suficiência do CFC. 17 semanas, 85 sessões de 2h, sem login. O progresso (sessões concluídas e melhores resultados) fica salvo localmente no navegador — nada é enviado a servidores.
 
 ## Conteúdo
 
 - Calendário completo das 85 sessões, alinhado às 13 áreas de conhecimento do edital (prova com 50 questões, 4 alternativas, nota de corte 25/50).
 - Aulas com teoria, exemplos numéricos e pegadinhas frequentes; prática com questões comentadas em cada sessão.
 - Mini-simulados por bloco (12 questões) e simulados A, B e C (50 questões cada), no formato do exame.
+- Progresso salvo no navegador (localStorage): retomada da próxima sessão pendente, marcação de sessões concluídas, melhor resultado por sessão e contagem por semana. Há link para apagar todo o progresso na página inicial.
 
 Todas as questões são **originais e extraoficiais**. Confira o edital da edição em que for prestar o exame antes de usar o conteúdo como referência definitiva.
 
@@ -41,4 +42,4 @@ node scripts/validate-content.mjs
 
 ## Tecnologia
 
-React, Vite, TypeScript, CSS próprio e GitHub Actions. Sem banco de dados, autenticação, rastreamento ou dependência de API externa.
+React, Vite, TypeScript, CSS próprio e GitHub Actions. Sem banco de dados, autenticação, rastreamento ou dependência de API externa. O progresso persiste em localStorage, por navegador/dispositivo, sem sincronização entre dispositivos.
