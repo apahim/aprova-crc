@@ -1,1 +1,260 @@
-{}
+{
+  "40": [
+    {
+      "stem": "Uma empresa lança um produto cujo preço de mercado, já praticado pelos concorrentes, é de R$ 500,00. Ela deseja obter margem de lucro de 20% sobre o preço de venda. Pela lógica do custeio-meta (target costing), o custo-alvo unitário do produto deve ser de:",
+      "options": ["R$ 416,67", "R$ 450,00", "R$ 600,00", "R$ 400,00"],
+      "correct": 3,
+      "explanation": "No custeio-meta o preço vem do mercado e o custo é a variável de ajuste: custo-alvo = preço − lucro desejado = 500 − (20% × 500) = 500 − 100 = R$ 400,00. O valor de R$ 416,67 resulta de dividir 500 por 1,20, o que aplicaria a margem sobre o custo.",
+      "area": "Contabilidade Gerencial"
+    },
+    {
+      "stem": "O custo unitário de produção de determinado item é de R$ 150,00. Sobre o preço de venda incidem tributos de 15%, comissões de 5% e despesas administrativas de 8%, e a empresa deseja lucro de 12% sobre o preço. Utilizando markup multiplicador, o preço de venda será de:",
+      "options": ["R$ 210,00", "R$ 250,00", "R$ 225,00", "R$ 270,00"],
+      "correct": 1,
+      "explanation": "Soma dos percentuais sobre o preço = 15% + 5% + 8% + 12% = 40%. Markup multiplicador = 1 / (1 − 0,40) = 1,6667. Preço = 150 × 1,6667 = R$ 250,00. Verificação: 250 − 40% (100) = 150, que é o custo.",
+      "area": "Contabilidade Gerencial"
+    },
+    {
+      "stem": "Uma indústria fabrica 10.000 unidades anuais de uma peça, com custos unitários de matéria-prima R$ 12,00, mão de obra direta R$ 8,00, custos indiretos variáveis R$ 5,00 e custos fixos rateados de R$ 6,00, estes últimos inevitáveis (permaneceriam mesmo se a empresa deixasse de fabricar). Um fornecedor oferece a peça por R$ 24,00 a unidade. Considerando apenas os aspectos quantitativos, a decisão mais vantajosa é:",
+      "options": ["Fabricar, com economia de R$ 10.000", "Comprar, com economia de R$ 70.000", "Comprar, com economia de R$ 10.000", "Fabricar, com economia de R$ 60.000"],
+      "correct": 2,
+      "explanation": "Os custos fixos inevitáveis não são relevantes. Custo relevante de fabricar = 12 + 8 + 5 = R$ 25,00 por unidade, contra R$ 24,00 de compra. Diferença de R$ 1,00 × 10.000 = R$ 10.000 a favor da compra. A opção de R$ 70.000 erra ao incluir o custo fixo rateado.",
+      "area": "Contabilidade Gerencial"
+    },
+    {
+      "stem": "Uma empresa fabrica 20.000 unidades por ano de um componente, com custo variável de R$ 18,00 por unidade e custos fixos específicos e evitáveis de R$ 60.000 por ano. Um fornecedor oferece o mesmo componente por R$ 24,00 a unidade. Se a empresa deixar de fabricar, poderá alugar a capacidade liberada por R$ 45.000 por ano. Considerando o custo de oportunidade, a melhor decisão é:",
+      "options": ["Fabricar, com vantagem de R$ 15.000", "Comprar, com vantagem de R$ 15.000", "Fabricar, com vantagem de R$ 60.000", "Comprar, com vantagem de R$ 45.000"],
+      "correct": 0,
+      "explanation": "Fabricar: 20.000 × 18 + 60.000 = R$ 420.000. Comprar: 20.000 × 24 = 480.000, menos o aluguel de 45.000 = R$ 435.000. Fabricar custa R$ 15.000 a menos. Sem considerar o aluguel, a vantagem de fabricar seria de R$ 60.000 (480.000 − 420.000).",
+      "area": "Contabilidade Gerencial"
+    },
+    {
+      "stem": "No processo de orçamento empresarial, o papel adequado da controladoria é:",
+      "options": ["Coordenar a elaboração do orçamento, consolidar as propostas das áreas e acompanhar as variações entre o orçado e o realizado", "Elaborar sozinha o orçamento de todas as áreas, sem participação dos gestores responsáveis", "Autorizar pagamentos e movimentar recursos financeiros da empresa", "Substituir a auditoria independente na opinião sobre as demonstrações contábeis"],
+      "correct": 0,
+      "explanation": "A controladoria coordena e consolida o processo e analisa as variações entre orçado e realizado, mas a responsabilidade pelos números é dos gestores de cada área. Autorizar pagamentos é função da tesouraria, e a opinião sobre as demonstrações é da auditoria independente.",
+      "area": "Contabilidade Gerencial"
+    },
+    {
+      "stem": "Uma empresa prevê vender 8.000 unidades no próximo período. O estoque inicial de produtos acabados é de 1.000 unidades, e a política da empresa determina estoque final desejado de 1.500 unidades. O orçamento de produção, em unidades, deve ser de:",
+      "options": ["7.500", "9.500", "8.000", "8.500"],
+      "correct": 3,
+      "explanation": "Produção = vendas + estoque final desejado − estoque inicial = 8.000 + 1.500 − 1.000 = 8.500 unidades.",
+      "area": "Contabilidade Gerencial"
+    },
+    {
+      "stem": "A demonstração do resultado de uma empresa apresenta receita líquida de R$ 500.000, custo das mercadorias vendidas de R$ 300.000 e despesas operacionais de R$ 100.000. Na análise vertical, tomando a receita líquida como base 100%, o lucro operacional representa:",
+      "options": ["40%", "20%", "60%", "25%"],
+      "correct": 1,
+      "explanation": "Lucro operacional = 500.000 − 300.000 − 100.000 = R$ 100.000. Análise vertical = 100.000 / 500.000 = 20%. Os 40% correspondem ao lucro bruto e os 60% ao CMV.",
+      "area": "Contabilidade Gerencial"
+    },
+    {
+      "stem": "A receita líquida de uma empresa foi de R$ 800.000 no ano 1 e de R$ 920.000 no ano 2. Utilizando o ano 1 como base 100 na análise horizontal, o número-índice da receita do ano 2 é:",
+      "options": ["15", "87", "115", "120"],
+      "correct": 2,
+      "explanation": "Número-índice = 920.000 / 800.000 × 100 = 115. Isso indica crescimento de 15% sobre a base. O valor 87 resultaria da divisão inversa (800.000 / 920.000).",
+      "area": "Contabilidade Gerencial"
+    },
+    {
+      "stem": "O balanço de uma empresa apresenta ativo circulante de R$ 360.000, dos quais R$ 120.000 são estoques, e passivo circulante de R$ 200.000. O índice de liquidez seca é de:",
+      "options": ["1,80", "0,60", "1,50", "1,20"],
+      "correct": 3,
+      "explanation": "Liquidez seca = (ativo circulante − estoques) / passivo circulante = (360.000 − 120.000) / 200.000 = 1,20. O valor 1,80 é a liquidez corrente (360.000 / 200.000).",
+      "area": "Contabilidade Gerencial"
+    },
+    {
+      "stem": "Uma empresa tem passivo circulante de R$ 150.000, passivo não circulante de R$ 250.000 e patrimônio líquido de R$ 400.000. O índice de composição do endividamento é de:",
+      "options": ["37,5%", "62,5%", "50,0%", "100,0%"],
+      "correct": 0,
+      "explanation": "Composição do endividamento = passivo circulante / capital de terceiros = 150.000 / (150.000 + 250.000) = 37,5%. Os 62,5% representam a parcela de longo prazo, e os 50% são a participação do capital de terceiros no total de recursos.",
+      "area": "Contabilidade Gerencial"
+    },
+    {
+      "stem": "Em determinado exercício, uma empresa obteve lucro líquido de R$ 90.000. O patrimônio líquido era de R$ 400.000 no início e de R$ 500.000 no final do exercício. Considerando o patrimônio líquido médio, a rentabilidade do patrimônio líquido (ROE) foi de:",
+      "options": ["22,5%", "20,0%", "18,0%", "15,0%"],
+      "correct": 1,
+      "explanation": "PL médio = (400.000 + 500.000) / 2 = 450.000. ROE = 90.000 / 450.000 = 20%. O valor de 22,5% usaria o PL inicial, e o de 18% usaria o PL final.",
+      "area": "Contabilidade Gerencial"
+    },
+    {
+      "stem": "Pela análise DuPont, uma empresa apresenta margem líquida de 8% e giro do ativo de 1,5 vez. A rentabilidade do ativo (ROA) é de:",
+      "options": ["5,3%", "9,5%", "12,0%", "18,8%"],
+      "correct": 2,
+      "explanation": "ROA = margem líquida × giro do ativo = 8% × 1,5 = 12%.",
+      "area": "Contabilidade Gerencial"
+    }
+  ],
+  "50": [
+    {
+      "stem": "No Plano de Contas Aplicado ao Setor Público (PCASP), a classe de contas destinada ao controle da execução do planejamento e orçamento, na qual se registra, por exemplo, o crédito empenhado a liquidar, é a:",
+      "options": ["Classe 5", "Classe 4", "Classe 6", "Classe 8"],
+      "correct": 2,
+      "explanation": "No PCASP, a classe 5 trata dos controles da aprovação do planejamento e orçamento e a classe 6 dos controles da execução do planejamento e orçamento (receita realizada, crédito empenhado, liquidado etc.). A classe 4 registra variações patrimoniais aumentativas.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Na execução da despesa orçamentária, o estágio que consiste na verificação do direito adquirido pelo credor, com base nos títulos e documentos comprobatórios da entrega do material ou da prestação do serviço, é:",
+      "options": ["Liquidação", "Empenho", "Pagamento", "Licitação"],
+      "correct": 0,
+      "explanation": "Conforme a Lei nº 4.320/1964, a liquidação verifica o direito adquirido pelo credor com base nos documentos comprobatórios do crédito. O empenho cria a obrigação de pagamento e o pagamento extingue a obrigação. A licitação é procedimento prévio e não estágio da despesa.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Um município recebeu R$ 800.000 pela venda de um imóvel de sua propriedade, que não era mais utilizado pela administração. Na classificação orçamentária, esse ingresso é uma:",
+      "options": ["Receita corrente tributária", "Receita corrente patrimonial", "Receita corrente de serviços", "Receita de capital"],
+      "correct": 3,
+      "explanation": "A alienação de bens, como a venda de imóveis, é receita de capital, na categoria econômica prevista na Lei nº 4.320/1964. Não se trata de tributo nem de receita de exploração de patrimônio, como aluguéis e juros.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Em razão de uma calamidade pública, o ente precisa realizar despesa urgente e imprevisível, sem dotação orçamentária prevista. O crédito adicional adequado para esse caso é o:",
+      "options": ["Crédito suplementar", "Crédito extraordinário", "Crédito especial", "Transposição orçamentária"],
+      "correct": 1,
+      "explanation": "O crédito extraordinário destina-se a despesas urgentes e imprevisíveis, como guerra, comoção interna ou calamidade pública. O suplementar reforça dotação existente e o especial atende a despesa sem dotação específica, mas sem o caráter de urgência e imprevisibilidade.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Ao final do exercício, um órgão público apresentava despesas empenhadas de R$ 500.000, liquidadas de R$ 420.000 e pagas de R$ 350.000, sem anulações. O valor a ser inscrito em restos a pagar processados é de:",
+      "options": ["R$ 80.000", "R$ 150.000", "R$ 70.000", "R$ 420.000"],
+      "correct": 2,
+      "explanation": "Restos a pagar processados são as despesas liquidadas e não pagas: 420.000 − 350.000 = R$ 70.000. Os não processados (empenhadas e não liquidadas) somam 500.000 − 420.000 = R$ 80.000, e o total inscrito é de R$ 150.000.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Um município apresenta receita corrente líquida (RCL) de R$ 200.000.000. Considerando que o limite de despesa com pessoal do Poder Executivo municipal é de 54% da RCL e que o limite prudencial corresponde a 95% desse limite, o valor da despesa com pessoal do Executivo a partir do qual incidem as vedações do limite prudencial é de:",
+      "options": ["R$ 97.200.000", "R$ 102.600.000", "R$ 108.000.000", "R$ 114.000.000"],
+      "correct": 1,
+      "explanation": "Limite do Executivo = 54% × 200.000.000 = R$ 108.000.000. Limite prudencial = 95% × 108.000.000 = R$ 102.600.000. O valor de R$ 97.200.000 corresponde a 90% do limite (alerta), e R$ 114.000.000 é 95% do limite total de 60% da RCL.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Em determinado exercício, um ente público apresentou receita prevista de R$ 1.000.000, receita realizada de R$ 1.080.000, despesa fixada atualizada de R$ 1.000.000, despesa empenhada de R$ 950.000, liquidada de R$ 900.000 e paga de R$ 850.000. O resultado orçamentário apurado no Balanço Orçamentário foi:",
+      "options": ["Superávit de R$ 80.000", "Superávit de R$ 180.000", "Superávit de R$ 230.000", "Superávit de R$ 130.000"],
+      "correct": 3,
+      "explanation": "O resultado orçamentário confronta a receita realizada com a despesa empenhada: 1.080.000 − 950.000 = R$ 130.000 de superávit. As demais opções comparam a receita com a despesa fixada, liquidada ou paga.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "O Balanço Patrimonial de um ente público apresenta ativo financeiro de R$ 900.000, passivo financeiro de R$ 600.000, ativo permanente de R$ 2.000.000 e passivo permanente de R$ 500.000. O superávit financeiro apurado no balanço é de:",
+      "options": ["R$ 300.000", "R$ 1.500.000", "R$ 1.800.000", "R$ 600.000"],
+      "correct": 0,
+      "explanation": "Superávit financeiro = ativo financeiro − passivo financeiro = 900.000 − 600.000 = R$ 300.000. Ele pode ser fonte para abertura de créditos adicionais no exercício seguinte. Os itens permanentes não entram nesse cálculo.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Entre os fatos a seguir, aquele que gera variação patrimonial diminutiva (VPD) sem execução orçamentária é:",
+      "options": ["Pagamento a fornecedor de material de consumo previamente empenhado e liquidado", "Aquisição à vista de equipamento, com empenho de despesa de capital", "Depreciação mensal de equipamento em uso", "Arrecadação de IPTU lançado no exercício"],
+      "correct": 2,
+      "explanation": "A depreciação reconhece o consumo do potencial de serviço do ativo no regime de competência e gera VPD sem passar pela execução orçamentária. A aquisição de equipamento e o pagamento ao fornecedor envolvem execução da despesa, e a arrecadação do IPTU é receita orçamentária.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Em relação à periodicidade dos relatórios exigidos pela Lei de Responsabilidade Fiscal (LRF), é correto afirmar que:",
+      "options": ["O RREO é quadrimestral e o RGF é bimestral", "O RREO é bimestral e o RGF é quadrimestral, podendo ser semestral para municípios com menos de 50 mil habitantes que optarem", "O RREO e o RGF são mensais para todos os entes", "O RREO e o RGF são anuais e publicados com a prestação de contas"],
+      "correct": 1,
+      "explanation": "O Relatório Resumido da Execução Orçamentária é publicado a cada bimestre e o Relatório de Gestão Fiscal a cada quadrimestre. Municípios com menos de 50.000 habitantes podem optar pela divulgação semestral do RGF.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "A dotação inicial de um órgão é de R$ 800.000. Durante o exercício foram abertos créditos suplementares de R$ 150.000, financiados por anulação parcial de outras dotações do próprio órgão (R$ 60.000) e por excesso de arrecadação (R$ 90.000), e um crédito especial de R$ 40.000, financiado por superávit financeiro. A dotação atualizada total do órgão é de:",
+      "options": ["R$ 930.000", "R$ 950.000", "R$ 990.000", "R$ 1.050.000"],
+      "correct": 0,
+      "explanation": "Dotação atualizada = 800.000 + 150.000 + 40.000 − 60.000 (dotações anuladas) = R$ 930.000. A anulação financia parte do suplemento, mas reduz outras dotações, não aumentando o total.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "A previsão de arrecadação de determinada fonte de recursos é de R$ 2.000.000. Com base na tendência do exercício, estima-se arrecadar R$ 2.300.000 até dezembro. Já foram abertos, no exercício, créditos adicionais de R$ 100.000 com base no excesso de arrecadação dessa mesma fonte. O excesso de arrecadação ainda disponível para novos créditos é de:",
+      "options": ["R$ 100.000", "R$ 300.000", "R$ 400.000", "R$ 200.000"],
+      "correct": 3,
+      "explanation": "Excesso de arrecadação projetado = tendência − previsão = 2.300.000 − 2.000.000 = R$ 300.000. Descontados os créditos já abertos (R$ 100.000), restam R$ 200.000 disponíveis.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    }
+  ],
+  "55": [
+    {
+      "stem": "Segundo as normas de auditoria, uma informação é considerada material quando:",
+      "options": ["Sua omissão ou distorção, individualmente ou em conjunto, puder influenciar as decisões econômicas dos usuários tomadas com base nas demonstrações contábeis", "Seu valor ultrapassar 5% do ativo total, independentemente da natureza do item", "Envolver exclusivamente contas de resultado", "Decorrer necessariamente de fraude praticada pela administração"],
+      "correct": 0,
+      "explanation": "A materialidade é definida pela capacidade de a omissão ou distorção influenciar as decisões dos usuários. Não há percentual único aplicável a todos os casos, e a natureza do item também conta. Ela independe de a causa ser fraude ou erro.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "O auditor avalia o risco de distorção relevante como alto e deseja manter o risco de auditoria em nível aceitavelmente baixo. Nessa situação, ele deve:",
+      "options": ["Aumentar o risco de detecção aceitável e reduzir os testes substantivos", "Reduzir o risco de detecção aceitável, ampliando a natureza, a época e a extensão dos procedimentos substantivos", "Reduzir a materialidade para zero e examinar 100% dos lançamentos", "Ignorar o controle interno e emitir abstenção de opinião"],
+      "correct": 1,
+      "explanation": "Risco de auditoria = risco de distorção relevante × risco de detecção. Se o primeiro é alto, o risco de detecção aceitável deve ser baixo, o que exige procedimentos substantivos mais robustos. Avaliar risco alto não implica abstenção de opinião.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "Entre as evidências de auditoria a seguir, a que tende a ser considerada mais confiável é:",
+      "options": ["Fotocópia de duplicata fornecida pelo departamento financeiro da entidade", "Planilha elaborada pela gerência com os saldos bancários", "Confirmação escrita recebida diretamente do banco, em resposta à solicitação do auditor", "Declaração verbal do contador sobre o saldo de caixa"],
+      "correct": 2,
+      "explanation": "Evidências obtidas de fontes externas independentes, em formato documental e diretamente pelo auditor, são mais confiáveis que as geradas internamente, as fotocópias ou as informações verbais.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "Na empresa auditada, o mesmo empregado autoriza compras, recebe as mercadorias e registra as contas a pagar. A principal deficiência de controle interno identificada nesse caso é:",
+      "options": ["Ausência de inventário físico periódico", "Falta de relatório de gestão anual", "Inadequação do regime de competência", "Falta de segregação de funções"],
+      "correct": 3,
+      "explanation": "Concentrar autorização, custódia e registro em uma única pessoa viola a segregação de funções, aumentando o risco de erros e fraudes. As demais alternativas não decorrem diretamente da situação descrita.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "O auditor não conseguiu observar a contagem física dos estoques nem executar procedimentos alternativos. Os estoques são relevantes, e os possíveis efeitos dessa limitação são relevantes, mas não generalizados. Os demais itens das demonstrações estão adequados. A opinião a ser emitida é:",
+      "options": ["Sem ressalva", "Com ressalva", "Adversa", "Abstenção de opinião"],
+      "correct": 1,
+      "explanation": "Quando o auditor não obtém evidência apropriada e suficiente e os possíveis efeitos são relevantes, mas não generalizados, a opinião é com ressalva. A abstenção cabe se os efeitos possíveis forem relevantes e generalizados. A opinião adversa decorre de distorções relevantes e generalizadas.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "Um gerente financeiro tem bônus atrelado ao lucro da empresa (I), possui acesso irrestrito ao cadastro de fornecedores sem qualquer revisão (II) e acredita que merece uma compensação pelos anos de baixos salários (III). De acordo com o triângulo da fraude, os itens I, II e III correspondem, respectivamente, a:",
+      "options": ["Oportunidade, racionalização e pressão", "Racionalização, pressão e oportunidade", "Incentivo/pressão, oportunidade e racionalização", "Oportunidade, pressão e racionalização"],
+      "correct": 2,
+      "explanation": "O triângulo da fraude tem três elementos. O bônus atrelado ao lucro é incentivo/pressão. O acesso sem revisão é oportunidade, ligada à fragilidade dos controles. A justificativa pessoal de merecer compensação é racionalização.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "A finalidade da perícia contábil é:",
+      "options": ["Emitir opinião sobre a adequação das demonstrações contábeis aos usuários externos", "Julgar o mérito da causa e decidir o litígio entre as partes", "Representar os interesses da parte que contratou o profissional", "Levar à instância decisória elementos de prova, mediante exame técnico-científico, para a solução do litígio ou a constatação de um fato"],
+      "correct": 3,
+      "explanation": "A perícia contábil fornece elementos técnicos de prova a quem decide. A opinião sobre as demonstrações é objeto da auditoria, o julgamento cabe ao juiz ou ao árbitro, e a defesa dos interesses da parte não é papel do perito.",
+      "area": "Perícia Contábil"
+    },
+    {
+      "stem": "Sobre o assistente técnico em uma perícia contábil judicial, é correto afirmar que:",
+      "options": ["É profissional de confiança da parte que o indicou e não está sujeito a impedimento ou suspeição", "É nomeado pelo juiz e está sujeito a impedimento e suspeição", "Elabora o laudo pericial oficial em substituição ao perito do juízo", "Deve prestar compromisso perante o juiz e responder aos quesitos do juízo"],
+      "correct": 0,
+      "explanation": "Conforme o CPC, o assistente técnico é indicado pela parte, é de sua confiança e não se sujeita a impedimento ou suspeição. Quem é nomeado pelo juiz é o perito, que elabora o laudo.",
+      "area": "Perícia Contábil"
+    },
+    {
+      "stem": "Em relação aos quesitos apresentados pelas partes em uma perícia contábil judicial, é correto afirmar que:",
+      "options": ["O perito pode ignorar livremente os que considerar desnecessários", "O juiz pode indeferir os quesitos impertinentes, e o perito deve responder aos admitidos", "Só podem ser formulados pelo assistente técnico, nunca pela parte", "Devem ser apresentados somente depois da entrega do laudo"],
+      "correct": 1,
+      "explanation": "O juiz tem o poder de indeferir quesitos impertinentes e de formular os que considerar necessários. Os quesitos admitidos devem ser respondidos pelo perito. Quem decide a pertinência é o juiz, não o perito.",
+      "area": "Perícia Contábil"
+    },
+    {
+      "stem": "O documento pelo qual o assistente técnico manifesta sua opinião fundamentada sobre a matéria periciada e as conclusões do laudo do perito é denominado:",
+      "options": ["Parecer pericial contábil", "Laudo pericial contábil", "Relatório do auditor independente", "Termo de diligência"],
+      "correct": 0,
+      "explanation": "O laudo pericial contábil é a peça elaborada pelo perito, e o parecer pericial contábil é a peça elaborada pelo assistente técnico. O relatório do auditor independente pertence à auditoria das demonstrações contábeis.",
+      "area": "Perícia Contábil"
+    },
+    {
+      "stem": "Em uma ação de apuração de haveres, um sócio retirante detém 20% do capital social. O patrimônio líquido contábil na data-base é de R$ 3.000.000. O perito identificou que um imóvel vale R$ 800.000 a mais que seu valor contábil e que existe uma provisão trabalhista de R$ 300.000 não registrada. Considerando a apuração em balanço de determinação a valores ajustados, os haveres do sócio são de:",
+      "options": ["R$ 540.000", "R$ 600.000", "R$ 700.000", "R$ 760.000"],
+      "correct": 2,
+      "explanation": "PL ajustado = 3.000.000 + 800.000 − 300.000 = R$ 3.500.000. Haveres = 20% × 3.500.000 = R$ 700.000. Os R$ 600.000 usam o PL contábil, os R$ 760.000 ignoram a provisão e os R$ 540.000 ignoram o ajuste do imóvel.",
+      "area": "Perícia Contábil"
+    },
+    {
+      "stem": "Quanto aos honorários do perito nomeado pelo juiz em perícia judicial, o Código de Processo Civil prevê que o juiz:",
+      "options": ["Deve exigir o pagamento integral antes do início dos trabalhos", "Só pode autorizar o pagamento após o trânsito em julgado da sentença", "Deve fixar o valor sem ouvir as partes", "Pode autorizar o pagamento de até 50% no início dos trabalhos, ficando o restante para depois da entrega do laudo e dos esclarecimentos"],
+      "correct": 3,
+      "explanation": "O juiz pode autorizar o pagamento de até 50% dos honorários no início dos trabalhos, e o remanescente é pago ao final, depois de entregue o laudo e prestados os esclarecimentos. As partes são intimadas para se manifestar sobre a proposta de honorários.",
+      "area": "Perícia Contábil"
+    }
+  ]
+}
