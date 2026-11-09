@@ -268,7 +268,7 @@
           "Os lançamentos precisam ter documentação hábil (nota fiscal, contrato, recibo) que os comprove."
         ],
         "list": [
-          "Local e data do fato",
+          "Data do fato contábil",
           "Conta debitada e conta creditada",
           "Histórico que explique a operação",
           "Valor do lançamento"
@@ -284,14 +284,14 @@
       {
         "h": "Correção de erros de escrituração",
         "p": [
-          "Não se apaga lançamento. A correção é feita por estorno (anula o lançamento errado), por transferência (corrige conta indevida) ou por complementação (acrescenta valor insuficiente). Cada correção traz seu próprio histórico."
+          "Não se apaga lançamento. A correção é feita por estorno (anula o lançamento errado), por transferência (corrige conta indevida) ou por complementação (acrescenta ou reduz o valor anteriormente registrado). Cada correção traz seu próprio histórico."
         ]
       },
       {
         "h": "Escrituração Contábil Digital (ECD)",
         "p": [
           "A ECD faz parte do SPED e substitui a escrituração em papel. Inclui, entre outros, Livro Diário, Razão, balancetes e demonstrações. O arquivo é assinado digitalmente e transmitido à Receita Federal.",
-          "Em regra, é obrigatória para pessoas jurídicas tributadas pelo lucro real e, em geral, para as do lucro presumido que distribuam lucros acima da base presumida sem escrituração completa. Optantes do Simples Nacional e MEI são, em regra, dispensados."
+          "Em regra, é obrigatória para pessoas jurídicas tributadas pelo lucro real e, em geral, para as do lucro presumido que distribuam, sem incidência de IRRF, lucros acima da base de cálculo do IRPJ diminuída de todos os impostos e contribuições. Optantes do Simples Nacional e MEI são, em regra, dispensados."
         ]
       }
     ],
@@ -421,7 +421,7 @@
       {
         "h": "Contingências",
         "list": [
-          "Passivo contingente com saída provável: reconhece como provisão",
+          "Obrigação presente com saída provável e estimativa confiável: reconhece como provisão",
           "Passivo contingente possível: apenas divulga em nota explicativa",
           "Passivo contingente remoto: nem reconhece nem divulga",
           "Ativo contingente: não se reconhece; divulga se a entrada de benefícios for provável",
@@ -587,8 +587,8 @@
       {
         "h": "Ativos biológicos (CPC 29)",
         "p": [
-          "Ativo biológico é animal ou planta vivos. É mensurado ao valor justo menos despesas de venda no reconhecimento e ao final de cada período; a variação vai ao resultado. Exemplo: rebanho com valor justo de R$ 500.000 e despesas de venda de R$ 20.000 vale R$ 480.000; se subir para R$ 530.000, o ganho é R$ 50.000.",
-          "O produto agrícola colhido é medido ao valor justo menos despesas de venda no ponto de colheita e, depois, tratado como estoque (CPC 16)."
+          "Ativo biológico é animal ou planta vivos. É mensurado ao valor justo menos despesas de venda no reconhecimento e ao final de cada período; a variação vai ao resultado. Exemplo: rebanho com valor justo de R$ 500.000 e despesas de venda de R$ 20.000 vale R$ 480.000; se o valor justo subir para R$ 550.000 (mantidas as despesas de venda), o valor líquido passa a R$ 530.000 e o ganho é R$ 50.000.",
+          "O produto agrícola colhido é medido ao valor justo menos despesas de venda no ponto de colheita e, depois, tratado como estoque (CPC 16). Plantas portadoras (como cafeeiros e laranjeiras em produção) não são ativos biológicos: são imobilizado (CPC 27); apenas os frutos em desenvolvimento seguem o CPC 29."
         ]
       }
     ],
@@ -619,7 +619,7 @@
         "h": "Gastos posteriores e componentes",
         "list": [
           "Manutenção e reparos rotineiros: despesa do período",
-          "Substituição de partes que aumentam a vida útil: capitaliza e baixa o valor da parte substituída",
+          "Substituição de partes que atende aos critérios de reconhecimento: capitaliza e baixa o valor contábil da parte substituída",
           "Componentes com custo significativo: depreciados separadamente",
           "Inspeções periódicas obrigatórias: capitalizadas como parte do bem"
         ]

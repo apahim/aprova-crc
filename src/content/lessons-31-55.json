@@ -220,7 +220,7 @@
    "Ignorar os graus de conclusão e tratar unidades em elaboração como acabadas",
    "Confundir coproduto (principal) com subproduto (acessório) e sucata",
    "Calcular variação de quantidade com o preço real em vez do preço padrão",
-   "Interpretar variação negativa de custo como sempre ruim; favorável pode vir de perda de qualidade",
+   "Interpretar toda variação favorável como boa e toda desfavorável como ruim: uma variação favorável de preço pode esconder material de pior qualidade e vir acompanhada de variação desfavorável de quantidade",
    "Achar que o custo-padrão é incompatível com contabilidade; é aceito se próximo do real"
   ],
   "refs": [
@@ -697,7 +697,7 @@
    {
     "h": "Estágios da despesa",
     "p": [
-     "A despesa passa por fixação (autorização na LOA), empenho (reserva de dotação e criação da obrigação de pagamento pendente de implemento de condição), liquidação (verificação do direito adquirido pelo credor, com base em documentos que comprovam a entrega) e pagamento (entrega do numerário ao credor).",
+     "A despesa passa por fixação (autorização na LOA), empenho (reserva de dotação e criação da obrigação de pagamento, pendente ou não de implemento de condição), liquidação (verificação do direito adquirido pelo credor, com base em documentos que comprovam a entrega) e pagamento (entrega do numerário ao credor).",
      "O empenho é o ato da autoridade competente e é o momento em que a despesa orçamentária é reconhecida; o pagamento é o último estágio. Sem empenho prévio não se realiza despesa."
     ]
    },
@@ -982,7 +982,7 @@
     "h": "Despesa com pessoal",
     "p": [
      "A despesa total com pessoal é limitada a percentuais da receita corrente líquida (RCL): 50% na União e 60% nos Estados e Municípios, repartidos entre os Poderes. Se um Município tem RCL de R$ 10.000.000, o limite total é R$ 6.000.000, sendo o do Executivo 54%, ou R$ 5.400.000.",
-     "O Executivo recebe alerta ao atingir 90% do limite (R$ 4.860.000) e fica sujeito às vedações prudenciais ao exceder 95% (R$ 5.130.000), como a concessão de aumentos e a criação de cargos. Ultrapassado o limite, a recondução ao teto deve ocorrer nos dois quadrimestres seguintes."
+     "O Executivo recebe alerta do Tribunal de Contas ao ultrapassar 90% do limite (R$ 4.860.000) e fica sujeito às vedações prudenciais ao exceder 95% (R$ 5.130.000), como a concessão de aumentos e a criação de cargos. Ultrapassado o limite, a recondução ao teto deve ocorrer nos dois quadrimestres seguintes."
     ],
     "formula": "Limite alerta = 90% × limite; limite prudencial = 95% × limite"
    },
@@ -1295,7 +1295,7 @@
  },
  "54": {
   "objectives": [
-   "Classificar a perícia contábil em judicial, extrajudicial e arbitral",
+   "Classificar a perícia contábil em judicial e extrajudicial (arbitral, estatal ou voluntária)",
    "Diferenciar perito-contador de assistente técnico",
    "Reconhecer as regras de nomeação, impedimento, suspeição e honorários",
    "Distinguir laudo pericial de parecer técnico e aplicar a perícia em casos práticos"
@@ -1304,15 +1304,15 @@
    {
     "h": "Conceito e classificação",
     "p": [
-     "A perícia contábil é o conjunto de procedimentos técnicos e científicos destinados a levar à instância decisória elementos de prova, por meio de laudo ou parecer, em questões contábeis. Conforme o local de atuação, a perícia é judicial (feita em processo, por determinação do juiz), extrajudicial (contratada fora do processo) ou arbitral (no âmbito de arbitragem).",
-     "Os procedimentos da perícia incluem exame, vistoria, indagação, investigação, arbitramento, mensuração, avaliação e certificação."
+     "A perícia contábil é o conjunto de procedimentos técnicos e científicos destinados a levar à instância decisória elementos de prova, por meio de laudo ou parecer, em questões contábeis. A perícia é judicial (feita em processo, por determinação do juiz) ou extrajudicial (contratada fora do processo); a extrajudicial compreende a arbitral (no âmbito de arbitragem), a estatal e a voluntária.",
+     "Os procedimentos da perícia incluem exame, vistoria, indagação, investigação, arbitramento, mensuração, avaliação, testabilidade, comparação e certificação (NBC TP 01 (R2))."
     ]
    },
    {
     "h": "Perito e assistente técnico",
     "p": [
      "O perito é o contador registrado no CRC, nomeado pelo juiz, que é de confiança do juízo. O assistente técnico é contratado e indicado pelas partes, de confiança destas, e atua acompanhando a perícia e apresentando parecer.",
-     "O perito está sujeito a impedimento e suspeição, segundo as regras processuais; o assistente técnico não está. O perito deve se escusar quando houver motivo legítimo, e pode ser substituído se faltar ao dever de informação ou carecer de conhecimento."
+     "O perito está sujeito a impedimento e suspeição, segundo as regras processuais; o assistente técnico não está. O perito deve se escusar quando houver motivo legítimo, e pode ser substituído se carecer de conhecimento técnico ou científico ou, sem motivo legítimo, deixar de cumprir o encargo no prazo assinado pelo juiz (CPC, art. 468)."
     ]
    },
    {
@@ -1322,7 +1322,7 @@
      "Laudo pericial: peça escrita do perito, com identificação, objeto, diligências, resposta aos quesitos e conclusão",
      "Parecer técnico-contábil: documento do assistente técnico ou do contador contratado, com opinião fundamentada",
      "O assistente técnico apresenta parecer em prazo legal após o laudo",
-     "Honorários: o perito apresenta proposta, o juiz arbitra e as partes se manifestam; a parte que requereu a perícia, em regra, adianta o pagamento"
+     "Honorários: o perito apresenta proposta, as partes se manifestam em 5 dias e o juiz arbitra; a parte que requereu a perícia, em regra, adianta o pagamento"
     ]
    },
    {
@@ -1341,7 +1341,7 @@
    "Achar que os honorários são fixados livremente pelo perito, sem arbitramento judicial"
   ],
   "refs": [
-   "NBC TP 01",
+   "NBC TP 01 (R2)",
    "NBC PP 01",
    "Código de Processo Civil (Lei 13.105/2015)",
    "Lei 9.307/96 (Arbitragem)"

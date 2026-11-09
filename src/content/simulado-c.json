@@ -120,7 +120,7 @@
   "area": "Contabilidade Geral"
  },
  {
-  "stem": "Uma companhia apurou lucro líquido de R$ 300.000 no exercício e mantinha prejuízos acumulados de R$ 100.000 de exercícios anteriores, já absorvidos na apuração do lucro líquido ajustado. O estatuto prevê dividendo obrigatório de 25% do lucro líquido ajustado e a reserva legal já atingiu o limite do capital social. O dividendo obrigatório do exercício é de:",
+  "stem": "Uma companhia apurou lucro líquido de R$ 300.000 no exercício e mantinha prejuízos acumulados de R$ 100.000 de exercícios anteriores, já absorvidos na apuração do lucro líquido ajustado. O estatuto prevê dividendo obrigatório de 25% do lucro líquido ajustado e a reserva legal já atingiu o limite de 20% do capital social. O dividendo obrigatório do exercício é de:",
   "options": [
    "R$ 75.000",
    "R$ 50.000",
@@ -386,13 +386,13 @@
  {
   "stem": "O documento escrito em que o perito-contador assistente técnico apresenta sua opinião fundamentada sobre a matéria periciada ou sobre o laudo do perito nomeado pelo juízo denomina-se:",
   "options": [
-   "Parecer pericial contábil",
+   "Parecer técnico contábil",
    "Laudo pericial contábil",
    "Termo de diligência",
    "Relatório de auditoria"
   ],
   "correct": 0,
-  "explanation": "O laudo é a peça do perito nomeado; o parecer é a manifestação técnica do assistente. O termo de diligência formaliza solicitações.",
+  "explanation": "O laudo é a peça do perito nomeado; o parecer técnico contábil (nomenclatura da NBC TP 01 (R2)) é a manifestação técnica do assistente. O termo de diligência formaliza solicitações.",
   "area": "Perícia Contábil"
  },
  {

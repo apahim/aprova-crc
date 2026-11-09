@@ -169,7 +169,7 @@
         "no terceiro exercício do mandato e termina no segundo exercício do mandato seguinte"
       ],
       "correct": 0,
-      "explanation": "O PPA dura quatro anos, iniciando no segundo ano de um mandato e terminando no primeiro ano do mandato seguinte, assegurando a continuidade administrativa. Estabelece diretrizes, objetivos e metas para despesas de capital e programas de duração continuada (CF, art. 165, §1º).",
+      "explanation": "O PPA dura quatro anos, iniciando no segundo ano de um mandato e terminando no primeiro ano do mandato seguinte, assegurando a continuidade administrativa. Estabelece diretrizes, objetivos e metas para despesas de capital e programas de duração continuada (CF, art. 165, §1º, e ADCT, art. 35, §2º, I).",
       "area": "Contabilidade Aplicada ao Setor Público"
     },
     {
@@ -519,7 +519,7 @@
   ],
   "54": [
     {
-      "stem": "O laudo pericial contábil e o parecer pericial contábil são elaborados, respectivamente, pelo:",
+      "stem": "O laudo pericial contábil e o parecer técnico contábil são elaborados, respectivamente, pelo:",
       "options": [
         "perito nomeado pelo juiz e pelo assistente técnico indicado pela parte",
         "assistente técnico indicado pela parte e pelo perito nomeado pelo juiz",
@@ -527,7 +527,7 @@
         "assistente técnico e pelo escrivão do processo"
       ],
       "correct": 0,
-      "explanation": "O laudo é a peça do perito do juízo (CPC, art. 473). O parecer é a peça do assistente técnico, que o apresenta no prazo comum de 15 dias após a intimação sobre o laudo (CPC, art. 477, §1º).",
+      "explanation": "O laudo é a peça do perito do juízo (CPC, art. 473). O parecer é a peça do assistente técnico, que o apresenta no prazo comum de 15 dias após a intimação sobre o laudo (CPC, art. 477, §1º). Na nomenclatura da NBC TP 01 (R2), o documento do assistente chama-se parecer técnico contábil.",
       "area": "Perícia Contábil"
     },
     {
@@ -656,12 +656,12 @@
       "stem": "É vedado ao contador, segundo o Código de Ética Profissional:",
       "options": [
         "informar seu número de registro e categoria após a assinatura",
-        "assinar documentos contábeis elaborados por outrem sem sua orientação, supervisão e fiscalização",
+        "assinar documentos contábeis elaborados por outrem sem sua orientação, supervisão ou revisão",
         "recusar o serviço para o qual não esteja capacitado",
         "guardar sigilo sobre o que souber em razão do exercício profissional"
       ],
       "correct": 1,
-      "explanation": "A assinatura de documentos elaborados por terceiros sem orientação, supervisão e fiscalização é vedada. As demais condutas são deveres do contador.",
+      "explanation": "A assinatura de documentos elaborados por terceiros sem orientação, supervisão ou revisão é vedada. As demais condutas são deveres do contador.",
       "area": "Legislação e Ética Profissional"
     }
   ],
@@ -671,7 +671,7 @@
       "options": [
         "advertência reservada, censura reservada e censura pública",
         "censura pública, censura reservada e advertência reservada",
-        "advertência reservada, suspensão e cassação",
+        "censura pública, suspensão e advertência reservada",
         "multa, censura reservada e censura pública"
       ],
       "correct": 0,

@@ -305,7 +305,7 @@
         "Podem ser escriturados com espaços em branco para posterior preenchimento"
       ],
       "correct": 0,
-      "explanation": "A norma exige termos de abertura e encerramento assinados, e veda rasuras, emendas e espaços em branco na escrituração.",
+      "explanation": "A norma exige termos de abertura e encerramento assinados nos livros em forma não digital (na escrituração digital, a validade decorre da assinatura digital), e veda rasuras, emendas e espaços em branco na escrituração.",
       "area": "Contabilidade Geral"
     }
   ],

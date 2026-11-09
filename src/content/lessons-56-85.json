@@ -11,19 +11,19 @@
     "h": "Ética geral e ética profissional",
     "p": [
      "A ética geral trata dos valores que orientam a conduta de qualquer pessoa em sociedade: honestidade, respeito, responsabilidade. A ética profissional parte desses valores e os traduz em regras específicas para quem exerce determinada atividade, com consequências formais em caso de descumprimento.",
-     "No caso do contador, essas regras estão na NBC PG 01, o Código de Ética Profissional do Contador. Ela vale para contadores e técnicos em contabilidade registrados, em qualquer função: autônomo, empregado, sócio de organização contábil, docente ou servidor. A norma tem caráter obrigatório porque é editada pelo CFC, órgão que fiscaliza a profissão."
+     "No caso do contador, essas regras estão na NBC PG 01, o Código de Ética Profissional do Contador (deveres, vedações e penalidades), complementada pela NBC PG 100, que dispõe dos princípios fundamentais e da estrutura conceitual. Ela vale para contadores e técnicos em contabilidade registrados, em qualquer função: autônomo, empregado, sócio de organização contábil, docente ou servidor. A norma tem caráter obrigatório porque é editada pelo CFC, órgão que fiscaliza a profissão."
     ]
    },
    {
     "h": "Princípios fundamentais",
     "p": [
-     "Os princípios funcionam como a base de todo o código. Quando uma situação não está prevista em regra específica, o profissional deve decidir com base neles."
+     "Os princípios funcionam como a base de todo o código, previstos na NBC PG 100. Quando uma situação não está prevista em regra específica, o profissional deve decidir com base neles."
     ],
     "list": [
      "Integridade: ser franco e honesto em todas as relações profissionais, sem se associar a informações falsas ou enganosas.",
      "Objetividade: não permitir que viés, conflito de interesses ou influência de terceiros comprometam o julgamento profissional.",
-     "Competência e zelo profissional: manter conhecimento atualizado e agir com diligência, de acordo com as normas técnicas aplicáveis.",
-     "Sigilo (confidencialidade): não divulgar nem usar em proveito próprio informações obtidas em razão do trabalho.",
+     "Competência e devido zelo profissional: manter conhecimento atualizado e agir com diligência, de acordo com as normas técnicas aplicáveis.",
+     "Confidencialidade: não divulgar nem usar em proveito próprio informações obtidas em razão do trabalho.",
      "Comportamento profissional: cumprir leis e regulamentos e evitar condutas que desacreditem a profissão."
     ]
    },
@@ -35,7 +35,7 @@
      "Zelar pela dignidade da classe e pelo próprio nome profissional.",
      "Comunicar ao cliente ou empregador, de forma clara, qualquer impedimento ou limitação para executar o trabalho.",
      "Manter-se atualizado por meio da educação profissional continuada.",
-     "Cumprir os honorários e as condições pactuadas por escrito, com recibo dos valores recebidos."
+     "Formalizar por escrito a proposta e o contrato de honorários e cumprir as condições pactuadas."
     ]
    },
    {
@@ -45,7 +45,7 @@
     ],
     "list": [
      "Praticar concorrência desleal ou aliciar clientes de colega por meios antiéticos.",
-     "Reter documentos e livros do cliente de forma abusiva, mesmo diante de honorários em atraso, quando isso lhe causar prejuízo; a cobrança deve seguir o caminho legal.",
+     "Reter de forma abusiva documentos e livros do cliente, inclusive para forçar o cumprimento do contrato de honorários; a cobrança deve seguir o caminho legal.",
      "Manipular ou omitir informações para induzir terceiros a erro.",
      "Aceitar trabalho para o qual não tem competência técnica."
     ]
@@ -66,6 +66,7 @@
   ],
   "refs": [
    "NBC PG 01 – Código de Ética Profissional do Contador",
+   "NBC PG 100 – Cumprimento do Código, Princípios Fundamentais e Estrutura Conceitual",
    "Decreto-Lei 9.295/46"
   ]
  },
@@ -104,6 +105,7 @@
      "Advertência reservada: comunicação em caráter sigiloso ao profissional.",
      "Censura reservada: reprovação formal, também sigilosa.",
      "Censura pública: reprovação com divulgação, em geral por publicação oficial.",
+     "Multa: sanção pecuniária prevista no DL 9.295/46 (art. 27) para as hipóteses legais especificadas, aplicável cumulativamente ou não com as demais penalidades.",
      "Suspensão do exercício profissional por prazo determinado — por exemplo, até dois anos para responsabilidade técnica por falsidade de documentos (DL 9.295/46, art. 27).",
      "Cassação do exercício profissional: retirada definitiva da habilitação, reservada às hipóteses graves previstas em lei (como apropriação indevida de valores de clientes confiados à guarda do profissional) e dependente de homologação por dois terços do Plenário do Tribunal Superior de Ética e Disciplina (DL 9.295/46, art. 27)."
     ]
@@ -147,7 +149,7 @@
     "h": "Normas profissionais estruturais",
     "p": [
      "As Normas Brasileiras de Contabilidade se dividem em técnicas (NBC T, como as NBC TG, TA, TSP) e profissionais (NBC P). As profissionais, como as da série NBC PG (gerais), regulam a conduta de todos os contadores, e as da série NBC PA, a de auditores independentes.",
-     "A NBC PG 01 é o código de ética. Outras normas gerais tratam de aspectos como o exercício da profissão e a educação continuada. O ponto de prova é saber que a hierarquia vai do geral (ética para todos) ao específico (independência para quem audita)."
+     "A NBC PG 01 é o código de ética (deveres, vedações e penalidades). A NBC PG 100 dispõe do cumprimento do código, dos princípios fundamentais e da estrutura conceitual; a NBC PG 200 trata dos contadores que prestam serviços internos e a NBC PG 300, dos que prestam serviços externos. A independência em auditoria e revisão está na NBC PA 400, e nos demais trabalhos de asseguração, na NBC PO 900. O ponto de prova é saber que a hierarquia vai do geral (ética para todos) ao específico (independência para quem audita)."
     ]
    },
    {
@@ -186,15 +188,16 @@
   ],
   "pitfalls": [
    "Confundir ameaça (risco à independência) com salvaguarda (medida que reduz esse risco).",
-   "Achar que a independência é exigida apenas do auditor externo: a objetividade é exigida de todo contador, mas as regras detalhadas de independência valem para auditoria e revisão.",
+   "Achar que a independência é exigida apenas do auditor externo: a objetividade é exigida de todo contador, mas as regras detalhadas de independência valem para auditoria, revisão e demais trabalhos de asseguração (NBC PA 400 e NBC PO 900).",
    "Pensar que o sigilo termina com o contrato: ele continua depois.",
    "Supor que qualquer ameaça impede o trabalho: só as não reduzíveis a nível aceitável exigem recusa.",
    "Misturar autorrevisão (avaliar o próprio trabalho) com familiaridade (relação próxima prolongada)."
   ],
   "refs": [
    "NBC PG 01 – Código de Ética Profissional do Contador",
-   "Normas da série NBC PG",
-   "Normas de independência da série NBC PA"
+   "NBC PG 100 – Cumprimento do Código, Princípios Fundamentais e Estrutura Conceitual",
+   "NBC PG 200 e NBC PG 300 – Contadores que Prestam Serviços",
+   "NBC PA 400 e NBC PO 900 – Independência"
   ]
  },
  "59": {
@@ -232,20 +235,20 @@
    {
     "h": "Registro profissional e baixa",
     "p": [
-     "Só pode exercer a profissão quem tem registro ativo no CRC da jurisdição. Há o registro definitivo de contador (bacharel aprovado no exame), o de técnico em contabilidade nas condições da lei e o registro provisório para quem concluiu o curso e aguarda a documentação definitiva. Organizações contábeis também devem ser registradas.",
-     "A baixa de registro é o pedido do profissional para se afastar do exercício e deixar de pagar anuidades futuras, mediante quitação de pendências. Difere do cancelamento, que é penalidade, e da suspensão, que é temporária."
+     "Só pode exercer a profissão quem tem registro ativo no CRC da jurisdição. Desde o fim de 2014 (Res. CFC 1.471/2014), existe apenas registro definitivo — de contador (bacharel aprovado no exame) e de técnico em contabilidade nas condições da lei —, hoje disciplinado pela Res. CFC 1.707/2023; o antigo registro provisório foi extinto. Organizações contábeis também devem ser registradas.",
+     "A baixa de registro é o pedido do profissional para se afastar do exercício e deixar de pagar anuidades futuras, mediante quitação de pendências. Difere do cancelamento, que decorre de falecimento, cassação transitada em julgado, revisão administrativa ou decisão judicial, e da suspensão, que é penalidade temporária."
     ]
    },
    {
     "h": "Regulamento Geral dos Conselhos de Contabilidade",
     "p": [
-     "O Regulamento Geral reúne a organização, o funcionamento, o processo eleitoral, os registros, a fiscalização e o processo disciplinar do Sistema. Serve de complemento ao Decreto-Lei e é atualizado por resolução do CFC."
+     "O Regulamento Geral (Res. CFC 1.612/2021) dispõe sobre a organização, o funcionamento, a composição, as competências e as receitas do Sistema CFC/CRCs; o registro profissional e o processo disciplinar têm resoluções próprias. Serve de complemento ao Decreto-Lei e é atualizado por resolução do CFC."
     ]
    }
   ],
   "pitfalls": [
    "Trocar as competências: normatizar é do CFC; fiscalizar e registrar é do CRC.",
-   "Confundir baixa de registro (pedido do profissional) com cancelamento (penalidade).",
+   "Confundir baixa de registro (pedido do profissional) com cancelamento (efeito de falecimento, cassação ou decisão judicial) e com cassação (penalidade que retira definitivamente o registro).",
    "Achar que o exercício da profissão é livre sem registro: o registro ativo é obrigatório.",
    "Esquecer que técnicos em contabilidade só continuam a atuar se já eram registrados, nos termos da lei.",
    "Imaginar que o CRC é subordinado ao governo estadual: ele integra o sistema federal CFC/CRCs."
@@ -681,7 +684,7 @@
    "Aplicar o desconto sobre o valor atual no desconto comercial.",
    "Confundir valor do desconto com valor atual (valor liberado).",
    "Tomar a taxa nominal como efetiva.",
-   "Dividir 12 meses por taxa anual para obter a mensal composta."
+   "Dividir a taxa anual por 12 para obter a mensal composta: isso dá a taxa proporcional, não a equivalente."
   ],
   "refs": [
    "Matemática financeira (conteúdo programático do Exame de Suficiência)"
@@ -712,7 +715,7 @@
     "h": "Sistema Price (francês)",
     "p": [
      "No Sistema Price, a parcela é constante. Os juros começam altos e diminuem, e a amortização cresce ao longo do tempo.",
-     "Com os mesmos dados, a parcela é PMT = 12.000 × 0,02 ÷ [1 − (1,02)^−4] ≈ R$ 3.151,49. Na primeira parcela, os juros são R$ 240 e a amortização é R$ 2.911,49; o saldo cai para R$ 9.088,51. Na segunda, os juros são cerca de R$ 181,77. O total pago é 4 × 3.151,49 = R$ 12.605,96, com juros de aproximadamente R$ 605,96."
+     "Com os mesmos dados, a parcela é PMT = 12.000 × 0,02 ÷ [1 − (1,02)^−4] ≈ R$ 3.151,49. Na primeira parcela, os juros são R$ 240 e a amortização é R$ 2.911,49; o saldo cai para R$ 9.088,51. Na segunda, os juros são cerca de R$ 181,77. O total pago é 4 × 3.151,49 ≈ R$ 12.605,96 (R$ 12.605,94 sem arredondar a parcela), com juros de aproximadamente R$ 606."
     ],
     "formula": "PMT = PV × i / [1 − (1 + i)^−n]"
    },

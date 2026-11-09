@@ -24,7 +24,7 @@
           "Devolução de compras reduz o estoque e o saldo de Fornecedores.",
           "Devolução de vendas é dedução da receita bruta e devolve a mercadoria ao estoque pelo custo.",
           "Abatimentos e descontos incondicionais concedidos reduzem a receita bruta.",
-          "Descontos condicionais por pagamento antecipado são despesa financeira."
+          "Descontos condicionais concedidos por pagamento antecipado são despesa financeira para o vendedor (e receita financeira para o comprador)."
         ]
       },
       {
@@ -168,7 +168,7 @@
       {
         "h": "Lucro presumido",
         "p": [
-          "No lucro presumido, a base é um percentual da receita bruta definido em lei conforme a atividade (por exemplo, 8% para comércio no IRPJ e 32% para serviços). Exemplo trimestral de comércio com receita de R$ 1.000.000: base do IRPJ = R$ 80.000; IRPJ de 15% = R$ 12.000; adicional = (80.000 − 60.000) × 10% = R$ 2.000; total de R$ 14.000. Na CSLL, com presunção de 12%, a base é R$ 120.000 e o valor, a 9%, é R$ 10.800."
+          "No lucro presumido, a base é um percentual da receita bruta definido em lei conforme a atividade (por exemplo, 8% para comércio no IRPJ e 32% para serviços). Exemplo trimestral de comércio com receita de R$ 1.000.000: base do IRPJ = R$ 80.000; IRPJ de 15% = R$ 12.000; adicional = (80.000 − 60.000) × 10% = R$ 2.000; total de R$ 14.000. Na CSLL, com presunção de 12%, a base é R$ 120.000 e o valor, a 9%, é R$ 10.800. Desde 2026, a LC 224/2025 acresce 10% a esses percentuais de presunção na parcela da receita bruta anual que exceder R$ 5 milhões (R$ 1,25 milhão por trimestre): por exemplo, 8% passa a 8,8% e 32% a 35,2%."
         ]
       },
       {
@@ -499,7 +499,7 @@
   },
   "26": {
     "objectives": [
-      "Identificar os Princípios de Contabilidade da Resolução CFC 750/93",
+      "Identificar os Princípios de Contabilidade do enunciado clássico da Resolução CFC 750/93 (revogada em 2016 e absorvida pela Estrutura Conceitual)",
       "Aplicar os princípios da competência, oportunidade e prudência a situações práticas",
       "Distinguir as características qualitativas fundamentais e de melhoria",
       "Reconhecer a continuidade como premissa na elaboração das demonstrações"
@@ -508,7 +508,7 @@
       {
         "h": "Princípios de Contabilidade",
         "p": [
-          "A Resolução CFC 750/93 (alterada em 2010) lista os princípios que orientam o reconhecimento e a mensuração patrimonial. São eles: entidade, continuidade, oportunidade, registro pelo valor original, competência e prudência."
+          "A Resolução CFC 750/93 (alterada em 2010) consagrou os Princípios de Contabilidade que orientam o reconhecimento e a mensuração patrimonial; foi revogada em 2016 e seu conteúdo foi absorvido pela Estrutura Conceitual. Segundo esse enunciado clássico, ainda cobrado em prova, os princípios são: entidade, continuidade, oportunidade, registro pelo valor original, competência e prudência."
         ],
         "list": [
           "Entidade: o patrimônio da entidade é distinto do de seus sócios.",
@@ -549,7 +549,7 @@
       "Esquecer que o princípio da entidade separa o patrimônio pessoal do sócio do da empresa.",
       "Achar que o registro pelo valor original impede qualquer mensuração posterior a valor justo."
     ],
-    "refs": ["Resolução CFC 750/93", "CPC 00 (R2)"]
+    "refs": ["Resolução CFC 750/93 (revogada em 2016; conteúdo absorvido pela Estrutura Conceitual)", "CPC 00 (R2) – Estrutura Conceitual"]
   },
   "27": {
     "objectives": [
@@ -710,7 +710,7 @@
       {
         "h": "Influência significativa e controle",
         "p": [
-          "Influência significativa é o poder de participar das decisões financeiras e operacionais da investida, sem controlá-las. Presume-se a partir de 20% do poder de voto, salvo prova em contrário. A investida é coligada e é avaliada pelo método da equivalência patrimonial (CPC 18). Quando há controle (CPC 36), a investida é controlada e suas demonstrações são consolidadas. Em um empreendimento controlado em conjunto, aplica-se o CPC 19."
+          "Influência significativa é o poder de participar das decisões financeiras e operacionais da investida, sem controlá-las. Presume-se a partir de 20% do poder de voto, salvo prova em contrário. A investida é coligada e é avaliada pelo método da equivalência patrimonial (CPC 18). Quando há controle (CPC 36), a investida é controlada e suas demonstrações são consolidadas. Em um acordo conjunto aplica-se o CPC 19: na operação em conjunto, cada parte reconhece seus próprios ativos, passivos, receitas e despesas; no empreendimento controlado em conjunto (joint venture), usa-se a equivalência patrimonial (CPC 18)."
         ]
       },
       {

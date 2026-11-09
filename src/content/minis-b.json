@@ -237,9 +237,9 @@
     },
     {
       "stem": "O documento pelo qual o assistente técnico manifesta sua opinião fundamentada sobre a matéria periciada e as conclusões do laudo do perito é denominado:",
-      "options": ["Parecer pericial contábil", "Laudo pericial contábil", "Relatório do auditor independente", "Termo de diligência"],
+      "options": ["Parecer técnico contábil", "Laudo pericial contábil", "Relatório do auditor independente", "Termo de diligência"],
       "correct": 0,
-      "explanation": "O laudo pericial contábil é a peça elaborada pelo perito, e o parecer pericial contábil é a peça elaborada pelo assistente técnico. O relatório do auditor independente pertence à auditoria das demonstrações contábeis.",
+      "explanation": "O laudo pericial contábil é a peça elaborada pelo perito, e o parecer técnico contábil (nomenclatura da NBC TP 01 (R2); antes, parecer pericial contábil) é a peça elaborada pelo assistente técnico. O relatório do auditor independente pertence à auditoria das demonstrações contábeis.",
       "area": "Perícia Contábil"
     },
     {
