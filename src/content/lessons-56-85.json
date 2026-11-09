@@ -1,1 +1,1491 @@
-{}
+{
+ "56": {
+  "objectives": [
+   "Distinguir ética geral de ética profissional e explicar o papel do Código de Ética Profissional do Contador (NBC PG 01)",
+   "Reconhecer os princípios fundamentais: integridade, objetividade, competência e zelo profissional, sigilo e comportamento profissional",
+   "Identificar os deveres gerais do contador e as condutas vedadas",
+   "Aplicar os princípios a situações práticas do dia a dia do escritório e da empresa"
+  ],
+  "sections": [
+   {
+    "h": "Ética geral e ética profissional",
+    "p": [
+     "A ética geral trata dos valores que orientam a conduta de qualquer pessoa em sociedade: honestidade, respeito, responsabilidade. A ética profissional parte desses valores e os traduz em regras específicas para quem exerce determinada atividade, com consequências formais em caso de descumprimento.",
+     "No caso do contador, essas regras estão na NBC PG 01, o Código de Ética Profissional do Contador. Ela vale para contadores e técnicos em contabilidade registrados, em qualquer função: autônomo, empregado, sócio de organização contábil, docente ou servidor. A norma tem caráter obrigatório porque é editada pelo CFC, órgão que fiscaliza a profissão."
+    ]
+   },
+   {
+    "h": "Princípios fundamentais",
+    "p": [
+     "Os princípios funcionam como a base de todo o código. Quando uma situação não está prevista em regra específica, o profissional deve decidir com base neles."
+    ],
+    "list": [
+     "Integridade: ser franco e honesto em todas as relações profissionais, sem se associar a informações falsas ou enganosas.",
+     "Objetividade: não permitir que viés, conflito de interesses ou influência de terceiros comprometam o julgamento profissional.",
+     "Competência e zelo profissional: manter conhecimento atualizado e agir com diligência, de acordo com as normas técnicas aplicáveis.",
+     "Sigilo (confidencialidade): não divulgar nem usar em proveito próprio informações obtidas em razão do trabalho.",
+     "Comportamento profissional: cumprir leis e regulamentos e evitar condutas que desacreditem a profissão."
+    ]
+   },
+   {
+    "h": "Deveres gerais",
+    "list": [
+     "Exercer a profissão com zelo, diligência, honestidade e capacidade técnica, observando as normas brasileiras de contabilidade.",
+     "Guardar sigilo sobre o que souber em razão do exercício profissional.",
+     "Zelar pela dignidade da classe e pelo próprio nome profissional.",
+     "Comunicar ao cliente ou empregador, de forma clara, qualquer impedimento ou limitação para executar o trabalho.",
+     "Manter-se atualizado por meio da educação profissional continuada.",
+     "Cumprir os honorários e as condições pactuadas por escrito, com recibo dos valores recebidos."
+    ]
+   },
+   {
+    "h": "Vedações gerais",
+    "p": [
+     "As vedações impõem limites claros. Em síntese, é vedado ao contador assinar trabalho que não executou ou não supervisionou, ceder seu nome ou registro a quem não é habilitado, e obter vantagem ilícita com a posição que ocupa."
+    ],
+    "list": [
+     "Praticar concorrência desleal ou aliciar clientes de colega por meios antiéticos.",
+     "Reter documentos e livros do cliente de forma abusiva, mesmo diante de honorários em atraso, quando isso lhe causar prejuízo; a cobrança deve seguir o caminho legal.",
+     "Manipular ou omitir informações para induzir terceiros a erro.",
+     "Aceitar trabalho para o qual não tem competência técnica."
+    ]
+   },
+   {
+    "h": "Exemplo prático",
+    "p": [
+     "Um contador percebe que o gestor da empresa pede o registro de uma receita que ainda não ocorreu para melhorar o resultado do trimestre. Aceitar viola a integridade e a objetividade. A atitude correta é recusar, documentar a orientação técnica e, se necessário, comunicar o conflito aos responsáveis pela governança, sem violar o sigilo além do que a lei autoriza."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Achar que o sigilo é absoluto: ele cede diante de dever legal, ordem judicial ou autorização do cliente.",
+   "Confundir objetividade (julgamento imparcial) com independência, que é exigência específica de auditoria.",
+   "Pensar que o Código vale só para quem tem escritório: ele alcança o contador empregado, o docente e o servidor público.",
+   "Entender que honorários em atraso autorizam a retenção dos documentos do cliente.",
+   "Dizer que técnicos em contabilidade não se submetem ao Código de Ética: submetem-se, desde que registrados."
+  ],
+  "refs": [
+   "NBC PG 01 – Código de Ética Profissional do Contador",
+   "Decreto-Lei 9.295/46"
+  ]
+ },
+ "57": {
+  "objectives": [
+   "Reconhecer as principais infrações disciplinares do contador",
+   "Listar as penalidades aplicáveis e ordená-las por gravidade",
+   "Identificar qual órgão julga em primeira e em segunda instância",
+   "Descrever as etapas do processo disciplinar em linhas gerais"
+  ],
+  "sections": [
+   {
+    "h": "O que é infração ética",
+    "p": [
+     "Infração é qualquer ação ou omissão que viole o Código de Ética Profissional do Contador, a legislação da profissão ou as normas editadas pelo CFC. A responsabilidade disciplinar é independente da civil e da penal: o mesmo fato pode gerar sanção administrativa no Conselho, indenização na Justiça e processo criminal.",
+     "A punição leva em conta a gravidade do fato, as circunstâncias, os antecedentes do profissional e a reincidência."
+    ]
+   },
+   {
+    "h": "Exemplos de infrações",
+    "list": [
+     "Exercer a profissão com registro suspenso, cancelado ou sem registro.",
+     "Assinar documentos contábeis sem ter executado ou supervisionado o trabalho.",
+     "Violar o sigilo profissional fora das hipóteses autorizadas.",
+     "Reter abusivamente livros e documentos do cliente.",
+     "Deixar de cumprir a educação profissional continuada ou descumprir normas técnicas.",
+     "Prejudicar colega ou praticar concorrência desleal."
+    ]
+   },
+   {
+    "h": "Penalidades",
+    "p": [
+     "As penalidades de natureza ética aplicam-se em escala crescente de gravidade. Cada uma só vale se estiver prevista em lei ou regulamento; o Conselho não pode inventar sanção."
+    ],
+    "list": [
+     "Advertência reservada: comunicação em caráter sigiloso ao profissional.",
+     "Censura reservada: reprovação formal, também sigilosa.",
+     "Censura pública: reprovação com divulgação, em geral por publicação oficial.",
+     "Suspensão do exercício profissional por prazo determinado — por exemplo, até dois anos para responsabilidade técnica por falsidade de documentos (DL 9.295/46, art. 27).",
+     "Cassação do exercício profissional: retirada definitiva da habilitação, reservada às hipóteses graves previstas em lei (como apropriação indevida de valores de clientes confiados à guarda do profissional) e dependente de homologação por dois terços do Plenário do Tribunal Superior de Ética e Disciplina (DL 9.295/46, art. 27)."
+    ]
+   },
+   {
+    "h": "Competência e processo disciplinar",
+    "p": [
+     "Em regra, o processo corre no Conselho Regional de Contabilidade (CRC) onde o profissional tem registro ou onde ocorreu a infração, por meio de seus órgãos de ética e disciplina. O recurso é dirigido ao Conselho Federal de Contabilidade (CFC), que funciona como instância superior.",
+     "Em linhas gerais, o rito é: denúncia, representação ou instauração de ofício; instrução com apuração dos fatos; notificação do acusado para apresentar defesa; julgamento fundamentado; e recurso. Contraditório e ampla defesa são garantias obrigatórias, e a pretensão punitiva está sujeita a prazos de prescrição previstos na norma."
+    ]
+   },
+   {
+    "h": "Exemplo prático",
+    "p": [
+     "Um contador assina balanços de uma empresa cujos lançamentos nunca viu. Há infração por assinar trabalho que não executou. O CRC instaura processo, notifica o profissional, ouve a defesa e, ao julgar, decide a penalidade conforme a gravidade e os antecedentes. Inconformado, ele recorre ao CFC."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Confundir censura reservada com censura pública: só a pública é divulgada.",
+   "Achar que o CFC é a primeira instância: a regra é o CRC julgar primeiro e o CFC apreciar o recurso.",
+   "Entender que a absolvição na Justiça impede automaticamente a punição ética, pois as esferas são independentes.",
+   "Ordenar as penalidades de forma errada: a cassação do exercício profissional é a mais grave.",
+   "Imaginar que o processo disciplinar dispensa defesa quando o fato é evidente."
+  ],
+  "refs": [
+   "NBC PG 01 – Código de Ética Profissional do Contador",
+   "Decreto-Lei 9.295/46",
+   "Regulamento Geral dos Conselhos de Contabilidade"
+  ]
+ },
+ "58": {
+  "objectives": [
+   "Situar as normas profissionais da série NBC PG dentro do sistema normativo do CFC",
+   "Explicar o que é independência e por que ela é central na auditoria",
+   "Classificar ameaças à independência e relacioná-las a salvaguardas",
+   "Distinguir conflito de interesses de quebra de sigilo e saber tratar ambos"
+  ],
+  "sections": [
+   {
+    "h": "Normas profissionais estruturais",
+    "p": [
+     "As Normas Brasileiras de Contabilidade se dividem em técnicas (NBC T, como as NBC TG, TA, TSP) e profissionais (NBC P). As profissionais, como as da série NBC PG (gerais), regulam a conduta de todos os contadores, e as da série NBC PA, a de auditores independentes.",
+     "A NBC PG 01 é o código de ética. Outras normas gerais tratam de aspectos como o exercício da profissão e a educação continuada. O ponto de prova é saber que a hierarquia vai do geral (ética para todos) ao específico (independência para quem audita)."
+    ]
+   },
+   {
+    "h": "Independência do auditor",
+    "p": [
+     "Independência é a ausência de vínculos e interesses que comprometam, de fato ou na aparência, a imparcialidade do auditor. Ela tem duas dimensões: independência de pensamento, que permite uma conclusão sem influências, e independência na aparência, que evita fatos que levem terceiros a duvidar da isenção.",
+     "Sem independência, o relatório de auditoria perde credibilidade, pois o usuário depende de uma opinião imparcial."
+    ]
+   },
+   {
+    "h": "Ameaças e salvaguardas",
+    "p": [
+     "As normas adotam um enfoque conceitual: identificar ameaças, avaliar se são significativas e aplicar salvaguardas que eliminem ou reduzam o risco a nível aceitável. Se isso não for possível, o auditor deve recusar ou renunciar ao trabalho."
+    ],
+    "list": [
+     "Interesse próprio: o auditor tem interesse financeiro no cliente.",
+     "Autorrevisão: o auditor avalia o resultado de um serviço que ele mesmo prestou.",
+     "Defesa de interesses: o auditor atua como defensor do cliente.",
+     "Familiaridade: relacionamento longo ou próximo reduz o ceticismo.",
+     "Intimidação: pressões que inibem um julgamento firme.",
+     "Salvaguardas típicas: rodízio de pessoal, revisão por segundo profissional, recusa do serviço incompatível."
+    ]
+   },
+   {
+    "h": "Conflito de interesses",
+    "p": [
+     "O conflito ocorre quando o contador atende ou se relaciona com partes cujos interesses divergem, como assessorar dois sócios em disputa. A regra é identificar o conflito, informar as partes envolvidas e obter consentimento quando possível, ou então declinar do trabalho. Não se resolve o conflito apenas com boa intenção."
+    ]
+   },
+   {
+    "h": "Sigilo profissional",
+    "p": [
+     "O dever de sigilo cobre todo o conteúdo obtido na relação profissional e subsiste após o fim do contrato. É permitida a divulgação quando houver autorização do cliente, dever legal ou ordem judicial, e para o profissional se defender em processo. Informação confidencial também não pode ser usada em benefício próprio ou de terceiros."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Confundir ameaça (risco à independência) com salvaguarda (medida que reduz esse risco).",
+   "Achar que a independência é exigida apenas do auditor externo: a objetividade é exigida de todo contador, mas as regras detalhadas de independência valem para auditoria e revisão.",
+   "Pensar que o sigilo termina com o contrato: ele continua depois.",
+   "Supor que qualquer ameaça impede o trabalho: só as não reduzíveis a nível aceitável exigem recusa.",
+   "Misturar autorrevisão (avaliar o próprio trabalho) com familiaridade (relação próxima prolongada)."
+  ],
+  "refs": [
+   "NBC PG 01 – Código de Ética Profissional do Contador",
+   "Normas da série NBC PG",
+   "Normas de independência da série NBC PA"
+  ]
+ },
+ "59": {
+  "objectives": [
+   "Explicar a criação e as finalidades do Sistema CFC/CRCs a partir do Decreto-Lei 9.295/46",
+   "Descrever a estrutura e as atribuições do CFC e dos CRCs",
+   "Distinguir as categorias de registro profissional e a baixa de registro",
+   "Reconhecer o papel do Regulamento Geral dos Conselhos de Contabilidade"
+  ],
+  "sections": [
+   {
+    "h": "Decreto-Lei 9.295/46",
+    "p": [
+     "O Decreto-Lei 9.295/46 criou o Conselho Federal de Contabilidade e os Conselhos Regionais de Contabilidade, definiu as profissões de contador e técnico em contabilidade e fixou as atribuições de cada categoria. Ele continua sendo a base legal da fiscalização profissional, ainda que tenha sido atualizado por leis posteriores, como a Lei 12.249/2010.",
+     "Essa atualização consolidou o exame de suficiência como requisito para o registro do bacharel em Ciências Contábeis e encerrou a formação de novos técnicos em contabilidade; permanecem em atividade os técnicos já registrados."
+    ]
+   },
+   {
+    "h": "Estrutura do Sistema CFC/CRCs",
+    "list": [
+     "CFC: órgão superior, de âmbito nacional, com sede em Brasília.",
+     "CRCs: um em cada estado e no Distrito Federal, subordinados ao CFC.",
+     "Ambos têm natureza de autarquia, com autonomia administrativa e financeira.",
+     "Compõem-se de conselheiros contadores (e, nos regionais, também técnicos) eleitos para mandato.",
+     "As receitas vêm principalmente de anuidades, taxas e multas."
+    ]
+   },
+   {
+    "h": "Atribuições",
+    "p": [
+     "Ao CFC cabe editar as normas brasileiras de contabilidade, organizar o exame de suficiência, orientar e supervisionar os CRCs e atuar como instância recursal. Aos CRCs cabe registrar profissionais e organizações contábeis, fiscalizar o exercício da profissão, aplicar penalidades e arrecadar anuidades.",
+     "Essa divisão é frequentemente cobrada: norma técnica nacional é função do CFC; registro e fiscalização local é função do CRC."
+    ]
+   },
+   {
+    "h": "Registro profissional e baixa",
+    "p": [
+     "Só pode exercer a profissão quem tem registro ativo no CRC da jurisdição. Há o registro definitivo de contador (bacharel aprovado no exame), o de técnico em contabilidade nas condições da lei e o registro provisório para quem concluiu o curso e aguarda a documentação definitiva. Organizações contábeis também devem ser registradas.",
+     "A baixa de registro é o pedido do profissional para se afastar do exercício e deixar de pagar anuidades futuras, mediante quitação de pendências. Difere do cancelamento, que é penalidade, e da suspensão, que é temporária."
+    ]
+   },
+   {
+    "h": "Regulamento Geral dos Conselhos de Contabilidade",
+    "p": [
+     "O Regulamento Geral reúne a organização, o funcionamento, o processo eleitoral, os registros, a fiscalização e o processo disciplinar do Sistema. Serve de complemento ao Decreto-Lei e é atualizado por resolução do CFC."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Trocar as competências: normatizar é do CFC; fiscalizar e registrar é do CRC.",
+   "Confundir baixa de registro (pedido do profissional) com cancelamento (penalidade).",
+   "Achar que o exercício da profissão é livre sem registro: o registro ativo é obrigatório.",
+   "Esquecer que técnicos em contabilidade só continuam a atuar se já eram registrados, nos termos da lei.",
+   "Imaginar que o CRC é subordinado ao governo estadual: ele integra o sistema federal CFC/CRCs."
+  ],
+  "refs": [
+   "Decreto-Lei 9.295/46",
+   "Lei 12.249/2010",
+   "Regulamento Geral dos Conselhos de Contabilidade (Resolução CFC 1.612/2021)"
+  ]
+ },
+ "60": {
+  "objectives": [
+   "Revisar os conceitos centrais das sessões 56 a 59",
+   "Autoavaliar o domínio sobre princípios, infrações, independência e legislação profissional",
+   "Identificar lacunas para retomada antes do simulado"
+  ],
+  "sections": [
+   {
+    "h": "Checklist de revisão",
+    "list": [
+     "Princípios: integridade, objetividade, competência e zelo, sigilo e comportamento profissional; sei explicar cada um.",
+     "Deveres e vedações do contador: sei dar três exemplos de cada.",
+     "Penalidades em ordem de gravidade, da advertência reservada até a cassação do exercício profissional.",
+     "Competência: CRC julga em primeira instância; CFC é a instância recursal.",
+     "Ameaças à independência e salvaguardas; conflito de interesses; exceções ao sigilo.",
+     "Decreto-Lei 9.295/46: criação do CFC e CRCs, atribuições e categorias de registro."
+    ]
+   },
+   {
+    "h": "Autoavaliação",
+    "p": [
+     "Responda sem consultar o material: o que difere advertência reservada de censura pública? Quem edita as NBC? O que é uma ameaça de autorrevisão? Quando o sigilo cede? Qual a diferença entre baixa e cancelamento do registro?",
+     "Se errar duas ou mais, releia a sessão correspondente e refaça as perguntas no dia seguinte, usando as suas próprias palavras."
+    ]
+   },
+   {
+    "h": "Como usar o resultado",
+    "p": [
+     "Marque os itens que não domina e agende uma segunda revisão em até sete dias. Ética rende pontos com estudo curto e frequente, e as questões costumam ser diretas, com alternativas que trocam um termo-chave."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Decorar a lista de penalidades sem saber a ordem de gravidade.",
+   "Trocar CFC por CRC nas competências.",
+   "Tratar princípios como regras: eles orientam a decisão quando não há regra específica."
+  ],
+  "refs": [
+   "NBC PG 01",
+   "Decreto-Lei 9.295/46"
+  ]
+ },
+ "61": {
+  "objectives": [
+   "Distinguir pessoa natural de pessoa jurídica e compreender a personalidade e a capacidade civil",
+   "Identificar os requisitos de validade do negócio jurídico e as hipóteses de nulidade e anulabilidade",
+   "Diferenciar prescrição de decadência",
+   "Definir empresário e estabelecimento segundo o Código Civil"
+  ],
+  "sections": [
+   {
+    "h": "Pessoas naturais e jurídicas",
+    "p": [
+     "A pessoa natural adquire personalidade civil com o nascimento com vida, mas a lei protege os direitos do nascituro desde a concepção. A capacidade de exercício plena começa aos 18 anos; antes disso, há incapacidade absoluta (menores de 16) ou relativa (de 16 a 18, entre outros casos previstos em lei).",
+     "A pessoa jurídica tem personalidade distinta da de seus sócios e começa a existir com o registro de seus atos constitutivos. Pode ser de direito público ou privado, como sociedades, associações e fundações. A desconsideração da personalidade jurídica é medida excepcional que atinge o patrimônio dos sócios em casos de abuso, como desvio de finalidade ou confusão patrimonial."
+    ]
+   },
+   {
+    "h": "Fatos e negócios jurídicos",
+    "p": [
+     "Fato jurídico é todo acontecimento que gera efeitos no direito. Negócio jurídico é a manifestação de vontade que busca produzir efeitos desejados, como um contrato. Para ser válido, exige agente capaz, objeto lícito, possível e determinado ou determinável, e forma prescrita ou não proibida por lei."
+    ],
+    "list": [
+     "Nulidade: vício grave, pode ser reconhecida de ofício e não se convalida pelo tempo.",
+     "Anulabilidade: vício relativo, como erro, dolo ou coação, que depende de provocação do interessado e pode ser confirmada.",
+     "Simulação torna o negócio nulo, mas subsiste o negócio dissimulado se válido."
+    ]
+   },
+   {
+    "h": "Prescrição e decadência",
+    "p": [
+     "A prescrição extingue a pretensão, isto é, a possibilidade de exigir judicialmente o cumprimento de um direito que foi violado. A decadência extingue o próprio direito potestativo quando ele não é exercido no prazo.",
+     "O Código Civil prevê prazo geral de prescrição de dez anos, com prazos especiais menores, como o de três anos para a reparação civil. Para fins de prova, lembre que o prazo geral só se aplica quando não houver prazo especial."
+    ]
+   },
+   {
+    "h": "Empresário e estabelecimento",
+    "p": [
+     "Considera-se empresário quem exerce profissionalmente atividade econômica organizada para a produção ou circulação de bens ou de serviços. O exercício de profissão intelectual de natureza científica, literária ou artística não é, em regra, atividade empresarial, salvo se constituir elemento de empresa.",
+     "Estabelecimento é o conjunto de bens organizado pelo empresário para exercer sua atividade. Pode ser objeto de alienação, e o trespasse exige cautelas em relação aos credores."
+    ]
+   },
+   {
+    "h": "Exemplo prático",
+    "p": [
+     "Um contrato de compra e venda é assinado por um menor de 15 anos sem representante. Como o agente é absolutamente incapaz, o negócio é nulo e não se convalida com o passar do tempo. Se o agente tivesse 17 anos e sem assistência, o negócio seria apenas anulável."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Confundir prescrição (perde-se a pretensão) com decadência (perde-se o direito).",
+   "Achar que o negócio anulável pode ser declarado nulo de ofício: só o nulo pode.",
+   "Pensar que a pessoa jurídica nasce com o CNPJ: a personalidade surge com o registro dos atos constitutivos.",
+   "Considerar que o profissional intelectual é sempre empresário.",
+   "Aplicar a desconsideração da personalidade jurídica como regra, quando é exceção."
+  ],
+  "refs": [
+   "Lei 10.406/2002 (Código Civil)"
+  ]
+ },
+ "62": {
+  "objectives": [
+   "Comparar a sociedade limitada e a sociedade anônima em responsabilidade, capital e administração",
+   "Classificar contratos e identificar seus princípios e fases de formação",
+   "Reconhecer os principais títulos de crédito e seus princípios",
+   "Resolver um caso simples de integralização de capital"
+  ],
+  "sections": [
+   {
+    "h": "Sociedade limitada",
+    "p": [
+     "A sociedade limitada é o tipo mais comum no país, regida pelo Código Civil e, supletivamente, pelas normas da sociedade simples ou, se o contrato assim previr, pela Lei das S.A. O capital é dividido em quotas, e a responsabilidade de cada sócio é restrita ao valor de suas quotas, mas todos respondem solidariamente pela integralização do capital social.",
+     "A administração é exercida por uma ou mais pessoas designadas no contrato social ou em ato separado. É admitida a sociedade limitada unipessoal."
+    ]
+   },
+   {
+    "h": "Sociedade anônima",
+    "p": [
+     "Na sociedade anônima, regida pela Lei 6.404/76, o capital se divide em ações e o acionista responde apenas pelo preço de emissão das ações que subscreveu ou adquiriu. É sempre sociedade empresária, qualquer que seja o objeto. Pode ser aberta, com valores mobiliários negociados em mercado e registro na CVM, ou fechada."
+    ],
+    "list": [
+     "Assembleia geral: órgão deliberativo máximo.",
+     "Conselho de administração: obrigatório nas abertas.",
+     "Diretoria: órgão executivo, com representação da companhia.",
+     "Conselho fiscal: fiscaliza os administradores; pode ter funcionamento permanente ou ser instalado a pedido dos acionistas, conforme o estatuto e a lei."
+    ]
+   },
+   {
+    "h": "Exemplo numérico: integralização",
+    "p": [
+     "A sociedade X Ltda. tem capital de R$ 100.000, dividido entre A (R$ 60.000) e B (R$ 40.000). A integralizou R$ 60.000 e B apenas R$ 10.000. Falta integralizar R$ 30.000. Enquanto a diferença não for paga, tanto A quanto B respondem solidariamente por esses R$ 30.000 perante terceiros, embora, entre si, o devedor primário seja B."
+    ]
+   },
+   {
+    "h": "Contratos em geral",
+    "p": [
+     "Contrato é o acordo de vontades que cria, modifica ou extingue direitos. Rege-se pelos princípios da autonomia da vontade, da força obrigatória, da boa-fé e da função social. Forma-se com a proposta e a aceitação, e produz efeitos, em regra, apenas entre as partes."
+    ],
+    "list": [
+     "Unilateral ou bilateral, conforme as obrigações recaiam sobre uma ou ambas as partes.",
+     "Oneroso ou gratuito, conforme haja vantagem recíproca ou não.",
+     "Comutativo (prestações certas) ou aleatório (sujeito a risco).",
+     "Típico (previsto em lei) ou atípico."
+    ]
+   },
+   {
+    "h": "Títulos de crédito",
+    "p": [
+     "Título de crédito é o documento necessário para o exercício do direito literal e autônomo nele contido. Exemplos são a letra de câmbio, a nota promissória, o cheque e a duplicata. Os princípios clássicos são cartularidade, literalidade e autonomia."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Acreditar que o sócio da Ltda. nunca responde por nada além das quotas: há solidariedade pela integralização do capital.",
+   "Achar que S.A. é sempre de capital aberto: pode ser fechada.",
+   "Chamar de ações as quotas da limitada.",
+   "Confundir contrato comutativo (prestações certas) com aleatório.",
+   "Dizer que o título de crédito vale pelo que está fora dele: vale pelo que consta nele (literalidade)."
+  ],
+  "refs": [
+   "Lei 10.406/2002 (Código Civil)",
+   "Lei 6.404/76 (Lei das S.A.)"
+  ]
+ },
+ "63": {
+  "objectives": [
+   "Definir tributo e identificar suas espécies",
+   "Diferenciar competência tributária de capacidade tributária ativa",
+   "Explicar fato gerador, obrigação tributária e sujeitos ativo e passivo",
+   "Descrever o lançamento e suas modalidades"
+  ],
+  "sections": [
+   {
+    "h": "Conceito de tributo",
+    "p": [
+     "Segundo o Código Tributário Nacional, tributo é toda prestação pecuniária compulsória, em moeda, que não constitui sanção por ato ilícito, instituída em lei e cobrada mediante atividade administrativa plenamente vinculada. Multa, portanto, não é tributo."
+    ]
+   },
+   {
+    "h": "Espécies tributárias",
+    "list": [
+     "Impostos: o fato gerador independe de atividade estatal específica; são não vinculados (exemplos: IR, ICMS, IPTU).",
+     "Taxas: decorrem do exercício do poder de polícia ou do uso de serviço público específico e divisível.",
+     "Contribuição de melhoria: decorre de obra pública que valoriza o imóvel.",
+     "Empréstimos compulsórios: instituídos pela União, por lei complementar, em casos como calamidade ou guerra.",
+     "Contribuições especiais: sociais, de intervenção no domínio econômico e de interesse de categorias."
+    ]
+   },
+   {
+    "h": "Competência tributária",
+    "p": [
+     "Competência tributária é o poder de instituir tributos, repartido entre União, estados, Distrito Federal e municípios pela Constituição. É indelegável. Já a capacidade tributária ativa, isto é, a função de arrecadar e fiscalizar, pode ser delegada a outra pessoa jurídica de direito público.",
+     "A União tem competência residual para criar novos impostos, desde que por lei complementar, não cumulativos e com fato gerador e base de cálculo diferentes dos já existentes."
+    ]
+   },
+   {
+    "h": "Fato gerador e obrigação tributária",
+    "p": [
+     "O fato gerador é a situação definida em lei como necessária e suficiente para fazer nascer a obrigação tributária. A obrigação principal tem por objeto o pagamento do tributo ou da penalidade pecuniária. A obrigação acessória consiste em prestações positivas ou negativas no interesse da arrecadação, como emitir nota fiscal ou entregar declarações; seu descumprimento pode gerar multa, convertendo-se em obrigação principal.",
+     "O sujeito ativo é o ente que cobra. O sujeito passivo é o contribuinte, que tem relação pessoal e direta com o fato gerador, ou o responsável, quando a lei lhe atribui o dever sem que seja contribuinte."
+    ]
+   },
+   {
+    "h": "Lançamento e crédito tributário",
+    "p": [
+     "O lançamento é o procedimento administrativo que verifica o fato gerador, calcula o tributo e identifica o sujeito passivo, constituindo o crédito tributário. Existem o lançamento de ofício, o por declaração e o por homologação, em que o contribuinte antecipa o pagamento e o Fisco depois confere.",
+     "Exemplo: um imóvel com valor venal de R$ 200.000 e alíquota de IPTU de 1% gera imposto de R$ 2.000 (200.000 × 0,01). O prazo para o Fisco constituir o crédito é de cinco anos (decadência), e para cobrá-lo, cinco anos após a constituição definitiva (prescrição)."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Incluir multa no conceito de tributo.",
+   "Achar que competência tributária pode ser delegada: só a capacidade ativa pode.",
+   "Confundir taxa (serviço específico e divisível) com imposto (sem contraprestação específica).",
+   "Esquecer que a obrigação acessória descumprida vira obrigação principal quanto à multa.",
+   "Misturar decadência (direito de lançar) com prescrição (direito de cobrar)."
+  ],
+  "refs": [
+   "Lei 5.172/66 (Código Tributário Nacional)",
+   "Constituição Federal de 1988"
+  ]
+ },
+ "64": {
+  "objectives": [
+   "Identificar os requisitos da relação de emprego",
+   "Calcular valores básicos de direitos como horas extras, FGTS e aviso prévio",
+   "Reconhecer as modalidades de rescisão e seus efeitos principais",
+   "Distinguir segurados e benefícios principais da previdência social"
+  ],
+  "sections": [
+   {
+    "h": "Relação de emprego",
+    "p": [
+     "O empregado é a pessoa física que presta serviços de natureza não eventual a empregador, sob dependência deste e mediante salário. Os requisitos clássicos são: pessoa física, pessoalidade, não eventualidade, onerosidade e subordinação. Faltando um deles, não há vínculo de emprego.",
+     "A CLT regula a relação, e a Constituição acrescenta direitos mínimos, como férias com adicional de um terço e jornada máxima."
+    ]
+   },
+   {
+    "h": "Direitos básicos",
+    "list": [
+     "Jornada: 8 horas diárias e 44 semanais; horas extras com adicional mínimo de 50%.",
+     "Férias: 30 dias após 12 meses de trabalho, com acréscimo de 1/3.",
+     "13º salário: 1/12 por mês trabalhado (fração de 15 dias ou mais conta como mês), em duas parcelas.",
+     "FGTS: depósito mensal de 8% da remuneração.",
+     "Aviso prévio: 30 dias, mais 3 dias por ano completo de serviço, até o limite de 90 dias."
+    ]
+   },
+   {
+    "h": "Exemplos numéricos",
+    "p": [
+     "Hora extra: salário de R$ 2.200 e jornada de 220 horas mensais. Valor da hora normal: 2.200 ÷ 220 = R$ 10,00. Com adicional de 50%, a hora extra vale R$ 15,00.",
+     "FGTS e multa: um saldo de R$ 14.400 em dispensa sem justa causa gera multa de 40% sobre o saldo, isto é, 14.400 × 0,40 = R$ 5.760. Aviso prévio: com 5 anos completos, são 30 + (5 × 3) = 45 dias."
+    ]
+   },
+   {
+    "h": "Rescisão do contrato",
+    "p": [
+     "Na dispensa sem justa causa, o empregado recebe saldo de salário, aviso prévio, férias proporcionais com 1/3, 13º proporcional, saque do FGTS e multa de 40%. Na dispensa por justa causa, perde aviso, multa, férias proporcionais e 13º proporcional. No pedido de demissão, não há multa nem saque do FGTS. A CLT prevê ainda a rescisão por acordo, com verbas reduzidas pela metade em alguns itens e multa de 20%."
+    ]
+   },
+   {
+    "h": "Previdência social",
+    "p": [
+     "O Regime Geral de Previdência Social é de filiação obrigatória para quem exerce atividade remunerada. São segurados obrigatórios o empregado, o empregado doméstico, o trabalhador avulso, o contribuinte individual e o segurado especial; pode haver também o segurado facultativo. Entre os benefícios estão as aposentadorias, o auxílio por incapacidade temporária, o salário-maternidade, a pensão por morte e o salário-família."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Esquecer que a subordinação e a pessoalidade são requisitos do vínculo.",
+   "Calcular a multa do FGTS sobre o salário, e não sobre o saldo depositado.",
+   "Aplicar os 3 dias adicionais de aviso prévio sem considerar o limite de 90 dias.",
+   "Confundir contribuinte individual com empregado.",
+   "Achar que o pedido de demissão dá direito à multa de 40%."
+  ],
+  "refs": [
+   "CLT (Decreto-Lei 5.452/43)",
+   "Lei 8.036/90 (FGTS)",
+   "Lei 8.213/91 (Benefícios da Previdência Social)",
+   "Lei 12.506/2011"
+  ]
+ },
+ "65": {
+  "objectives": [
+   "Revisar os pontos centrais de direito civil, empresarial, tributário e trabalhista",
+   "Autoavaliar o domínio dos conceitos e cálculos básicos",
+   "Priorizar os tópicos de maior incidência para retomada"
+  ],
+  "sections": [
+   {
+    "h": "Checklist de revisão",
+    "list": [
+     "Civil: capacidade, personalidade jurídica, nulidade x anulabilidade, prescrição x decadência.",
+     "Empresarial: conceito de empresário, estabelecimento, Ltda. x S.A., responsabilidade dos sócios.",
+     "Contratos e títulos de crédito: classificações e princípios.",
+     "Tributário: espécies, competência, fato gerador, obrigações, lançamento e prazos de cinco anos.",
+     "Trabalhista: requisitos do vínculo, jornada, férias, 13º, FGTS, aviso prévio e rescisões.",
+     "Previdência: segurados obrigatórios e benefícios principais."
+    ]
+   },
+   {
+    "h": "Autoavaliação",
+    "p": [
+     "Refaça, sem consulta, três cálculos: valor da hora extra com adicional de 50% para salário de R$ 3.300 e jornada de 220 horas (resposta: 3.300 ÷ 220 = R$ 15,00; extra = R$ 22,50); multa de 40% sobre saldo de FGTS de R$ 20.000 (R$ 8.000); aviso prévio de empregado com 10 anos completos (30 + 30 = 60 dias).",
+     "Em seguida, explique em voz alta a diferença entre competência tributária e capacidade tributária ativa, e entre taxa e imposto."
+    ]
+   },
+   {
+    "h": "Próximos passos",
+    "p": [
+     "Resolva questões de direito em blocos curtos e anote o tipo de erro: conceito, leitura ou cálculo. Retome as sessões em que errar mais de uma questão em cada dez."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Decorar prazos sem entender o conceito que os sustenta.",
+   "Esquecer que há prazo especial que prevalece sobre o prazo geral de prescrição.",
+   "Calcular verbas trabalhistas sobre a base errada."
+  ],
+  "refs": [
+   "Lei 10.406/2002",
+   "Lei 5.172/66",
+   "CLT (Decreto-Lei 5.452/43)"
+  ]
+ },
+ "66": {
+  "objectives": [
+   "Definir juros, capital, taxa, prazo e montante",
+   "Aplicar as fórmulas de juros simples e de juros compostos",
+   "Comparar os dois regimes em um exemplo numérico",
+   "Identificar quando os juros simples superam os compostos"
+  ],
+  "sections": [
+   {
+    "h": "Conceito de juros",
+    "p": [
+     "Juros são a remuneração pelo uso do dinheiro no tempo. Os elementos básicos são o capital (C), também chamado de principal, a taxa (i), o prazo (n) e o montante (M), que é o capital mais os juros. A taxa e o prazo devem estar na mesma unidade de tempo antes de qualquer cálculo."
+    ]
+   },
+   {
+    "h": "Regime de juros simples",
+    "p": [
+     "No regime simples, ou linear, os juros incidem sempre sobre o capital inicial. O crescimento do montante é, portanto, uma reta, e os juros de cada período são iguais."
+    ],
+    "formula": "J = C × i × n   e   M = C × (1 + i × n)"
+   },
+   {
+    "h": "Regime de juros compostos",
+    "p": [
+     "No regime composto, ou exponencial, os juros de cada período são incorporados ao capital e passam a render juros no período seguinte, o chamado juro sobre juro. É o regime usado no mercado financeiro, nos financiamentos e nas aplicações em geral."
+    ],
+    "formula": "M = C × (1 + i)^n   e   J = M − C"
+   },
+   {
+    "h": "Exemplo comparativo",
+    "p": [
+     "Aplicação de R$ 10.000 à taxa de 5% ao mês por 3 meses. Juros simples: J = 10.000 × 0,05 × 3 = R$ 1.500; M = R$ 11.500. Juros compostos: (1,05)^3 = 1,157625; M = 10.000 × 1,157625 = R$ 11.576,25; J = R$ 1.576,25.",
+     "A diferença de R$ 76,25 é o juro sobre juro. Ela cresce com o tempo: quanto maior o prazo, maior a vantagem do regime composto para o investidor e maior o custo para o devedor."
+    ]
+   },
+   {
+    "h": "Observações úteis",
+    "list": [
+     "Em n = 1, os dois regimes produzem o mesmo resultado.",
+     "Para n menor que 1 período, os juros simples superam os compostos.",
+     "Para n maior que 1, os compostos superam os simples.",
+     "Converta sempre prazo ou taxa para a mesma unidade (por exemplo, meses)."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Usar taxa ao ano com prazo em meses sem converter.",
+   "Esquecer de subtrair o capital para obter os juros no regime composto.",
+   "Aplicar a taxa em percentual (5) em vez de decimal (0,05).",
+   "Achar que os juros compostos sempre superam os simples: com prazo fracionário menor que 1, ocorre o contrário.",
+   "Confundir montante com juros."
+  ],
+  "refs": [
+   "Matemática financeira (conteúdo programático do Exame de Suficiência)"
+  ]
+ },
+ "67": {
+  "objectives": [
+   "Diferenciar desconto racional (por dentro) de desconto comercial (por fora)",
+   "Calcular valor atual e valor do desconto em cada modalidade",
+   "Distinguir taxa nominal, efetiva e equivalente",
+   "Converter taxas equivalentes no regime composto"
+  ],
+  "sections": [
+   {
+    "h": "Desconto racional e comercial",
+    "p": [
+     "Desconto é o abatimento concedido na antecipação de um título. No desconto racional, ou por dentro, os juros incidem sobre o valor atual, que é o valor efetivamente recebido. No desconto comercial, ou por fora, a taxa incide sobre o valor nominal, o que torna o desconto maior.",
+     "O custo efetivo do desconto por fora é sempre maior que a taxa declarada, pois o banco calcula o abatimento sobre um valor maior que o efetivamente liberado."
+    ],
+    "formula": "Racional: A = N / (1 + i × n)      Comercial: A = N × (1 − d × n)"
+   },
+   {
+    "h": "Exemplo numérico",
+    "p": [
+     "Título de valor nominal R$ 10.000, vencimento em 3 meses, taxa de 4% ao mês (simples). Desconto comercial: D = 10.000 × 0,04 × 3 = R$ 1.200; valor atual = R$ 8.800. Desconto racional: A = 10.000 ÷ 1,12 = R$ 8.928,57; D = R$ 1.071,43.",
+     "No desconto por fora, o custo efetivo é 1.200 ÷ 8.800 = 13,64% em 3 meses, ou cerca de 4,55% ao mês, acima dos 4% declarados."
+    ]
+   },
+   {
+    "h": "Taxas nominal, efetiva e equivalente",
+    "list": [
+     "Nominal: a taxa cuja unidade difere do período de capitalização (24% ao ano, capitalizada mensalmente).",
+     "Efetiva: a taxa que realmente incide no período de capitalização ou no prazo total.",
+     "Equivalentes: taxas em unidades diferentes que, aplicadas ao mesmo capital e prazo, geram o mesmo montante.",
+     "Proporcional (linear): usada para obter a efetiva a partir da nominal (24% ao ano ÷ 12 = 2% ao mês)."
+    ],
+    "formula": "(1 + i_ano) = (1 + i_mês)^12"
+   },
+   {
+    "h": "Conversões",
+    "p": [
+     "Taxa nominal de 24% ao ano, capitalizada mensalmente: a taxa efetiva mensal é 2%, e a efetiva anual é (1,02)^12 − 1 = 26,82%. Já a taxa equivalente semestral a 21% ao ano é √1,21 − 1 = 10% ao semestre."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Usar taxa proporcional quando a questão pede taxa equivalente composta.",
+   "Aplicar o desconto sobre o valor atual no desconto comercial.",
+   "Confundir valor do desconto com valor atual (valor liberado).",
+   "Tomar a taxa nominal como efetiva.",
+   "Dividir 12 meses por taxa anual para obter a mensal composta."
+  ],
+  "refs": [
+   "Matemática financeira (conteúdo programático do Exame de Suficiência)"
+  ]
+ },
+ "68": {
+  "objectives": [
+   "Descrever os sistemas SAC e Price",
+   "Montar a tabela de amortização do SAC e calcular a parcela do Price",
+   "Comparar parcelas, saldo devedor e custo total dos dois sistemas",
+   "Interpretar as questões de amortização e juros"
+  ],
+  "sections": [
+   {
+    "h": "Conceito",
+    "p": [
+     "Amortização é o pagamento gradual de uma dívida. Cada parcela é composta por juros, calculados sobre o saldo devedor anterior, e por amortização, que reduz o principal. O que muda entre os sistemas é a forma de combinar essas duas partes."
+    ]
+   },
+   {
+    "h": "Sistema SAC",
+    "p": [
+     "No Sistema de Amortização Constante, a amortização é igual em todas as parcelas, e os juros diminuem à medida que o saldo cai. Por isso, as parcelas são decrescentes.",
+     "Exemplo: financiamento de R$ 12.000, em 4 parcelas mensais, a 2% ao mês. Amortização = 12.000 ÷ 4 = R$ 3.000. Os juros são R$ 240, R$ 180, R$ 120 e R$ 60. As parcelas são R$ 3.240, R$ 3.180, R$ 3.120 e R$ 3.060. O total pago é R$ 12.600, dos quais R$ 600 são juros."
+    ]
+   },
+   {
+    "h": "Sistema Price (francês)",
+    "p": [
+     "No Sistema Price, a parcela é constante. Os juros começam altos e diminuem, e a amortização cresce ao longo do tempo.",
+     "Com os mesmos dados, a parcela é PMT = 12.000 × 0,02 ÷ [1 − (1,02)^−4] ≈ R$ 3.151,49. Na primeira parcela, os juros são R$ 240 e a amortização é R$ 2.911,49; o saldo cai para R$ 9.088,51. Na segunda, os juros são cerca de R$ 181,77. O total pago é 4 × 3.151,49 = R$ 12.605,96, com juros de aproximadamente R$ 605,96."
+    ],
+    "formula": "PMT = PV × i / [1 − (1 + i)^−n]"
+   },
+   {
+    "h": "Comparação",
+    "list": [
+     "SAC: parcela inicial maior, saldo devedor cai mais rápido, custo total menor.",
+     "Price: parcela inicial menor e constante, facilitando o planejamento, mas com maior custo total.",
+     "Nos dois, a taxa de juros é a mesma; a diferença está no ritmo de amortização.",
+     "A soma das amortizações é sempre igual ao valor financiado."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Dizer que no SAC as parcelas são fixas.",
+   "Calcular os juros sobre o valor inicial em todas as parcelas.",
+   "Confundir parcela com amortização.",
+   "Achar que o Price tem amortização constante.",
+   "Esquecer que o Price, com a mesma taxa e prazo, custa mais no total que o SAC."
+  ],
+  "refs": [
+   "Matemática financeira (conteúdo programático do Exame de Suficiência)"
+  ]
+ },
+ "69": {
+  "objectives": [
+   "Distinguir população de amostra",
+   "Calcular média, moda e mediana",
+   "Calcular variância e desvio-padrão",
+   "Aplicar noções básicas de probabilidade"
+  ],
+  "sections": [
+   {
+    "h": "População e amostra",
+    "p": [
+     "População é o conjunto completo de elementos que se quer estudar, e amostra é uma parte dela, selecionada para representá-la. Parâmetros descrevem a população, e estatísticas descrevem a amostra. Uma boa amostra deve ser representativa, geralmente por seleção aleatória."
+    ]
+   },
+   {
+    "h": "Medidas de posição",
+    "list": [
+     "Média aritmética: soma dos valores dividida pelo número de observações; sensível a valores extremos.",
+     "Mediana: valor central após ordenar os dados; com número par, é a média dos dois centrais.",
+     "Moda: valor que mais se repete; pode não existir ou haver mais de uma."
+    ]
+   },
+   {
+    "h": "Medidas de dispersão",
+    "p": [
+     "A variância é a média dos quadrados dos desvios em relação à média, e o desvio-padrão é sua raiz quadrada, expresso na mesma unidade dos dados. Na variância amostral, divide-se por n − 1, e na populacional, por n.",
+     "O coeficiente de variação (desvio-padrão ÷ média) permite comparar a dispersão de conjuntos com unidades ou escalas diferentes."
+    ],
+    "formula": "σ² = Σ(x − média)² / n   (amostral: dividir por n − 1)"
+   },
+   {
+    "h": "Exemplo numérico",
+    "p": [
+     "Dados: 2, 4, 4, 6, 9 (n = 5). Média = 25 ÷ 5 = 5. Mediana = 4. Moda = 4. Desvios: −3, −1, −1, 1, 4; quadrados: 9, 1, 1, 1, 16; soma = 28. Variância populacional = 28 ÷ 5 = 5,6, e o desvio-padrão ≈ 2,37. Variância amostral = 28 ÷ 4 = 7, e o desvio-padrão ≈ 2,65."
+    ]
+   },
+   {
+    "h": "Noções de probabilidade",
+    "p": [
+     "A probabilidade de um evento é o número de casos favoráveis dividido pelo de casos possíveis, variando de 0 a 1. No lançamento de um dado, P(par) = 3/6 = 1/2. Para eventos independentes, P(A e B) = P(A) × P(B). Numa urna com 3 bolas vermelhas e 2 azuis, a probabilidade de tirar duas vermelhas com reposição é 3/5 × 3/5 = 9/25 = 0,36. Para a união, P(A ou B) = P(A) + P(B) − P(A e B)."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Calcular a mediana sem ordenar os dados.",
+   "Esquecer de dividir por n − 1 na variância amostral.",
+   "Entregar a variância quando a questão pede o desvio-padrão.",
+   "Somar probabilidades de eventos independentes quando a pergunta pede ocorrência conjunta.",
+   "Achar que a média sempre representa bem o conjunto, mesmo com valores extremos."
+  ],
+  "refs": [
+   "Estatística básica (conteúdo programático do Exame de Suficiência)"
+  ]
+ },
+ "70": {
+  "objectives": [
+   "Aplicar estratégias de leitura e interpretação de textos técnicos",
+   "Distinguir coesão de coerência",
+   "Reconhecer a função dos conectivos de oposição, causa e conclusão",
+   "Aplicar concordância, regência e pontuação essenciais"
+  ],
+  "sections": [
+   {
+    "h": "Estratégias de interpretação",
+    "p": [
+     "Leia primeiro o enunciado e identifique o comando: o que a questão pede, o que é afirmado e o que é exceção. Depois leia o texto procurando a ideia central e a tese do autor, e só então analise as alternativas.",
+     "Desconfie de alternativas com generalizações absolutas, como sempre, nunca e somente, e das que mudam o sentido do texto por inversão, extrapolação ou omissão de uma condição."
+    ]
+   },
+   {
+    "h": "Coesão e coerência",
+    "p": [
+     "Coesão é a ligação entre as partes do texto, feita por pronomes, conectivos e repetições. Coerência é a lógica do sentido: as ideias devem se articular sem contradição. Um texto pode ser coeso e incoerente quando, apesar das ligações gramaticais, as ideias se contradizem."
+    ]
+   },
+   {
+    "h": "Conectivos",
+    "list": [
+     "Oposição: mas, porém, contudo, todavia, entretanto, embora (concessão).",
+     "Causa: porque, pois, já que, uma vez que, visto que.",
+     "Conclusão: portanto, logo, assim, por isso, consequentemente.",
+     "Adição: e, além disso; condição: se, caso, desde que."
+    ]
+   },
+   {
+    "h": "Concordância e regência",
+    "p": [
+     "Na concordância verbal, o verbo concorda com o sujeito: As demonstrações contábeis foram publicadas. Em expressões como houve, que significa existir, o verbo fica no singular: Houve divergências. Na regência, atente a verbos como visar (visar ao lucro, no sentido de objetivar), assistir (assistir ao julgamento) e obedecer (obedecer às normas)."
+    ]
+   },
+   {
+    "h": "Pontuação essencial",
+    "p": [
+     "Use vírgula para separar elementos de uma enumeração, orações adjetivas explicativas, vocativos e adjuntos adverbiais deslocados. Não separe sujeito e verbo com vírgula isolada. Exemplo: O contador, que conhece a norma, recusou o pedido (explicativa) difere de O contador que conhece a norma recusou o pedido (restritiva, indica qual contador)."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Marcar alternativa verdadeira em si, mas que não responde ao comando da questão.",
+   "Confundir embora (concessão) com porque (causa).",
+   "Separar sujeito e verbo com uma vírgula.",
+   "Trocar a regência verbal por influência da fala cotidiana.",
+   "Ignorar palavras como exceto, incorreto e não ao ler o enunciado."
+  ],
+  "refs": [
+   "Gramática normativa da língua portuguesa (conteúdo programático do Exame de Suficiência)"
+  ]
+ },
+ "71": {
+  "objectives": [
+   "Aplicar a primeira metade do Simulado A em condições próximas às da prova",
+   "Treinar o ritmo de resolução de aproximadamente 3 minutos por questão",
+   "Registrar dúvidas sem consultar material durante a aplicação"
+  ],
+  "sections": [
+   {
+    "h": "Instruções de aplicação",
+    "list": [
+     "Escolha um local silencioso e deixe o celular fora de alcance.",
+     "Sem consulta a livros, anotações ou internet.",
+     "Cronometre 75 minutos para as questões 1 a 25 (cerca de 3 minutos por questão).",
+     "Resolva os cálculos à mão, sem calculadora, como na prova real; confira no edital o material permitido.",
+     "Marque as respostas em um cartão separado para simular a prova real."
+    ]
+   },
+   {
+    "h": "Durante a prova",
+    "p": [
+     "Leia o comando antes do texto e identifique palavras como exceto e incorreta. Se uma questão ultrapassar 4 minutos, assinale a alternativa mais provável, marque a questão com um sinal e siga adiante. Não deixe nenhuma questão em branco, pois o erro não é penalizado.",
+     "Anote no rascunho apenas o essencial dos cálculos, para facilitar a correção posterior."
+    ]
+   },
+   {
+    "h": "Ao terminar",
+    "p": [
+     "Não corrija agora. Registre o número de questões marcadas com dúvida e seu nível de cansaço. A correção e a classificação dos erros serão feitas na sessão 73, após a segunda metade, na sessão 72."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Consultar o material no meio do simulado e perder o diagnóstico real.",
+   "Gastar muito tempo em questões de cálculo e deixar as fáceis para o fim.",
+   "Interromper o cronômetro e fazer pausas longas.",
+   "Corrigir antes de concluir as duas metades."
+  ],
+  "refs": [
+   "Edital do Exame de Suficiência vigente"
+  ]
+ },
+ "72": {
+  "objectives": [
+   "Aplicar a segunda metade do Simulado A (questões 26 a 50)",
+   "Manter o ritmo e a concentração na segunda etapa da prova",
+   "Preparar o material para a correção da sessão 73"
+  ],
+  "sections": [
+   {
+    "h": "Instruções de aplicação",
+    "list": [
+     "Faça esta sessão no mesmo dia da anterior ou, no máximo, no dia seguinte, em horário semelhante.",
+     "Sem consulta, com celular longe e cronômetro de 75 minutos.",
+     "Meta de cerca de 3 minutos por questão, como na sessão 71.",
+     "Continue marcando as respostas no cartão e assinale as questões com dúvida.",
+     "Não deixe nenhuma questão em branco."
+    ]
+   },
+   {
+    "h": "Administração do cansaço",
+    "p": [
+     "O desgaste da segunda metade é realista: na prova de verdade, a atenção cai depois de algumas horas. Observe se você erra mais por leitura apressada no fim. Hidrate-se antes de começar e mantenha a postura de prova."
+    ]
+   },
+   {
+    "h": "Ao terminar",
+    "p": [
+     "Junte os dois cartões, as notas do rascunho e a lista de questões duvidosas. Não consulte o gabarito agora; ele será usado na sessão 73, com um método de correção por área."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Acelerar demais no fim por cansaço e cometer erros de leitura.",
+   "Misturar as respostas entre os dois cartões.",
+   "Olhar o gabarito antes do método de correção."
+  ],
+  "refs": [
+   "Edital do Exame de Suficiência vigente"
+  ]
+ },
+ "73": {
+  "objectives": [
+   "Corrigir o Simulado A e registrar os acertos por área",
+   "Classificar os erros em conceito, cálculo e leitura de enunciado",
+   "Priorizar a revisão dos erros de conceito"
+  ],
+  "sections": [
+   {
+    "h": "Passo 1: contagem por área",
+    "p": [
+     "Com o gabarito, monte uma tabela com cada área do exame (Contabilidade Geral, Custos, Gerencial, Setor Público, Auditoria, Perícia, Ética, Legislação, Matemática, Português etc.) e anote os acertos e os totais. Calcule o percentual por área e o total geral. Lembre que a meta é superar 50% de acertos."
+    ]
+   },
+   {
+    "h": "Passo 2: classificação dos erros",
+    "list": [
+     "Conceito: você não sabia ou confundiu a teoria; é o erro mais grave.",
+     "Cálculo: sabia o método, mas errou a conta ou o arredondamento.",
+     "Leitura do enunciado: ignorou exceto, incorreta ou uma informação do texto.",
+     "Chute: acertou sem segurança; trate como erro potencial."
+    ]
+   },
+   {
+    "h": "Passo 3: priorização",
+    "p": [
+     "Comece pelos erros de conceito nas áreas de maior peso, pois exigem estudo novo. Erros de cálculo pedem treino de resolução cronometrada. Erros de leitura pedem mudança de hábito, como sublinhar o comando e conferir a resposta."
+    ]
+   },
+   {
+    "h": "Passo 4: caderno de erros",
+    "p": [
+     "Para cada erro, anote o tema, o motivo do erro e a regra correta com suas próprias palavras. Esse caderno será insumo do Simulado B e do plano de ataque final."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Apenas ler a justificativa do gabarito sem refazer a questão.",
+   "Tratar todos os erros como falta de atenção.",
+   "Ignorar os acertos por chute.",
+   "Estudar a área de que mais gosta em vez da que mais errou."
+  ],
+  "refs": [
+   "Edital do Exame de Suficiência vigente"
+  ]
+ },
+ "74": {
+  "objectives": [
+   "Percorrer os principais blocos de Contabilidade Geral de forma dirigida",
+   "Reconhecer as normas técnicas aplicáveis a cada tema",
+   "Autoavaliar o domínio e definir pontos para retomada"
+  ],
+  "sections": [
+   {
+    "h": "Roteiro de revisão",
+    "list": [
+     "Patrimônio: ativo, passivo e patrimônio líquido; equação patrimonial; fatos permutativos, modificativos e mistos.",
+     "Escrituração: método das partidas dobradas, razão, diário, ITG 2000.",
+     "Ativos: caixa, estoques (NBC TG 16), imobilizado (NBC TG 27), intangível, depreciação e redução ao valor recuperável.",
+     "Operações: compra e venda de mercadorias, CMV, tributos sobre vendas e recuperáveis (ICMS, PIS, COFINS).",
+     "Passivos: provisões e contingências, obrigações trabalhistas.",
+     "Demonstrações: BP, DRE, DMPL, DFC, DVA e notas explicativas (NBC TG 26, NBC TG 03).",
+     "Normas: Estrutura Conceitual (NBC TG 00), NBC TG 47 (receitas) e Lei 6.404/76."
+    ]
+   },
+   {
+    "h": "Mini-exercício de verificação",
+    "p": [
+     "Compra de mercadorias por R$ 10.000, com ICMS recuperável de 18% incluso. O estoque é registrado por R$ 8.200 (10.000 − 1.800) e o ICMS a recuperar, em R$ 1.800. Se 60% das mercadorias forem vendidas por R$ 9.000, o CMV é 8.200 × 0,60 = R$ 4.920, e o resultado bruto, antes dos tributos sobre a venda, é R$ 4.080."
+    ]
+   },
+   {
+    "h": "Autoavaliação",
+    "p": [
+     "Marque cada item como domino, preciso revisar ou não domino. Resolva ao menos dez questões por tema marcado e registre o tipo de erro no caderno de erros."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Confundir regime de competência com regime de caixa.",
+   "Incluir tributo recuperável no custo do estoque.",
+   "Misturar depreciação, amortização e exaustão.",
+   "Trocar natureza de conta nos lançamentos de provisões."
+  ],
+  "refs": [
+   "NBC TG 00",
+   "NBC TG 16",
+   "NBC TG 26",
+   "NBC TG 27",
+   "NBC TG 47",
+   "ITG 2000",
+   "Lei 6.404/76"
+  ]
+ },
+ "75": {
+  "objectives": [
+   "Rever os conceitos centrais de custos, contabilidade gerencial e controladoria",
+   "Aplicar o ponto de equilíbrio e a margem de contribuição em um exemplo",
+   "Definir os temas a reforçar com questões"
+  ],
+  "sections": [
+   {
+    "h": "Roteiro de revisão",
+    "list": [
+     "Classificação de custos: diretos e indiretos; fixos e variáveis; custos e despesas.",
+     "Métodos: custeio por absorção, custeio variável, custeio baseado em atividades (ABC), custo-padrão.",
+     "Custos conjuntos e rateio de custos indiretos; departamentalização.",
+     "Custo, volume e lucro: margem de contribuição, ponto de equilíbrio, margem de segurança.",
+     "Orçamento empresarial e controle: orçado versus realizado.",
+     "Controladoria: papel, indicadores, centros de responsabilidade, balanced scorecard e preço de transferência."
+    ]
+   },
+   {
+    "h": "Mini-exercício",
+    "p": [
+     "Custos fixos de R$ 60.000 por mês, preço de venda de R$ 50 por unidade e custo variável de R$ 30 por unidade. Margem de contribuição unitária = 50 − 30 = R$ 20. Ponto de equilíbrio = 60.000 ÷ 20 = 3.000 unidades, ou R$ 150.000 em receita. Para lucro desejado de R$ 40.000, vendem-se (60.000 + 40.000) ÷ 20 = 5.000 unidades."
+    ]
+   },
+   {
+    "h": "Autoavaliação",
+    "p": [
+     "Explique sem consultar por que o custeio por absorção é o aceito para fins de demonstrações contábeis e qual a diferença no resultado quando o estoque aumenta em relação ao custeio variável. Refaça o exercício acima com custos fixos de R$ 90.000 e preço de R$ 60 (resposta: PE = 3.000 unidades se o custo variável for R$ 30)."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Incluir custos fixos na margem de contribuição.",
+   "Confundir custo direto com variável.",
+   "Tratar despesas administrativas como custo de produção.",
+   "Usar o preço de venda unitário, em vez da margem de contribuição, no cálculo do ponto de equilíbrio."
+  ],
+  "refs": [
+   "Conteúdo programático do Exame de Suficiência",
+   "Lei 6.404/76"
+  ]
+ },
+ "76": {
+  "objectives": [
+   "Aplicar a primeira metade do Simulado B (questões 1 a 25) sob condições de prova",
+   "Testar as mudanças de estratégia definidas após o Simulado A",
+   "Manter o ritmo de cerca de 3 minutos por questão"
+  ],
+  "sections": [
+   {
+    "h": "Instruções de aplicação",
+    "list": [
+     "Sem consulta, com cronômetro de 75 minutos.",
+     "Celular em modo avião e ambiente silencioso.",
+     "Marque as respostas em um cartão separado.",
+     "Aplique o que registrou no caderno de erros: leia o comando duas vezes e sublinhe palavras como exceto e incorreta.",
+     "Não deixe nenhuma questão em branco."
+    ]
+   },
+   {
+    "h": "Meta de desempenho",
+    "p": [
+     "Procure ultrapassar o resultado do Simulado A nas áreas de maior erro. Se uma questão tomar mais de 4 minutos, assinale a mais provável, marque e continue. Avalie, ao final, se a gestão do tempo melhorou em relação ao primeiro simulado."
+    ]
+   },
+   {
+    "h": "Ao terminar",
+    "p": [
+     "Não corrija ainda. Faça a segunda metade na sessão 77 e a análise comparada na sessão 78."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Repetir os mesmos hábitos de leitura que geraram erros no Simulado A.",
+   "Interromper o cronômetro ao se deparar com questão difícil.",
+   "Corrigir antes de concluir as duas metades."
+  ],
+  "refs": [
+   "Edital do Exame de Suficiência vigente"
+  ]
+ },
+ "77": {
+  "objectives": [
+   "Aplicar a segunda metade do Simulado B (questões 26 a 50)",
+   "Sustentar a concentração até o fim da prova",
+   "Reunir o material para a análise de desempenho"
+  ],
+  "sections": [
+   {
+    "h": "Instruções de aplicação",
+    "list": [
+     "Mesmas condições da sessão 76: sem consulta, 75 minutos, ambiente silencioso.",
+     "Preferencialmente no mesmo dia ou no dia seguinte, no mesmo horário.",
+     "Marque as respostas no cartão e assinale as dúvidas.",
+     "Reserve os últimos minutos para conferir se todas as questões foram marcadas."
+    ]
+   },
+   {
+    "h": "Atenção ao final da prova",
+    "p": [
+     "Observe se você erra mais nas últimas questões. Se isso acontecer, treine blocos curtos de questões com cronômetro e faça pausas rápidas de respiração, sem parar o relógio. Mantenha a regra: nunca deixe em branco."
+    ]
+   },
+   {
+    "h": "Ao terminar",
+    "p": [
+     "Guarde os dois cartões e o rascunho. A correção ocorre na sessão 78, comparando com o Simulado A por área."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Perder a atenção nas últimas dez questões.",
+   "Esquecer de marcar questões por falta de tempo.",
+   "Misturar as marcações das duas metades."
+  ],
+  "refs": [
+   "Edital do Exame de Suficiência vigente"
+  ]
+ },
+ "78": {
+  "objectives": [
+   "Corrigir o Simulado B e calcular o desempenho por área",
+   "Comparar a evolução entre os Simulados A e B",
+   "Ajustar o plano de estudos com base nos dados"
+  ],
+  "sections": [
+   {
+    "h": "Correção e tabela comparativa",
+    "p": [
+     "Corrija o Simulado B como fez com o A e monte uma tabela com três colunas por área: acertos no A, acertos no B e variação. Exemplo: se em Contabilidade Geral você acertou 6 de 10 no A e 8 de 10 no B, a evolução foi de 60% para 80%, ou seja, 20 pontos percentuais."
+    ]
+   },
+   {
+    "h": "Como ler a evolução",
+    "list": [
+     "Área que melhorou: mantenha com revisão leve e questões semanais.",
+     "Área estagnada com nota baixa: mude o método (menos leitura, mais questões comentadas).",
+     "Área que piorou: verifique se foi erro de conceito ou apenas de leitura.",
+     "Compare também o tempo gasto e o número de questões deixadas por último."
+    ]
+   },
+   {
+    "h": "Ajuste do plano de estudos",
+    "p": [
+     "Reserve mais horas para as duas ou três áreas com pior desempenho e menor evolução. Mantenha contato com as demais por meio de pequenos blocos. Atualize o caderno de erros e marque como resolvidos os temas que já não aparecem como erro nos dois simulados."
+    ]
+   },
+   {
+    "h": "Meta antes do simulado final",
+    "p": [
+     "Defina uma meta numérica por área para o Simulado C, mais exigente que a nota atual, e verifique, na sessão 83, se foi cumprida."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Comparar apenas o total, sem olhar as áreas.",
+   "Concluir que houve evolução sem considerar a dificuldade diferente das provas.",
+   "Aumentar o tempo de estudo sem mudar o método.",
+   "Ignorar áreas boas e deixá-las cair."
+  ],
+  "refs": [
+   "Edital do Exame de Suficiência vigente"
+  ]
+ },
+ "79": {
+  "objectives": [
+   "Percorrer os principais blocos de Contabilidade Aplicada ao Setor Público",
+   "Relacionar os conceitos às normas e à legislação orçamentária",
+   "Identificar os temas a reforçar com questões"
+  ],
+  "sections": [
+   {
+    "h": "Roteiro de revisão",
+    "list": [
+     "Normas: NBC TSP, Manual de Contabilidade Aplicada ao Setor Público (MCASP) e Lei 4.320/64.",
+     "Planejamento: PPA, LDO e LOA, e a função de cada um.",
+     "Receita orçamentária: previsão, lançamento, arrecadação e recolhimento.",
+     "Despesa orçamentária: fixação, empenho, liquidação e pagamento.",
+     "Créditos adicionais: suplementares, especiais e extraordinários.",
+     "Restos a pagar, despesas de exercícios anteriores e Lei de Responsabilidade Fiscal.",
+     "Contas: orçamentária, patrimonial e de controle; variações patrimoniais; demonstrações do setor público."
+    ]
+   },
+   {
+    "h": "Mini-exercício",
+    "p": [
+     "A LOA fixa uma despesa de R$ 500.000. Foram empenhados R$ 420.000, liquidados R$ 380.000 e pagos R$ 300.000. Saldo da dotação a empenhar: R$ 80.000. Despesa empenhada a liquidar: R$ 40.000. Despesa liquidada a pagar: R$ 80.000. Se nada mais for pago, os restos a pagar processados serão de R$ 80.000 e os não processados, de R$ 40.000."
+    ]
+   },
+   {
+    "h": "Autoavaliação",
+    "p": [
+     "Explique com suas palavras a diferença entre regime orçamentário (receita arrecadada e despesa empenhada no exercício, conforme a Lei 4.320/64) e o regime patrimonial, por competência. Descreva a função de cada lei do ciclo orçamentário e cite um exemplo de crédito suplementar."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Trocar a ordem dos estágios da despesa.",
+   "Confundir crédito especial com suplementar.",
+   "Considerar restos a pagar como despesa do exercício seguinte, e não do exercício em que foi empenhada.",
+   "Tratar o regime orçamentário e o patrimonial como idênticos."
+  ],
+  "refs": [
+   "Lei 4.320/64",
+   "Lei Complementar 101/2000 (Lei de Responsabilidade Fiscal)",
+   "NBC TSP",
+   "MCASP"
+  ]
+ },
+ "80": {
+  "objectives": [
+   "Revisar conjuntamente auditoria, perícia e ética profissional",
+   "Relacionar as normas de auditoria, perícia e conduta ética",
+   "Identificar os pontos de maior incidência para reforço"
+  ],
+  "sections": [
+   {
+    "h": "Auditoria",
+    "list": [
+     "Objetivos gerais do auditor independente e ceticismo profissional (NBC TA 200).",
+     "Planejamento, avaliação de riscos e materialidade.",
+     "Evidência de auditoria, procedimentos e amostragem.",
+     "Controles internos e testes de controle e substantivos.",
+     "Relatório do auditor e tipos de opinião: sem ressalva, com ressalva, adversa e abstenção de opinião.",
+     "Auditoria interna x externa."
+    ]
+   },
+   {
+    "h": "Perícia contábil",
+    "list": [
+     "Perícia judicial e extrajudicial; perito-contador e assistente técnico.",
+     "Etapas: nomeação, proposição de honorários, diligências, laudo e esclarecimentos.",
+     "Laudo pericial e parecer técnico.",
+     "Impedimento e suspeição; prazos e responsabilidade do perito."
+    ]
+   },
+   {
+    "h": "Ética",
+    "p": [
+     "Reveja princípios fundamentais, penalidades, ameaças à independência e sigilo. Em auditoria, a independência é o ponto de contato entre ética e técnica: sem ela, a opinião perde valor. Na perícia, a imparcialidade do perito e o dever de zelo ligam-se ao Código de Ética."
+    ]
+   },
+   {
+    "h": "Autoavaliação",
+    "p": [
+     "Responda sem consulta: quando o auditor emite opinião com ressalva e quando emite opinião adversa? Qual a diferença entre perito e assistente técnico? Dê dois exemplos de ameaça à independência e sua salvaguarda."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Confundir opinião com ressalva e opinião adversa quanto à generalização do efeito.",
+   "Achar que o assistente técnico é imparcial como o perito.",
+   "Esquecer que o ceticismo é atitude exigida durante todo o trabalho.",
+   "Tratar independência como exigência apenas de aparência."
+  ],
+  "refs": [
+   "NBC TA 200",
+   "NBC TA 700 e 705 (relatório do auditor)",
+   "NBC TP e NBC PP (perícia contábil)",
+   "NBC PG 01"
+  ]
+ },
+ "81": {
+  "objectives": [
+   "Aplicar a primeira metade do Simulado C, o simulado final, sob condições reais",
+   "Verificar a evolução em relação aos Simulados A e B",
+   "Treinar a estratégia final de tempo e marcação"
+  ],
+  "sections": [
+   {
+    "h": "Instruções de aplicação",
+    "list": [
+     "Reproduza as condições da prova: mesmo horário, sem consulta, sem celular, cronômetro de 75 minutos para 25 questões.",
+     "Use a estratégia definida: leia o comando, resolva as mais fáceis primeiro, marque as difíceis e volte depois.",
+     "Preencha o cartão por blocos de dez questões.",
+     "Não deixe nenhuma questão em branco."
+    ]
+   },
+   {
+    "h": "Postura",
+    "p": [
+     "Este é o ensaio geral. Vista-se e alimente-se como no dia da prova, e conduza a sessão com seriedade. Anote o que aconteceu com o ritmo e a ansiedade, pois esses dados orientarão os ajustes finais."
+    ]
+   },
+   {
+    "h": "Ao terminar",
+    "p": [
+     "Não corrija ainda. Faça a segunda metade na sessão 82 e a correção na sessão 83."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Tratar o simulado final de forma relaxada.",
+   "Mudar de estratégia no último momento, sem ter treinado.",
+   "Consultar o gabarito antes de concluir as duas metades."
+  ],
+  "refs": [
+   "Edital do Exame de Suficiência vigente"
+  ]
+ },
+ "82": {
+  "objectives": [
+   "Aplicar a segunda metade do Simulado C (questões 26 a 50)",
+   "Manter a estratégia de tempo até a última questão",
+   "Reunir os dados para a correção final"
+  ],
+  "sections": [
+   {
+    "h": "Instruções de aplicação",
+    "list": [
+     "Mesmas condições da sessão 81, de preferência no mesmo dia ou no dia seguinte.",
+     "Cronômetro de 75 minutos, sem consulta.",
+     "Cartão-resposta preenchido por blocos e conferido ao final.",
+     "Reserve dois minutos finais para checar se há questão em branco."
+    ]
+   },
+   {
+    "h": "Foco no fechamento",
+    "p": [
+     "Teste a sua capacidade de manter a qualidade da leitura no fim. Se o tempo estiver curto, priorize as questões que você sabe resolver em menos de dois minutos e marque o restante pelo palpite mais provável."
+    ]
+   },
+   {
+    "h": "Ao terminar",
+    "p": [
+     "Junte os cartões e o rascunho. A correção e a consolidação do mapa de erros serão feitas na sessão 83."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Gastar tempo demais com poucas questões.",
+   "Esquecer de marcar o cartão ao final.",
+   "Perder o ritmo por cansaço."
+  ],
+  "refs": [
+   "Edital do Exame de Suficiência vigente"
+  ]
+ },
+ "83": {
+  "objectives": [
+   "Corrigir o Simulado C e apurar o desempenho por área",
+   "Classificar os erros e atualizar o mapa de erros consolidado",
+   "Identificar os temas que ainda exigem trabalho"
+  ],
+  "sections": [
+   {
+    "h": "Correção",
+    "p": [
+     "Aplique o método da sessão 73: acertos por área, percentual por área, total geral e comparação com a meta de 50% e com os Simulados A e B. Assinale também as questões acertadas por palpite."
+    ]
+   },
+   {
+    "h": "Mapa de erros consolidado",
+    "list": [
+     "Construa uma tabela com os temas e a quantidade de erros nos três simulados.",
+     "Marque os temas que erraram duas ou mais vezes: são prioridade absoluta.",
+     "Separe os erros por tipo: conceito, cálculo e leitura.",
+     "Identifique os temas que foram corrigidos e já não aparecem."
+    ]
+   },
+   {
+    "h": "Interpretação",
+    "p": [
+     "Erros recorrentes de conceito pedem releitura ativa e nova resolução de questões do tema. Erros recorrentes de cálculo pedem fórmulas num cartão de revisão e treino cronometrado. Erros de leitura pedem a revisão da técnica de sublinhar comandos."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Ignorar erros que se repetem entre simulados.",
+   "Não registrar os acertos por palpite.",
+   "Descartar o simulado como pouco representativo ao obter nota baixa."
+  ],
+  "refs": [
+   "Edital do Exame de Suficiência vigente"
+  ]
+ },
+ "84": {
+  "objectives": [
+   "Montar o plano de ataque final com base no mapa de erros",
+   "Distinguir revisão ativa de revisão passiva",
+   "Distribuir o tempo restante entre os temas mais fracos"
+  ],
+  "sections": [
+   {
+    "h": "Do mapa de erros ao plano",
+    "p": [
+     "Liste os cinco a dez temas com mais erros no mapa consolidado. Atribua a cada um um número de horas proporcional ao seu peso na prova e ao seu grau de fraqueza. Reserve ao menos um bloco para revisar de forma leve os temas fortes, para que não decaiam."
+    ]
+   },
+   {
+    "h": "Revisão ativa versus passiva",
+    "list": [
+     "Passiva: reler, grifar, assistir de novo; dá sensação de domínio, mas retém pouco.",
+     "Ativa: resolver questões, explicar o conteúdo em voz alta, fazer resumos de memória, testar-se.",
+     "A revisão ativa expõe o que você não sabe, enquanto a passiva o esconde.",
+     "Recomenda-se dedicar a maior parte do tempo à revisão ativa."
+    ]
+   },
+   {
+    "h": "Exemplo de divisão do tempo",
+    "p": [
+     "Se restam 20 horas de estudo, 70% para os temas fracos (14 horas) e 30% para manutenção dos demais (6 horas). Dentro das 14 horas, destine cerca de 10 horas a questões e 4 horas a releitura direcionada dos pontos errados."
+    ]
+   },
+   {
+    "h": "Rotina de cada tema",
+    "p": [
+     "Faça um bloco de 10 a 15 questões, corrija, estude apenas o que errou, escreva a regra com suas palavras e refaça as questões erradas após 24 horas. Repita após uma semana, se possível."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Reler todo o material por ansiedade, em vez de atacar as falhas.",
+   "Abandonar as áreas fortes e vê-las perder pontos.",
+   "Estudar sem medir o resultado.",
+   "Fazer questões sem corrigir com atenção."
+  ],
+  "refs": [
+   "Edital do Exame de Suficiência vigente"
+  ]
+ },
+ "85": {
+  "objectives": [
+   "Organizar a semana da prova, incluindo sono, alimentação e logística",
+   "Aplicar a gestão de tempo e a marcação do cartão-resposta por blocos",
+   "Adotar a regra de nunca deixar questões em branco",
+   "Planejar a revisão final das próprias anotações"
+  ],
+  "sections": [
+   {
+    "h": "Semana da prova",
+    "list": [
+     "Reduza o volume de estudo novo e foque em revisão do caderno de erros.",
+     "Durma bem, principalmente nas duas noites anteriores à prova.",
+     "Confirme local, horário e documentos exigidos, e faça o trajeto, se possível.",
+     "Prepare com antecedência o material permitido, como caneta de cor indicada em edital.",
+     "Evite novidades na alimentação e chegue com folga."
+    ]
+   },
+   {
+    "h": "Gestão do tempo na prova",
+    "p": [
+     "Com 50 questões, a meta de ritmo do curso é de cerca de 2,4 minutos por questão, o que dá aproximadamente 120 minutos de resolução, mais uma margem para marcação e revisão conforme a duração definida no edital. Resolva primeiro as questões que domina, marque as demais e volte a elas.",
+     "Se uma questão ultrapassar 4 minutos, assinale o palpite mais provável, marque no caderno e siga em frente."
+    ]
+   },
+   {
+    "h": "Cartão-resposta e palpite",
+    "p": [
+     "Marque o cartão por blocos de dez questões, conferindo a numeração a cada bloco, para evitar deslocamento de respostas. Como o erro não é penalizado, nunca deixe uma questão em branco: com cinco alternativas, o palpite aleatório tem chance de acerto de 20% (1/5), e a eliminação de duas alternativas eleva essa chance para cerca de 33%."
+    ]
+   },
+   {
+    "h": "Revisão final das anotações",
+    "p": [
+     "Na véspera, releia apenas o seu material: caderno de erros, cartões de fórmulas e resumos feitos por você. Evite abrir temas novos. No dia da prova, faça uma leitura rápida das fórmulas e dos prazos mais cobrados antes de entrar."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Virar a noite estudando na véspera.",
+   "Marcar o cartão no final, sem blocos, e deslocar respostas.",
+   "Deixar questões em branco por insegurança.",
+   "Gastar muito tempo numa questão difícil e deixar as fáceis sem resolver.",
+   "Chegar sem os documentos exigidos ou sem conferir o local."
+  ],
+  "refs": [
+   "Edital do Exame de Suficiência vigente"
+  ]
+ }
+}

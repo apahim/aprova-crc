@@ -1,1 +1,890 @@
-{}
+{
+  "46": [
+    {
+      "stem": "O Manual de Contabilidade Aplicada ao Setor Público (MCASP), editado pela Secretaria do Tesouro Nacional, tem como principal papel:",
+      "options": [
+        "substituir a Lei nº 4.320/1964 como norma geral de direito financeiro",
+        "regulamentar o exercício da profissão contábil e o Exame de Suficiência",
+        "padronizar conceitos, regras e procedimentos contábeis do setor público, viabilizando a consolidação das contas de todos os entes da Federação",
+        "fixar os limites de despesa com pessoal de cada Poder e esfera de governo"
+      ],
+      "correct": 2,
+      "explanation": "O MCASP uniformiza procedimentos contábeis orçamentários, patrimoniais e específicos, o plano de contas e as demonstrações, apoiando a consolidação nacional das contas (LRF, art. 50, §2º). Não revoga a Lei 4.320/64, não regula a profissão e não fixa limites da LRF.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "No Plano de Contas Aplicado ao Setor Público (PCASP), os registros de controle da execução do planejamento e do orçamento, como a receita realizada e a despesa empenhada a liquidar, são efetuados na classe:",
+      "options": [
+        "6 – Controles da execução do planejamento e orçamento",
+        "5 – Controles da aprovação do planejamento e orçamento",
+        "4 – Variações patrimoniais aumentativas",
+        "8 – Controles credores"
+      ],
+      "correct": 0,
+      "explanation": "A classe 5 registra a aprovação (previsão da receita e fixação da despesa); a classe 6 registra a execução (receita realizada, empenho, liquidação e pagamento). A classe 4 é patrimonial (VPA) e as classes 7 e 8 controlam atos potenciais, garantias e contratos.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "A convergência da Contabilidade Aplicada ao Setor Público às normas internacionais toma como referência principal as normas emitidas pelo:",
+      "options": [
+        "IASB, por meio das normas IFRS para empresas privadas",
+        "COSO, por meio da estrutura de controle interno",
+        "FASB, por meio dos US GAAP aplicáveis a companhias abertas",
+        "IPSASB (International Public Sector Accounting Standards Board), as IPSAS"
+      ],
+      "correct": 3,
+      "explanation": "As NBC TSP, editadas pelo CFC, convergem às IPSAS, emitidas pelo IPSASB, órgão ligado à IFAC e voltado ao setor público. IFRS (IASB) e US GAAP (FASB) são voltados ao setor privado, e o COSO trata de controle interno.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Uma informação contábil capaz de influenciar as decisões dos usuários, por ter valor preditivo ou confirmatório, atende à característica qualitativa da:",
+      "options": [
+        "verificabilidade",
+        "relevância",
+        "comparabilidade",
+        "compreensibilidade"
+      ],
+      "correct": 1,
+      "explanation": "Pela Estrutura Conceitual das NBC TSP, a informação é relevante quando é capaz de influenciar o cumprimento dos objetivos da informação contábil, tendo valor preditivo, confirmatório ou ambos. As demais características tratam de outros atributos: possibilidade de confirmação, comparação e entendimento.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "A demonstração contábil aplicada ao setor público que confronta a receita prevista com a realizada e a despesa fixada com a empenhada, liquidada e paga é o:",
+      "options": [
+        "Balanço Patrimonial",
+        "Balanço Financeiro",
+        "Demonstração das Variações Patrimoniais",
+        "Balanço Orçamentário"
+      ],
+      "correct": 3,
+      "explanation": "O Balanço Orçamentário compara previsão inicial e atualizada com a receita realizada, e dotação inicial e atualizada com despesa empenhada, liquidada e paga. O Balanço Patrimonial mostra ativos, passivos e patrimônio líquido, e a DVP mostra o resultado patrimonial.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Com a convergência às normas internacionais, o regime contábil adotado pela Contabilidade Aplicada ao Setor Público é o seguinte:",
+      "options": [
+        "regime de caixa para todos os fatos, orçamentários e patrimoniais",
+        "no âmbito orçamentário, receita pela arrecadação e despesa pelo empenho (Lei 4.320/64, art. 35); no patrimonial, regime de competência",
+        "regime de competência para todos os fatos, inclusive a receita orçamentária",
+        "receita pelo regime de competência e despesa pelo regime de caixa, em ambos os âmbitos"
+      ],
+      "correct": 1,
+      "explanation": "Pertencem ao exercício as receitas nele arrecadas e as despesas nele legalmente empenhadas (Lei 4.320/64, art. 35). Os efeitos patrimoniais são reconhecidos pelo regime de competência, conforme as NBC TSP.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    }
+  ],
+  "47": [
+    {
+      "stem": "A Prefeitura precisa executar uma despesa nova, para a qual a Lei Orçamentária Anual não previu dotação específica, e não há urgência nem imprevisibilidade. O instrumento adequado é o crédito:",
+      "options": [
+        "especial, autorizado por lei e aberto por decreto do Executivo",
+        "suplementar, pois reforça dotação inexistente",
+        "extraordinário, aberto por decreto sem autorização legislativa",
+        "transposição por ato do Executivo, sem autorização legislativa nem indicação de fonte"
+      ],
+      "correct": 0,
+      "explanation": "Crédito especial atende despesas sem dotação orçamentária específica e depende de autorização legislativa e indicação de recursos (Lei 4.320/64, arts. 41 e 42; CF, art. 167, V). O suplementar apenas reforça dotação existente, e o extraordinário exige urgência e imprevisibilidade.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "O crédito adicional extraordinário destina-se a despesas:",
+      "options": [
+        "que necessitam apenas de reforço de dotação já existente na LOA",
+        "sem dotação específica, mas previstas e planejadas, sem urgência",
+        "urgentes e imprevisíveis, como as decorrentes de guerra, comoção interna ou calamidade pública",
+        "de custeio contínuo, para as quais a LOA fixou valor insuficiente"
+      ],
+      "correct": 2,
+      "explanation": "Pela Lei 4.320/64 (art. 41, III) e pela CF (art. 167, §3º), o crédito extraordinário atende a despesas urgentes e imprevisíveis. Reforço de dotação é crédito suplementar, e despesa sem dotação e sem urgência é crédito especial.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "O balanço patrimonial do exercício anterior de um município apresentou ativo financeiro de R$ 1.350.000 e passivo financeiro de R$ 900.000. Desconsiderando outros ajustes, o superávit financeiro que pode ser fonte para abertura de créditos adicionais é de:",
+      "options": [
+        "R$ 900.000",
+        "R$ 450.000",
+        "R$ 1.350.000",
+        "R$ 2.250.000"
+      ],
+      "correct": 1,
+      "explanation": "Superávit financeiro = ativo financeiro − passivo financeiro (Lei 4.320/64, art. 43, §2º) = R$ 1.350.000 − R$ 900.000 = R$ 450.000.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Ao final do exercício, uma unidade gestora apresentava despesas empenhadas de R$ 900.000, liquidadas de R$ 700.000 e pagas de R$ 550.000. Os restos a pagar a inscrever são:",
+      "options": [
+        "processados R$ 200.000 e não processados R$ 150.000",
+        "processados R$ 350.000 e não processados R$ 200.000",
+        "processados R$ 150.000 e não processados R$ 350.000",
+        "processados R$ 150.000 e não processados R$ 200.000"
+      ],
+      "correct": 3,
+      "explanation": "Processados = liquidado − pago = R$ 700.000 − R$ 550.000 = R$ 150.000. Não processados = empenhado − liquidado = R$ 900.000 − R$ 700.000 = R$ 200.000. Total inscrito: R$ 350.000.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "De acordo com a Lei de Responsabilidade Fiscal, nos dois últimos quadrimestres do mandato, o titular de Poder ou órgão:",
+      "options": [
+        "pode contrair qualquer obrigação, desde que inscreva o saldo em restos a pagar não processados",
+        "está proibido de empenhar qualquer despesa, inclusive as obrigatórias",
+        "não pode contrair obrigação de despesa que não possa ser cumprida integralmente no mandato ou que deixe parcelas para o exercício seguinte sem suficiente disponibilidade de caixa",
+        "pode deixar parcelas a pagar no exercício seguinte se houver autorização da Câmara, independentemente de caixa"
+      ],
+      "correct": 2,
+      "explanation": "O art. 42 da LRF veda a obrigação de despesa nos dois últimos quadrimestres do mandato sem cobertura integral dentro dele ou sem disponibilidade de caixa para as parcelas do exercício seguinte. A inscrição em restos a pagar não afasta a vedação.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "A lei que autorizou um crédito especial foi promulgada em 20 de outubro do exercício X1. Se o crédito não for totalmente utilizado até 31 de dezembro de X1, ele:",
+      "options": [
+        "poderá ser reaberto, nos limites dos seus saldos, e incorporado ao orçamento de X2",
+        "perderá a vigência em 31 de dezembro de X1 e o saldo será cancelado",
+        "será incorporado ao orçamento de X2 automaticamente, sem necessidade de reabertura",
+        "só poderá ser reaberto se for convertido em crédito suplementar"
+      ],
+      "correct": 0,
+      "explanation": "A CF (art. 167, §2º) estabelece que créditos especiais e extraordinários vigoram no exercício em que foram autorizados, salvo se o ato for promulgado nos últimos quatro meses do exercício, quando, reabertos nos limites dos saldos, são incorporados ao orçamento seguinte.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    }
+  ],
+  "48": [
+    {
+      "stem": "Em um município, a Receita Corrente Líquida (RCL) do período de apuração é de R$ 100.000.000. O Poder Executivo municipal tem limite de 54% da RCL para despesa com pessoal. O limite prudencial (95% do limite) é de:",
+      "options": [
+        "R$ 54.000.000",
+        "R$ 57.000.000",
+        "R$ 51.300.000",
+        "R$ 49.400.000"
+      ],
+      "correct": 2,
+      "explanation": "Limite do Executivo = 54% × R$ 100.000.000 = R$ 54.000.000. Limite prudencial = 95% × R$ 54.000.000 = R$ 51.300.000 (LRF, arts. 20 e 22). Acima disso, aplicam-se as vedações do art. 22, parágrafo único.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Segundo a Constituição Federal, o Plano Plurianual (PPA) tem vigência de quatro anos, que se inicia:",
+      "options": [
+        "no segundo exercício do mandato do chefe do Executivo e termina no primeiro exercício do mandato seguinte",
+        "no primeiro exercício do mandato e termina no último exercício do mesmo mandato",
+        "no primeiro exercício do mandato e termina no primeiro exercício do mandato seguinte",
+        "no terceiro exercício do mandato e termina no segundo exercício do mandato seguinte"
+      ],
+      "correct": 0,
+      "explanation": "O PPA dura quatro anos, iniciando no segundo ano de um mandato e terminando no primeiro ano do mandato seguinte, assegurando a continuidade administrativa. Estabelece diretrizes, objetivos e metas para despesas de capital e programas de duração continuada (CF, art. 165, §1º).",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "A Lei de Diretrizes Orçamentárias, conforme a LRF, deve conter o Anexo de Metas Fiscais, no qual são estabelecidas:",
+      "options": [
+        "a relação detalhada de cada despesa fixada, por elemento e modalidade de aplicação",
+        "o valor da reserva de contingência e sua forma de utilização",
+        "os programas de duração continuada e seus indicadores para os próximos quatro anos",
+        "metas anuais de receitas, despesas, resultados nominal e primário e montante da dívida pública, para o exercício e os dois seguintes"
+      ],
+      "correct": 3,
+      "explanation": "O Anexo de Metas Fiscais (LRF, art. 4º, §1º) traz metas de receitas, despesas, resultados nominal e primário e dívida pública para três exercícios. O detalhamento da despesa está na LOA, e os programas de duração continuada estão no PPA.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Verificado, ao final de um bimestre, que a realização da receita poderá não comportar o cumprimento das metas de resultado primário ou nominal, a LRF determina que os Poderes e o Ministério Público:",
+      "options": [
+        "suspendam imediatamente o pagamento de todas as despesas, inclusive as obrigatórias",
+        "promovam limitação de empenho e movimentação financeira nos trinta dias subsequentes, segundo os critérios da LDO",
+        "aumentem automaticamente as alíquotas dos tributos de sua competência",
+        "aguardem o final do exercício para ajustar a meta na LOA do ano seguinte"
+      ],
+      "correct": 1,
+      "explanation": "É a limitação de empenho e movimentação financeira prevista no art. 9º da LRF, em até trinta dias, nos montantes necessários e conforme critérios da LDO. Não alcança, por exemplo, despesas que constituam obrigações constitucionais e legais do ente.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "A fiscalização do cumprimento das normas da Lei de Responsabilidade Fiscal compete, nos termos da própria lei:",
+      "options": [
+        "exclusivamente aos Tribunais de Contas",
+        "exclusivamente ao controle interno do Poder Executivo",
+        "exclusivamente à Secretaria do Tesouro Nacional",
+        "ao Poder Legislativo, com auxílio dos Tribunais de Contas, ao sistema de controle interno de cada Poder e ao Ministério Público"
+      ],
+      "correct": 3,
+      "explanation": "O art. 59 da LRF atribui a fiscalização ao Poder Legislativo, diretamente ou com auxílio dos Tribunais de Contas, ao sistema de controle interno de cada Poder e ao Ministério Público. A STN consolida e divulga dados, mas não detém fiscalização exclusiva.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Os limites globais para o montante da dívida pública consolidada dos Estados e dos Municípios são fixados por:",
+      "options": [
+        "lei orçamentária anual de cada ente",
+        "resolução do Senado Federal",
+        "portaria da Secretaria do Tesouro Nacional",
+        "resolução do Conselho Federal de Contabilidade"
+      ],
+      "correct": 1,
+      "explanation": "Compete privativamente ao Senado Federal fixar limites globais para o montante da dívida consolidada de Estados, DF e Municípios (CF, art. 52, VI e IX; LRF, art. 30), o que é feito por resolução (por exemplo, a Resolução do Senado nº 40/2001).",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    }
+  ],
+  "49": [
+    {
+      "stem": "O pagamento, com recursos do caixa, de uma dívida com fornecedores já reconhecida no passivo representa um fato:",
+      "options": [
+        "permutativo, pois diminui ativo e passivo em igual valor, sem alterar o patrimônio líquido",
+        "modificativo aumentativo, pois gera variação patrimonial aumentativa",
+        "modificativo diminutivo, pois gera variação patrimonial diminutiva",
+        "misto aumentativo, pois eleva o patrimônio líquido"
+      ],
+      "correct": 0,
+      "explanation": "A obrigação já estava reconhecida; o pagamento reduz Caixa (ativo) e Fornecedores (passivo) pelo mesmo valor. Não há VPA nem VPD, e o patrimônio líquido permanece inalterado.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "No exercício, um ente público registrou variações patrimoniais aumentativas de R$ 1.250.000 (tributárias R$ 800.000 e transferências recebidas R$ 450.000) e variações patrimoniais diminutivas de R$ 1.480.000 (pessoal R$ 900.000, depreciação R$ 180.000 e juros R$ 400.000). O resultado patrimonial do período foi:",
+      "options": [
+        "superávit patrimonial de R$ 230.000",
+        "déficit patrimonial de R$ 680.000",
+        "déficit patrimonial de R$ 230.000",
+        "superávit patrimonial de R$ 2.730.000"
+      ],
+      "correct": 2,
+      "explanation": "Resultado patrimonial = VPA − VPD = R$ 1.250.000 − R$ 1.480.000 = − R$ 230.000, ou seja, déficit patrimonial. A soma R$ 900.000 + R$ 180.000 + R$ 400.000 confirma as VPD em R$ 1.480.000.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Entre os fatos a seguir, aquele que gera variação patrimonial aumentativa para o ente público é:",
+      "options": [
+        "o reconhecimento da depreciação mensal de um veículo",
+        "o recebimento, por doação, de um imóvel avaliado em R$ 500.000",
+        "o consumo de material de expediente estocado",
+        "o pagamento de juros de um financiamento"
+      ],
+      "correct": 1,
+      "explanation": "A doação recebida de bem aumenta o patrimônio líquido sem contrapartida, sendo VPA. Depreciação, consumo de estoque e juros são variações patrimoniais diminutivas.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Uma praça pública mantida pelo Município, de livre acesso à população, é classificada, quanto à destinação, como bem público:",
+      "options": [
+        "de uso especial",
+        "dominical",
+        "de capital, sujeito a alienação livre",
+        "de uso comum do povo"
+      ],
+      "correct": 3,
+      "explanation": "Pelo Código Civil (art. 99, I), são bens de uso comum do povo rios, mares, estradas, ruas e praças. Bens de uso especial abrigam serviço ou estabelecimento público, e os dominicais constituem patrimônio disponível do ente.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Sobre o regime jurídico dos bens públicos, é correto afirmar que:",
+      "options": [
+        "os bens de uso comum do povo podem ser alienados livremente, mesmo estando afetados",
+        "os bens dominicais podem ser adquiridos por usucapião",
+        "os bens dominicais podem ser alienados, observadas as exigências legais",
+        "os bens públicos podem ser penhorados para pagamento de dívidas do ente"
+      ],
+      "correct": 2,
+      "explanation": "O Código Civil (arts. 100 e 101) prevê que bens de uso comum e de uso especial são inalienáveis enquanto afetados, e que dominicais podem ser alienados na forma da lei. Bens públicos não se sujeitam a usucapião nem a penhora.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Segundo a Lei 4.320/64, o levantamento geral dos bens móveis e imóveis do ente público deve ter por base:",
+      "options": [
+        "o inventário analítico de cada unidade administrativa e os elementos da escrituração sintética da contabilidade",
+        "apenas o valor registrado na Lei Orçamentária Anual",
+        "exclusivamente as avaliações realizadas pelos órgãos de controle externo",
+        "o relatório de gestão fiscal do último quadrimestre"
+      ],
+      "correct": 0,
+      "explanation": "O art. 96 da Lei 4.320/64 determina que o levantamento geral dos bens use o inventário analítico das unidades e a escrituração sintética da contabilidade, o que permite conciliar registros físicos e contábeis.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    }
+  ],
+  "51": [
+    {
+      "stem": "Segundo a NBC TA 200, ao conduzir uma auditoria de demonstrações contábeis, o auditor independente obtém:",
+      "options": [
+        "segurança absoluta de que não há distorções nas demonstrações",
+        "segurança limitada, equivalente à de uma revisão de informações contábeis",
+        "segurança razoável, que é um alto grau de segurança, mas não absoluta",
+        "garantia da viabilidade futura da entidade"
+      ],
+      "correct": 2,
+      "explanation": "A auditoria fornece segurança razoável, e não absoluta, em razão de limitações inerentes: uso de testes, limitações de controles internos e evidências mais persuasivas do que conclusivas. Segurança limitada é característica de trabalhos de revisão.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "A auditoria que examina a economicidade, a eficiência, a eficácia e a efetividade de um programa governamental é classificada como auditoria:",
+      "options": [
+        "operacional (de desempenho)",
+        "de conformidade (compliance)",
+        "financeira, de demonstrações contábeis",
+        "de revisão limitada"
+      ],
+      "correct": 0,
+      "explanation": "A auditoria operacional ou de desempenho avalia o uso de recursos e os resultados de programas e ações. A de conformidade verifica o atendimento a leis e normas, e a financeira opina sobre as demonstrações.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "De acordo com a NBC TA 300, a estratégia global de auditoria:",
+      "options": [
+        "detalha a natureza, época e extensão de cada teste individual a ser aplicado",
+        "é elaborada somente depois de concluídos os procedimentos substantivos",
+        "dispensa a participação do sócio responsável pelo trabalho",
+        "estabelece o escopo, a época e a direção da auditoria e orienta o desenvolvimento do plano de auditoria"
+      ],
+      "correct": 3,
+      "explanation": "A estratégia global define escopo, época e direção; o plano de auditoria, mais detalhado, trata dos procedimentos. O planejamento é um processo contínuo e iterativo, com participação do sócio e das pessoas-chave da equipe.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "De acordo com a NBC TA 230, a documentação de auditoria (papéis de trabalho) tem como finalidade:",
+      "options": [
+        "transferir a propriedade das informações do cliente para a firma de auditoria",
+        "fornecer evidência da base para o relatório do auditor e de que a auditoria foi planejada e executada conforme as normas",
+        "substituir o relatório de auditoria quando não houver modificação de opinião",
+        "ser entregue integralmente à administração como parte do relatório"
+      ],
+      "correct": 1,
+      "explanation": "A documentação sustenta o relatório e demonstra a observância das normas, permitindo a revisão por outros auditores. Os papéis de trabalho são de propriedade do auditor e não substituem o relatório.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "A NBC TA 210 trata dos termos do trabalho de auditoria. Antes de iniciar a auditoria, o auditor deve:",
+      "options": [
+        "iniciar os testes e formalizar os termos apenas ao emitir o relatório",
+        "definir unilateralmente o escopo, sem comunicação à administração",
+        "formalizar os termos somente se a administração solicitar",
+        "acordar os termos do trabalho com a administração e formalizá-los, normalmente em carta de contratação"
+      ],
+      "correct": 3,
+      "explanation": "A carta de contratação documenta objetivo e escopo, responsabilidades do auditor e da administração e a forma dos relatórios, evitando divergências de entendimento.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "O ceticismo profissional, exigido pela NBC TA 200, significa:",
+      "options": [
+        "desconfiar da honestidade da administração, presumindo fraude",
+        "manter atitude questionadora e atenta a condições que possam indicar distorção, avaliando criticamente as evidências",
+        "aceitar as representações da administração se o cliente for antigo",
+        "aplicar o mesmo volume de testes em todas as áreas, sem considerar riscos"
+      ],
+      "correct": 1,
+      "explanation": "O ceticismo profissional é uma atitude de questionamento e avaliação crítica das evidências, sem presumir desonestidade nem confiança cega. Os testes devem ser dimensionados conforme os riscos.",
+      "area": "Auditoria Contábil"
+    }
+  ],
+  "52": [
+    {
+      "stem": "O risco inerente, no contexto da auditoria das demonstrações contábeis, é:",
+      "options": [
+        "a suscetibilidade de uma afirmação conter distorção relevante, antes de considerar quaisquer controles relacionados",
+        "o risco de o auditor não detectar, por seus procedimentos, uma distorção relevante existente",
+        "o risco de a distorção não ser prevenida ou detectada tempestivamente pelo controle interno",
+        "o risco de o auditor emitir opinião sem ressalva em demonstrações com distorções relevantes e generalizadas"
+      ],
+      "correct": 0,
+      "explanation": "O risco inerente existe independentemente dos controles. O primeiro distrator descreve o risco de detecção e o segundo, o risco de controle. Risco de distorção relevante combina risco inerente e risco de controle.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "Pelo modelo clássico de risco de auditoria, o risco aceitável é de 5%, o risco inerente foi avaliado em 80% e o risco de controle em 50%. O risco de detecção admissível é de:",
+      "options": [
+        "2,0%",
+        "25,0%",
+        "12,5%",
+        "40,0%"
+      ],
+      "correct": 2,
+      "explanation": "Risco de distorção relevante = 80% × 50% = 40%. Risco de detecção = risco de auditoria ÷ risco de distorção relevante = 5% ÷ 40% = 12,5%.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "O lucro antes do imposto de renda de uma entidade é de R$ 4.000.000. O auditor adota 5% desse valor como materialidade global e 70% dela como materialidade para execução. A materialidade para execução é de:",
+      "options": [
+        "R$ 200.000",
+        "R$ 140.000",
+        "R$ 150.000",
+        "R$ 120.000"
+      ],
+      "correct": 1,
+      "explanation": "Materialidade global = 5% × R$ 4.000.000 = R$ 200.000. Materialidade para execução = 70% × R$ 200.000 = R$ 140.000, menor para reduzir a probabilidade de distorções não corrigidas e não detectadas excederem a materialidade global (NBC TA 320).",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "Quanto à confiabilidade das evidências de auditoria (NBC TA 500), é mais confiável:",
+      "options": [
+        "a resposta oral do gerente financeiro a uma indagação",
+        "a fotocópia de documento entregue pela administração",
+        "relatório gerado por sistema do cliente com controles fracos",
+        "a confirmação recebida diretamente, por escrito e em original, de terceiro independente"
+      ],
+      "correct": 3,
+      "explanation": "A evidência de fonte externa independente, obtida diretamente pelo auditor e em original, é mais confiável. A suficiência mede a quantidade e a adequação mede a qualidade (relevância e confiabilidade); ambas são necessárias.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "A separação das funções de autorizar, registrar e custodiar ativos é um exemplo, no sistema de controle interno, de:",
+      "options": [
+        "monitoramento",
+        "ambiente de controle",
+        "atividade de controle",
+        "procedimento analítico substantivo"
+      ],
+      "correct": 2,
+      "explanation": "Segregação de funções é atividade de controle: reduz a possibilidade de erro ou fraude por uma só pessoa. Ambiente de controle refere-se à cultura e à governança, e monitoramento avalia o desempenho dos controles ao longo do tempo.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "Se o auditor avalia como elevado o risco de distorção relevante em determinada afirmação, para manter o risco de auditoria em nível aceitavelmente baixo ele deve:",
+      "options": [
+        "reduzir o risco de detecção, ampliando natureza, época e extensão dos procedimentos substantivos",
+        "aumentar o risco de detecção, reduzindo os testes substantivos",
+        "elevar a materialidade para execução, a fim de testar menos itens",
+        "desconsiderar o risco inerente, por ser independente do controle"
+      ],
+      "correct": 0,
+      "explanation": "Há relação inversa entre risco de distorção relevante e risco de detecção aceitável. Risco maior exige procedimentos substantivos mais robustos (NBC TA 330).",
+      "area": "Auditoria Contábil"
+    }
+  ],
+  "53": [
+    {
+      "stem": "O auditor seleciona 25 pagamentos do período e verifica se cada um foi aprovado pelo gestor, conforme a política da entidade, para concluir se o controle operou com eficácia. Esse procedimento é:",
+      "options": [
+        "procedimento analítico substantivo",
+        "teste substantivo de detalhes",
+        "teste de controle",
+        "confirmação externa"
+      ],
+      "correct": 2,
+      "explanation": "Testes de controle avaliam a eficácia operacional dos controles (NBC TA 330). Procedimentos substantivos, de detalhes ou analíticos, buscam detectar distorções relevantes em saldos, transações e divulgações.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "O auditor concluiu que as demonstrações contêm distorções relevantes e generalizadas, tendo obtido evidência suficiente e apropriada. O tipo de opinião adequado é:",
+      "options": [
+        "opinião adversa",
+        "opinião com ressalva",
+        "abstenção de opinião",
+        "opinião sem modificação, com parágrafo de ênfase"
+      ],
+      "correct": 0,
+      "explanation": "Distorções relevantes e generalizadas com evidência suficiente levam à opinião adversa (NBC TA 705). Com ressalva seria usada se fossem relevantes mas não generalizadas, e abstenção se faltasse evidência.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "Um incêndio destruiu os registros de contas a receber, estoques e receitas de uma entidade. O auditor não conseguiu obter evidência apropriada e suficiente por outros meios, e os possíveis efeitos são relevantes e generalizados. O auditor deve:",
+      "options": [
+        "emitir opinião adversa",
+        "emitir opinião com ressalva",
+        "emitir opinião sem ressalva, com parágrafo de outros assuntos",
+        "abster-se de expressar opinião"
+      ],
+      "correct": 3,
+      "explanation": "A impossibilidade de obter evidência, com possíveis efeitos relevantes e generalizados, leva à abstenção de opinião. Se os efeitos fossem relevantes mas não generalizados, caberia opinião com ressalva.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "O auditor identificou distorção relevante no saldo de provisões, restrita a esse item e sem efeito generalizado sobre as demonstrações. A administração se recusou a ajustá-la. A opinião adequada é:",
+      "options": [
+        "adversa",
+        "com ressalva",
+        "abstenção de opinião",
+        "sem modificação"
+      ],
+      "correct": 1,
+      "explanation": "Distorção relevante, mas não generalizada, não corrigida pela administração, leva à opinião com ressalva. Seria adversa se fosse também generalizada.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "Segundo a NBC TA 240, a distinção entre fraude e erro consiste:",
+      "options": [
+        "no valor envolvido, sendo fraude toda distorção acima da materialidade",
+        "no fato de que a fraude só ocorre em ativos e o erro só em passivos",
+        "na determinação legal de dolo pelo auditor, que deve concluí-la em seu relatório",
+        "na intencionalidade do ato subjacente que resulta em distorção nas demonstrações"
+      ],
+      "correct": 3,
+      "explanation": "Fraude é ato intencional, por um ou mais membros da administração, empregados ou terceiros, envolvendo dolo; erro é não intencional. O auditor não determina juridicamente se houve fraude, mas avalia os riscos e responde a eles.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "A entidade tem litígio relevante, com divulgação adequada em nota explicativa, e o auditor entende que o assunto é fundamental para o entendimento das demonstrações pelos usuários. Se não há distorção relevante, o auditor deve:",
+      "options": [
+        "emitir opinião com ressalva pelo litígio",
+        "emitir opinião sem modificação e incluir parágrafo de ênfase referenciando a nota explicativa",
+        "emitir opinião adversa pela incerteza",
+        "abster-se de opinar até o desfecho do litígio"
+      ],
+      "correct": 1,
+      "explanation": "O parágrafo de ênfase (NBC TA 706) chama a atenção para assunto adequadamente divulgado e fundamental, sem modificar a opinião. A modificação só ocorreria com distorção relevante ou limitação de escopo.",
+      "area": "Auditoria Contábil"
+    }
+  ],
+  "54": [
+    {
+      "stem": "O laudo pericial contábil e o parecer pericial contábil são elaborados, respectivamente, pelo:",
+      "options": [
+        "perito nomeado pelo juiz e pelo assistente técnico indicado pela parte",
+        "assistente técnico indicado pela parte e pelo perito nomeado pelo juiz",
+        "perito nomeado pelo juiz e pelo advogado da parte",
+        "assistente técnico e pelo escrivão do processo"
+      ],
+      "correct": 0,
+      "explanation": "O laudo é a peça do perito do juízo (CPC, art. 473). O parecer é a peça do assistente técnico, que o apresenta no prazo comum de 15 dias após a intimação sobre o laudo (CPC, art. 477, §1º).",
+      "area": "Perícia Contábil"
+    },
+    {
+      "stem": "De acordo com o Código de Processo Civil, o laudo pericial deve conter:",
+      "options": [
+        "juízo sobre o mérito jurídico do pedido e a decisão sobre as custas",
+        "apenas a resposta aos quesitos da parte que requereu a perícia",
+        "exposição do objeto da perícia, análise técnica, indicação do método utilizado e resposta conclusiva a todos os quesitos",
+        "a opinião do perito sobre a credibilidade das testemunhas"
+      ],
+      "correct": 2,
+      "explanation": "O art. 473 do CPC elenca esses requisitos. Não cabe ao perito julgar o mérito jurídico, decisão que pertence ao juiz, nem responder apenas aos quesitos de uma das partes.",
+      "area": "Perícia Contábil"
+    },
+    {
+      "stem": "Sobre o assistente técnico, o Código de Processo Civil estabelece que ele:",
+      "options": [
+        "é nomeado pelo juiz e está sujeito a suspeição como o perito",
+        "é de confiança da parte e não está sujeito a impedimento ou suspeição",
+        "assina o laudo do perito do juízo em conjunto com ele",
+        "só pode ser indicado depois da entrega do laudo"
+      ],
+      "correct": 1,
+      "explanation": "Conforme o CPC (art. 466, §1º), assistentes técnicos são de confiança da parte, não sujeitos a impedimento ou suspeição. A indicação ocorre no prazo de 15 dias após a nomeação do perito (art. 465, §1º).",
+      "area": "Perícia Contábil"
+    },
+    {
+      "stem": "Durante a diligência pericial, uma das partes percebe a necessidade de formular nova pergunta técnica ao perito. De acordo com o CPC, ela:",
+      "options": [
+        "não pode, pois os quesitos precluem após o prazo inicial",
+        "só pode se o juiz nomear novo perito",
+        "deve encaminhar o quesito ao assistente técnico da parte contrária",
+        "pode apresentar quesito suplementar, que será respondido pelo perito previamente ou na audiência"
+      ],
+      "correct": 3,
+      "explanation": "O art. 469 do CPC admite quesitos suplementares durante a diligência, dando-se ciência à parte contrária. O juiz pode indeferir quesitos impertinentes (art. 470, I).",
+      "area": "Perícia Contábil"
+    },
+    {
+      "stem": "Dois sócios, sem processo judicial, contratam um contador para apurar o valor de haveres do sócio que se retira por acordo. Essa perícia é:",
+      "options": [
+        "judicial, pois qualquer perícia contábil é determinada pelo juiz",
+        "uma auditoria de demonstrações contábeis, regida pelas NBC TA",
+        "extrajudicial, por ser realizada fora de processo judicial",
+        "uma perícia judicial sem necessidade de nomeação"
+      ],
+      "correct": 2,
+      "explanation": "Perícia extrajudicial é a realizada fora do processo judicial, por contratação das partes ou em arbitragem. A judicial decorre de nomeação do juiz.",
+      "area": "Perícia Contábil"
+    },
+    {
+      "stem": "Em ação revisional de contrato de financiamento, o juiz determina o recálculo das parcelas conforme os parâmetros decididos. Para atuar como perito do juízo, o profissional deve ser:",
+      "options": [
+        "contador legalmente habilitado, com registro ativo no CRC",
+        "qualquer bacharel em Direito indicado pelo juiz",
+        "técnico em administração de confiança do juiz",
+        "contador sem registro, desde que aceite a nomeação"
+      ],
+      "correct": 0,
+      "explanation": "O exercício da perícia contábil exige contador (bacharel em Ciências Contábeis) com registro regular no CRC e habilitação legal (DL 9.295/46, arts. 25 e 26; CPC, art. 156, §1º).",
+      "area": "Perícia Contábil"
+    }
+  ],
+  "56": [
+    {
+      "stem": "O contador, a pedido do cliente, emite declaração que sabe conter informação falsa. O princípio fundamental diretamente violado é:",
+      "options": [
+        "objetividade",
+        "comportamento profissional",
+        "integridade",
+        "competência profissional e devido zelo"
+      ],
+      "correct": 2,
+      "explanation": "A integridade exige ser franco e honesto em todos os relacionamentos profissionais, sem se associar a informações falsas ou enganosas (NBC PG 100).",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "O contador atua na avaliação de um fornecedor do qual é sócio. O princípio fundamental sob ameaça é:",
+      "options": [
+        "objetividade",
+        "confidencialidade",
+        "competência profissional e devido zelo",
+        "comportamento profissional"
+      ],
+      "correct": 0,
+      "explanation": "A objetividade impede que parcialidade, conflito de interesses ou influência indevida comprometam os julgamentos profissionais. Ser sócio do fornecedor avaliado cria conflito de interesses.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Um contador é convidado a assumir um trabalho em área técnica que reconhece não dominar. De acordo com o princípio da competência profissional e devido zelo e com a NBC PG 01, ele deve:",
+      "options": [
+        "aceitar o trabalho e subcontratar terceiros sem informar o cliente",
+        "aceitar o trabalho, desde que reduza os honorários proporcionalmente",
+        "aceitar o trabalho e omitir a limitação técnica nos relatórios",
+        "recusar a indicação para o trabalho, por reconhecer que não está capacitado"
+      ],
+      "correct": 3,
+      "explanation": "O princípio exige manter conhecimento e habilidade em nível adequado e agir com diligência. Pela NBC PG 01, é dever do contador recusar a indicação para trabalho quando reconheça não estar capacitado.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "De acordo com o Código de Ética Profissional do Contador (NBC PG 01), a publicidade dos serviços contábeis deve:",
+      "options": [
+        "ser agressiva e comparar os serviços com os de concorrentes",
+        "ter caráter informativo, ser moderada e discreta, vedada a mercantilização",
+        "garantir resultados, como redução certa de tributos",
+        "usar a reputação de colegas como referência negativa"
+      ],
+      "correct": 1,
+      "explanation": "A NBC PG 01 exige publicidade de natureza técnica e científica, meramente informativa, moderada e discreta, e proíbe mercantilização, comparações depreciativas e afirmações desproporcionais.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Qual conduta contraria o princípio do comportamento profissional?",
+      "options": [
+        "recusar um trabalho para o qual não tem competência",
+        "manter sigilo sobre informações do cliente",
+        "aplicar salvaguardas diante de ameaça à independência",
+        "praticar ato que desacredite a profissão, como difamar colegas em redes sociais"
+      ],
+      "correct": 3,
+      "explanation": "O comportamento profissional exige cumprir leis e regulamentos e evitar condutas que desacreditem a profissão. As demais condutas são compatíveis com a ética profissional.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "É vedado ao contador, segundo o Código de Ética Profissional:",
+      "options": [
+        "informar seu número de registro e categoria após a assinatura",
+        "assinar documentos contábeis elaborados por outrem sem sua orientação, supervisão e fiscalização",
+        "recusar o serviço para o qual não esteja capacitado",
+        "guardar sigilo sobre o que souber em razão do exercício profissional"
+      ],
+      "correct": 1,
+      "explanation": "A assinatura de documentos elaborados por terceiros sem orientação, supervisão e fiscalização é vedada. As demais condutas são deveres do contador.",
+      "area": "Legislação e Ética Profissional"
+    }
+  ],
+  "57": [
+    {
+      "stem": "Segundo a NBC PG 01, a transgressão de preceito do Código de Ética constitui infração ética, sancionada, conforme a gravidade, com uma das penalidades abaixo. A ordem crescente de gravidade é:",
+      "options": [
+        "advertência reservada, censura reservada e censura pública",
+        "censura pública, censura reservada e advertência reservada",
+        "advertência reservada, suspensão e cassação",
+        "multa, censura reservada e censura pública"
+      ],
+      "correct": 0,
+      "explanation": "O item 20 da NBC PG 01 prevê advertência reservada, censura reservada ou censura pública. A advertência é a mais branda; a censura pública, divulgada, é a mais grave das três. Suspensão e cassação decorrem do DL 9.295/46.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Segundo a NBC PG 01, na aplicação das sanções éticas, é circunstância atenuante:",
+      "options": [
+        "punição ética anterior transitada em julgado",
+        "ação ou omissão que macule publicamente a imagem do contador",
+        "ausência de punição ética anterior",
+        "gravidade da infração"
+      ],
+      "correct": 2,
+      "explanation": "São atenuantes: defesa de prerrogativa profissional, ausência de punição anterior, relevantes serviços à Contabilidade e aplicação de salvaguardas. São agravantes: macular publicamente a imagem do contador, punição anterior transitada em julgado e gravidade da infração.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Conforme o art. 27 do DL 9.295/46, o profissional que, no âmbito técnico, for responsável por falsidade de documentos que assinar está sujeito a:",
+      "options": [
+        "advertência reservada apenas",
+        "suspensão do exercício da profissão por até dois anos",
+        "suspensão de seis meses a um ano, restrita a casos de incapacidade técnica",
+        "multa de uma a dez anuidades, sem suspensão"
+      ],
+      "correct": 1,
+      "explanation": "O art. 27, d, prevê suspensão por até dois anos para responsáveis por falsidade de documentos que assinarem e por irregularidades de escrituração para fraudar rendas públicas. A suspensão de seis meses a um ano é para incapacidade técnica comprovada (alínea e).",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "A cassação do exercício profissional, prevista no DL 9.295/46, exige, além da hipótese legal, como a apropriação indevida de valores de clientes:",
+      "options": [
+        "decisão isolada do presidente do CRC",
+        "autorização do Ministério Público",
+        "trânsito em julgado de condenação criminal em todos os casos",
+        "homologação por dois terços do Plenário do Tribunal Superior de Ética e Disciplina do CFC"
+      ],
+      "correct": 3,
+      "explanation": "O art. 27, f, exige que a cassação seja homologada por 2/3 do Plenário do TSED, nos casos de incapacidade técnica grave, crime contra a ordem econômica e tributária, falsa prova de requisito de registro ou apropriação indevida de valores de clientes.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "No processo ético-disciplinar, a competência para julgar e aplicar penalidades em primeira instância e a instância recursal são, respectivamente:",
+      "options": [
+        "Conselho Federal de Contabilidade e Conselho Regional de Contabilidade",
+        "Conselho Regional de Contabilidade e Ministério Público",
+        "Conselho Regional de Contabilidade e Conselho Federal de Contabilidade",
+        "Poder Judiciário e Conselho Regional de Contabilidade"
+      ],
+      "correct": 2,
+      "explanation": "Os CRCs julgam em primeira instância os profissionais de sua jurisdição, e o CFC, em grau de recurso, julga em última instância administrativa, por seu Tribunal Superior de Ética e Disciplina.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Em linhas gerais, a prescrição da pretensão punitiva administrativa, aplicável às autarquias federais, como os conselhos de fiscalização profissional (Lei 9.873/1999), ocorre em:",
+      "options": [
+        "cinco anos, contados da prática do ato, além da prescrição intercorrente de três anos se o processo ficar paralisado",
+        "um ano, sem prescrição intercorrente",
+        "dez anos, sem interrupção",
+        "vinte anos, contados do conhecimento do fato pelo CRC"
+      ],
+      "correct": 0,
+      "explanation": "A Lei 9.873/1999 estabelece prazo de cinco anos para a ação punitiva da administração pública federal, contado da prática do ato, e de três anos para a prescrição intercorrente (procedimento paralisado pendente de julgamento ou despacho).",
+      "area": "Legislação e Ética Profissional"
+    }
+  ],
+  "58": [
+    {
+      "stem": "Conforme a NBC PA 400, a independência na aparência consiste em:",
+      "options": [
+        "manter estado de espírito que permita expressar conclusão sem influências, mesmo que haja relação financeira com o cliente",
+        "ter o auditor distância social total do cliente",
+        "evitar fatos e circunstâncias tão significativos que um terceiro bem informado concluísse que a integridade, a objetividade ou o ceticismo foram comprometidos",
+        "ter o parecer do auditor aprovado pela administração antes da emissão"
+      ],
+      "correct": 2,
+      "explanation": "A independência tem duas dimensões: de pensamento (estado de espírito) e na aparência (percepção de terceiros bem informados). O primeiro distrator descreve a independência de pensamento e ignora a aparência.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "A firma de auditoria elabora a escrituração e prepara as demonstrações contábeis de um cliente e depois as audita. Essa situação gera, principalmente, ameaça de:",
+      "options": [
+        "autorrevisão",
+        "interesse próprio",
+        "intimidação",
+        "familiaridade"
+      ],
+      "correct": 0,
+      "explanation": "Há autorrevisão quando o auditor avalia o resultado de julgamentos ou serviços que ele próprio ou a firma prestou. Isso compromete a objetividade.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "O sócio responsável por uma auditoria adquire ações da entidade auditada. Essa situação gera, principalmente, ameaça de:",
+      "options": [
+        "autorrevisão",
+        "defesa de interesses",
+        "familiaridade",
+        "interesse próprio"
+      ],
+      "correct": 3,
+      "explanation": "A ameaça de interesse próprio surge quando interesse financeiro ou de outra natureza influencia, ou pode influenciar, o julgamento do auditor. A participação financeira direta em cliente de auditoria é, em regra, incompatível com a independência.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "A administração do cliente ameaça substituir o auditor se ele não aceitar determinado tratamento contábil. Essa situação caracteriza ameaça de:",
+      "options": [
+        "interesse próprio",
+        "intimidação",
+        "autorrevisão",
+        "familiaridade"
+      ],
+      "correct": 1,
+      "explanation": "Intimidação ocorre quando o auditor é dissuadido de agir objetivamente por ameaças reais ou percebidas, como substituição ou pressão. Exige salvaguardas e, se não for possível reduzir a ameaça a nível aceitável, recusa ou renúncia.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Um contador atende duas empresas concorrentes, com interesses conflitantes em uma disputa. A conduta mais adequada é:",
+      "options": [
+        "prosseguir sem comunicar, pois o sigilo profissional elimina o conflito",
+        "repassar à segunda empresa dados da primeira para manter o equilíbrio",
+        "aceitar ambos os trabalhos, desde que os honorários sejam maiores",
+        "identificar o conflito, aplicar salvaguardas, como divulgação às partes e consentimento, e, se não reduzir a ameaça a nível aceitável, recusar ou encerrar o trabalho"
+      ],
+      "correct": 3,
+      "explanation": "A NBC PG 01 exige medidas razoáveis para evitar ou minimizar conflitos de interesses e, se não for possível reduzi-los a nível aceitável, adotar medidas para não perder a independência, o que pode levar à recusa ou renúncia ao trabalho.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "O contador pode divulgar informação confidencial de cliente, sem autorização deste, quando:",
+      "options": [
+        "o cliente deixar de pagar os honorários",
+        "houver obrigação legal ou determinação judicial de divulgação",
+        "a relação profissional for encerrada",
+        "a divulgação servir para promover seus serviços"
+      ],
+      "correct": 1,
+      "explanation": "O sigilo é dever permanente, que subsiste após o fim da relação. As exceções são autorização do cliente, obrigação legal ou judicial e dever profissional de divulgar. O inadimplemento não libera o contador do sigilo.",
+      "area": "Legislação e Ética Profissional"
+    }
+  ],
+  "59": [
+    {
+      "stem": "O Decreto-Lei nº 9.295/1946 criou o Conselho Federal de Contabilidade e estabeleceu que a fiscalização do exercício da profissão contábil é exercida:",
+      "options": [
+        "pelo Conselho Federal de Contabilidade e pelos Conselhos Regionais de Contabilidade",
+        "pelo Ministério do Trabalho e pelo Ministério da Fazenda",
+        "pelos sindicatos de contabilistas e pela Receita Federal",
+        "exclusivamente pelo Conselho Federal, sem participação de órgãos regionais"
+      ],
+      "correct": 0,
+      "explanation": "O art. 2º do DL 9.295/46 atribui a fiscalização do exercício da profissão contábil ao CFC e aos CRCs, que formam o Sistema CFC/CRCs.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Para o registro profissional de contador no CRC, o DL 9.295/46 exige, entre outros requisitos:",
+      "options": [
+        "apenas diploma de curso técnico em Contabilidade",
+        "apenas tempo de experiência comprovada de dois anos",
+        "conclusão do bacharelado em Ciências Contábeis reconhecido pelo MEC e aprovação em Exame de Suficiência",
+        "apenas indicação de dois contadores já registrados"
+      ],
+      "correct": 2,
+      "explanation": "O art. 12 exige bacharelado em Ciências Contábeis reconhecido pelo MEC, aprovação em Exame de Suficiência e registro no CRC.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "De acordo com o DL 9.295/46, após alteração da Lei 12.249/2010, o novo registro de técnico em Contabilidade ficou limitado a quem se registrou até:",
+      "options": [
+        "31 de dezembro de 2010",
+        "1º de junho de 2015",
+        "1º de junho de 2020",
+        "11 de junho de 2010"
+      ],
+      "correct": 1,
+      "explanation": "O art. 12, §2º, assegura o exercício aos técnicos em Contabilidade já registrados e aos que viessem a se registrar até 1º de junho de 2015. Depois disso, o registro exige bacharelado em Ciências Contábeis.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Pelo DL 9.295/46, as atribuições privativas dos contadores diplomados incluem:",
+      "options": [
+        "somente a escrituração de livros fiscais",
+        "somente a organização de serviços de contabilidade em geral",
+        "somente a emissão de laudos de avaliação imobiliária",
+        "perícias judiciais ou extrajudiciais, revisão de balanços e de contas em geral e verificação de haveres"
+      ],
+      "correct": 3,
+      "explanation": "O art. 25, c, trata dessas atribuições, que o art. 26 declara privativas dos contadores diplomados. Escrituração e organização contábil, em geral, também podem ser executadas por técnicos em Contabilidade registrados.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "A Resolução CFC nº 1.612/2021 aprovou:",
+      "options": [
+        "o Código de Ética Profissional do Contador",
+        "o Exame de Suficiência para bacharéis em Ciências Contábeis",
+        "o Regulamento Geral dos Conselhos de Contabilidade",
+        "o Decreto-Lei que criou o Conselho Federal de Contabilidade"
+      ],
+      "correct": 2,
+      "explanation": "A Resolução CFC 1.612/2021 aprovou o Regulamento Geral, com normas gerais de organização, funcionamento e procedimentos do CFC e dos CRCs. O Código de Ética é a NBC PG 01, e o DL 9.295/46 foi editado em 1946.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "É atribuição do Conselho Federal de Contabilidade, nos termos do DL 9.295/46:",
+      "options": [
+        "editar Normas Brasileiras de Contabilidade de natureza técnica e profissional e regular o Exame de Suficiência",
+        "expedir e registrar a carteira profissional dos contadores de cada Estado",
+        "apreciar, em primeira instância, os pedidos de registro de profissionais",
+        "examinar reclamações sobre serviços de registro na sua jurisdição estadual"
+      ],
+      "correct": 0,
+      "explanation": "O art. 6º, f, atribui ao CFC regular princípios contábeis, o Exame de Suficiência, o cadastro de qualificação técnica e a educação continuada, e editar as NBC. O registro e a carteira profissional são competência dos CRCs.",
+      "area": "Legislação e Ética Profissional"
+    }
+  ]
+}

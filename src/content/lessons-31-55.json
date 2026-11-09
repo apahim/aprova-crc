@@ -1,1 +1,1407 @@
-{}
+{
+ "31": {
+  "objectives": [
+   "Distinguir gasto, custo, despesa, investimento e perda segundo o momento de reconhecimento",
+   "Classificar custos em fixos/variáveis, diretos/indiretos e primários/de transformação",
+   "Calcular custo primário, custo de transformação e custo de produção a partir de dados do período",
+   "Diferenciar custo de oportunidade, custos diferenciais e custos irrelevantes para a decisão"
+  ],
+  "sections": [
+   {
+    "h": "Terminologia essencial",
+    "p": [
+     "Gasto é o sacrifício financeiro para obter bem ou serviço, qualquer que seja a finalidade; é o conceito mais amplo. Quando o gasto é consumido na produção de bens ou serviços, vira custo; quando é consumido na administração, em vendas ou no financiamento, vira despesa. Se o bem adquirido fica estocado ou vai para o ativo permanente, o gasto é um investimento, que só será baixado no futuro.",
+     "Perda é o consumo anormal e involuntário (incêndio, greve) e vai direto ao resultado. Perdas normais do processo integram o custo do produto."
+    ],
+    "list": [
+     "Gasto: gênero que abrange as demais figuras",
+     "Investimento: gasto ativado, aguardando benefício futuro",
+     "Custo: gasto na produção, ativado até a venda",
+     "Despesa: gasto para obter receita"
+    ]
+   },
+   {
+    "h": "Classificações dos custos",
+    "p": [
+     "Quanto ao volume produzido, custos fixos permanecem constantes no total dentro da faixa relevante (aluguel da fábrica), enquanto os variáveis oscilam em proporção à produção (matéria-prima). O fixo é unitário decrescente; o variável é unitário constante.",
+     "Quanto à apropriação ao produto, custos diretos são identificados objetivamente a cada unidade (matéria-prima, mão de obra direta), e indiretos exigem critério de rateio (depreciação, supervisão). Custo primário é a soma de matéria-prima e mão de obra direta; custo de transformação (ou de conversão) é a soma de mão de obra direta e custos indiretos de fabricação."
+    ]
+   },
+   {
+    "h": "Exemplo numérico",
+    "p": [
+     "Em um mês, a indústria teve: matéria-prima R$ 40.000, mão de obra direta R$ 25.000, aluguel da fábrica R$ 10.000, depreciação das máquinas R$ 5.000 e aluguel do escritório administrativo R$ 8.000."
+    ],
+    "list": [
+     "Custo primário = 40.000 + 25.000 = R$ 65.000",
+     "CIF = 10.000 + 5.000 = R$ 15.000",
+     "Custo de transformação = 25.000 + 15.000 = R$ 40.000",
+     "Custo de produção = R$ 80.000; o aluguel do escritório (R$ 8.000) é despesa"
+    ],
+    "formula": "Custo de produção = MP + MOD + CIF = Custo primário + CIF"
+   },
+   {
+    "h": "Custos para tomada de decisão",
+    "p": [
+     "Custo controlável é aquele sobre o qual o gestor da área tem poder de decisão. Custo de oportunidade é o valor da melhor alternativa abandonada ao escolher outra; não aparece na contabilidade financeira, mas é essencial em decisões.",
+     "Custos diferenciais são as diferenças de custo (e receita) entre alternativas; custos irrelevantes são os que não mudam entre as alternativas, como custos passados (afundados) e rateios inevitáveis. Só custos futuros e diferenciais devem pesar na decisão."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Tratar toda compra como custo: material estocado é investimento até ser consumido",
+   "Classificar mão de obra da fábrica como despesa; só a administrativa e comercial é despesa",
+   "Confundir custo fixo unitário (que varia) com custo variável unitário (que é constante)",
+   "Incluir perdas anormais no custo do produto em vez de lançá-las ao resultado",
+   "Considerar custo afundado como relevante em decisões futuras"
+  ],
+  "refs": [
+   "Lei 6.404/76",
+   "CPC 16 (R1) – Estoques",
+   "Conceitos de contabilidade de custos"
+  ]
+ },
+ "32": {
+  "objectives": [
+   "Aplicar o custeio por absorção na apuração do custo dos produtos",
+   "Realizar rateio de custos indiretos por departamentos e centros de custo",
+   "Explicar o funcionamento do custeio baseado em atividades (ABC) e seus indutores",
+   "Calcular a taxa de rateio e o custo dos produtos em exemplos numéricos"
+  ],
+  "sections": [
+   {
+    "h": "Custeio por absorção",
+    "p": [
+     "No custeio por absorção, todos os custos de produção, diretos e indiretos, fixos e variáveis, são apropriados aos produtos; as despesas operacionais vão direto ao resultado. É o método aceito pela legislação societária e fiscal, pois obedece ao regime de competência: o custo só vai ao resultado (CMV) quando o produto é vendido.",
+     "Sua limitação gerencial é que o rateio dos custos fixos distorce o custo unitário."
+    ]
+   },
+   {
+    "h": "Departamentalização e centros de custo",
+    "p": [
+     "Departamento é a unidade mínima administrativa, com um responsável; centro de custo é a unidade de acumulação de custos, que pode coincidir com o departamento. Departamentos de produção atuam diretamente sobre o produto (corte, montagem); departamentos de serviços (manutenção, administração da fábrica) apoiam os demais, e seus custos são redistribuídos aos departamentos produtivos."
+    ]
+   },
+   {
+    "h": "Exemplo numérico de rateio",
+    "p": [
+     "Custos indiretos: Corte R$ 40.000, Montagem R$ 50.000 e Manutenção (serviços) R$ 30.000. A manutenção é rateada 60% para Corte e 40% para Montagem."
+    ],
+    "list": [
+     "Corte = 40.000 + 18.000 = R$ 58.000",
+     "Montagem = 50.000 + 12.000 = R$ 62.000 (total R$ 120.000)",
+     "Corte por horas-máquina (A 400 h, B 600 h): taxa R$ 58/h; A R$ 23.200, B R$ 34.800",
+     "Montagem por horas de MOD (A 300 h, B 200 h): taxa R$ 124/h; A R$ 37.200, B R$ 24.800",
+     "CIF total: A R$ 60.400 e B R$ 59.600 (soma R$ 120.000)"
+    ],
+    "formula": "Taxa de rateio = CIF do departamento ÷ base de rateio (horas, unidades, etc.)"
+   },
+   {
+    "h": "Custeio baseado em atividades (ABC)",
+    "p": [
+     "O ABC parte da ideia de que os produtos consomem atividades e as atividades consomem recursos. Primeiro identificam-se as atividades relevantes, depois se associam recursos a elas e, por fim, usam-se indutores de custo (cost drivers) para atribuir o custo das atividades aos produtos.",
+     "Exemplo: a atividade Preparação de máquinas custa R$ 60.000 e teve 200 preparações; o custo é R$ 300 por preparação. Se X exigiu 50 e Y exigiu 150, X recebe R$ 15.000 e Y recebe R$ 45.000."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Achar que o custeio por absorção separa custos fixos e variáveis; ele os soma",
+   "Lançar despesas de venda e administração no custo do produto",
+   "Ratear departamentos de serviços sem redistribuí-los aos departamentos produtivos",
+   "Confundir rateio (critério arbitrário) com apropriação direta (medida objetiva)",
+   "Dizer que o ABC elimina todo rateio; ele apenas melhora o critério usando indutores"
+  ],
+  "refs": [
+   "Lei 6.404/76",
+   "CPC 16 (R1) – Estoques",
+   "Legislação do Imposto de Renda (custo de produção)"
+  ]
+ },
+ "33": {
+  "objectives": [
+   "Calcular margem de contribuição unitária, total e índice de margem de contribuição",
+   "Determinar ponto de equilíbrio contábil, econômico e financeiro",
+   "Calcular a margem de segurança e o grau de alavancagem operacional",
+   "Diferenciar custeio variável de custeio por absorção quanto ao tratamento dos custos fixos"
+  ],
+  "sections": [
+   {
+    "h": "Custeio variável e margem de contribuição",
+    "p": [
+     "No custeio variável (ou direto), apenas custos e despesas variáveis são apropriados aos produtos; os custos fixos são tratados como despesa do período. Ele é uma ferramenta gerencial e não é aceito para fins societários e fiscais.",
+     "A margem de contribuição (MC) é o que sobra do preço de venda após deduzir custos e despesas variáveis; ela contribui para cobrir os custos fixos e formar o lucro."
+    ],
+    "formula": "MCu = Preço de venda − Custos e despesas variáveis unitários; Índice de MC = MCu ÷ Preço"
+   },
+   {
+    "h": "Pontos de equilíbrio",
+    "p": [
+     "O ponto de equilíbrio contábil (PEC) é o volume em que lucro é zero. O econômico (PEE) inclui no numerador o lucro mínimo desejado, normalmente o custo de oportunidade do capital. O financeiro (PEF) exclui dos custos fixos os itens que não representam desembolso, como depreciação, e inclui, se houver, desembolsos que não são custos."
+    ],
+    "formula": "PE (unidades) = Custos fixos ÷ MCu; PE (R$) = Custos fixos ÷ Índice de MC"
+   },
+   {
+    "h": "Exemplo numérico",
+    "p": [
+     "Dados: preço R$ 50, custo e despesa variáveis R$ 30 por unidade, custos fixos R$ 80.000 por mês (dos quais R$ 10.000 de depreciação) e lucro desejado R$ 20.000."
+    ],
+    "list": [
+     "MCu = 50 − 30 = R$ 20; índice de MC = 40%",
+     "PEC = 80.000 ÷ 20 = 4.000 unidades (receita de R$ 200.000)",
+     "PEE = (80.000 + 20.000) ÷ 20 = 5.000 unidades",
+     "PEF = (80.000 − 10.000) ÷ 20 = 3.500 unidades"
+    ]
+   },
+   {
+    "h": "Margem de segurança e alavancagem",
+    "p": [
+     "Margem de segurança é o quanto as vendas podem cair antes de chegar ao ponto de equilíbrio. Com vendas de 5.000 unidades e PEC de 4.000, ela é (5.000 − 4.000) ÷ 5.000 = 20%.",
+     "O grau de alavancagem operacional (GAO) mede quanto o lucro varia para cada 1% de variação nas vendas: GAO = MC total ÷ lucro operacional. Nas 5.000 unidades, MC total é R$ 100.000 e o lucro é R$ 20.000; o GAO é 5. Um aumento de 10% nas vendas (5.500 unidades) eleva o lucro para 5.500 × 20 − 80.000 = R$ 30.000, ou seja, +50%."
+    ],
+    "formula": "Margem de segurança = (Vendas − PE) ÷ Vendas; GAO = MC total ÷ Lucro operacional"
+   }
+  ],
+  "pitfalls": [
+   "Usar custo fixo no cálculo da margem de contribuição unitária",
+   "Esquecer despesas variáveis (comissões, impostos sobre vendas) ao calcular a MC",
+   "Confundir PE financeiro (exclui depreciação) com PE econômico (inclui lucro desejado)",
+   "Calcular o PE com o preço bruto quando há tributos sobre vendas que são variáveis",
+   "Achar que alavancagem alta é sempre boa; ela amplia também a perda quando as vendas caem"
+  ],
+  "refs": [
+   "Conceitos de contabilidade gerencial e de custos",
+   "Lei 6.404/76 (custeio por absorção para fins societários)"
+  ]
+ },
+ "34": {
+  "objectives": [
+   "Diferenciar acumulação de custos por ordem e por processo",
+   "Calcular a produção equivalente e o custo por unidade equivalente",
+   "Distinguir coprodutos, subprodutos e sucatas e apropriar custos conjuntos",
+   "Calcular e interpretar variações de preço e de quantidade no custo-padrão"
+  ],
+  "sections": [
+   {
+    "h": "Por ordem e por processo",
+    "p": [
+     "No custeio por ordem (ou encomenda), os custos são acumulados por pedido ou lote específico, comum em estaleiros, construção civil e gráficas sob encomenda; o custo da ordem só é conhecido ao final. No custeio por processo, a produção é contínua e padronizada (cimento, química, alimentos), e os custos são acumulados por departamento ou etapa em um período.",
+     "Em processo, o custo médio do período é obtido dividindo-se os custos pela produção, usando-se a produção equivalente quando há produtos em elaboração."
+    ]
+   },
+   {
+    "h": "Produção equivalente",
+    "p": [
+     "Unidades em elaboração são convertidas em unidades acabadas conforme o grau de conclusão. Exemplo: custos de conversão do período de R$ 90.000; 800 unidades acabadas e 400 unidades em elaboração com 50% de conclusão."
+    ],
+    "list": [
+     "Equivalentes = 800 + (400 × 50%) = 1.000 unidades",
+     "Custo por equivalente = 90.000 ÷ 1.000 = R$ 90",
+     "Produtos acabados = 800 × 90 = R$ 72.000",
+     "Em elaboração = 200 × 90 = R$ 18.000"
+    ]
+   },
+   {
+    "h": "Custos conjuntos",
+    "p": [
+     "Quando um mesmo processo gera vários produtos, o custo até o ponto de separação é conjunto e precisa ser distribuído. Coprodutos têm valor de venda relevante; subprodutos têm valor menor e pouca participação; sucata é o resíduo com valor residual mínimo. Subprodutos e sucatas, em geral, reduzem o custo dos produtos principais.",
+     "Critérios comuns: valor de mercado no ponto de separação, quantidade física ou valor realizável líquido. Se o custo conjunto é R$ 100.000 e as vendas no ponto de separação são A R$ 120.000 e B R$ 80.000, o rateio é A 60% = R$ 60.000 e B 40% = R$ 40.000."
+    ]
+   },
+   {
+    "h": "Custo-padrão e variações",
+    "p": [
+     "Custo-padrão é um custo-meta, determinado com base em consumo e preço esperados e usado para controle. As variações são a diferença entre o custo real e o padrão, separadas em preço e quantidade (ou eficiência).",
+     "Exemplo: padrão de 2 kg a R$ 5 por unidade; foram produzidas 1.000 unidades, consumindo 2.200 kg a R$ 4,80. Variação de quantidade = (2.200 − 2.000) × 5 = R$ 1.000 desfavorável; variação de preço = (4,80 − 5,00) × 2.200 = R$ 440 favorável; variação total = R$ 560 desfavorável (real R$ 10.560 contra padrão R$ 10.000)."
+    ],
+    "formula": "Var. preço = (Preço real − Preço padrão) × Qtd real; Var. quantidade = (Qtd real − Qtd padrão) × Preço padrão"
+   }
+  ],
+  "pitfalls": [
+   "Ignorar os graus de conclusão e tratar unidades em elaboração como acabadas",
+   "Confundir coproduto (principal) com subproduto (acessório) e sucata",
+   "Calcular variação de quantidade com o preço real em vez do preço padrão",
+   "Interpretar variação negativa de custo como sempre ruim; favorável pode vir de perda de qualidade",
+   "Achar que o custo-padrão é incompatível com contabilidade; é aceito se próximo do real"
+  ],
+  "refs": [
+   "CPC 16 (R1) – Estoques",
+   "Conceitos de contabilidade de custos"
+  ]
+ },
+ "35": {
+  "objectives": [
+   "Aplicar um simulado de 12 questões em condições semelhantes às do exame",
+   "Gerenciar o tempo de prova com estratégia de resolução",
+   "Classificar cada erro por causa para direcionar a revisão",
+   "Elaborar um plano de estudo a partir dos resultados"
+  ],
+  "sections": [
+   {
+    "h": "Preparação",
+    "p": [
+     "O mini-simulado contém 12 questões de múltipla escolha cobrindo as sessões 31 a 34: três de conceitos e classificação de custos, três de absorção, departamentalização e ABC, três de custeio variável e ponto de equilíbrio, e três de ordem/processo, conjuntos e custo-padrão.",
+     "Reserve um ambiente silencioso, com calculadora simples, papel de rascunho e cronômetro. Não consulte material, celular ou resumos."
+    ]
+   },
+   {
+    "h": "Aplicação",
+    "list": [
+     "Tempo: cerca de 55 minutos, proporcional ao exame (50 questões em 4 horas)",
+     "Resolva primeiro as questões que domina; marque as duvidosas e volte depois",
+     "Em questões numéricas, escreva a fórmula antes de calcular",
+     "Registre a alternativa escolhida e uma nota de confiança (alta, média, chute)",
+     "Não altere respostas após o tempo acabar"
+    ]
+   },
+   {
+    "h": "Correção e desempenho",
+    "p": [
+     "Confira o gabarito e comentários apenas ao final. Como referência, o exame exige 50% de acertos; neste mini-simulado, 6 acertos de 12 é o mínimo, mas busque 9 ou mais para ter margem.",
+     "Revise também os acertos de baixa confiança, pois eles indicam lacunas que o acaso escondeu."
+    ]
+   },
+   {
+    "h": "Classificação dos erros",
+    "p": [
+     "Para cada erro, atribua uma categoria; o padrão de causas orienta o estudo."
+    ],
+    "list": [
+     "Conceito: não sabia a definição ou a diferença entre termos",
+     "Cálculo: sabia o método, errou a conta ou a base",
+     "Interpretação: leu mal o enunciado, ignorou palavras como EXCETO ou INCORRETA",
+     "Tempo: não terminou ou resolveu com pressa",
+     "Chute: acertou ou errou sem raciocínio"
+    ]
+   },
+   {
+    "h": "Plano pós-simulado",
+    "p": [
+     "Refaça as questões erradas após 48 horas, sem olhar o gabarito. Para erros conceituais, releia a sessão correspondente e resuma em três linhas; para erros de cálculo, resolva dois exercícios similares."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Consultar material durante o simulado e perder o diagnóstico real",
+   "Corrigir apenas olhando o gabarito, sem entender o raciocínio da questão",
+   "Ignorar enunciados com EXCETO, INCORRETA ou NÃO",
+   "Gastar muito tempo em uma questão numérica difícil e deixar fáceis sem resposta",
+   "Não registrar o motivo dos erros, repetindo-os nos próximos simulados"
+  ],
+  "refs": [
+   "Conteúdo das sessões 31 a 34",
+   "Edital do Exame de Suficiência do CFC"
+  ]
+ },
+ "36": {
+  "objectives": [
+   "Calcular o preço de venda pelo método do markup sobre o custo",
+   "Relacionar preço, margem e markup",
+   "Analisar a decisão de comprar ou fabricar com base em custos relevantes",
+   "Incorporar o custo de oportunidade em decisões de produção"
+  ],
+  "sections": [
+   {
+    "h": "Formação de preço com base no custo",
+    "p": [
+     "No método de formação de preço com base no custo, parte-se do custo unitário e aplica-se um multiplicador (markup) que cobre tributos sobre a venda, comissões, despesas fixas e lucro desejado. Esse método é simples, mas ignora a demanda e a concorrência, por isso o preço calculado é uma referência, não uma garantia de venda.",
+     "O markup multiplicador é calculado com o percentual de todos os itens que incidem sobre o preço de venda, e não sobre o custo."
+    ],
+    "formula": "Markup multiplicador = 1 ÷ (1 − soma dos percentuais sobre o preço); Preço = Custo × Markup"
+   },
+   {
+    "h": "Exemplo de markup",
+    "p": [
+     "Custo unitário R$ 60. Sobre o preço incidem: impostos 15%, comissão 5%, despesas fixas 10% e lucro 10%, totalizando 40%."
+    ],
+    "list": [
+     "Markup = 1 ÷ (1 − 0,40) = 1,6667",
+     "Preço = 60 × 1,6667 = R$ 100,00",
+     "Conferência: 100 − 15 − 5 − 10 − 10 = R$ 60 (custo)",
+     "Margem sobre preço = 10%; sobre o custo, o lucro é 10 ÷ 60 = 16,67%"
+    ]
+   },
+   {
+    "h": "Comprar ou fabricar",
+    "p": [
+     "A decisão deve considerar apenas custos relevantes: aqueles futuros e que diferem entre as alternativas. Custos fixos que continuarão existindo, ainda que se compre de terceiros, são irrelevantes; os que forem evitados com a compra (supervisor exclusivo, aluguel de máquina) são relevantes.",
+     "Exemplo: fabricar 1.000 unidades custa R$ 18 variáveis por unidade mais R$ 2.000 de custos fixos evitáveis, ou R$ 20.000 (R$ 20 por unidade). Comprar custa R$ 22 por unidade, ou R$ 22.000. Fabricar economiza R$ 2.000."
+    ]
+   },
+   {
+    "h": "Custo de oportunidade",
+    "p": [
+     "Se a capacidade liberada pela compra puder ser utilizada em outra atividade, como alugar o espaço por R$ 5.000, o custo de oportunidade de fabricar passa a incluir esse valor. No exemplo anterior, o custo relevante de fabricar sobe para R$ 25.000, acima dos R$ 22.000 de comprar; a melhor decisão passa a ser comprar.",
+     "Em decisões com fator limitante (máquina ou matéria-prima escassa), a prioridade é o produto com maior margem de contribuição por unidade do fator limitante, e não a maior margem unitária."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Aplicar o percentual de markup sobre o custo em vez de usar o multiplicador 1 ÷ (1 − %)",
+   "Incluir custos fixos rateados inevitáveis na análise de comprar ou fabricar",
+   "Esquecer o custo de oportunidade da capacidade ociosa",
+   "Confundir margem sobre o preço com margem sobre o custo",
+   "Escolher o produto de maior margem unitária quando existe fator limitante"
+  ],
+  "refs": [
+   "Conceitos de contabilidade gerencial e de custos"
+  ]
+ },
+ "37": {
+  "objectives": [
+   "Distinguir planejamento estratégico, tático e operacional",
+   "Elaborar orçamentos de vendas, produção e caixa em exemplos simples",
+   "Explicar o controle orçamentário e a análise de desvios",
+   "Descrever o papel da controladoria, do controller e dos centros de responsabilidade"
+  ],
+  "sections": [
+   {
+    "h": "Níveis de planejamento",
+    "p": [
+     "O planejamento estratégico define missão, objetivos e posicionamento da organização no longo prazo, sendo conduzido pela alta administração. O tático traduz a estratégia para áreas e prazos intermediários (normalmente um ano), e o operacional detalha tarefas e rotinas diárias de curto prazo.",
+     "O orçamento é a expressão quantitativa e financeira do plano e liga os três níveis, servindo de instrumento de coordenação e controle."
+    ]
+   },
+   {
+    "h": "Orçamento operacional e de caixa",
+    "p": [
+     "O orçamento começa pelas vendas, pois o volume previsto determina produção, compras, despesas e caixa. O orçamento de produção considera o estoque final desejado e o inicial.",
+     "Exemplo: vendas previstas de 10.000 unidades, estoque final desejado de 1.500 e estoque inicial de 1.000. A produção necessária é 10.000 + 1.500 − 1.000 = 10.500 unidades, pois parte da demanda será atendida com o estoque já existente."
+    ],
+    "formula": "Produção = Vendas + Estoque final desejado − Estoque inicial"
+   },
+   {
+    "h": "Orçamento de caixa e controle",
+    "p": [
+     "O orçamento de caixa projeta entradas e saídas. Com saldo inicial de R$ 20.000, recebimentos de R$ 100.000 e pagamentos de R$ 95.000, o saldo final é R$ 25.000. Se o saldo mínimo exigido é R$ 30.000, há necessidade de financiamento de R$ 5.000.",
+     "O controle orçamentário compara orçado e realizado, calcula desvios, investiga causas e aciona correções. Desvios devem ser analisados por exceção, priorizando os mais relevantes."
+    ]
+   },
+   {
+    "h": "Controladoria e controller",
+    "p": [
+     "A controladoria é a unidade responsável por sistemas de informação, planejamento e controle da gestão econômica; o controller é o profissional que a conduz, assessorando as áreas e consolidando orçamentos. Ele não é o dono das decisões, mas fornece informação para quem decide.",
+     "Compliance é a função de garantir aderência às leis, normas e políticas internas, ligada a programas de integridade, canais de denúncia e controles internos."
+    ]
+   },
+   {
+    "h": "Centros de responsabilidade",
+    "list": [
+     "Centro de custos: responde apenas pelos custos",
+     "Centro de receitas: responde pelas vendas",
+     "Centro de lucro: responde por receitas e custos",
+     "Centro de investimento: responde também pelo retorno sobre o capital empregado"
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Iniciar o orçamento pela produção em vez de pelas vendas",
+   "Esquecer de ajustar a produção aos estoques inicial e final",
+   "Confundir controller (função) com auditor independente",
+   "Responsabilizar gestor por itens que ele não controla",
+   "Tratar orçamento como previsão estática, sem acompanhamento e revisão"
+  ],
+  "refs": [
+   "Conceitos de planejamento e controladoria",
+   "Lei 12.846/13 (Lei Anticorrupção) para compliance"
+  ]
+ },
+ "38": {
+  "objectives": [
+   "Aplicar a análise vertical e horizontal às demonstrações contábeis",
+   "Escolher a base de cálculo correta em cada demonstração",
+   "Interpretar tendências e variações relativas",
+   "Calcular percentuais de AV e AH em exemplo numérico"
+  ],
+  "sections": [
+   {
+    "h": "Conceitos",
+    "p": [
+     "A análise vertical (AV) mede a participação de cada conta em relação a um total de referência na mesma data, mostrando a estrutura da demonstração. A análise horizontal (AH) compara a evolução de cada conta ao longo de períodos, em relação a um ano-base, mostrando a tendência.",
+     "Ambas são técnicas de análise de estrutura e evolução; não substituem os índices, mas os complementam."
+    ]
+   },
+   {
+    "h": "Base de cálculo",
+    "list": [
+     "Balanço Patrimonial (ativo): base é o ativo total",
+     "Balanço Patrimonial (passivo): base é o passivo total mais patrimônio líquido",
+     "DRE: base é a receita líquida (ou, em algumas apresentações, a receita bruta)",
+     "AH: base é o primeiro ano, com índice 100, ou o ano anterior, conforme o enunciado",
+     "Em períodos inflacionários, a AH deve usar valores corrigidos para evitar distorções"
+    ],
+    "formula": "AV = Conta ÷ Base × 100; AH = Valor do período ÷ Valor do ano-base × 100"
+   },
+   {
+    "h": "Exemplo numérico",
+    "p": [
+     "DRE em R$: receita líquida 200.000 (2023) e 230.000 (2024); CMV 120.000 e 149.500; despesas 50.000 e 46.000. O lucro bruto é 80.000 e 80.500, e o lucro líquido é 30.000 e 34.500."
+    ],
+    "list": [
+     "AV 2023: CMV 60%, lucro bruto 40%, despesas 25%, lucro líquido 15%",
+     "AV 2024: CMV 65%, lucro bruto 35%, despesas 20%, lucro líquido 15%",
+     "AH da receita: 230.000 ÷ 200.000 = 115 (aumento de 15%)",
+     "AH do CMV: 149.500 ÷ 120.000 = 124,58 (aumento de 24,58%)",
+     "AH das despesas: 46.000 ÷ 50.000 = 92 (redução de 8%)"
+    ]
+   },
+   {
+    "h": "Interpretação",
+    "p": [
+     "Embora a receita tenha crescido 15% e o lucro líquido também 15%, a AV mostra que o CMV passou de 60% para 65% da receita, comprimindo a margem bruta, que só foi compensada pela redução das despesas. Esse é um ponto de atenção para a gestão de custos e preços.",
+     "Boas interpretações cruzam AV e AH: contas que crescem mais que as vendas, ou ativos que aumentam sem aumento de receita, sinalizam risco ou ineficiência."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Usar o ativo total como base da AV da DRE",
+   "Calcular a variação da AH sem subtrair 100 e informar o índice como variação",
+   "Comparar períodos inflacionários sem ajuste monetário",
+   "Confundir AH (evolução no tempo) com AV (estrutura em uma data)",
+   "Interpretar aumento absoluto de despesas como ruim sem comparar com o crescimento da receita"
+  ],
+  "refs": [
+   "CPC 26 (R1) – Apresentação das Demonstrações Contábeis",
+   "Técnicas de análise das demonstrações contábeis"
+  ]
+ },
+ "39": {
+  "objectives": [
+   "Calcular e interpretar os índices de liquidez",
+   "Analisar endividamento, composição e rentabilidade",
+   "Calcular prazos médios, ciclo operacional e ciclo financeiro",
+   "Relacionar margem, giro do ativo e ROA"
+  ],
+  "sections": [
+   {
+    "h": "Dados do exemplo",
+    "p": [
+     "Balanço em R$: caixa 30.000, clientes 120.000, estoques 150.000 (ativo circulante 300.000); realizável a longo prazo 40.000 e imobilizado 260.000; ativo total 600.000. Passivo circulante 150.000 (fornecedores 90.000), passivo não circulante 200.000 e patrimônio líquido 250.000. Receita líquida 900.000, CMV 540.000 e lucro líquido 50.000."
+    ]
+   },
+   {
+    "h": "Liquidez",
+    "list": [
+     "Corrente = AC ÷ PC = 300.000 ÷ 150.000 = 2,00",
+     "Seca = (AC − Estoques) ÷ PC = 150.000 ÷ 150.000 = 1,00",
+     "Imediata = Disponível ÷ PC = 30.000 ÷ 150.000 = 0,20",
+     "Geral = (AC + RLP) ÷ (PC + PNC) = 340.000 ÷ 350.000 = 0,97"
+    ]
+   },
+   {
+    "h": "Endividamento e rentabilidade",
+    "p": [
+     "Endividamento geral = capitais de terceiros ÷ ativo total = 350.000 ÷ 600.000 = 58,33%. Composição do endividamento = PC ÷ capitais de terceiros = 150.000 ÷ 350.000 = 42,86%. Participação de capitais de terceiros sobre o PL = 350.000 ÷ 250.000 = 1,40.",
+     "Margem líquida = 50.000 ÷ 900.000 = 5,56%. Giro do ativo = 900.000 ÷ 600.000 = 1,5. ROA = lucro ÷ ativo = 8,33%, que é igual a margem × giro (5,56% × 1,5). ROE = lucro ÷ patrimônio líquido = 50.000 ÷ 250.000 = 20%."
+    ],
+    "formula": "ROA = Margem líquida × Giro do ativo"
+   },
+   {
+    "h": "Prazos, ciclo operacional e financeiro",
+    "p": [
+     "Prazo médio de recebimento de vendas = 120.000 ÷ 900.000 × 360 = 48 dias. Prazo médio de renovação de estoques = 150.000 ÷ 540.000 × 360 = 100 dias. Prazo médio de pagamento (com compras ≈ CMV) = 90.000 ÷ 540.000 × 360 = 60 dias.",
+     "O ciclo operacional é o tempo entre a compra do insumo e o recebimento da venda: 100 + 48 = 148 dias. O ciclo financeiro é o período em que a empresa precisa financiar suas operações: 148 − 60 = 88 dias."
+    ],
+    "formula": "Ciclo financeiro = PMRE + PMRV − PMPF"
+   }
+  ],
+  "pitfalls": [
+   "Incluir estoques no numerador da liquidez seca",
+   "Confundir liquidez geral (inclui longo prazo) com liquidez corrente",
+   "Calcular ROE sobre o ativo total em vez do patrimônio líquido",
+   "Usar CMV nos prazos de recebimento, em vez da receita",
+   "Interpretar liquidez maior como sempre melhor; excesso pode indicar ociosidade de recursos"
+  ],
+  "refs": [
+   "CPC 26 (R1) – Apresentação das Demonstrações Contábeis",
+   "Técnicas de análise das demonstrações contábeis"
+  ]
+ },
+ "40": {
+  "objectives": [
+   "Aplicar um simulado de 12 questões sobre gestão e análise",
+   "Treinar a escolha de fórmulas e bases de cálculo sob tempo",
+   "Classificar erros por causa e priorizar a revisão",
+   "Definir metas de melhoria para o próximo simulado"
+  ],
+  "sections": [
+   {
+    "h": "Preparação",
+    "p": [
+     "O mini-simulado tem 12 questões cobrindo as sessões 36 a 39: três de formação de preço e decisões de produção, três de orçamento e controladoria, três de análise vertical e horizontal, e três de liquidez, endividamento e rentabilidade.",
+     "Tenha calculadora simples, rascunho e cronômetro. Revise antes apenas as fórmulas que costumam ser esquecidas, e depois feche o material."
+    ]
+   },
+   {
+    "h": "Aplicação",
+    "list": [
+     "Duração: cerca de 55 minutos, sem consulta",
+     "Leia o enunciado inteiro e identifique o que é pedido (índice, percentual, valor)",
+     "Anote a fórmula e a base antes de calcular",
+     "Deixe as questões mais longas para o fim e marque as duvidosas",
+     "Reserve 5 minutos finais para revisar o preenchimento"
+    ]
+   },
+   {
+    "h": "Correção e classificação dos erros",
+    "p": [
+     "Corrija somente após terminar. Para cada erro, classifique a causa e anote a fórmula ou conceito correto em um caderno de erros."
+    ],
+    "list": [
+     "Conceito: confundiu índices, bases ou definições",
+     "Cálculo: errou aritmética, arredondamento ou unidade",
+     "Interpretação: não leu o que se pedia (percentual versus valor, ano-base)",
+     "Tempo: ficou sem tempo ou apressou",
+     "Chute: sem raciocínio sólido"
+    ]
+   },
+   {
+    "h": "Meta e plano de ação",
+    "p": [
+     "Considere 6 acertos o mínimo de referência (50%) e 9 ou mais como meta. Se o maior número de erros for de cálculo, treine exercícios curtos diários; se for de conceito, revise a sessão e monte um quadro comparativo.",
+     "Refaça as questões erradas depois de dois dias e compare a evolução com o simulado anterior."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Deixar para estudar apenas pelo gabarito, sem refazer os cálculos",
+   "Confundir a base do índice (por exemplo, receita líquida versus ativo)",
+   "Errar a unidade da resposta (dias, percentual, índice)",
+   "Gastar tempo demais em uma só questão de cálculo",
+   "Não manter o caderno de erros e repetir as mesmas falhas"
+  ],
+  "refs": [
+   "Conteúdo das sessões 36 a 39",
+   "Edital do Exame de Suficiência do CFC"
+  ]
+ },
+ "41": {
+  "objectives": [
+   "Delimitar o campo de aplicação da Contabilidade Aplicada ao Setor Público",
+   "Explicar o regime contábil misto adotado no setor público brasileiro",
+   "Identificar o papel da Estrutura Conceitual e das NBC TSP",
+   "Diferenciar ente, órgão e entidade"
+  ],
+  "sections": [
+   {
+    "h": "Campo de aplicação",
+    "p": [
+     "A Contabilidade Aplicada ao Setor Público (CASP) estuda o patrimônio público, seus fluxos e o orçamento, produzindo informações para prestação de contas e tomada de decisão. Aplica-se à União, aos Estados, ao Distrito Federal e aos Municípios, e às entidades da administração direta e indireta: autarquias, fundações públicas, fundos e empresas estatais dependentes.",
+     "Empresas estatais que exploram atividade econômica e não dependem do Tesouro para custeio seguem, em regra, a legislação societária e os pronunciamentos do CPC, e não o regime contábil público."
+    ]
+   },
+   {
+    "h": "Regime contábil misto",
+    "p": [
+     "No aspecto orçamentário, a Lei 4.320/64 estabelece que a receita pertence ao exercício em que for arrecadada (base de caixa) e a despesa ao exercício em que for legalmente empenhada (base de competência no empenho). No aspecto patrimonial, as variações são reconhecidas pelo regime de competência, no momento do fato gerador, independentemente de caixa.",
+     "Por isso se fala em regime misto: o mesmo fato pode ter um registro no subsistema orçamentário (empenho, arrecadação) e outro no patrimonial (variação patrimonial). Um tributo pode gerar variação aumentativa na competência e só ser receita orçamentária ao ser arrecadado."
+    ]
+   },
+   {
+    "h": "Estrutura Conceitual e NBC TSP",
+    "p": [
+     "A NBC TSP Estrutura Conceitual define os objetivos da informação contábil pública, sendo os principais a prestação de contas (accountability) e o suporte às decisões. Entre as características qualitativas estão relevância, representação fidedigna, compreensibilidade, tempestividade, comparabilidade e verificabilidade.",
+     "As NBC TSP, emitidas pelo CFC, são convergentes às normas internacionais do setor público e foram substituindo as antigas NBC T 16. Seguem-se a elas o Manual de Contabilidade Aplicada ao Setor Público (MCASP) e as portarias da Secretaria do Tesouro Nacional."
+    ]
+   },
+   {
+    "h": "Ente, órgão e entidade",
+    "list": [
+     "Ente: pessoa jurídica de direito público com autonomia política (União, Estados, DF, Municípios)",
+     "Órgão: unidade de atuação sem personalidade jurídica, integrante de um ente ou entidade (ministério, secretaria)",
+     "Entidade: pessoa jurídica da administração indireta (autarquia, fundação, empresa pública)",
+     "Contabilidade é obrigatória em cada ente e entidade, e a consolidação deve alcançar o conjunto"
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Afirmar que a contabilidade pública usa apenas o regime de caixa",
+   "Dizer que a despesa orçamentária é reconhecida no pagamento, e não no empenho",
+   "Atribuir personalidade jurídica ao órgão",
+   "Aplicar integralmente a CASP a estatais não dependentes, que seguem o regime societário",
+   "Confundir objetivo da informação (accountability e decisão) com lucro"
+  ],
+  "refs": [
+   "Lei 4.320/64",
+   "NBC TSP Estrutura Conceitual",
+   "Lei Complementar 101/2000 (LRF)",
+   "MCASP"
+  ]
+ },
+ "42": {
+  "objectives": [
+   "Descrever a estrutura do Plano de Contas Aplicado ao Setor Público",
+   "Identificar as classes de contas e suas naturezas",
+   "Relacionar os subsistemas de informação contábil",
+   "Reconhecer a natureza devedora ou credora de cada grupo de contas"
+  ],
+  "sections": [
+   {
+    "h": "O que é o PCASP",
+    "p": [
+     "O PCASP é a padronização de contas para os entes federados, permitindo consolidar as informações contábeis em âmbito nacional. É um plano de contas único, com níveis hierárquicos (classe, grupo, subgrupo, título, subtítulo, item e subitem), de uso obrigatório para os entes da Federação, ainda que o ente detalhe suas contas nos níveis inferiores."
+    ]
+   },
+   {
+    "h": "Classes de contas",
+    "list": [
+     "Classe 1: Ativo (natureza devedora)",
+     "Classe 2: Passivo e Patrimônio Líquido (natureza credora)",
+     "Classe 3: Variações Patrimoniais Diminutivas (devedora)",
+     "Classe 4: Variações Patrimoniais Aumentativas (credora)",
+     "Classes 5 a 8: contas de controle; 5 e 6 tratam do planejamento e da execução do orçamento, e 7 e 8 dos controles devedores e credores de compensação"
+    ]
+   },
+   {
+    "h": "Subsistemas",
+    "p": [
+     "O sistema contábil é organizado em subsistemas. O orçamentário registra a aprovação e a execução do orçamento (previsão da receita, fixação da despesa, empenho, arrecadação). O patrimonial registra fatos que afetam a estrutura do patrimônio e o resultado patrimonial. O de custos trata da informação para avaliação de resultados e desempenho. O de compensação registra atos potenciais, como garantias e contratos, que podem afetar o patrimônio no futuro.",
+     "Os subsistemas são integrados, e um mesmo fato pode gerar registros em mais de um deles. A arrecadação de um tributo, por exemplo, impacta o orçamentário (realização da receita) e o patrimonial (aumento do caixa e variação aumentativa)."
+    ]
+   },
+   {
+    "h": "Natureza das contas",
+    "p": [
+     "A natureza devedora é a de contas que aumentam por débito (ativo, VPD), e a credora é a de contas que aumentam por crédito (passivo, patrimônio líquido, VPA). Exemplo: a arrecadação de R$ 10.000 em dinheiro por tributo ainda não reconhecido gera, no patrimonial, débito em Caixa e crédito em VPA, ambos de R$ 10.000.",
+     "No subsistema orçamentário, as contas de controle funcionam em pares: o registro a débito em uma conta devedora (por exemplo, a previsão da receita) é espelhado por crédito em uma conta credora de controle da execução, obedecendo ao método das partidas dobradas."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Considerar o PCASP como plano facultativo para os entes",
+   "Inverter a natureza: VPD é devedora e VPA é credora",
+   "Confundir subsistema de compensação com o orçamentário",
+   "Tratar as classes 5 a 8 como contas patrimoniais",
+   "Pensar que um fato só pode ser registrado em um único subsistema"
+  ],
+  "refs": [
+   "MCASP",
+   "Lei 4.320/64",
+   "NBC TSP Estrutura Conceitual"
+  ]
+ },
+ "43": {
+  "objectives": [
+   "Descrever os estágios da receita e da despesa orçamentárias",
+   "Identificar em que estágio surgem os restos a pagar",
+   "Distinguir receita orçamentária de receita sob ótica patrimonial",
+   "Calcular valores a pagar e a liquidar a partir dos estágios"
+  ],
+  "sections": [
+   {
+    "h": "Estágios da receita",
+    "p": [
+     "A receita orçamentária percorre quatro estágios: previsão (estimativa na LOA), lançamento (identificação do devedor e do valor, típico de tributos), arrecadação (ingresso pelos agentes arrecadadores) e recolhimento (transferência ao Tesouro). O lançamento não ocorre em todas as receitas, como as de contribuição voluntária.",
+     "A receita orçamentária é o ingresso de recursos aos cofres públicos que pertencem ao ente e que não representam obrigação de devolver. Ingressos como cauções e depósitos de terceiros são extraorçamentários."
+    ]
+   },
+   {
+    "h": "Estágios da despesa",
+    "p": [
+     "A despesa passa por fixação (autorização na LOA), empenho (reserva de dotação e criação da obrigação de pagamento pendente de implemento de condição), liquidação (verificação do direito adquirido pelo credor, com base em documentos que comprovam a entrega) e pagamento (entrega do numerário ao credor).",
+     "O empenho é o ato da autoridade competente e é o momento em que a despesa orçamentária é reconhecida; o pagamento é o último estágio. Sem empenho prévio não se realiza despesa."
+    ]
+   },
+   {
+    "h": "Restos a pagar",
+    "p": [
+     "Restos a pagar são despesas empenhadas e não pagas até 31 de dezembro. Surgem, portanto, a partir do empenho. Os processados são os já liquidados e os não processados são os ainda não liquidados.",
+     "Exemplo: empenhado R$ 100.000, liquidado R$ 80.000, pago R$ 60.000. A liquidar (restos não processados) = 100.000 − 80.000 = R$ 20.000; liquidado e a pagar (processados) = 80.000 − 60.000 = R$ 20.000; total de restos a pagar = R$ 40.000."
+    ]
+   },
+   {
+    "h": "Receita orçamentária e ótica patrimonial",
+    "p": [
+     "A receita orçamentária segue a base de caixa: reconhece-se ao ser arrecadada. Sob a ótica patrimonial, a variação aumentativa é reconhecida na competência, por exemplo no lançamento do tributo no fato gerador, ainda que não arrecadado. Atenção: Receita Patrimonial também é o nome de uma fonte da receita orçamentária (aluguéis, juros), e não deve ser confundida com a ótica patrimonial.",
+     "Se a previsão era R$ 1.000.000 e arrecadou-se R$ 1.100.000, há excesso de arrecadação de R$ 100.000, que pode servir de fonte para crédito adicional."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Afirmar que a despesa é reconhecida no pagamento",
+   "Dizer que restos a pagar nascem na liquidação; nascem do empenho não pago até o fim do ano",
+   "Trocar processados (liquidados) por não processados (não liquidados)",
+   "Confundir receita patrimonial (categoria orçamentária) com reconhecimento patrimonial por competência",
+   "Classificar depósitos de terceiros como receita orçamentária"
+  ],
+  "refs": [
+   "Lei 4.320/64",
+   "MCASP",
+   "Lei Complementar 101/2000 (LRF)"
+  ]
+ },
+ "44": {
+  "objectives": [
+   "Identificar as demonstrações contábeis aplicadas ao setor público",
+   "Explicar a finalidade do balanço orçamentário, financeiro e patrimonial e da DVP",
+   "Calcular resultado orçamentário e saldo financeiro em exemplo simples",
+   "Relacionar as demonstrações à Lei 4.320/64 e ao MCASP"
+  ],
+  "sections": [
+   {
+    "h": "Demonstrações previstas",
+    "p": [
+     "A Lei 4.320/64 prevê o balanço orçamentário, o financeiro, o patrimonial e a demonstração das variações patrimoniais. O MCASP e a NBC TSP 11 acrescentam a demonstração dos fluxos de caixa e, conforme o caso, a demonstração das mudanças no patrimônio líquido, além de notas explicativas.",
+     "A NBC TSP 12 trata da demonstração dos fluxos de caixa e a NBC TSP 13 trata da apresentação de informações orçamentárias nas demonstrações."
+    ]
+   },
+   {
+    "h": "Finalidade de cada demonstração",
+    "list": [
+     "Balanço Orçamentário: compara receita prevista e arrecadada com despesa fixada, empenhada, liquidada e paga",
+     "Balanço Financeiro: mostra receitas e despesas orçamentárias, ingressos e dispêndios extraorçamentários e saldos de caixa",
+     "Balanço Patrimonial: evidencia ativo, passivo e patrimônio líquido, com atributos financeiro e permanente",
+     "DVP: evidencia as variações aumentativas e diminutivas e o resultado patrimonial",
+     "DFC: apresenta fluxos de caixa de operações, investimentos e financiamentos"
+    ]
+   },
+   {
+    "h": "Exemplo numérico",
+    "p": [
+     "Receita orçamentária realizada R$ 1.100.000; despesa orçamentária empenhada R$ 1.000.000, dos quais R$ 150.000 foram inscritos em restos a pagar. Resultado orçamentário = 1.100.000 − 1.000.000 = superávit de R$ 100.000.",
+     "No Balanço Financeiro, com saldo inicial de R$ 50.000, extraorçamentários recebidos de R$ 30.000 (depósitos) e pagos de R$ 20.000: ingressos = 1.100.000 + 30.000 + 150.000 (inscrição de restos a pagar) + 50.000 = R$ 1.330.000; dispêndios = 1.000.000 + 20.000 = R$ 1.020.000. O saldo para o exercício seguinte é R$ 310.000."
+    ]
+   },
+   {
+    "h": "Relação entre as demonstrações",
+    "p": [
+     "O resultado patrimonial da DVP afeta o patrimônio líquido do balanço patrimonial, e o saldo de caixa do balanço financeiro deve ser igual ao do patrimonial e da DFC. O balanço orçamentário usa a base orçamentária e o patrimonial usa a base de competência, razão pela qual os resultados orçamentário e patrimonial normalmente diferem."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Achar que a Lei 4.320/64 exige a DFC (é exigência das NBC TSP e do MCASP)",
+   "Esquecer a inscrição de restos a pagar como ingresso extraorçamentário no balanço financeiro",
+   "Esperar que o resultado orçamentário seja igual ao patrimonial",
+   "Confundir saldo financeiro do balanço patrimonial com o saldo de caixa do balanço financeiro",
+   "Trocar a finalidade do balanço orçamentário pela do financeiro"
+  ],
+  "refs": [
+   "Lei 4.320/64",
+   "NBC TSP 11",
+   "NBC TSP 12",
+   "NBC TSP 13",
+   "MCASP"
+  ]
+ },
+ "45": {
+  "objectives": [
+   "Revisar os conceitos das sessões 41 a 44",
+   "Verificar o domínio por meio de checklist e autoavaliação",
+   "Identificar lacunas para revisão direcionada",
+   "Resolver um exercício integrado de estágios da despesa e restos a pagar"
+  ],
+  "sections": [
+   {
+    "h": "Checklist da sessão 41",
+    "list": [
+     "Sei delimitar o campo de aplicação da CASP e quais estatais ficam fora?",
+     "Sei explicar o regime misto: receita por caixa, despesa pelo empenho e variações por competência?",
+     "Sei o papel da NBC TSP Estrutura Conceitual?",
+     "Sei distinguir ente, órgão e entidade?"
+    ]
+   },
+   {
+    "h": "Checklist das sessões 42 e 43",
+    "list": [
+     "Sei as classes 1 a 8 do PCASP e a natureza de cada uma?",
+     "Sei os quatro subsistemas e dou um exemplo de cada?",
+     "Sei os quatro estágios da receita e os quatro da despesa?",
+     "Sei em que estágio surgem os restos a pagar e a diferença entre processados e não processados?"
+    ]
+   },
+   {
+    "h": "Checklist da sessão 44",
+    "list": [
+     "Sei citar as demonstrações da Lei 4.320/64 e as acrescentadas pelas NBC TSP?",
+     "Sei a finalidade de cada demonstração?",
+     "Sei calcular resultado orçamentário e saldo financeiro?",
+     "Sei explicar por que o resultado patrimonial difere do orçamentário?"
+    ]
+   },
+   {
+    "h": "Exercício integrado",
+    "p": [
+     "Um município empenhou R$ 500.000 em despesas, liquidou R$ 400.000 e pagou R$ 350.000 até 31 de dezembro. Os restos a pagar processados são 400.000 − 350.000 = R$ 50.000; os não processados são 500.000 − 400.000 = R$ 100.000; o total de restos a pagar inscritos é R$ 150.000.",
+     "Se a arrecadação foi R$ 520.000, o resultado orçamentário é 520.000 − 500.000 = superávit de R$ 20.000, e o caixa gerado no ano é 520.000 − 350.000 = R$ 170.000, sem considerar movimentos extraorçamentários."
+    ]
+   },
+   {
+    "h": "Autoavaliação",
+    "p": [
+     "Marque as perguntas que respondeu sem consultar. Se acertou menos de 75%, releia as sessões correspondentes e refaça os exercícios. Escreva em um quadro, de memória, os estágios da receita e da despesa e as classes do PCASP; a conferência identifica lacunas rapidamente."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Estudar apenas por leitura passiva sem fazer a autoavaliação",
+   "Misturar o momento do reconhecimento orçamentário com o patrimonial",
+   "Confundir restos a pagar processados com não processados",
+   "Esquecer que a Lei 4.320/64 e as NBC TSP têm exigências diferentes de demonstrações",
+   "Deixar de revisar os pontos fracos identificados"
+  ],
+  "refs": [
+   "Lei 4.320/64",
+   "NBC TSP Estrutura Conceitual",
+   "NBC TSP 11",
+   "MCASP"
+  ]
+ },
+ "46": {
+  "objectives": [
+   "Descrever o que é o MCASP e quem o edita",
+   "Diferenciar o papel normativo do CFC e o da Secretaria do Tesouro Nacional",
+   "Reconhecer as principais NBC TSP e seus temas",
+   "Explicar o processo de convergência ao setor público internacional"
+  ],
+  "sections": [
+   {
+    "h": "O que é o MCASP",
+    "p": [
+     "O Manual de Contabilidade Aplicada ao Setor Público é editado pela Secretaria do Tesouro Nacional (STN) e orienta a União, os Estados, o Distrito Federal e os Municípios sobre procedimentos contábeis, com vistas à consolidação nacional das contas. A STN atua com base na Lei de Responsabilidade Fiscal, que atribui ao órgão central de contabilidade da União a edição de normas gerais para consolidação das contas públicas.",
+     "O MCASP é organizado em partes: procedimentos contábeis orçamentários, patrimoniais e específicos, plano de contas aplicado e demonstrações contábeis aplicadas ao setor público."
+    ]
+   },
+   {
+    "h": "Papel normativo",
+    "p": [
+     "O Conselho Federal de Contabilidade emite as Normas Brasileiras de Contabilidade Técnicas do Setor Público (NBC TSP), que têm caráter profissional e vinculam os contadores. A STN edita o MCASP e as portarias que dão caráter operacional e padronizam os registros dos entes. Ambos devem estar alinhados, e o MCASP é atualizado para refletir as NBC TSP.",
+     "A Lei 4.320/64 permanece como a norma geral de direito financeiro; as NBC TSP e o MCASP detalham o tratamento contábil dentro desse arcabouço."
+    ]
+   },
+   {
+    "h": "Principais NBC TSP",
+    "list": [
+     "NBC TSP Estrutura Conceitual: objetivos e características da informação contábil",
+     "NBC TSP 11: apresentação das demonstrações contábeis",
+     "NBC TSP 12: demonstração dos fluxos de caixa",
+     "NBC TSP 13: apresentação de informação orçamentária nas demonstrações contábeis",
+     "NBC TSP 07 e 08: ativo imobilizado e ativo intangível"
+    ]
+   },
+   {
+    "h": "Convergência",
+    "p": [
+     "A convergência consiste em alinhar a contabilidade pública brasileira às normas internacionais de contabilidade do setor público, as IPSAS, emitidas por organismo internacional ligado à federação internacional de contadores. O objetivo é a comparabilidade, a transparência e a consistência com a abordagem patrimonial.",
+     "A convergência é adaptada à realidade brasileira, em especial à existência do orçamento público e da legislação, como a Lei 4.320/64, de modo que algumas informações orçamentárias têm tratamento específico."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Atribuir ao CFC a edição do MCASP, que é da STN",
+   "Achar que o MCASP revogou a Lei 4.320/64",
+   "Confundir as IPSAS com as normas internacionais do setor privado (IFRS)",
+   "Dizer que as NBC TSP ignoram o orçamento público",
+   "Considerar o MCASP aplicável apenas à União"
+  ],
+  "refs": [
+   "Lei 4.320/64",
+   "Lei Complementar 101/2000 (LRF)",
+   "NBC TSP Estrutura Conceitual",
+   "MCASP"
+  ]
+ },
+ "47": {
+  "objectives": [
+   "Distinguir créditos suplementares, especiais e extraordinários",
+   "Identificar fontes de recursos e a autorização exigida para cada crédito",
+   "Diferenciar restos a pagar processados e não processados",
+   "Reconhecer os efeitos e limites impostos pela LRF"
+  ],
+  "sections": [
+   {
+    "h": "Créditos adicionais",
+    "p": [
+     "Créditos adicionais são autorizações de despesa não computadas ou insuficientemente dotadas na lei orçamentária. Os suplementares reforçam dotação já existente; os especiais atendem despesas para as quais não há dotação específica; os extraordinários atendem despesas urgentes e imprevisíveis, como guerra, comoção interna ou calamidade pública."
+    ],
+    "list": [
+     "Suplementar: depende de autorização legislativa (pode constar da LOA) e de abertura por decreto",
+     "Especial: depende de lei específica e de abertura por decreto",
+     "Extraordinário: aberto pelo Executivo por decreto (medida provisória na União), com comunicação ao Legislativo",
+     "Suplementares e especiais exigem recursos disponíveis e exposição justificativa; o extraordinário não depende de indicação prévia de fonte"
+    ]
+   },
+   {
+    "h": "Fontes de recursos",
+    "p": [
+     "São fontes: o superávit financeiro apurado em balanço patrimonial do exercício anterior, o excesso de arrecadação, a anulação parcial ou total de dotações e o produto de operações de crédito autorizadas. Essas fontes valem para os créditos suplementares e especiais, que dependem de recursos disponíveis para sua abertura.",
+     "Exemplo: dotação inicial de R$ 500.000; crédito suplementar de R$ 80.000 por excesso de arrecadação; dotação autorizada de R$ 580.000. Se foram empenhados R$ 560.000, o saldo disponível é R$ 20.000."
+    ]
+   },
+   {
+    "h": "Vigência",
+    "p": [
+     "Os créditos adicionais vigoram no exercício em que são abertos. Os especiais e extraordinários autorizados nos últimos quatro meses do exercício podem ser reabertos nos limites de seus saldos e incorporados ao orçamento do exercício seguinte."
+    ]
+   },
+   {
+    "h": "Restos a pagar e LRF",
+    "p": [
+     "Os restos a pagar são despesas empenhadas e não pagas até 31 de dezembro, distinguindo-se as processadas (liquidadas) das não processadas (não liquidadas). Ao inscrever restos a pagar, o ente transfere obrigações para o exercício seguinte; ele não os cancela automaticamente.",
+     "A LRF veda ao titular de Poder ou órgão, nos dois últimos quadrimestres de seu mandato, contrair obrigação de despesa que não possa ser cumprida integralmente dentro dele, ou que tenha parcelas a serem pagas no exercício seguinte sem suficiente disponibilidade de caixa. Há ainda o controle das disponibilidades de caixa e a transparência dos restos a pagar no relatório de gestão fiscal."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Trocar crédito especial (sem dotação) por suplementar (reforço de dotação existente)",
+   "Achar que o crédito extraordinário exige autorização legislativa prévia",
+   "Dizer que restos a pagar não processados são os já liquidados",
+   "Esquecer que crédito suplementar e especial precisam de recursos disponíveis",
+   "Ignorar a regra de fim de mandato da LRF para despesas sem disponibilidade de caixa"
+  ],
+  "refs": [
+   "Lei 4.320/64",
+   "Constituição Federal (art. 167)",
+   "Lei Complementar 101/2000 (LRF)"
+  ]
+ },
+ "48": {
+  "objectives": [
+   "Distinguir PPA, LDO e LOA quanto a conteúdo e prazo",
+   "Explicar as metas fiscais e os riscos fiscais",
+   "Identificar os limites de despesa com pessoal e de dívida em linhas gerais",
+   "Reconhecer os instrumentos de transparência da gestão fiscal"
+  ],
+  "sections": [
+   {
+    "h": "PPA, LDO e LOA",
+    "list": [
+     "PPA: plano plurianual de quatro anos, com diretrizes, objetivos e metas para despesas de capital e programas de duração continuada",
+     "LDO: lei anual que fixa metas e prioridades, orienta a elaboração da LOA e dispõe sobre alterações tributárias",
+     "LOA: orçamento anual, composto pelo orçamento fiscal, pelo da seguridade social e pelo de investimento das estatais",
+     "O PPA começa no segundo ano do mandato e vai até o primeiro ano do mandato seguinte"
+    ]
+   },
+   {
+    "h": "Metas e riscos fiscais",
+    "p": [
+     "Segundo a LRF, a LDO traz anexo de metas fiscais, com metas anuais de receitas, despesas, resultados nominal e primário e montante da dívida pública, e anexo de riscos fiscais, que avalia passivos contingentes e outros riscos capazes de afetar as contas.",
+     "Se a arrecadação não comportar o cumprimento das metas, ocorre limitação de empenho e movimentação financeira nos prazos e condições fixados pela LDO."
+    ]
+   },
+   {
+    "h": "Despesa com pessoal",
+    "p": [
+     "A despesa total com pessoal é limitada a percentuais da receita corrente líquida (RCL): 50% na União e 60% nos Estados e Municípios, repartidos entre os Poderes. Se um Município tem RCL de R$ 10.000.000, o limite total é R$ 6.000.000, sendo o do Executivo 54%, ou R$ 5.400.000.",
+     "O Executivo recebe alerta ao atingir 90% do limite (R$ 4.860.000) e fica sujeito às vedações prudenciais ao exceder 95% (R$ 5.130.000), como a concessão de aumentos e a criação de cargos. Ultrapassado o limite, a recondução ao teto deve ocorrer nos dois quadrimestres seguintes."
+    ],
+    "formula": "Limite alerta = 90% × limite; limite prudencial = 95% × limite"
+   },
+   {
+    "h": "Dívida e transparência",
+    "p": [
+     "Os limites da dívida consolidada e mobiliária são fixados pelo Senado Federal, por proposta do Presidente da República, para os entes. O ente que ultrapassa o limite deve reconduzi-lo, sob pena de restrições a operações de crédito.",
+     "A transparência se concretiza por meio do Relatório Resumido da Execução Orçamentária (bimestral) e do Relatório de Gestão Fiscal (quadrimestral, com opção semestral para pequenos Municípios), por audiências públicas e pela divulgação em meios eletrônicos de acesso público, em linha com a Lei de Acesso à Informação."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Achar que o PPA coincide com o mandato (ele se estende até o primeiro ano do mandato seguinte)",
+   "Calcular limites de pessoal sobre a receita total, em vez da receita corrente líquida",
+   "Confundir os limites de alerta (90%) e prudencial (95%)",
+   "Dizer que a LOA fixa metas fiscais, tarefa da LDO",
+   "Atribuir à LRF a fixação dos limites de dívida, que cabem ao Senado Federal"
+  ],
+  "refs": [
+   "Lei Complementar 101/2000 (LRF)",
+   "Constituição Federal (art. 165 e seguintes)",
+   "Lei 12.527/2011 (Lei de Acesso à Informação)"
+  ]
+ },
+ "49": {
+  "objectives": [
+   "Distinguir variações patrimoniais aumentativas e diminutivas",
+   "Calcular o resultado patrimonial do período",
+   "Explicar o reconhecimento, a depreciação e o inventário de bens públicos",
+   "Compreender a noção de redução ao valor recuperável (impairment) no setor público"
+  ],
+  "sections": [
+   {
+    "h": "Variações patrimoniais",
+    "p": [
+     "As variações patrimoniais aumentativas (VPA) são acréscimos no patrimônio líquido, como tributos, contribuições e transferências recebidas. As diminutivas (VPD) são reduções, como despesas com pessoal, depreciação e perdas. As variações qualitativas, por exemplo, a compra de um bem à vista, mudam a composição do patrimônio sem alterar o patrimônio líquido.",
+     "O resultado patrimonial é a diferença entre VPA e VPD do período e é apurado na demonstração das variações patrimoniais. Exemplo: VPA de R$ 800.000 e VPD de R$ 650.000 geram superávit patrimonial de R$ 150.000."
+    ],
+    "formula": "Resultado patrimonial = Σ VPA − Σ VPD"
+   },
+   {
+    "h": "Bens públicos",
+    "p": [
+     "Bens públicos de uso comum, de uso especial e dominicais são registrados no patrimônio, e o reconhecimento exige controle e a expectativa de benefícios econômicos ou potencial de serviços. Bens de infraestrutura e bens de uso comum do povo seguem tratamento específico, de acordo com as NBC TSP e o MCASP.",
+     "O inventário periódico confere a existência física e o valor dos bens, e as diferenças são regularizadas por ajustes e responsabilização, quando for o caso."
+    ]
+   },
+   {
+    "h": "Depreciação e reavaliação",
+    "p": [
+     "Depreciação é a alocação sistemática do valor depreciável durante a vida útil. Para um bem de R$ 120.000, vida útil de 10 anos e valor residual zero, a depreciação anual é R$ 12.000, registrada como VPD.",
+     "A reavaliação ajusta o valor contábil ao valor justo; é feita quando o valor justo difere de forma relevante do valor contábil."
+    ]
+   },
+   {
+    "h": "Redução ao valor recuperável",
+    "p": [
+     "A noção de impairment é a de que o ativo não pode estar registrado por valor superior ao que se espera recuperar dele. No setor público, as NBC TSP distinguem ativos geradores de caixa (que buscam retorno comercial) e não geradores de caixa (que prestam serviços públicos); em cada caso mensura-se o valor recuperável de modo adequado.",
+     "Se o valor contábil é R$ 100.000 e o recuperável é R$ 80.000, reconhece-se perda de R$ 20.000 como VPD, e a depreciação futura é recalculada com o novo valor."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Tratar compra de bem à vista como variação aumentativa ou diminutiva",
+   "Registrar depreciação como variação aumentativa",
+   "Esquecer que o impairment reduz o ativo e gera VPD",
+   "Calcular o resultado patrimonial a partir de receitas e despesas orçamentárias",
+   "Não distinguir ativos geradores e não geradores de caixa na noção de impairment"
+  ],
+  "refs": [
+   "NBC TSP 07 (Ativo Imobilizado)",
+   "NBC TSP – Redução ao valor recuperável",
+   "MCASP",
+   "Lei 4.320/64"
+  ]
+ },
+ "50": {
+  "objectives": [
+   "Aplicar um simulado de 12 questões de setor público",
+   "Treinar leitura atenta de enunciados normativos e de lançamentos",
+   "Classificar os erros em conceito, cálculo, interpretação, tempo e chute",
+   "Definir um plano de revisão com base no desempenho"
+  ],
+  "sections": [
+   {
+    "h": "Preparação",
+    "p": [
+     "O mini-simulado cobre as sessões 41 a 49 com 12 questões: uma de princípios e fundamentos, duas de PCASP, duas de receitas e despesas, uma de demonstrações, uma de MCASP e NBC TSP, duas de créditos adicionais e restos a pagar, duas de LRF e planejamento, e uma de variações patrimoniais.",
+     "Organize um ambiente sem consulta, com cronômetro e rascunho. Nesta matéria, a leitura atenta é essencial, pois pequenas diferenças de palavras mudam a resposta."
+    ]
+   },
+   {
+    "h": "Aplicação",
+    "list": [
+     "Duração: cerca de 55 minutos, sem consulta a leis, manuais ou resumos",
+     "Sublinhe palavras decisivas: EXCETO, INCORRETA, apenas, sempre, nunca",
+     "Antes de marcar, elimine as alternativas claramente erradas",
+     "Em questões de lançamento, defina o subsistema (orçamentário ou patrimonial)",
+     "Marque as incertas e volte a elas ao final"
+    ]
+   },
+   {
+    "h": "Correção",
+    "p": [
+     "Corrija com o gabarito comentado ao final. Como referência, 6 acertos significam 50%, mas procure 9 ou mais. Revise inclusive os acertos de baixa confiança.",
+     "Para cada questão errada, volte ao tema da sessão e anote a regra em uma frase, por exemplo: o empenho cria a obrigação, e os restos a pagar nascem dele."
+    ]
+   },
+   {
+    "h": "Classificação dos erros",
+    "list": [
+     "Conceito: confundiu termos como ente, órgão, entidade ou tipos de crédito",
+     "Norma: trocou a atribuição entre Lei 4.320/64, LRF, MCASP e NBC TSP",
+     "Cálculo: errou limite, saldo ou resultado",
+     "Interpretação: ignorou palavras de negação",
+     "Tempo ou chute: pressa ou ausência de raciocínio"
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Memorizar números de normas sem entender o conteúdo",
+   "Responder pelo que acha que a norma diz, sem checar a pergunta exata",
+   "Trocar atribuições da STN, do CFC e do Senado Federal",
+   "Ignorar palavras como EXCETO e INCORRETA",
+   "Estudar apenas pelo gabarito e não revisar os acertos por chute"
+  ],
+  "refs": [
+   "Conteúdo das sessões 41 a 49",
+   "Edital do Exame de Suficiência do CFC"
+  ]
+ },
+ "51": {
+  "objectives": [
+   "Conceituar auditoria e distinguir seus tipos",
+   "Explicar os objetivos gerais do auditor independente segundo as NBC TA",
+   "Diferenciar estratégia global e plano de auditoria",
+   "Descrever a função e as características dos papéis de trabalho"
+  ],
+  "sections": [
+   {
+    "h": "Conceito e tipos",
+    "p": [
+     "Auditoria das demonstrações contábeis é o conjunto de procedimentos para obter evidências e expressar opinião sobre se as demonstrações estão apresentadas, em seus aspectos relevantes, de acordo com a estrutura de relatório financeiro aplicável. Seu produto é o aumento do grau de confiança dos usuários.",
+     "A auditoria independente (externa) é feita por profissional sem vínculo com a entidade e emite opinião para usuários externos. A interna é feita por área vinculada à entidade, avalia controles, riscos e governança e atende à administração. Há também a auditoria governamental, executada por órgãos de controle."
+    ]
+   },
+   {
+    "h": "Objetivos e princípios gerais",
+    "p": [
+     "Conforme a NBC TA 200, os objetivos do auditor são obter segurança razoável (não absoluta) de que as demonstrações como um todo estão livres de distorção relevante, causada por fraude ou erro, e emitir relatório conforme os achados. A segurança é razoável por limitações inerentes, como uso de testes e julgamento.",
+     "O trabalho exige ceticismo profissional, julgamento profissional e cumprimento dos requisitos éticos, em especial independência, integridade e objetividade."
+    ]
+   },
+   {
+    "h": "Estratégia e plano de auditoria",
+    "p": [
+     "A NBC TA 300 trata do planejamento. A estratégia global define o escopo, a época e a direção da auditoria e orienta o plano. O plano detalha natureza, época e extensão dos procedimentos de avaliação de riscos e de resposta aos riscos.",
+     "O planejamento é um processo contínuo, e a estratégia e o plano podem ser alterados quando surgirem fatos novos. Antes de tudo, o auditor aceita o trabalho, obtém entendimento da entidade e define os termos do trabalho em carta de contratação."
+    ]
+   },
+   {
+    "h": "Papéis de trabalho",
+    "p": [
+     "Os papéis de trabalho (documentação de auditoria), tratados na NBC TA 230, registram os procedimentos executados, as evidências obtidas e as conclusões, permitindo que auditor experiente sem vínculo prévio compreenda o trabalho. São de propriedade do auditor e confidenciais, observado o sigilo profissional."
+    ],
+    "list": [
+     "Servem de suporte ao relatório e à qualidade do trabalho",
+     "Permitem a revisão pela equipe e o controle de qualidade",
+     "Devem registrar quem executou e quem revisou",
+     "Devem ser arquivados de forma organizada e conservados pelo prazo exigido"
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Afirmar que a auditoria dá segurança absoluta de ausência de erros",
+   "Confundir auditor interno (vínculo com a entidade) com independente",
+   "Dizer que o objetivo principal da auditoria é detectar todas as fraudes",
+   "Considerar o plano de auditoria imutável após a aprovação",
+   "Achar que os papéis de trabalho pertencem ao cliente"
+  ],
+  "refs": [
+   "NBC TA 200",
+   "NBC TA 230",
+   "NBC TA 300",
+   "NBC TA 210"
+  ]
+ },
+ "52": {
+  "objectives": [
+   "Distinguir risco inerente, de controle e de detecção",
+   "Calcular o risco de detecção a partir do modelo de risco de auditoria",
+   "Definir materialidade e relacioná-la ao planejamento",
+   "Avaliar evidência apropriada e suficiente e o papel do controle interno"
+  ],
+  "sections": [
+   {
+    "h": "Risco de auditoria",
+    "p": [
+     "O risco de auditoria é o de o auditor expressar opinião inadequada quando as demonstrações contêm distorção relevante. Ele é composto pelo risco de distorção relevante (RDR) e pelo risco de detecção (RD).",
+     "O risco inerente (RI) é a suscetibilidade da afirmação a distorção, antes de considerar controles. O risco de controle (RC) é o de que controles da entidade não previnam ou detectem a distorção. O risco de detecção é o de que os procedimentos do auditor não detectem a distorção existente; é o único que o auditor controla."
+    ],
+    "formula": "RDR = RI × RC; Risco de auditoria = RDR × RD"
+   },
+   {
+    "h": "Exemplo numérico",
+    "p": [
+     "Considere RI de 80%, RC de 50% e risco de auditoria aceitável de 5%. RDR = 0,80 × 0,50 = 40%. RD = 5% ÷ 40% = 12,5%. Quanto maior o RDR, menor o RD aceitável e maior o volume de procedimentos substantivos."
+    ]
+   },
+   {
+    "h": "Materialidade",
+    "p": [
+     "Uma informação é relevante quando sua omissão ou distorção pode influenciar decisões econômicas dos usuários. A materialidade para as demonstrações como um todo é fixada por julgamento, geralmente com base em um parâmetro, como percentual do lucro antes dos tributos, e a de execução é fixada abaixo dela para reduzir o risco de distorções acumuladas.",
+     "Por exemplo, se o lucro antes do imposto é R$ 2.000.000 e o auditor adota 5%, a materialidade é R$ 100.000. Se a materialidade para execução é 75%, o valor é R$ 75.000."
+    ]
+   },
+   {
+    "h": "Evidência de auditoria",
+    "p": [
+     "Evidência é a informação usada para suportar a opinião. A suficiência mede a quantidade, e a adequação mede a qualidade (relevância e confiabilidade). Evidências obtidas de fontes externas e diretamente pelo auditor são mais confiáveis que as internas e as obtidas por indagação.",
+     "Na amostragem, o auditor seleciona itens para testar de modo que a amostra seja representativa; a seleção estatística permite quantificar o risco de amostragem, e a não estatística depende de julgamento."
+    ]
+   },
+   {
+    "h": "Controle interno e COSO",
+    "p": [
+     "O controle interno é o processo desenhado para dar segurança razoável quanto aos objetivos de operações, relatórios e conformidade. O modelo COSO inclui cinco componentes: ambiente de controle, avaliação de riscos, atividades de controle, informação e comunicação, e monitoramento."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Dizer que o auditor controla o risco inerente e o de controle, quando só controla o de detecção",
+   "Somar os riscos em vez de multiplicá-los no modelo",
+   "Considerar a materialidade um valor fixado por norma",
+   "Confundir suficiência (quantidade) com adequação (qualidade) da evidência",
+   "Esquecer que controle interno efetivo reduz, mas nunca elimina, o risco"
+  ],
+  "refs": [
+   "NBC TA 200",
+   "NBC TA 315",
+   "NBC TA 320",
+   "NBC TA 330",
+   "NBC TA 500",
+   "NBC TA 530",
+   "COSO"
+  ]
+ },
+ "53": {
+  "objectives": [
+   "Distinguir testes de controle e procedimentos substantivos",
+   "Aplicar procedimentos analíticos na análise de razoabilidade",
+   "Identificar os tipos de opinião e as condições que os determinam",
+   "Distinguir fraude de erro e reconhecer as comunicações do auditor"
+  ],
+  "sections": [
+   {
+    "h": "Procedimentos de auditoria",
+    "p": [
+     "Os procedimentos incluem inspeção, observação, indagação, confirmação externa, recálculo, reexecução e procedimentos analíticos. Os testes de controle (de conformidade) verificam a eficácia operacional dos controles; os procedimentos substantivos detectam distorções nos saldos e transações, por meio de testes de detalhes e procedimentos analíticos substantivos.",
+     "Quando os controles são eficazes, o auditor pode reduzir a extensão dos substantivos; se são fracos ou não testados, deve ampliá-los."
+    ]
+   },
+   {
+    "h": "Procedimentos analíticos",
+    "p": [
+     "Consistem em avaliar informações financeiras por meio de relações plausíveis entre dados. O auditor desenvolve uma expectativa, compara com o registrado e investiga diferenças acima de um limite aceitável.",
+     "Exemplo: empréstimos médios de R$ 1.000.000 a 12% ao ano levam a juros esperados de R$ 120.000. O registrado é R$ 95.000, e a diferença de R$ 25.000 excede o limite tolerável de R$ 10.000, sendo necessária investigação."
+    ]
+   },
+   {
+    "h": "Tipos de opinião",
+    "list": [
+     "Sem ressalva (não modificada): demonstrações adequadas em todos os aspectos relevantes",
+     "Com ressalva: distorção relevante, mas não generalizada, ou limitação de escopo com efeito relevante, mas não generalizado",
+     "Adversa: distorções relevantes e generalizadas",
+     "Abstenção de opinião: impossibilidade de obter evidência, com possíveis efeitos relevantes e generalizados",
+     "Parágrafos de ênfase e outros assuntos não modificam a opinião"
+    ]
+   },
+   {
+    "h": "Fraude e erro",
+    "p": [
+     "Fraude é ato intencional de um ou mais indivíduos para obter vantagem ilícita, e erro é ato não intencional. O auditor não é responsável por prevenir fraudes, que cabe à administração e aos responsáveis pela governança, mas deve planejar e executar o trabalho com ceticismo e obter segurança razoável sobre distorções relevantes, inclusive por fraude.",
+     "Presume-se risco de fraude no reconhecimento de receitas e no desrespeito aos controles pela administração. A NBC TA 240 trata dessa responsabilidade."
+    ]
+   },
+   {
+    "h": "Comunicações do auditor",
+    "p": [
+     "O auditor comunica aos responsáveis pela governança os assuntos relevantes, como deficiências significativas de controle interno, e comunica ao órgão competente os indícios de atos ilícitos, nos termos da legislação aplicável."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Confundir ressalva (relevante, não generalizada) com adversa (relevante e generalizada)",
+   "Achar que o parágrafo de ênfase modifica a opinião",
+   "Dizer que o auditor é responsável por prevenir fraude",
+   "Trocar teste de controle por procedimento substantivo",
+   "Acreditar que a abstenção decorre de distorção, e não de limitação de escopo"
+  ],
+  "refs": [
+   "NBC TA 240",
+   "NBC TA 265",
+   "NBC TA 330",
+   "NBC TA 520",
+   "NBC TA 700",
+   "NBC TA 705",
+   "NBC TA 706"
+  ]
+ },
+ "54": {
+  "objectives": [
+   "Classificar a perícia contábil em judicial, extrajudicial e arbitral",
+   "Diferenciar perito-contador de assistente técnico",
+   "Reconhecer as regras de nomeação, impedimento, suspeição e honorários",
+   "Distinguir laudo pericial de parecer técnico e aplicar a perícia em casos práticos"
+  ],
+  "sections": [
+   {
+    "h": "Conceito e classificação",
+    "p": [
+     "A perícia contábil é o conjunto de procedimentos técnicos e científicos destinados a levar à instância decisória elementos de prova, por meio de laudo ou parecer, em questões contábeis. Conforme o local de atuação, a perícia é judicial (feita em processo, por determinação do juiz), extrajudicial (contratada fora do processo) ou arbitral (no âmbito de arbitragem).",
+     "Os procedimentos da perícia incluem exame, vistoria, indagação, investigação, arbitramento, mensuração, avaliação e certificação."
+    ]
+   },
+   {
+    "h": "Perito e assistente técnico",
+    "p": [
+     "O perito é o contador registrado no CRC, nomeado pelo juiz, que é de confiança do juízo. O assistente técnico é contratado e indicado pelas partes, de confiança destas, e atua acompanhando a perícia e apresentando parecer.",
+     "O perito está sujeito a impedimento e suspeição, segundo as regras processuais; o assistente técnico não está. O perito deve se escusar quando houver motivo legítimo, e pode ser substituído se faltar ao dever de informação ou carecer de conhecimento."
+    ]
+   },
+   {
+    "h": "Quesitos, laudo e parecer",
+    "list": [
+     "Quesitos: perguntas técnicas formuladas pelas partes e pelo juiz, que o perito deve responder de forma objetiva",
+     "Laudo pericial: peça escrita do perito, com identificação, objeto, diligências, resposta aos quesitos e conclusão",
+     "Parecer técnico-contábil: documento do assistente técnico ou do contador contratado, com opinião fundamentada",
+     "O assistente técnico apresenta parecer em prazo legal após o laudo",
+     "Honorários: o perito apresenta proposta, o juiz arbitra e as partes se manifestam; a parte que requereu a perícia, em regra, adianta o pagamento"
+    ]
+   },
+   {
+    "h": "Aplicações práticas",
+    "p": [
+     "Na apuração de haveres, determina-se o valor devido ao sócio que sai. Se o patrimônio líquido contábil é R$ 1.200.000 e a avaliação dos ativos indica ganho de R$ 300.000, o patrimônio líquido ajustado é R$ 1.500.000, e um sócio com 20% de participação tem haveres de R$ 300.000.",
+     "A perícia também é usada em inventário e partilha de bens, em prestação de contas e em ações revisionais, sempre com respeito ao contraditório e à imparcialidade do perito."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Afirmar que o assistente técnico se sujeita a impedimento e suspeição como o perito",
+   "Dizer que laudo é do assistente técnico e parecer é do perito (é o inverso)",
+   "Esquecer que o perito judicial nomeado deve ser contador com registro regular no CRC",
+   "Aplicar o percentual de participação ao patrimônio contábil quando a questão pede o patrimônio ajustado a valor justo",
+   "Achar que os honorários são fixados livremente pelo perito, sem arbitramento judicial"
+  ],
+  "refs": [
+   "NBC TP 01",
+   "NBC PP 01",
+   "Código de Processo Civil (Lei 13.105/2015)",
+   "Lei 9.307/96 (Arbitragem)"
+  ]
+ },
+ "55": {
+  "objectives": [
+   "Aplicar um simulado de 12 questões sobre auditoria e perícia",
+   "Praticar a distinção entre conceitos próximos de risco, opinião e laudo",
+   "Classificar os erros por causa e priorizar a revisão",
+   "Preparar a etapa final de revisão com base no desempenho"
+  ],
+  "sections": [
+   {
+    "h": "Preparação",
+    "p": [
+     "O mini-simulado tem 12 questões cobrindo as sessões 51 a 54, sendo três de objetivos, normas e planejamento, três de riscos, materialidade e evidências, três de procedimentos e relatórios, e três de perícia contábil.",
+     "Aplique sem consulta, com cronômetro, calculadora e rascunho. Evite revisar o conteúdo no último minuto, para que o resultado reflita a retenção real."
+    ]
+   },
+   {
+    "h": "Aplicação",
+    "list": [
+     "Duração: cerca de 55 minutos, sem consulta a normas ou resumos",
+     "Identifique primeiro o que a questão pede: tipo de opinião, risco, quem faz o quê",
+     "Em questões de risco, escreva o modelo antes de calcular",
+     "Em perícia, diferencie perito, assistente técnico, laudo e parecer",
+     "Marque as dúvidas e volte a elas ao final"
+    ]
+   },
+   {
+    "h": "Correção e classificação dos erros",
+    "p": [
+     "Confira o gabarito ao terminar. Como referência, 6 acertos equivalem a 50%, e o ideal são 9 ou mais. Para cada erro, anote a causa e a regra correta."
+    ],
+    "list": [
+     "Conceito: confundiu termos próximos (ressalva e adversa, laudo e parecer)",
+     "Norma: trocou a atribuição entre NBC TA, NBC TP, NBC PP e legislação",
+     "Cálculo: errou o risco de detecção, a materialidade ou os haveres",
+     "Interpretação: ignorou EXCETO, INCORRETA ou NÃO",
+     "Tempo ou chute: pressa ou ausência de raciocínio"
+    ]
+   },
+   {
+    "h": "Plano pós-simulado",
+    "p": [
+     "Monte uma tabela com os três erros mais frequentes e a regra correta de cada um. Refaça as questões erradas depois de dois dias e releia as sessões em que houve mais dúvidas. Use o resultado para organizar a revisão geral que precede o exame."
+    ]
+   }
+  ],
+  "pitfalls": [
+   "Consultar material durante o simulado e invalidar o diagnóstico",
+   "Confundir ressalva com adversa e abstenção, a principal pegadinha de relatórios",
+   "Trocar risco de detecção por risco de controle",
+   "Ignorar palavras de negação nos enunciados",
+   "Não registrar o motivo dos erros e repetir as falhas"
+  ],
+  "refs": [
+   "Conteúdo das sessões 51 a 54",
+   "Edital do Exame de Suficiência do CFC"
+  ]
+ }
+}

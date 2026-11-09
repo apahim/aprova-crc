@@ -1,1 +1,890 @@
-{}
+{
+ "31": [
+  {
+   "stem": "Em uma indústria de móveis, o salário mensal do supervisor que coordena toda a fábrica é classificado, quanto à apropriação aos produtos e ao comportamento em relação ao volume produzido, como:",
+   "options": [
+    "Custo indireto e fixo",
+    "Custo direto e fixo",
+    "Custo indireto e variável",
+    "Despesa administrativa fixa"
+   ],
+   "correct": 0,
+   "explanation": "O supervisor atua sobre toda a produção, sem apropriação direta a um produto (indireto), e seu salário não varia com o volume (fixo). Por estar ligado à produção, é custo e não despesa.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Uma empresa paga aos vendedores comissão de 3% sobre o faturamento. Essa comissão deve ser classificada como:",
+   "options": [
+    "Custo direto de produção",
+    "Despesa fixa comercial",
+    "Perda operacional",
+    "Despesa variável de vendas"
+   ],
+   "correct": 3,
+   "explanation": "A comissão ocorre na comercialização, portanto é despesa, e varia proporcionalmente ao faturamento, portanto é variável.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Em determinado mês, a empresa incorreu em: matéria-prima R$ 40.000,00; mão de obra direta R$ 25.000,00; custos indiretos de fabricação R$ 15.000,00; despesas administrativas R$ 10.000,00. O custo de transformação do período é de:",
+   "options": [
+    "R$ 25.000,00",
+    "R$ 65.000,00",
+    "R$ 40.000,00",
+    "R$ 80.000,00"
+   ],
+   "correct": 2,
+   "explanation": "Custo de transformação = MOD + CIF = 25.000 + 15.000 = R$ 40.000,00. O custo primário (MP + MOD) seria R$ 65.000,00 e o custo total de produção, R$ 80.000,00. Despesas administrativas não compõem o custo.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Uma empresa utiliza imóvel próprio como depósito, embora pudesse alugá-lo a terceiros por R$ 8.000,00 mensais. Sobre o custo de oportunidade dessa decisão, é correto afirmar que:",
+   "options": [
+    "é nulo, pois o imóvel é próprio e não há desembolso de caixa",
+    "corresponde aos R$ 8.000,00 mensais de aluguel a que a empresa renuncia, sem representar desembolso nem registro contábil como custo",
+    "equivale à depreciação mensal do imóvel, por ser o único gasto relacionado a ele",
+    "deve ser registrado como custo indireto de fabricação no estoque dos produtos"
+   ],
+   "correct": 1,
+   "explanation": "Custo de oportunidade é o valor do melhor uso alternativo sacrificado (aluguel de R$ 8.000,00). É conceito econômico para decisão e não é contabilizado.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Um incêndio acidental destruiu parte do estoque de matéria-prima de uma indústria sem seguro. O valor do material perdido deve ser classificado como:",
+   "options": [
+    "Custo de produção, pois o material seria utilizado na fábrica",
+    "Perda, reconhecida diretamente no resultado do período",
+    "Investimento, pois o gasto trará benefício futuro",
+    "Despesa de vendas, por afetar a comercialização"
+   ],
+   "correct": 1,
+   "explanation": "Perda é o gasto anormal e involuntário. Não integra o custo dos produtos nem é investimento, pois não gerará benefício futuro.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Os custos fixos totais de uma fábrica são R$ 120.000,00 por mês, para uma produção de 10.000 unidades. Se a produção subir para 15.000 unidades, dentro da capacidade instalada, ocorrerá que:",
+   "options": [
+    "o custo fixo total permanece R$ 120.000,00 e o custo fixo unitário cai de R$ 12,00 para R$ 8,00",
+    "o custo fixo total sobe para R$ 180.000,00 e o custo fixo unitário permanece R$ 12,00",
+    "o custo fixo total permanece R$ 120.000,00 e o custo fixo unitário permanece R$ 12,00",
+    "o custo fixo total cai para R$ 80.000,00 e o custo fixo unitário passa a R$ 8,00"
+   ],
+   "correct": 0,
+   "explanation": "Custo fixo total é constante dentro da faixa relevante; o unitário diminui: 120.000 ÷ 10.000 = R$ 12,00 e 120.000 ÷ 15.000 = R$ 8,00.",
+   "area": "Contabilidade de Custos"
+  }
+ ],
+ "32": [
+  {
+   "stem": "A fábrica apresenta custos indiretos de fabricação comuns de R$ 90.000,00, rateados aos produtos A e B com base nas horas-máquina: A utilizou 300 horas e B, 600 horas. O CIF atribuído ao produto A é de:",
+   "options": [
+    "R$ 45.000,00",
+    "R$ 60.000,00",
+    "R$ 90.000,00",
+    "R$ 30.000,00"
+   ],
+   "correct": 3,
+   "explanation": "Taxa de rateio = 90.000 ÷ 900 h = R$ 100,00/h. Produto A: 300 h × 100 = R$ 30.000,00 (B recebe R$ 60.000,00).",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Uma empresa produziu 1.000 unidades, vendeu 800 e não tinha estoque inicial. O custo variável unitário é R$ 30,00 e os custos fixos de produção somam R$ 20.000,00. Pelo custeio por absorção, o estoque final de produtos acabados é avaliado em:",
+   "options": [
+    "R$ 6.000,00",
+    "R$ 4.000,00",
+    "R$ 10.000,00",
+    "R$ 16.000,00"
+   ],
+   "correct": 2,
+   "explanation": "Custo unitário por absorção = 30 + 20.000 ÷ 1.000 = R$ 50,00. Estoque: 200 un × 50 = R$ 10.000,00. R$ 6.000,00 seria a avaliação pelo custeio variável.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Na departamentalização do custeio por absorção, os custos do departamento de Manutenção, que presta serviços aos departamentos produtivos de Usinagem e Montagem, devem ser:",
+   "options": [
+    "lançados diretamente no resultado como despesa do período",
+    "apropriados diretamente aos produtos, sem passar pelos departamentos produtivos",
+    "rateados aos departamentos produtivos por critério de causa e efeito, para depois serem apropriados aos produtos",
+    "mantidos no próprio departamento de Manutenção, sem alocação aos produtos"
+   ],
+   "correct": 2,
+   "explanation": "Departamentos de serviços (auxiliares) não trabalham diretamente nos produtos; seus custos são transferidos aos departamentos produtivos e, destes, aos produtos.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "No custeio baseado em atividades (ABC), qual é o indutor de custo (cost driver) mais adequado para a atividade ‘inspeção de qualidade por lote’?",
+   "options": [
+    "Horas de mão de obra direta",
+    "Número de inspeções realizadas",
+    "Valor da matéria-prima consumida",
+    "Área ocupada em metros quadrados"
+   ],
+   "correct": 1,
+   "explanation": "O indutor deve refletir a relação de causa e efeito: o custo da atividade de inspeção varia com a quantidade de inspeções realizadas.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "A atividade ‘preparação de máquinas (setup)’ tem custo mensal de R$ 60.000,00 e ocorreram 120 setups no total, sendo 30 para o produto X, cuja produção foi de 500 unidades. O custo de setup por unidade de X é de:",
+   "options": [
+    "R$ 30,00",
+    "R$ 12,00",
+    "R$ 120,00",
+    "R$ 500,00"
+   ],
+   "correct": 0,
+   "explanation": "Custo por setup = 60.000 ÷ 120 = R$ 500,00. Para X: 30 × 500 = R$ 15.000,00; por unidade: 15.000 ÷ 500 = R$ 30,00.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Ao substituir o rateio dos CIF por horas de mão de obra direta pelo custeio ABC, o efeito mais comum sobre os produtos fabricados em baixo volume e com muita complexidade (muitos setups e inspeções) é:",
+   "options": [
+    "passarem a absorver menos custos indiretos, pois o ABC elimina os custos indiretos",
+    "manterem exatamente o mesmo custo, pois o total de CIF não muda",
+    "deixarem de receber custos indiretos, que passam a ser tratados como despesa",
+    "passarem a absorver mais custos indiretos, pois consomem mais atividades por unidade produzida"
+   ],
+   "correct": 3,
+   "explanation": "O ABC aloca custos conforme o consumo de atividades. Produtos complexos e de pequeno lote consomem muitas atividades e tendem a ficar mais caros; no rateio por volume eram subsidiados pelos produtos de alto volume.",
+   "area": "Contabilidade de Custos"
+  }
+ ],
+ "33": [
+  {
+   "stem": "Um produto é vendido a R$ 100,00, com custo variável de R$ 60,00 por unidade e despesas variáveis (comissões e impostos sobre vendas) de R$ 10,00 por unidade. A margem de contribuição unitária é de:",
+   "options": [
+    "R$ 40,00",
+    "R$ 10,00",
+    "R$ 70,00",
+    "R$ 30,00"
+   ],
+   "correct": 3,
+   "explanation": "MC = preço − custos variáveis − despesas variáveis = 100 − 60 − 10 = R$ 30,00.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Os custos e despesas fixos totais somam R$ 90.000,00 por período e a margem de contribuição unitária é R$ 30,00. O ponto de equilíbrio contábil, em unidades, é de:",
+   "options": [
+    "1.500 unidades",
+    "2.250 unidades",
+    "3.000 unidades",
+    "4.000 unidades"
+   ],
+   "correct": 2,
+   "explanation": "PE = CF ÷ MC unitária = 90.000 ÷ 30 = 3.000 unidades.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Uma empresa tem custos e despesas fixos de R$ 120.000,00, dos quais R$ 20.000,00 correspondem à depreciação (sem desembolso). A MC unitária é R$ 25,00. O ponto de equilíbrio financeiro, em unidades, é de:",
+   "options": [
+    "4.800 unidades",
+    "4.000 unidades",
+    "5.600 unidades",
+    "3.200 unidades"
+   ],
+   "correct": 1,
+   "explanation": "PEF = (CF − gastos não desembolsáveis) ÷ MC = (120.000 − 20.000) ÷ 25 = 4.000. O PE contábil seria 120.000 ÷ 25 = 4.800.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Os custos e despesas fixos são R$ 80.000,00 e a MC unitária é R$ 20,00. Para obter lucro de R$ 40.000,00, o ponto de equilíbrio econômico, em unidades, é de:",
+   "options": [
+    "6.000 unidades",
+    "4.000 unidades",
+    "2.000 unidades",
+    "8.000 unidades"
+   ],
+   "correct": 0,
+   "explanation": "PEE = (CF + lucro desejado) ÷ MC = (80.000 + 40.000) ÷ 20 = 6.000 unidades.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "A empresa vende 5.000 unidades por mês e seu ponto de equilíbrio contábil é de 4.000 unidades. A margem de segurança é de:",
+   "options": [
+    "20%",
+    "25%",
+    "80%",
+    "10%"
+   ],
+   "correct": 0,
+   "explanation": "Margem de segurança = (vendas − PE) ÷ vendas = (5.000 − 4.000) ÷ 5.000 = 20%.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Uma empresa tem margem de contribuição total de R$ 200.000,00 e lucro operacional de R$ 50.000,00. Mantidos preços, custos variáveis unitários e custos fixos, um aumento de 10% no volume de vendas elevará o lucro operacional em:",
+   "options": [
+    "10%",
+    "25%",
+    "4%",
+    "40%"
+   ],
+   "correct": 3,
+   "explanation": "GAO = MC ÷ lucro operacional = 200.000 ÷ 50.000 = 4. Variação do lucro = 4 × 10% = 40% (de R$ 50.000,00 para R$ 70.000,00).",
+   "area": "Contabilidade de Custos"
+  }
+ ],
+ "34": [
+  {
+   "stem": "Qual das atividades abaixo é mais adequada ao custeio por ordem de produção?",
+   "options": [
+    "Refinaria que processa petróleo continuamente",
+    "Fábrica de cimento com produção contínua e padronizada",
+    "Estaleiro que constrói embarcações sob encomenda, com especificações distintas para cada cliente",
+    "Usina de açúcar com fluxo contínuo e produção em larga escala"
+   ],
+   "correct": 2,
+   "explanation": "O custeio por ordem acumula custos por encomenda, apropriado a produções heterogêneas e sob demanda. Produções contínuas e homogêneas usam o custeio por processo.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "No custeio por processo, foram iniciadas 1.000 unidades no mês, sem estoque inicial; 800 foram concluídas e 200 permanecem em elaboração com 50% de acabamento. Os custos do período, incorridos de modo uniforme, foram R$ 45.000,00. O custo unitário da produção equivalente é de:",
+   "options": [
+    "R$ 45,00",
+    "R$ 50,00",
+    "R$ 56,25",
+    "R$ 36,00"
+   ],
+   "correct": 1,
+   "explanation": "Produção equivalente = 800 + 200 × 50% = 900 unidades. Custo unitário = 45.000 ÷ 900 = R$ 50,00.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "No processo produtivo de uma usina, obtém-se, simultaneamente ao produto principal, um item com venda regular, porém de valor pouco relevante frente ao produto principal. Esse item é classificado como:",
+   "options": [
+    "Coproduto",
+    "Subproduto",
+    "Sucata",
+    "Produto em elaboração"
+   ],
+   "correct": 1,
+   "explanation": "Subproduto tem venda regular, mas baixa relevância; sua receita (líquida) costuma ser deduzida do custo do produto principal. Coprodutos têm relevância comparável; sucata tem valor residual mínimo.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Custos conjuntos de R$ 120.000,00 geram os coprodutos A e B, cujos valores de mercado no ponto de separação são R$ 90.000,00 e R$ 60.000,00. Pelo método do valor de mercado, o custo conjunto atribuído a A é de:",
+   "options": [
+    "R$ 72.000,00",
+    "R$ 60.000,00",
+    "R$ 48.000,00",
+    "R$ 90.000,00"
+   ],
+   "correct": 0,
+   "explanation": "A representa 90 ÷ 150 = 60% do valor de mercado total: 60% × 120.000 = R$ 72.000,00 (B recebe R$ 48.000,00).",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "O padrão de aquisição de determinado material é de R$ 8,00 por kg. A empresa comprou 2.000 kg a R$ 9,00 por kg. A variação de preço do material é de:",
+   "options": [
+    "R$ 2.000,00 favorável",
+    "R$ 1.000,00 desfavorável",
+    "R$ 18.000,00 desfavorável",
+    "R$ 2.000,00 desfavorável"
+   ],
+   "correct": 3,
+   "explanation": "Variação de preço = (preço real − preço padrão) × quantidade real = (9 − 8) × 2.000 = R$ 2.000,00; como o preço real excede o padrão, é desfavorável.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Para cada unidade produzida, o padrão é de 3 kg de material a R$ 8,00 por kg. Foram produzidas 500 unidades, com consumo real de 1.600 kg (preço real de R$ 9,00 por kg). A variação de quantidade (eficiência) é de:",
+   "options": [
+    "R$ 800,00 favorável",
+    "R$ 900,00 desfavorável",
+    "R$ 800,00 desfavorável",
+    "R$ 1.600,00 desfavorável"
+   ],
+   "correct": 2,
+   "explanation": "Quantidade padrão para 500 un = 1.500 kg. Variação de quantidade = (1.600 − 1.500) × preço padrão 8 = R$ 800,00, desfavorável (consumo acima do padrão).",
+   "area": "Contabilidade de Custos"
+  }
+ ],
+ "36": [
+  {
+   "stem": "O custo unitário de um produto é R$ 120,00. Impostos e comissões incidem 25% sobre o preço de venda, e a margem de lucro desejada é de 15% sobre o preço. Pelo markup multiplicador, o preço de venda é de:",
+   "options": [
+    "R$ 168,00",
+    "R$ 150,00",
+    "R$ 200,00",
+    "R$ 240,00"
+   ],
+   "correct": 2,
+   "explanation": "Soma dos percentuais sobre o preço = 25% + 15% = 40%. Preço = 120 ÷ (1 − 0,40) = R$ 200,00 (markup multiplicador ≈ 1,667). Multiplicar 120 por 1,40 (R$ 168,00) é erro comum.",
+   "area": "Contabilidade Gerencial"
+  },
+  {
+   "stem": "Um produto é vendido por R$ 250,00 (preço líquido) e tem custo de R$ 200,00. O markup sobre o custo é de:",
+   "options": [
+    "20%",
+    "25%",
+    "50%",
+    "125%"
+   ],
+   "correct": 1,
+   "explanation": "Markup sobre o custo = (250 − 200) ÷ 200 = 25%. Os 20% correspondem à margem sobre o preço (50 ÷ 250).",
+   "area": "Contabilidade Gerencial"
+  },
+  {
+   "stem": "Uma empresa fabrica 10.000 peças por ano com custo variável de R$ 30,00 por unidade e custos fixos de R$ 50.000,00 que continuarão existindo mesmo se parar de fabricar. A capacidade liberada poderia ser alugada por R$ 120.000,00 por ano. Um fornecedor oferece a peça a R$ 40,00. A melhor decisão é:",
+   "options": [
+    "comprar, com economia de R$ 20.000,00 por ano",
+    "fabricar, com economia de R$ 100.000,00 por ano",
+    "fabricar, com economia de R$ 40.000,00 por ano",
+    "comprar, com economia de R$ 120.000,00 por ano"
+   ],
+   "correct": 0,
+   "explanation": "Custos fixos inevitáveis são irrelevantes. Fabricar: 30 × 10.000 + 120.000 (custo de oportunidade) = R$ 420.000,00. Comprar: 40 × 10.000 = R$ 400.000,00. Comprar economiza R$ 20.000,00.",
+   "area": "Contabilidade Gerencial"
+  },
+  {
+   "stem": "Na decisão de aceitar ou não um pedido especial, qual das informações abaixo é, em regra, relevante?",
+   "options": [
+    "O valor pago no passado pela máquina que será utilizada (custo afundado)",
+    "A depreciação contábil do equipamento já instalado, que não muda com a decisão",
+    "O rateio do aluguel da fábrica, que existirá com ou sem o pedido",
+    "O custo variável incremental do pedido"
+   ],
+   "correct": 3,
+   "explanation": "Custos relevantes são futuros e diferem entre as alternativas. Custos afundados e custos que existirão de qualquer forma são irrelevantes.",
+   "area": "Contabilidade Gerencial"
+  },
+  {
+   "stem": "Uma empresa com capacidade ociosa recebe pedido adicional de 1.000 unidades a R$ 45,00 cada, que não afeta suas vendas atuais. O custo variável é R$ 38,00 por unidade e o custo fixo rateado é R$ 12,00 por unidade (total R$ 50,00). A decisão adequada é:",
+   "options": [
+    "rejeitar, pois o preço é inferior ao custo total unitário de R$ 50,00",
+    "aceitar somente se o preço cobrir o custo total de R$ 50,00",
+    "aceitar, pois o preço supera o custo fixo rateado de R$ 12,00 por unidade",
+    "aceitar, pois a MC de R$ 7,00 por unidade aumenta o lucro em R$ 7.000,00, já que os custos fixos não se alteram"
+   ],
+   "correct": 3,
+   "explanation": "Com ociosidade e custos fixos inalterados, só o custo variável é relevante: MC = 45 − 38 = R$ 7,00 × 1.000 = R$ 7.000,00 de acréscimo ao lucro.",
+   "area": "Contabilidade Gerencial"
+  },
+  {
+   "stem": "Dois produtos utilizam a mesma máquina, limitada a 1.000 horas por mês (fator limitante). O produto X tem MC de R$ 20,00 por unidade e consome 4 h-máquina; o produto Y tem MC de R$ 15,00 por unidade e consome 2 h-máquina. Deve-se priorizar:",
+   "options": [
+    "X, pois tem a maior margem de contribuição unitária",
+    "X, pois consome mais horas e contribui mais por unidade",
+    "Y, pois gera MC de R$ 7,50 por hora-máquina, contra R$ 5,00 de X",
+    "qualquer um, pois ambos têm margem de contribuição positiva"
+   ],
+   "correct": 2,
+   "explanation": "Com fator limitante, compara-se a MC por unidade do recurso escasso: X = 20 ÷ 4 = R$ 5,00/h; Y = 15 ÷ 2 = R$ 7,50/h.",
+   "area": "Contabilidade Gerencial"
+  }
+ ],
+ "37": [
+  {
+   "stem": "A previsão de vendas do próximo período é de 8.000 unidades. O estoque inicial de produtos acabados é de 600 unidades e a política da empresa é manter estoque final equivalente a 10% das vendas do período. A produção a ser orçada é de:",
+   "options": [
+    "7.800 unidades",
+    "8.200 unidades",
+    "8.600 unidades",
+    "8.000 unidades"
+   ],
+   "correct": 1,
+   "explanation": "Produção = vendas previstas + estoque final desejado − estoque inicial = 8.000 + 800 − 600 = 8.200 unidades.",
+   "area": "Contabilidade Gerencial"
+  },
+  {
+   "stem": "As vendas orçadas são R$ 100.000,00 em janeiro e R$ 120.000,00 em fevereiro. 60% são recebidos no próprio mês e 40% no mês seguinte. O recebimento orçado de fevereiro é de:",
+   "options": [
+    "R$ 112.000,00",
+    "R$ 120.000,00",
+    "R$ 72.000,00",
+    "R$ 108.000,00"
+   ],
+   "correct": 0,
+   "explanation": "Fevereiro: 60% × 120.000 = 72.000 + 40% × 100.000 (janeiro) = 40.000, total R$ 112.000,00.",
+   "area": "Controladoria"
+  },
+  {
+   "stem": "Para produzir 10.500 unidades, cada uma exige 2 kg de matéria-prima. O estoque inicial de matéria-prima é de 3.000 kg e o final desejado é de 4.000 kg. O orçamento de compras, em kg, é de:",
+   "options": [
+    "22.000",
+    "21.000",
+    "20.000",
+    "23.000"
+   ],
+   "correct": 0,
+   "explanation": "Consumo = 10.500 × 2 = 21.000 kg. Compras = consumo + estoque final − estoque inicial = 21.000 + 4.000 − 3.000 = 22.000 kg.",
+   "area": "Controladoria"
+  },
+  {
+   "stem": "Qual é uma atribuição típica da controladoria?",
+   "options": [
+    "Autorizar e efetuar os pagamentos da empresa, como responsável pela tesouraria",
+    "Decidir isoladamente o preço de venda e o mix de produção",
+    "Executar auditoria externa independente das demonstrações contábeis",
+    "Coordenar a elaboração do orçamento e analisar as variações entre o previsto e o realizado, informando os gestores"
+   ],
+   "correct": 3,
+   "explanation": "A controladoria planeja, coordena e controla o processo orçamentário e fornece informações; as decisões operacionais permanecem com os gestores de cada área.",
+   "area": "Controladoria"
+  },
+  {
+   "stem": "O gerente de uma divisão tem autoridade sobre receitas, custos e decisões de investimento em ativos, sendo avaliado pelo retorno sobre o capital investido. Essa divisão é um:",
+   "options": [
+    "Centro de custos",
+    "Centro de receita",
+    "Centro de investimento",
+    "Centro de lucro"
+   ],
+   "correct": 2,
+   "explanation": "Centro de investimento responde por resultado e pelos ativos investidos (avaliado por ROI). Centro de lucro responde por receitas e custos, mas não pelo investimento.",
+   "area": "Controladoria"
+  },
+  {
+   "stem": "O orçamento estático previa 10.000 unidades, com custos variáveis de R$ 20,00 por unidade e custos fixos de R$ 50.000,00. Foram produzidas 12.000 unidades, com custo real total de R$ 300.000,00. Em relação ao orçamento flexível, a variação de custo é de:",
+   "options": [
+    "R$ 50.000,00 desfavorável",
+    "R$ 10.000,00 desfavorável",
+    "R$ 10.000,00 favorável",
+    "R$ 40.000,00 desfavorável"
+   ],
+   "correct": 1,
+   "explanation": "Orçamento flexível = 20 × 12.000 + 50.000 = R$ 290.000,00. Variação = 300.000 − 290.000 = R$ 10.000,00 desfavorável. Contra o estático (R$ 250.000,00) seria R$ 50.000,00, comparação distorcida pelo volume.",
+   "area": "Controladoria"
+  }
+ ],
+ "38": [
+  {
+   "stem": "Em um balanço, o ativo total é de R$ 200.000,00, composto por caixa R$ 20.000,00, contas a receber R$ 60.000,00, estoques R$ 50.000,00 e imobilizado R$ 70.000,00. A análise vertical dos estoques é de:",
+   "options": [
+    "10%",
+    "25%",
+    "30%",
+    "35%"
+   ],
+   "correct": 1,
+   "explanation": "AV = 50.000 ÷ 200.000 = 25%. (Caixa 10%, contas a receber 30%, imobilizado 35%.)",
+   "area": "Análise das Demonstrações Contábeis"
+  },
+  {
+   "stem": "Na DRE, a receita líquida é R$ 800.000,00, o CMV R$ 480.000,00 e as despesas operacionais R$ 200.000,00. A análise vertical do lucro bruto é de:",
+   "options": [
+    "40%",
+    "60%",
+    "15%",
+    "25%"
+   ],
+   "correct": 0,
+   "explanation": "Lucro bruto = 800.000 − 480.000 = 320.000; AV = 320.000 ÷ 800.000 = 40%. Os 60% correspondem ao CMV.",
+   "area": "Análise das Demonstrações Contábeis"
+  },
+  {
+   "stem": "A receita líquida foi de R$ 400.000,00 no ano 1 e de R$ 460.000,00 no ano 2. Pela análise horizontal, a variação da receita foi de:",
+   "options": [
+    "crescimento de 13%",
+    "crescimento de 115%",
+    "queda de 13,04%",
+    "crescimento de 15%"
+   ],
+   "correct": 3,
+   "explanation": "AH = 460.000 ÷ 400.000 = 1,15, ou seja, número-índice 115 e variação de +15%. O erro de usar o ano 2 como base (60 ÷ 460) leva a 13%.",
+   "area": "Análise das Demonstrações Contábeis"
+  },
+  {
+   "stem": "O lucro foi de R$ 100.000,00 em 2022, R$ 80.000,00 em 2023 e R$ 120.000,00 em 2024. De 2023 para 2024, a variação do lucro foi de:",
+   "options": [
+    "aumento de 20%",
+    "aumento de 120%",
+    "aumento de 50%",
+    "aumento de 150%"
+   ],
+   "correct": 2,
+   "explanation": "Variação = (120.000 − 80.000) ÷ 80.000 = 50%. O índice 150 é base 2023 = 100; o crescimento de 20% é o acumulado em relação a 2022.",
+   "area": "Análise das Demonstrações Contábeis"
+  },
+  {
+   "stem": "Em um ano, a receita líquida de uma empresa cresceu 10% e o saldo de contas a receber cresceu 40%. A interpretação mais adequada, mantidas as demais condições, é:",
+   "options": [
+    "melhora da liquidez, pois o ativo circulante cresceu",
+    "redução do prazo médio de recebimento",
+    "possível alongamento do prazo médio de recebimento, por concessão de crédito mais flexível ou aumento da inadimplência",
+    "queda do ciclo operacional, pela maior rotação das contas a receber"
+   ],
+   "correct": 2,
+   "explanation": "Contas a receber crescendo bem acima da receita indica recebimento mais lento (prazo médio maior), o que pressiona o caixa e eleva o risco de crédito.",
+   "area": "Análise das Demonstrações Contábeis"
+  },
+  {
+   "stem": "A receita nominal de uma empresa cresceu 8% no ano, enquanto a inflação do período foi de 10%. A variação real da receita foi, aproximadamente:",
+   "options": [
+    "crescimento de 8%",
+    "queda de 1,8%",
+    "queda de 2,0% em termos exatos",
+    "crescimento de 18%"
+   ],
+   "correct": 1,
+   "explanation": "Variação real = 1,08 ÷ 1,10 − 1 ≈ −1,82%. Em termos reais, a receita encolheu, apesar do crescimento nominal.",
+   "area": "Análise das Demonstrações Contábeis"
+  }
+ ],
+ "39": [
+  {
+   "stem": "Uma empresa tem ativo circulante de R$ 300.000,00 (caixa 50.000, contas a receber 100.000, estoques 150.000), ativo não circulante de R$ 500.000,00, passivo circulante de R$ 200.000,00, passivo não circulante de R$ 300.000,00 e patrimônio líquido de R$ 300.000,00. A liquidez corrente é de:",
+   "options": [
+    "1,50",
+    "0,75",
+    "1,00",
+    "2,50"
+   ],
+   "correct": 0,
+   "explanation": "LC = ativo circulante ÷ passivo circulante = 300.000 ÷ 200.000 = 1,50.",
+   "area": "Análise das Demonstrações Contábeis"
+  },
+  {
+   "stem": "Com os mesmos dados (AC R$ 300.000,00, sendo estoques R$ 150.000,00; PC R$ 200.000,00), a liquidez seca é de:",
+   "options": [
+    "1,50",
+    "0,25",
+    "1,00",
+    "0,75"
+   ],
+   "correct": 3,
+   "explanation": "LS = (AC − estoques) ÷ PC = (300.000 − 150.000) ÷ 200.000 = 0,75. A liquidez imediata seria 50.000 ÷ 200.000 = 0,25.",
+   "area": "Análise das Demonstrações Contábeis"
+  },
+  {
+   "stem": "Uma empresa tem ativo total de R$ 800.000,00, passivo circulante de R$ 200.000,00, passivo não circulante de R$ 300.000,00 e patrimônio líquido de R$ 300.000,00. O endividamento geral (capital de terceiros ÷ ativo total) é de:",
+   "options": [
+    "40%",
+    "37,5%",
+    "166,7%",
+    "62,5%"
+   ],
+   "correct": 3,
+   "explanation": "Capital de terceiros = 200.000 + 300.000 = 500.000; 500.000 ÷ 800.000 = 62,5%. (40% é a composição do endividamento; 166,7% é a relação terceiros ÷ PL.)",
+   "area": "Análise das Demonstrações Contábeis"
+  },
+  {
+   "stem": "No ano, uma empresa obteve lucro líquido de R$ 60.000,00, com receita líquida de R$ 600.000,00, ativo total médio de R$ 800.000,00 e patrimônio líquido médio de R$ 300.000,00. A rentabilidade do patrimônio líquido (ROE) é de:",
+   "options": [
+    "7,5%",
+    "10%",
+    "20%",
+    "50%"
+   ],
+   "correct": 2,
+   "explanation": "ROE = lucro líquido ÷ PL médio = 60.000 ÷ 300.000 = 20%. ROA = 7,5% e margem líquida = 10%.",
+   "area": "Análise das Demonstrações Contábeis"
+  },
+  {
+   "stem": "Dados anuais (ano de 360 dias): receita R$ 600.000,00; CMV R$ 450.000,00; compras R$ 450.000,00; saldos médios de contas a receber R$ 100.000,00, de estoques R$ 150.000,00 e de fornecedores R$ 75.000,00. O ciclo financeiro é de:",
+   "options": [
+    "180 dias",
+    "120 dias",
+    "60 dias",
+    "240 dias"
+   ],
+   "correct": 1,
+   "explanation": "PMRE = 150 ÷ 450 × 360 = 120; PMRV = 100 ÷ 600 × 360 = 60; PMPC = 75 ÷ 450 × 360 = 60. Ciclo operacional = 120 + 60 = 180; ciclo financeiro = 180 − 60 = 120 dias.",
+   "area": "Análise das Demonstrações Contábeis"
+  },
+  {
+   "stem": "Mantidos os demais prazos, se a empresa negociar aumento do prazo médio de pagamento a fornecedores, o efeito é:",
+   "options": [
+    "redução do ciclo financeiro, sem alterar o ciclo operacional",
+    "redução do ciclo operacional e do ciclo financeiro",
+    "aumento do ciclo financeiro, sem alterar o ciclo operacional",
+    "aumento do ciclo operacional, mantendo o ciclo financeiro"
+   ],
+   "correct": 0,
+   "explanation": "Ciclo operacional = PMRE + PMRV (não inclui fornecedores). Ciclo financeiro = ciclo operacional − PMPC; prazo maior de pagamento reduz o ciclo financeiro.",
+   "area": "Análise das Demonstrações Contábeis"
+  }
+ ],
+ "41": [
+  {
+   "stem": "Qual das entidades abaixo, em regra, não aplica as NBC TSP, devendo seguir as normas contábeis para entidades de mercado (NBC TG)?",
+   "options": [
+    "Empresa estatal não dependente, que explora atividade econômica em regime de mercado",
+    "Autarquia federal",
+    "Fundação pública de direito público",
+    "Fundo especial de um município"
+   ],
+   "correct": 0,
+   "explanation": "O campo de aplicação da CASP abrange entes, autarquias, fundações, fundos e estatais dependentes. Empresas estatais que atuam como empresas de mercado e não dependem do Tesouro seguem as NBC TG.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Segundo a Lei nº 4.320/1964, pertencem ao exercício financeiro:",
+   "options": [
+    "as receitas nele lançadas e as despesas nele pagas",
+    "as receitas nele arrecadadas e as despesas nele pagas",
+    "as receitas nele previstas e as despesas nele liquidadas",
+    "as receitas nele arrecadadas e as despesas nele legalmente empenhadas"
+   ],
+   "correct": 3,
+   "explanation": "O art. 35 da Lei 4.320/1964 fixa o regime orçamentário: receita pela arrecadação e despesa pelo empenho. A parte patrimonial segue o regime de competência, caracterizando o regime misto.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Quanto à informação contábil no setor público, a NBC TSP Estrutura Conceitual estabelece como objetivos:",
+   "options": [
+    "a apuração do lucro para distribuição aos proprietários",
+    "a apuração da base de cálculo dos tributos devidos pelo ente",
+    "a prestação de contas (accountability) e o suporte à tomada de decisão e à responsabilização",
+    "exclusivamente o controle do cumprimento do orçamento aprovado"
+   ],
+   "correct": 2,
+   "explanation": "A informação contábil pública atende à accountability e à tomada de decisão dos usuários. Lucro e base tributável não são os seus objetivos, e o controle orçamentário é apenas parte do escopo.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "A característica qualitativa da informação contábil de propósito geral segundo a qual a informação deve estar disponível a tempo de influenciar as decisões dos usuários é a:",
+   "options": [
+    "verificabilidade",
+    "tempestividade",
+    "comparabilidade",
+    "compreensibilidade"
+   ],
+   "correct": 1,
+   "explanation": "Tempestividade significa disponibilizar a informação a tempo de ser útil. Verificabilidade, comparabilidade e compreensibilidade tratam de outros atributos.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Em 31/12, o tributo de um exercício já foi lançado pelo ente, mas ainda não foi arrecadado. Em relação ao regime contábil aplicado ao setor público, é correto afirmar que:",
+   "options": [
+    "a receita orçamentária é reconhecida no lançamento, independentemente da arrecadação",
+    "a receita orçamentária só é reconhecida na arrecadação, embora o fato possa gerar crédito a receber e variação patrimonial aumentativa pela competência",
+    "o fato não é reconhecido em nenhuma parte da contabilidade enquanto não houver arrecadação",
+    "a variação patrimonial só é reconhecida quando houver o recolhimento ao Tesouro"
+   ],
+   "correct": 1,
+   "explanation": "No regime misto, a receita orçamentária segue o regime orçamentário (arrecadação), enquanto o aspecto patrimonial segue o regime de competência.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Os relatórios contábeis de propósito geral do setor público destinam-se principalmente a:",
+   "options": [
+    "usuários que não podem exigir informações sob medida, como cidadãos, órgãos legislativos e de controle",
+    "somente aos gestores internos, que definem a informação conforme sua necessidade",
+    "exclusivamente aos órgãos de controle externo, para fins de auditoria",
+    "somente aos credores do ente, para análise de risco de crédito"
+   ],
+   "correct": 0,
+   "explanation": "Relatórios de propósito geral atendem a usuários externos sem poder de exigir informação específica. Gestores obtêm informações gerenciais sob medida.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  }
+ ],
+ "42": [
+  {
+   "stem": "No PCASP, o registro do empenho da despesa, por meio da conta ‘Crédito Empenhado a Liquidar’, ocorre em conta da classe:",
+   "options": [
+    "5 – Controles da aprovação do planejamento e orçamento",
+    "3 – Variações patrimoniais diminutivas",
+    "8 – Controles credores",
+    "6 – Controles da execução do planejamento e orçamento"
+   ],
+   "correct": 3,
+   "explanation": "A classe 5 registra a aprovação (dotação), a classe 6 a execução (empenho, liquidação e pagamento). O empenho não gera VPD, que só surge com a liquidação.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Uma prefeitura assinou contrato de prestação de serviços a ser executado nos próximos 12 meses, sem execução ainda. Esse ato, que pode vir a afetar o patrimônio, é registrado:",
+   "options": [
+    "no ativo, como direito a receber",
+    "no passivo, como obrigação a pagar",
+    "nas contas de controle (classes 7 e 8), por não alterar o patrimônio no momento da assinatura",
+    "em VPD, pelo valor total do contrato"
+   ],
+   "correct": 2,
+   "explanation": "Contratos, garantias e convênios a executar são atos potenciais, evidenciados em contas de controle (devedores e credores) até que o fato gerador patrimonial ocorra.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "No PCASP, as classes que compõem a natureza da informação patrimonial são:",
+   "options": [
+    "1 a 6",
+    "3 e 4 apenas",
+    "1 a 4 (ativo, passivo e patrimônio líquido, VPD e VPA)",
+    "5 a 8"
+   ],
+   "correct": 2,
+   "explanation": "Patrimonial: classes 1 a 4. Orçamentária: classes 5 e 6. Controle: classes 7 e 8.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Qual das contas abaixo tem saldo natural credor, apesar de pertencer ao grupo do ativo?",
+   "options": [
+    "Caixa e equivalentes de caixa",
+    "Depreciação acumulada",
+    "Estoques",
+    "Bens móveis"
+   ],
+   "correct": 1,
+   "explanation": "Depreciação acumulada é conta redutora do ativo e tem natureza credora; as demais têm saldo devedor.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "No exercício, uma entidade pública registrou VPA de R$ 900.000,00 e VPD de R$ 750.000,00. O resultado patrimonial do período foi de:",
+   "options": [
+    "superávit patrimonial de R$ 150.000,00",
+    "déficit patrimonial de R$ 150.000,00",
+    "superávit patrimonial de R$ 1.650.000,00",
+    "superávit orçamentário de R$ 900.000,00"
+   ],
+   "correct": 0,
+   "explanation": "Resultado patrimonial = classe 4 (VPA) − classe 3 (VPD) = 900.000 − 750.000 = R$ 150.000,00 (superávit).",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "O subsistema de informações de custos do setor público tem por finalidade:",
+   "options": [
+    "controlar a execução da dotação e dos créditos orçamentários",
+    "registrar apenas as variações patrimoniais aumentativas e diminutivas",
+    "evidenciar exclusivamente atos potenciais que possam afetar o patrimônio",
+    "registrar, processar e evidenciar os custos dos bens e serviços produzidos e ofertados à sociedade"
+   ],
+   "correct": 3,
+   "explanation": "O subsistema de custos apura o custo dos serviços públicos. Os demais subsistemas são o orçamentário, o patrimonial e o de compensação (atos potenciais).",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  }
+ ],
+ "43": [
+  {
+   "stem": "A sequência correta dos estágios da receita orçamentária é:",
+   "options": [
+    "previsão, arrecadação, lançamento e recolhimento",
+    "lançamento, previsão, recolhimento e arrecadação",
+    "previsão, empenho, liquidação e arrecadação",
+    "previsão, lançamento, arrecadação e recolhimento"
+   ],
+   "correct": 3,
+   "explanation": "A receita passa pelos estágios de previsão, lançamento, arrecadação (pagamento pelo contribuinte ao agente arrecadador) e recolhimento (transferência ao Tesouro).",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "O estágio da despesa em que se verifica o direito adquirido pelo credor, com base nos títulos e documentos comprobatórios do crédito, é a:",
+   "options": [
+    "fixação",
+    "empenho",
+    "liquidação",
+    "pagamento"
+   ],
+   "correct": 2,
+   "explanation": "Na liquidação (Lei 4.320/1964, art. 63) apura-se a origem e o objeto do que se deve pagar, a quantia e quem receberá, comprovando-se a entrega do bem ou serviço.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Quanto ao empenho da despesa, é correto afirmar que:",
+   "options": [
+    "é a entrega do numerário ao credor, com extinção da obrigação",
+    "é o ato de autoridade competente que cria para o Estado obrigação de pagamento, pendente ou não de implemento de condição, reservando a dotação",
+    "ocorre após a liquidação, quando o serviço é atestado",
+    "é dispensável sempre que houver dotação orçamentária suficiente"
+   ],
+   "correct": 1,
+   "explanation": "O empenho é o primeiro estágio da execução da despesa (Lei 4.320/1964, art. 58) e é emitido antes da liquidação e do pagamento.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Um empenho de R$ 100.000,00 foi emitido em outubro para uma obra contratada, cuja execução está em curso dentro do prazo contratual. Em 31/12 não houve liquidação desse valor. No encerramento do exercício, ele deve ser tratado como:",
+   "options": [
+    "restos a pagar não processados",
+    "restos a pagar processados",
+    "receita extraorçamentária",
+    "despesa de exercícios anteriores"
+   ],
+   "correct": 0,
+   "explanation": "Restos a pagar são despesas empenhadas e não pagas até 31/12. Se não liquidadas, são não processados; se liquidadas, processados.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Até 31/12, uma entidade pública tinha empenhado R$ 500.000,00, liquidado R$ 420.000,00 e pago R$ 380.000,00 de determinada despesa. O valor dos restos a pagar processados é de:",
+   "options": [
+    "R$ 40.000,00",
+    "R$ 80.000,00",
+    "R$ 120.000,00",
+    "R$ 380.000,00"
+   ],
+   "correct": 0,
+   "explanation": "Processados = liquidado − pago = 420.000 − 380.000 = R$ 40.000,00. Não processados = empenhado − liquidado = R$ 80.000,00; total = R$ 120.000,00.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Qual dos ingressos abaixo é extraorçamentário, por não pertencer ao ente público?",
+   "options": [
+    "Arrecadação de IPTU",
+    "Transferência do Fundo de Participação dos Municípios",
+    "Ingresso de operação de crédito",
+    "Caução recebida de licitante em garantia de contrato"
+   ],
+   "correct": 3,
+   "explanation": "Ingressos extraorçamentários são recursos de terceiros ou passivos que devem ser restituídos, como cauções e depósitos. Tributos, transferências e operações de crédito são receitas orçamentárias.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  }
+ ],
+ "44": [
+  {
+   "stem": "A demonstração que evidencia as receitas previstas e as realizadas, bem como as despesas fixadas e as executadas, é o:",
+   "options": [
+    "Balanço Financeiro",
+    "Balanço Patrimonial",
+    "Balanço Orçamentário",
+    "Demonstração dos Fluxos de Caixa"
+   ],
+   "correct": 2,
+   "explanation": "O Balanço Orçamentário (Lei 4.320/1964, art. 102) confronta a receita prevista com a realizada e a despesa fixada com a executada.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "No encerramento do exercício, a receita prevista foi de R$ 1.200.000,00 e a realizada de R$ 1.150.000,00; a despesa fixada foi de R$ 1.200.000,00, a empenhada de R$ 1.100.000,00, a liquidada de R$ 1.050.000,00 e a paga de R$ 1.000.000,00. O resultado orçamentário (receita realizada − despesa empenhada) é de:",
+   "options": [
+    "superávit de R$ 100.000,00",
+    "superávit de R$ 50.000,00",
+    "superávit de R$ 150.000,00",
+    "déficit de R$ 50.000,00"
+   ],
+   "correct": 1,
+   "explanation": "Resultado orçamentário = 1.150.000 − 1.100.000 = R$ 50.000,00 (superávit).",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Saldo em espécie do exercício anterior: R$ 100.000,00. No exercício: receita orçamentária R$ 800.000,00, ingressos extraorçamentários R$ 200.000,00, despesa orçamentária R$ 750.000,00 e dispêndios extraorçamentários R$ 150.000,00. O saldo em espécie para o exercício seguinte, no Balanço Financeiro, é de:",
+   "options": [
+    "R$ 300.000,00",
+    "R$ 200.000,00",
+    "R$ 100.000,00",
+    "R$ 400.000,00"
+   ],
+   "correct": 1,
+   "explanation": "Ingressos = 100.000 + 800.000 + 200.000 = 1.100.000. Dispêndios = 750.000 + 150.000 = 900.000. Saldo = R$ 200.000,00.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "No Balanço Patrimonial, o ativo financeiro é de R$ 500.000,00 e o passivo financeiro, de R$ 380.000,00. O resultado financeiro apurado é de:",
+   "options": [
+    "superávit financeiro de R$ 120.000,00",
+    "déficit financeiro de R$ 120.000,00",
+    "superávit financeiro de R$ 880.000,00",
+    "superávit patrimonial de R$ 120.000,00"
+   ],
+   "correct": 0,
+   "explanation": "Superávit financeiro = ativo financeiro − passivo financeiro = 500.000 − 380.000 = R$ 120.000,00. Pode ser fonte de créditos adicionais no exercício seguinte, conforme a Lei 4.320/1964.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Qual dos fatos abaixo é registrado na Demonstração das Variações Patrimoniais como variação patrimonial diminutiva, independentemente da execução orçamentária?",
+   "options": [
+    "Pagamento a fornecedor de despesa já liquidada",
+    "Aquisição de um bem móvel à vista",
+    "Amortização do principal de uma dívida",
+    "Depreciação do imobilizado"
+   ],
+   "correct": 3,
+   "explanation": "A depreciação reduz o patrimônio líquido sem execução orçamentária (VPD). Os demais fatos são permutativos ou movimentos de pagamento.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Entre as demonstrações contábeis aplicadas ao setor público, qual NÃO está prevista no art. 101 da Lei nº 4.320/1964, mas é exigida pelo MCASP?",
+   "options": [
+    "Balanço Financeiro",
+    "Balanço Patrimonial",
+    "Demonstração dos Fluxos de Caixa",
+    "Demonstração das Variações Patrimoniais"
+   ],
+   "correct": 2,
+   "explanation": "O art. 101 prevê Balanço Orçamentário, Financeiro, Patrimonial e Demonstração das Variações Patrimoniais. A DFC foi incorporada pelo MCASP e pelas NBC TSP.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  }
+ ]
+}
