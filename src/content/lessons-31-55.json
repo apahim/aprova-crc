@@ -709,7 +709,10 @@
      "Classe 2: Passivo e Patrimônio Líquido (natureza credora)",
      "Classe 3: Variações Patrimoniais Diminutivas (devedora)",
      "Classe 4: Variações Patrimoniais Aumentativas (credora)",
-     "Classes 5 a 8: contas de controle; 5 e 6 tratam do planejamento e da execução do orçamento, e 7 e 8 dos controles devedores e credores de compensação"
+     "Classe 5: Controles da aprovação do planejamento e orçamento (devedora) — ex.: dotação da despesa e previsão adicional da receita",
+     "Classe 6: Controles da execução do planejamento e orçamento (credora) — ex.: receita a realizar e crédito empenhado a liquidar",
+     "Classe 7: Controles devedores, para atos potenciais — ex.: avais, garantias e contragarantias concedidas e riscos fiscais",
+     "Classe 8: Controles credores, para atos potenciais — ex.: obrigações conveniadas e valores sob guarda, como cauções recebidas"
     ]
    },
    {
@@ -758,7 +761,7 @@
    {
     "h": "Estágios da despesa",
     "p": [
-     "A despesa passa por fixação (autorização na LOA), empenho (reserva de dotação e criação da obrigação de pagamento, pendente ou não de implemento de condição), liquidação (verificação do direito adquirido pelo credor, com base em documentos que comprovam a entrega) e pagamento (entrega do numerário ao credor).",
+     "A Lei nº 4.320/1964 e o MCASP definem três estágios da execução da despesa orçamentária: empenho (ato da autoridade competente que cria obrigação de pagamento, pendente ou não de implemento de condição, com reserva de dotação), liquidação (verificação do direito adquirido pelo credor, com base nos títulos e documentos que comprovam a entrega) e pagamento (entrega do numerário ao credor). A fixação — autorização da despesa na LOA — é etapa do planejamento orçamentário que antecede a execução; algumas obras didáticas a listam como estágio inicial, mas, pela legislação e pelo MCASP, o empenho é o primeiro estágio da execução (Lei 4.320/64, art. 58).",
      "O empenho é o ato da autoridade competente e é o momento em que a despesa orçamentária é reconhecida; o pagamento é o último estágio. Sem empenho prévio não se realiza despesa."
     ]
    },
@@ -773,7 +776,8 @@
     "h": "Receita orçamentária e ótica patrimonial",
     "p": [
      "A receita orçamentária segue a base de caixa: reconhece-se ao ser arrecadada. Sob a ótica patrimonial, a variação aumentativa é reconhecida na competência, por exemplo no lançamento do tributo no fato gerador, ainda que não arrecadado. Atenção: Receita Patrimonial também é o nome de uma fonte da receita orçamentária (aluguéis, juros), e não deve ser confundida com a ótica patrimonial.",
-     "Se a previsão era R$ 1.000.000 e arrecadou-se R$ 1.100.000, há excesso de arrecadação de R$ 100.000, que pode servir de fonte para crédito adicional."
+     "Se a previsão era R$ 1.000.000 e arrecadou-se R$ 1.100.000, há excesso de arrecadação de R$ 100.000, que pode servir de fonte para crédito adicional.",
+     "Quanto à categoria econômica, as receitas orçamentárias dividem-se em correntes (tributárias, de contribuições, patrimoniais, agropecuárias, industriais, de serviços e transferências correntes) e de capital (operações de crédito, alienação de bens, amortização de empréstimos e transferências de capital). Assim, a alienação de um imóvel do ente gera receita de capital, ainda que o recurso seja aplicado em despesa corrente."
     ]
    }
   ],
@@ -801,8 +805,8 @@
    {
     "h": "Demonstrações previstas",
     "p": [
-     "A Lei 4.320/64 prevê o balanço orçamentário, o financeiro, o patrimonial e a demonstração das variações patrimoniais. O MCASP e a NBC TSP 11 acrescentam a demonstração dos fluxos de caixa e, conforme o caso, a demonstração das mudanças no patrimônio líquido, além de notas explicativas.",
-     "A NBC TSP 12 trata da demonstração dos fluxos de caixa e a NBC TSP 13 trata da apresentação de informações orçamentárias nas demonstrações."
+     "A Lei 4.320/64 prevê o balanço orçamentário, o financeiro, o patrimonial e a demonstração das variações patrimoniais. O MCASP e as NBC TSP completam o conjunto das demonstrações contábeis aplicadas ao setor público (DCASP): a demonstração dos fluxos de caixa, a demonstração das mutações no patrimônio líquido (DMPL), a demonstração do resultado econômico (DRE) e as notas explicativas.",
+     "A NBC TSP 11 trata da apresentação das demonstrações contábeis, a NBC TSP 12, da demonstração dos fluxos de caixa, e a NBC TSP 13, da apresentação de informações orçamentárias nas demonstrações."
     ]
    },
    {
@@ -812,7 +816,9 @@
      "Balanço Financeiro: mostra receitas e despesas orçamentárias, ingressos e dispêndios extraorçamentários e saldos de caixa",
      "Balanço Patrimonial: evidencia ativo, passivo e patrimônio líquido, com atributos financeiro e permanente",
      "DVP: evidencia as variações aumentativas e diminutivas e o resultado patrimonial",
-     "DFC: apresenta fluxos de caixa de operações, investimentos e financiamentos"
+     "DFC: apresenta fluxos de caixa de operações, investimentos e financiamentos",
+     "DMPL: evidencia as mutações no patrimônio líquido do início ao fim do período",
+     "DRE: evidencia o resultado econômico da ação do Estado, confrontando o resultado patrimonial com custos e perdas econômicas imputáveis e com contribuições e margens de contribuição"
     ]
    },
    {
@@ -866,7 +872,7 @@
     "list": [
      "Sei as classes 1 a 8 do PCASP e a natureza de cada uma?",
      "Sei os quatro subsistemas e dou um exemplo de cada?",
-     "Sei os quatro estágios da receita e os quatro da despesa?",
+     "Sei os quatro estágios da receita e os três estágios da execução da despesa, situando a fixação na LOA?",
      "Sei em que estágio surgem os restos a pagar e a diferença entre processados e não processados?"
     ]
    },
@@ -1018,7 +1024,7 @@
  "48": {
   "objectives": [
    "Distinguir PPA, LDO e LOA quanto a conteúdo e prazo",
-   "Explicar as metas fiscais e os riscos fiscais",
+   "Explicar as metas e os riscos fiscais e a despesa obrigatória de caráter continuado",
    "Identificar os limites de despesa com pessoal e de dívida em linhas gerais",
    "Reconhecer os instrumentos de transparência da gestão fiscal"
   ],
@@ -1036,7 +1042,8 @@
     "h": "Metas e riscos fiscais",
     "p": [
      "Segundo a LRF, a LDO traz anexo de metas fiscais, com metas anuais de receitas, despesas, resultados nominal e primário e montante da dívida pública, e anexo de riscos fiscais, que avalia passivos contingentes e outros riscos capazes de afetar as contas.",
-     "Se a arrecadação não comportar o cumprimento das metas, ocorre limitação de empenho e movimentação financeira nos prazos e condições fixados pela LDO."
+     "Se a arrecadação não comportar o cumprimento das metas, ocorre limitação de empenho e movimentação financeira nos prazos e condições fixados pela LDO.",
+     "A LRF disciplina ainda a despesa obrigatória de caráter continuado (DOCC, art. 17): a despesa corrente derivada de lei, medida provisória ou ato administrativo normativo que fixe para o ente obrigação legal de execução por período superior a dois exercícios. Atos que criem ou ampliem despesa dessa natureza devem ser instruídos com a estimativa do impacto orçamentário-financeiro no exercício em que entrarem em vigor e nos dois seguintes, e indicar a origem dos recursos para seu custeio."
     ]
    },
    {
@@ -1088,6 +1095,7 @@
     "h": "Bens públicos",
     "p": [
      "Bens públicos de uso comum, de uso especial e dominicais são registrados no patrimônio, e o reconhecimento exige controle e a expectativa de benefícios econômicos ou potencial de serviços. Bens de infraestrutura e bens de uso comum do povo seguem tratamento específico, de acordo com as NBC TSP e o MCASP.",
+     "Pelo Código Civil (art. 99), os bens de uso comum são destinados ao uso coletivo (ruas, praças, rios), os de uso especial são os utilizados pelo serviço público (prédios de repartições, escolas, hospitais) e os dominicais constituem o patrimônio disponível do ente, como terrenos e imóveis sem destinação pública específica.",
      "O inventário periódico confere a existência física e o valor dos bens, e as diferenças são regularizadas por ajustes e responsabilização, quando for o caso."
     ]
    },
@@ -1131,7 +1139,7 @@
    {
     "h": "Preparação",
     "p": [
-     "O mini-simulado cobre as sessões 41 a 49 com 12 questões: uma de princípios e fundamentos, duas de PCASP, duas de receitas e despesas, uma de demonstrações, uma de MCASP e NBC TSP, duas de créditos adicionais e restos a pagar, duas de LRF e planejamento, e uma de variações patrimoniais.",
+     "O mini-simulado cobre as sessões 41 a 49 com 12 questões: uma de PCASP, duas de receitas e despesas orçamentárias, duas de demonstrações contábeis públicas (Balanço Orçamentário e Balanço Patrimonial), quatro de créditos adicionais e restos a pagar, duas de LRF e planejamento e uma de variações patrimoniais.",
      "Organize um ambiente sem consulta, com cronômetro e rascunho. Nesta matéria, a leitura atenta é essencial, pois pequenas diferenças de palavras mudam a resposta."
     ]
    },
@@ -1187,7 +1195,7 @@
     "h": "Conceito e tipos",
     "p": [
      "Auditoria das demonstrações contábeis é o conjunto de procedimentos para obter evidências e expressar opinião sobre se as demonstrações estão apresentadas, em seus aspectos relevantes, de acordo com a estrutura de relatório financeiro aplicável. Seu produto é o aumento do grau de confiança dos usuários.",
-     "A auditoria independente (externa) é feita por profissional sem vínculo com a entidade e emite opinião para usuários externos. A interna é feita por área vinculada à entidade, avalia controles, riscos e governança e atende à administração. Há também a auditoria governamental, executada por órgãos de controle."
+     "A auditoria independente (externa) é feita por profissional sem vínculo com a entidade e emite opinião para usuários externos. A interna é feita por área vinculada à entidade, avalia controles, riscos e governança e atende à administração. Há também a auditoria governamental, executada pelos órgãos de controle, como os tribunais de contas e a Controladoria-Geral da União (CGU)."
     ]
    },
    {
@@ -1207,7 +1215,7 @@
    {
     "h": "Papéis de trabalho",
     "p": [
-     "Os papéis de trabalho (documentação de auditoria), tratados na NBC TA 230, registram os procedimentos executados, as evidências obtidas e as conclusões, permitindo que auditor experiente sem vínculo prévio compreenda o trabalho. São de propriedade do auditor e confidenciais, observado o sigilo profissional."
+     "Os papéis de trabalho (documentação de auditoria), tratados na NBC TA 230, registram os procedimentos executados, as evidências obtidas e as conclusões, permitindo que auditor experiente sem vínculo prévio compreenda o trabalho. São de propriedade do auditor e confidenciais, observado o sigilo profissional. No Brasil, a documentação deve ser conservada por prazo não inferior a cinco anos a contar da data do relatório do auditor (NBC TA 230)."
     ],
     "list": [
      "Servem de suporte ao relatório e à qualidade do trabalho",
@@ -1296,7 +1304,8 @@
    "Distinguir testes de controle e procedimentos substantivos",
    "Aplicar procedimentos analíticos na análise de razoabilidade",
    "Identificar os tipos de opinião e as condições que os determinam",
-   "Distinguir fraude de erro e reconhecer as comunicações do auditor"
+   "Distinguir fraude de erro e reconhecer as comunicações do auditor",
+   "Reconhecer o tratamento de continuidade, de eventos subsequentes e das declarações escritas"
   ],
   "sections": [
    {
@@ -1335,6 +1344,14 @@
     "p": [
      "O auditor comunica aos responsáveis pela governança os assuntos relevantes, como deficiências significativas de controle interno, e comunica ao órgão competente os indícios de atos ilícitos, nos termos da legislação aplicável."
     ]
+   },
+   {
+    "h": "Continuidade, eventos subsequentes e declarações escritas",
+    "p": [
+     "A premissa de continuidade sustenta a elaboração das demonstrações, e avaliá-la é responsabilidade da administração, considerando o futuro previsível de pelo menos doze meses a partir da data do balanço. Quando existir incerteza relevante sobre a continuidade e ela estiver adequadamente divulgada, o auditor mantém a opinião não modificada e inclui no relatório seção específica que evidencia a incerteza; se a divulgação for insuficiente, a opinião é modificada (com ressalva ou adversa); e, se a premissa de continuidade deixar de ser apropriada, o efeito sobre o relatório é ainda mais severo (NBC TA 570).",
+     "Eventos subsequentes são os fatos ocorridos entre a data-base e a data do relatório. Os que evidenciam condições já existentes na data-base — como a falência, em novembro, de cliente cujo saldo era negociável em 31/12 — originam ajuste nas demonstrações. Condições surgidas após a data-base — uma enchente que destrói estoques em janeiro — não originam ajuste, mas, se materiais, devem ser divulgadas em notas explicativas (NBC TA 560).",
+     "A administração deve fornecer ao auditor declarações escritas sobre suas responsabilidades e sobre matérias relevantes do trabalho, em documento datado tão próximo quanto possível da data do relatório e nunca posterior a ela (NBC TA 580). A recusa configura limitação ao alcance do trabalho e pode levar à abstenção de opinião, cabendo considerar a retirada do trabalho quando a legislação permitir."
+    ]
    }
   ],
   "pitfalls": [
@@ -1351,7 +1368,10 @@
    "NBC TA 520",
    "NBC TA 700",
    "NBC TA 705",
-   "NBC TA 706"
+   "NBC TA 706",
+   "NBC TA 560",
+   "NBC TA 570",
+   "NBC TA 580"
   ]
  },
  "54": {
@@ -1419,7 +1439,7 @@
    {
     "h": "Preparação",
     "p": [
-     "O mini-simulado tem 12 questões cobrindo as sessões 51 a 54, sendo três de objetivos, normas e planejamento, três de riscos, materialidade e evidências, três de procedimentos e relatórios, e três de perícia contábil.",
+     "O mini-simulado tem 12 questões cobrindo as sessões 51 a 54: quatro de riscos, materialidade, evidências e controle interno; duas de procedimentos, opiniões e fraude; e seis de perícia contábil.",
      "Aplique sem consulta, com cronômetro, calculadora e rascunho. Evite revisar o conteúdo no último minuto, para que o resultado reflita a retenção real."
     ]
    },

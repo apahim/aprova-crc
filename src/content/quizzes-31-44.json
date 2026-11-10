@@ -1047,6 +1047,54 @@
    "correct": 0,
    "explanation": "Relatórios de propósito geral atendem a usuários externos sem poder de exigir informação específica. Gestores obtêm informações gerenciais sob medida.",
    "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "No setor público, quanto às pessoas e unidades que o compõem, é correto afirmar que:",
+   "options": [
+    "o órgão, como o ministério ou a secretaria, tem personalidade jurídica própria, podendo contratar em nome próprio",
+    "o ente é a unidade administrativa sem personalidade jurídica, integrante de uma entidade",
+    "o ente é a pessoa jurídica de direito público com autonomia política, o órgão é unidade sem personalidade jurídica e a entidade é pessoa jurídica da administração indireta",
+    "a entidade da administração indireta integra a administração direta do ente, sem personalidade própria"
+   ],
+   "correct": 2,
+   "explanation": "O ente (União, Estados, DF, Municípios) é pessoa jurídica de direito público com autonomia política; o órgão (ministério, secretaria) é unidade de atuação sem personalidade jurídica; e a entidade (autarquia, fundação, empresa pública) é pessoa jurídica da administração indireta. Personalidade jurídica própria é atributo do ente e da entidade, não do órgão.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Uma secretaria municipal de finanças, uma autarquia federal e o Município ao qual a secretaria pertence correspondem, respectivamente, a:",
+   "options": [
+    "ente, órgão e entidade",
+    "entidade, ente e órgão",
+    "órgão, ente e entidade",
+    "órgão, entidade e ente"
+   ],
+   "correct": 3,
+   "explanation": "A secretaria é órgão (unidade da administração direta sem personalidade jurídica); a autarquia é entidade (pessoa jurídica da administração indireta); e o Município é ente (pessoa jurídica de direito público com autonomia política).",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "O regime contábil adotado no setor público brasileiro é denominado misto porque:",
+   "options": [
+    "as receitas e despesas orçamentárias seguem regras próprias de reconhecimento (arrecadação e empenho), enquanto as variações patrimoniais são reconhecidas por competência",
+    "a União adota a competência e os Municípios, o regime de caixa",
+    "o orçamento segue a competência e o patrimônio, o regime de caixa",
+    "as demonstrações contábeis são elaboradas em regime de caixa e o orçamento, em competência"
+   ],
+   "correct": 0,
+   "explanation": "Pela Lei 4.320/64 (art. 35), a receita pertence ao exercício da arrecadação e a despesa, ao do empenho; já as variações patrimoniais seguem a competência, conforme as NBC TSP. Essa combinação de bases distintas — orçamentária e patrimonial — caracteriza o regime misto.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Um ente público empenhou e liquidou uma despesa de R$ 90.000,00 em dezembro de 2026, e a pagou em janeiro de 2027. Na contabilidade do exercício de 2026, é correto afirmar que:",
+   "options": [
+    "a despesa orçamentária pertence a 2027, ano do pagamento, por adoção do regime de caixa",
+    "a despesa orçamentária pertence a 2026, mas a correspondente variação patrimonial diminutiva somente é reconhecida em 2027, no pagamento",
+    "a despesa orçamentária e a variação patrimonial pertencem a 2027, pois não houve saída de caixa em 2026",
+    "a despesa orçamentária pertence a 2026, por ter sido empenhada no exercício, e a variação patrimonial diminutiva é reconhecida em 2026, permanecendo a obrigação em restos a pagar processados"
+   ],
+   "correct": 3,
+   "explanation": "O regime misto coloca a despesa orçamentária no exercício do empenho (2026). Com a liquidação, o direito do credor está verificado e a variação patrimonial diminutiva é reconhecida por competência ainda em 2026; como não houve pagamento, a obrigação figura em restos a pagar processados. O pagamento em 2027 apenas extingue a obrigação, sem nova despesa orçamentária.",
+   "area": "Contabilidade Aplicada ao Setor Público"
   }
  ],
  "42": [
@@ -1107,7 +1155,7 @@
     "superávit orçamentário de R$ 900.000,00"
    ],
    "correct": 0,
-   "explanation": "Resultado patrimonial = classe 4 (VPA) − classe 3 (VPD) = 900.000 − 750.000 = R$ 150.000,00 (superávit).",
+   "explanation": "Resultado patrimonial = Σ VPA − Σ VPD = 900.000 − 750.000 = R$ 150.000,00, superávit apurado na DVP. Somar as variações em vez de confrontá-las (R$ 1.650.000,00), inverter a fórmula (déficit de R$ 150.000,00) ou usar valores orçamentários (R$ 900.000,00) são os erros possíveis: o resultado patrimonial decorre das variações por competência, não da execução orçamentária.",
    "area": "Contabilidade Aplicada ao Setor Público"
   },
   {
@@ -1120,6 +1168,54 @@
    ],
    "correct": 3,
    "explanation": "O subsistema de custos apura o custo dos serviços públicos. Os demais subsistemas são o orçamentário, o patrimonial e o de compensação (atos potenciais).",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "No PCASP, a conta que registra a dotação inicial da despesa fixada na lei orçamentária pertence à classe:",
+   "options": [
+    "5 – Controles da aprovação do planejamento e orçamento",
+    "6 – Controles da execução do planejamento e orçamento",
+    "4 – Variações patrimoniais aumentativas",
+    "7 – Controles devedores"
+   ],
+   "correct": 0,
+   "explanation": "A dotação decorre da aprovação do orçamento e é registrada na classe 5. A execução — como o crédito empenhado a liquidar, o crédito disponível e a receita realizada — é controlada na classe 6: o débito na dotação (5) tem contrapartida em conta credora da classe 6.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Para garantir operação de crédito contratada por uma empresa estatal, um ente federativo concedeu aval e garantia. No PCASP, esse ato potencial, que pode afetar o patrimônio no futuro, é registrado em conta da classe:",
+   "options": [
+    "2 – Passivo e patrimônio líquido, como obrigação contingente",
+    "4 – Variações patrimoniais aumentativas",
+    "7 – Controles devedores",
+    "8 – Controles credores"
+   ],
+   "correct": 2,
+   "explanation": "Avais, garantias e contragarantias concedidas são atos potenciais registrados em contas de controle devedoras (classe 7), sem reconhecimento de passivo no momento da concessão; o passivo só surge se a obrigação se materializar. A classe 8 reúne os controles credores, como valores sob guarda e obrigações conveniadas.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "A arrecadação de um tributo em dinheiro por um ente público gera registros:",
+   "options": [
+    "apenas no subsistema orçamentário, pois é fato orçamentário",
+    "no subsistema orçamentário (receita realizada) e no patrimonial (caixa e variação aumentativa), que são integrados",
+    "apenas no subsistema patrimonial, pois altera o ativo",
+    "no subsistema orçamentário e no de compensação, sem efeito patrimonial"
+   ],
+   "correct": 1,
+   "explanation": "Os subsistemas são integrados: a arrecadação é receita realizada no subsistema orçamentário e, no patrimonial, gera aumento de caixa e variação patrimonial aumentativa. O subsistema de compensação registra apenas atos potenciais que não movimentam o patrimônio.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Sobre a natureza das contas de controle do PCASP, as classes 5 e 7, de um lado, e as classes 6 e 8, de outro, apresentam, respectivamente, natureza:",
+   "options": [
+    "credora e devedora",
+    "devedora ambas, pois são contas de controle",
+    "credora ambas, por confrontarem o orçamento",
+    "devedora e credora"
+   ],
+   "correct": 3,
+   "explanation": "As classes 5 (aprovação do orçamento) e 7 (controles devedores) têm natureza devedora; as classes 6 (execução do orçamento) e 8 (controles credores) têm natureza credora. No subsistema orçamentário, os registros operam em pares: o débito na dotação (5) é espelhado por crédito no crédito disponível (6).",
    "area": "Contabilidade Aplicada ao Setor Público"
   }
  ],
@@ -1195,6 +1291,54 @@
    "correct": 3,
    "explanation": "Ingressos extraorçamentários são recursos de terceiros ou passivos que devem ser restituídos, como cauções e depósitos. Tributos, transferências e operações de crédito são receitas orçamentárias.",
    "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Um município alienou, por R$ 500.000,00, um imóvel sem destinação pública específica. Quanto à categoria econômica, essa receita orçamentária é classificada como:",
+   "options": [
+    "corrente, por ser receita patrimonial de realização de bens",
+    "extraorçamentária, pois decorre da conversão de bens em espécie",
+    "de capital, por decorrer da alienação de bens",
+    "corrente, pois o valor reverte ao patrimônio do ente"
+   ],
+   "correct": 2,
+   "explanation": "Pela Lei 4.320/64 (art. 11), são receitas de capital as provenientes da alienação de bens, das operações de crédito e das amortizações de empréstimos, ainda que o produto seja aplicado em despesa corrente. Receita corrente patrimonial é a renda de bens (aluguéis, juros), não a venda do bem em si.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Segundo a Lei nº 4.320/1964 e o MCASP, são estágios da execução da despesa orçamentária:",
+   "options": [
+    "fixação, empenho e liquidação",
+    "empenho, liquidação e pagamento",
+    "fixação, empenho, liquidação e pagamento",
+    "previsão, empenho, liquidação e pagamento"
+   ],
+   "correct": 1,
+   "explanation": "A execução da despesa percorre três estágios: empenho, liquidação e pagamento. A fixação é etapa do planejamento orçamentário (autorização na LOA) que antecede a execução, e a previsão é estágio da receita, não da despesa.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "A receita prevista de um tributo era de R$ 3.000.000,00, e a realizada até 31 de dezembro somou R$ 3.400.000,00. Foram abertos, no exercício, créditos adicionais de R$ 150.000,00 com base no excesso de arrecadação dessa fonte. O excesso de arrecadação ainda disponível para novos créditos adicionais é de:",
+   "options": [
+    "R$ 250.000,00",
+    "R$ 400.000,00",
+    "R$ 150.000,00",
+    "R$ 3.250.000,00"
+   ],
+   "correct": 0,
+   "explanation": "Excesso de arrecadação = receita realizada − receita prevista, ajustado dos créditos já abertos: 3.400.000 − 3.000.000 − 150.000 = R$ 250.000,00. R$ 400.000,00 esquece de deduzir os créditos já utilizados; R$ 150.000,00 é o valor dos créditos abertos; e R$ 3.250.000,00 parte de base equivocada.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Sobre o estágio do lançamento da receita orçamentária, é correto afirmar que:",
+   "options": [
+    "ocorre em todas as receitas, inclusive nas contribuições voluntárias e nas doações",
+    "consiste na identificação do devedor e do valor do crédito, e não ocorre em todas as receitas, como as de contribuição voluntária",
+    "é o ingresso dos recursos nos cofres públicos, realizado pelos agentes arrecadadores",
+    "é a transferência dos recursos arrecadados à conta única do Tesouro"
+   ],
+   "correct": 1,
+   "explanation": "O lançamento identifica o devedor e o valor, sendo típico dos tributos; há receitas em que não ocorre, como as contribuições voluntárias. O ingresso nos cofres é a arrecadação, e a transferência ao Tesouro é o recolhimento — os quatro estágios da receita são previsão, lançamento, arrecadação e recolhimento.",
+   "area": "Contabilidade Aplicada ao Setor Público"
   }
  ],
  "44": [
@@ -1219,7 +1363,7 @@
     "déficit de R$ 50.000,00"
    ],
    "correct": 1,
-   "explanation": "Resultado orçamentário = 1.150.000 − 1.100.000 = R$ 50.000,00 (superávit).",
+   "explanation": "Resultado orçamentário = receita realizada − despesa empenhada = 1.150.000 − 1.100.000 = R$ 50.000,00 de superávit, apurado no Balanço Orçamentário (MCASP). Usar a despesa liquidada (superávit de R$ 100.000,00), a paga (R$ 150.000,00) ou a receita prevista muda o resultado: a base é arrecadação × empenho.",
    "area": "Contabilidade Aplicada ao Setor Público"
   },
   {
@@ -1231,7 +1375,7 @@
     "R$ 400.000,00"
    ],
    "correct": 1,
-   "explanation": "Ingressos = 100.000 + 800.000 + 200.000 = 1.100.000. Dispêndios = 750.000 + 150.000 = 900.000. Saldo = R$ 200.000,00.",
+   "explanation": "No Balanço Financeiro, ingressos = saldo do exercício anterior (100.000) + receita orçamentária arrecadada (800.000) + ingressos extraorçamentários (200.000) = R$ 1.100.000; dispêndios = despesa orçamentária paga (750.000) + dispêndios extraorçamentários (150.000) = R$ 900.000. O saldo de R$ 200.000,00 transfere-se ao exercício seguinte e deve coincidir com o saldo de caixa do Balanço Patrimonial.",
    "area": "Contabilidade Aplicada ao Setor Público"
   },
   {
@@ -1268,6 +1412,54 @@
    ],
    "correct": 2,
    "explanation": "O art. 101 prevê Balanço Orçamentário, Financeiro, Patrimonial e Demonstração das Variações Patrimoniais. A DFC foi incorporada pelo MCASP e pelas NBC TSP.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "A demonstração contábil aplicada ao setor público que evidencia o resultado econômico da ação do Estado, confrontando o resultado patrimonial com custos e perdas econômicas imputáveis e com contribuições e margens de contribuição, é a:",
+   "options": [
+    "Demonstração do Resultado Econômico",
+    "Demonstração das Variações Patrimoniais",
+    "Demonstração dos Fluxos de Caixa",
+    "Demonstração das Mutações no Patrimônio Líquido"
+   ],
+   "correct": 0,
+   "explanation": "A DRE pública integra o conjunto das DCASP e mede o resultado econômico da ação do Estado, partindo do resultado patrimonial apurado na DVP e ajustado pelos valores econômicos. A DVP evidencia as variações patrimoniais; a DFC, os fluxos de caixa; e a DMPL, as mutações do patrimônio líquido.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "No Balanço Financeiro, a inscrição de despesas em restos a pagar não processados é apresentada como:",
+   "options": [
+    "receita orçamentária do exercício",
+    "dispêndio extraorçamentário",
+    "item que não consta do balanço, por ser fato orçamentário",
+    "ingresso extraorçamentário"
+   ],
+   "correct": 3,
+   "explanation": "Ao inscrever restos a pagar, o ente deixa de pagar no exercício, e o valor não pago figura como ingresso extraorçamentário no Balanço Financeiro do exercício da inscrição; no exercício do pagamento, o desembolso será dispêndio extraorçamentário. Não é receita orçamentária nem item excluído do balanço.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "O resultado patrimonial apurado na DVP normalmente difere do resultado orçamentário apurado no Balanço Orçamentário porque:",
+   "options": [
+    "ambos são apurados pelo regime de caixa, mas com períodos diferentes",
+    "o resultado orçamentário inclui todos os ativos e passivos do exercício",
+    "o resultado orçamentário confronta previsão com arrecadação e fixação com empenho, enquanto o patrimonial reconhece as variações por competência",
+    "o resultado patrimonial só considera as despesas pagas e as receitas arrecadadas"
+   ],
+   "correct": 2,
+   "explanation": "O Balanço Orçamentário usa a base orçamentária (receita arrecadada e despesa empenhada, comparadas à previsão e à fixação); a DVP usa a competência patrimonial, incluindo variações sem execução orçamentária, como a depreciação. Por isso os dois resultados raramente coincidem.",
+   "area": "Contabilidade Aplicada ao Setor Público"
+  },
+  {
+   "stem": "Segundo o MCASP, o conjunto das demonstrações contábeis aplicadas ao setor público (DCASP) compreende:",
+   "options": [
+    "apenas os quatro demonstrativos previstos na Lei nº 4.320/1964",
+    "balanços orçamentário, financeiro e patrimonial, DVP, DFC, DMPL, DRE e notas explicativas",
+    "os demonstrativos da Lei nº 4.320/1964 acrescidos apenas da DFC",
+    "balanços orçamentário, financeiro e patrimonial e DVP, dispensadas as notas explicativas para entes de pequeno porte"
+   ],
+   "correct": 1,
+   "explanation": "As DCASP compreendem os demonstrativos da Lei 4.320/64 (BO, BF, BP e DVP) mais a DFC, a DMPL, a DRE e as notas explicativas, exigidas pelo MCASP e pelas NBC TSP. Não há dispensa de notas explicativas para entes de pequeno porte.",
    "area": "Contabilidade Aplicada ao Setor Público"
   }
  ]

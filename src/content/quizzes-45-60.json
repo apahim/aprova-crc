@@ -71,6 +71,54 @@
       "correct": 1,
       "explanation": "Pertencem ao exercício as receitas nele arrecadas e as despesas nele legalmente empenhadas (Lei 4.320/64, art. 35). Os efeitos patrimoniais são reconhecidos pelo regime de competência, conforme as NBC TSP.",
       "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "A norma do CFC que dispõe sobre a apresentação das demonstrações contábeis do setor público é a:",
+      "options": [
+        "NBC TSP 12",
+        "NBC TSP 07",
+        "NBC TSP 11",
+        "NBC TSP 13"
+      ],
+      "correct": 2,
+      "explanation": "A NBC TSP 11 trata da apresentação das demonstrações contábeis; a NBC TSP 12, da demonstração dos fluxos de caixa; a NBC TSP 13, da apresentação de informações orçamentárias nas demonstrações; e a NBC TSP 07, do ativo imobilizado.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "A edição de normas gerais para a consolidação das contas públicas, prevista na Lei de Responsabilidade Fiscal, compete:",
+      "options": [
+        "ao órgão central de contabilidade da União, hoje a Secretaria do Tesouro Nacional",
+        "ao Conselho Federal de Contabilidade, por atribuição profissional",
+        "ao Tribunal de Contas da União, como órgão de controle externo",
+        "a cada ente da Federação, para as suas próprias contas"
+      ],
+      "correct": 0,
+      "explanation": "A LRF (art. 50, § 2º) atribui ao órgão central de contabilidade da União — a STN — a edição de normas gerais para a consolidação das contas públicas, o que sustenta o papel do MCASP. O CFC edita as NBC TSP; o TCU controla; e cada ente executa a sua contabilidade.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Quanto à abrangência, o MCASP aplica-se:",
+      "options": [
+        "apenas à União, sendo facultativo a Estados e Municípios",
+        "à União, aos Estados, ao Distrito Federal e aos Municípios",
+        "apenas aos entes com dívida consolidada superior ao limite",
+        "facultativamente, a critério de cada ente federativo"
+      ],
+      "correct": 1,
+      "explanation": "O MCASP orienta todos os entes da Federação, viabilizando a consolidação nacional das contas; não é facultativo nem restrito a entes endividados. Os entes podem detalhar suas contas nos níveis inferiores do PCASP, mas a estrutura é única.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "No setor público, a demonstração dos fluxos de caixa é disciplinada pela:",
+      "options": [
+        "NBC TSP 11",
+        "NBC TSP 13",
+        "NBC TSP 08",
+        "NBC TSP 12"
+      ],
+      "correct": 3,
+      "explanation": "A NBC TSP 12 trata da demonstração dos fluxos de caixa. A NBC TSP 11 dispõe sobre a apresentação das demonstrações contábeis, a NBC TSP 13, sobre a informação orçamentária, e a NBC TSP 08, sobre o ativo intangível.",
+      "area": "Contabilidade Aplicada ao Setor Público"
     }
   ],
   "47": [
@@ -144,6 +192,54 @@
       ],
       "correct": 0,
       "explanation": "A CF (art. 167, §2º) estabelece que créditos especiais e extraordinários vigoram no exercício em que foram autorizados, salvo se o ato for promulgado nos últimos quatro meses do exercício, quando, reabertos nos limites dos saldos, são incorporados ao orçamento seguinte.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Sobre a abertura de créditos suplementares, é correto afirmar que:",
+      "options": [
+        "dependem de autorização legislativa, que pode constar da própria LOA, e são abertos por decreto do Executivo",
+        "dispensam autorização legislativa quando inferiores a 10% da dotação anual",
+        "exigem lei específica, na mesma linha dos créditos especiais",
+        "são abertos por medida provisória, em qualquer esfera de governo"
+      ],
+      "correct": 0,
+      "explanation": "O crédito suplementar reforça dotação existente e depende de autorização legislativa — que pode constar da própria LOA — e de decreto de abertura, com indicação da fonte de recursos. Os especiais exigem lei específica; o extraordinário é aberto por decreto (medida provisória na União).",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "A dotação inicial de um órgão era de R$ 600.000,00. No exercício, foi aberto crédito suplementar de R$ 120.000,00, financiado por anulação parcial de dotações (R$ 50.000,00) e por excesso de arrecadação (R$ 70.000,00), e crédito especial de R$ 30.000,00, financiado por superávit financeiro. A dotação atualizada do órgão é de:",
+      "options": [
+        "R$ 600.000,00",
+        "R$ 720.000,00",
+        "R$ 750.000,00",
+        "R$ 800.000,00"
+      ],
+      "correct": 2,
+      "explanation": "Dotação atualizada = dotação inicial + créditos adicionais incorporados = 600.000 + 120.000 + 30.000 = R$ 750.000,00. A anulação (R$ 50.000,00) e o excesso de arrecadação (R$ 70.000,00) são as fontes que viabilizam o suplementar, e não créditos a somar à parte — somá-las novamente leva aos R$ 800.000,00; R$ 720.000,00 exclui o especial.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Diferentemente dos créditos suplementares e especiais, os créditos extraordinários caracterizam-se por:",
+      "options": [
+        "exigirem autorização legislativa prévia e indicação de fonte de recursos",
+        "serem abertos diretamente pelo Executivo, sem indicação prévia de fonte de recursos",
+        "vigorarem por dois exercícios consecutivos, automaticamente",
+        "destinarem-se a despesas ordinárias de custeio, previstas no PPA"
+      ],
+      "correct": 1,
+      "explanation": "O crédito extraordinário atende despesas urgentes e imprevisíveis (guerra, comoção interna, calamidade pública) e é aberto diretamente pelo Executivo — por decreto, ou medida provisória na União — com comunicação ao Legislativo, dispensando a indicação prévia de fonte. Suplementares e especiais exigem recursos disponíveis e exposição justificativa.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Na esfera federal, os créditos extraordinários são abertos por:",
+      "options": [
+        "decreto do Presidente da República, como nos demais entes",
+        "lei específica de iniciativa do Presidente da República",
+        "resolução do Congresso Nacional, por se tratar de despesa urgente",
+        "medida provisória, com comunicação imediata ao Congresso Nacional"
+      ],
+      "correct": 3,
+      "explanation": "A Constituição (art. 167, § 3º) admite a abertura de crédito extraordinário somente para despesas imprevisíveis e urgentes; na União, dá-se por medida provisória, com comunicação imediata ao Legislativo. Nos demais entes, o instrumento é o decreto.",
       "area": "Contabilidade Aplicada ao Setor Público"
     }
   ],
@@ -219,6 +315,54 @@
       "correct": 1,
       "explanation": "Compete privativamente ao Senado Federal fixar limites globais para o montante da dívida consolidada de Estados, DF e Municípios (CF, art. 52, VI e IX; LRF, art. 30), o que é feito por resolução (por exemplo, a Resolução do Senado nº 40/2001).",
       "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Segundo a LRF, considera-se despesa obrigatória de caráter continuado (DOCC):",
+      "options": [
+        "toda despesa com pessoal e encargos da administração pública",
+        "a despesa corrente derivada de lei, medida provisória ou ato administrativo normativo que fixe obrigação legal de execução por período superior a dois exercícios",
+        "a despesa de capital contratada por prazo superior a dois exercícios",
+        "qualquer despesa executada em mais de um exercício financeiro"
+      ],
+      "correct": 1,
+      "explanation": "O art. 17 da LRF define DOCC como a despesa corrente derivada de lei, medida provisória ou ato administrativo normativo que fixe para o ente obrigação legal de execução por período superior a dois exercícios. Atos que criem ou ampliem DOCC exigem estimativa do impacto orçamentário-financeiro no exercício e nos dois seguintes, com indicação da origem dos recursos.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Os prazos de divulgação do Relatório Resumido da Execução Orçamentária (RREO) e do Relatório de Gestão Fiscal (RGF) são, respectivamente:",
+      "options": [
+        "bimestral e quadrimestral",
+        "quadrimestral e bimestral",
+        "mensal e semestral",
+        "anual e quadrimestral"
+      ],
+      "correct": 0,
+      "explanation": "O RREO é divulgado bimestralmente e o RGF, quadrimestralmente — este com opção semestral para Municípios de pequeno porte. Inverter os prazos é o erro clássico; nenhum dos relatórios tem periodicidade mensal ou anual.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Ultrapassado o limite prudencial de despesa com pessoal (95% do máximo), a LRF veda ao ente, entre outras medidas:",
+      "options": [
+        "abrir créditos suplementares sem autorização legislativa",
+        "publicar o Relatório de Gestão Fiscal",
+        "conceder vantagem ou aumento de remuneração a servidores",
+        "contratar operações de crédito por antecipação de receita"
+      ],
+      "correct": 2,
+      "explanation": "No limite prudencial, ficam vedadas, entre outras, a concessão de vantagem ou aumento de remuneração e a criação de cargos (LRF, art. 22, parágrafo único). Publicar o RGF é dever, não vedação; as restrições à ARO decorrem de outras regras, e não do limite prudencial de pessoal.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Se a despesa total com pessoal de um ente exceder o limite máximo da LRF, o excedente deve ser eliminado:",
+      "options": [
+        "impreterivelmente no quadrimestre seguinte ao da apuração",
+        "no exercício financeiro seguinte, com o congelamento das admissões",
+        "nos quatro quadrimestres seguintes, à razão de um quarto por período",
+        "nos dois quadrimestres seguintes"
+      ],
+      "correct": 3,
+      "explanation": "Conforme a LRF (art. 23), verificado o excedente, ele deve ser eliminado nos dois quadrimestres seguintes, adotando-se as medidas previstas no art. 169 da Constituição. A recondução é por prazo certo, sem dilatação a quatro quadrimestres e sem se limitar ao congelamento de admissões.",
+      "area": "Contabilidade Aplicada ao Setor Público"
     }
   ],
   "49": [
@@ -292,6 +436,54 @@
       ],
       "correct": 0,
       "explanation": "O art. 96 da Lei 4.320/64 determina que o levantamento geral dos bens use o inventário analítico das unidades e a escrituração sintética da contabilidade, o que permite conciliar registros físicos e contábeis.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Sobre a reavaliação de bens imóveis do setor público, é correto afirmar que:",
+      "options": [
+        "é vedada no setor público, admitindo-se apenas na iniciativa privada",
+        "ajusta o valor contábil ao valor justo, com contrapartida no patrimônio líquido, sem caracterizar variação aumentativa",
+        "é registrada como variação patrimonial aumentativa do exercício",
+        "só é admitida quando o bem é alienado"
+      ],
+      "correct": 1,
+      "explanation": "A reavaliação ajusta o valor contábil ao valor justo quando a diferença for relevante; a contrapartida é registrada no patrimônio líquido (superávit por reavaliação), e não como VPA, pois não há acréscimo proveniente de fluxo do período. Não depende de alienação e não é vedada no setor público.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Um veículo foi incorporado ao patrimônio de um ente por R$ 90.000,00, com vida útil estimada de 5 anos e valor residual nulo. Pelo método linear, a depreciação anual e seu efeito são:",
+      "options": [
+        "R$ 9.000,00, registrados como variação patrimonial aumentativa",
+        "R$ 90.000,00, registrados como variação patrimonial diminutiva no primeiro ano",
+        "R$ 18.000,00, registrados como variação patrimonial aumentativa",
+        "R$ 18.000,00, registrados como variação patrimonial diminutiva"
+      ],
+      "correct": 3,
+      "explanation": "Depreciação anual = custo depreciável ÷ vida útil = 90.000 ÷ 5 = R$ 18.000,00, registrados como VPD, reduzindo o ativo (por conta redutora) e o resultado patrimonial. A depreciação nunca é VPA, e R$ 9.000,00 corresponderia a vida útil de 10 anos.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "Um equipamento de um ente público tem valor contábil de R$ 250.000,00 e valor recuperável de R$ 190.000,00. A redução ao valor recuperável gera:",
+      "options": [
+        "perda de R$ 60.000,00, reconhecida como variação patrimonial diminutiva",
+        "perda de R$ 190.000,00, com baixa integral do equipamento",
+        "aumento de R$ 60.000,00 no patrimônio líquido",
+        "apenas ajuste em conta de controle, sem efeito no resultado"
+      ],
+      "correct": 0,
+      "explanation": "O ativo não pode permanecer registrado por valor superior ao recuperável: reconhece-se perda de 250.000 − 190.000 = R$ 60.000,00 como VPD, e a depreciação futura passa a ser calculada sobre o novo valor contábil. A perda não elimina o ativo nem é registrada apenas em controles.",
+      "area": "Contabilidade Aplicada ao Setor Público"
+    },
+    {
+      "stem": "As variações patrimoniais qualitativas diferem das quantitativas porque:",
+      "options": [
+        "as qualitativas aumentam o patrimônio líquido e as quantitativas o reduzem",
+        "as qualitativas são registradas por competência e as quantitativas, por caixa",
+        "as qualitativas alteram a composição do patrimônio sem modificar o patrimônio líquido; as quantitativas o aumentam (VPA) ou o reduzem (VPD)",
+        "as qualitativas decorrem sempre da execução orçamentária, e as quantitativas, nunca"
+      ],
+      "correct": 2,
+      "explanation": "A variação qualitativa (permutativa), como a compra de imóvel à vista, permuta elementos patrimoniais sem alterar o patrimônio líquido. As quantitativas alteram o PL: as aumentativas (VPA) o elevam e as diminutivas (VPD) o reduzem, sendo apuradas na DVP por competência.",
       "area": "Contabilidade Aplicada ao Setor Público"
     }
   ],
@@ -367,6 +559,54 @@
       "correct": 1,
       "explanation": "O ceticismo profissional é uma atitude de questionamento e avaliação crítica das evidências, sem presumir desonestidade nem confiança cega. Os testes devem ser dimensionados conforme os riscos.",
       "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "Segundo a NBC TA 230, a documentação de auditoria (papéis de trabalho) deve ser conservada por prazo não inferior a:",
+      "options": [
+        "três anos a contar da data do encerramento dos trabalhos de campo",
+        "cinco anos a contar da data do relatório do auditor",
+        "dez anos a contar da data da contratação dos serviços",
+        "dois anos a contar da data da assembleia geral que aprovou as demonstrações"
+      ],
+      "correct": 1,
+      "explanation": "A NBC TA 230 determina que o auditor organize e arquive tempestivamente a documentação e a conserve por prazo não inferior a cinco anos a contar da data do relatório. O prazo conta da data do relatório, e não do encerramento dos trabalhos de campo ou da contratação.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "A diferença essencial entre a auditoria interna e a auditoria independente está em que:",
+      "options": [
+        "a interna é exercida por área vinculada à própria entidade, e a independente, por profissional sem vínculo, para usuários externos",
+        "a interna emite opinião sobre as demonstrações contábeis para o mercado",
+        "a independente é executada por empregados da controladora da entidade auditada",
+        "ambas têm o mesmo objetivo e o mesmo público, mudando apenas a periodicidade"
+      ],
+      "correct": 0,
+      "explanation": "A auditoria interna avalia controles, riscos e governança e atende à administração; a independente é conduzida por profissional sem vínculo com a entidade e emite opinião para usuários externos. Somente a independente opina sobre as demonstrações contábeis.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "O exame realizado pelo Tribunal de Contas da União sobre a aplicação de recursos federais por um município é classificado como:",
+      "options": [
+        "auditoria independente de demonstrações contábeis",
+        "auditoria interna, por ser executada por órgão público",
+        "revisão limitada de informações contábeis",
+        "auditoria governamental, executada por órgão de controle"
+      ],
+      "correct": 3,
+      "explanation": "A auditoria governamental é executada pelos órgãos de controle, como os tribunais de contas e a Controladoria-Geral da União, com foco na legalidade, economicidade e desempenho da aplicação de recursos públicos. Não é auditoria independente (que opina para terceiros) nem interna da entidade examinada.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "Quanto à propriedade dos papéis de trabalho de uma auditoria independente, é correto afirmar que:",
+      "options": [
+        "pertencem à entidade auditada, que pode requisitá-los a qualquer tempo",
+        "pertencem ao Conselho Federal de Contabilidade, para fins de fiscalização",
+        "pertencem ao auditor, que os mantém sob sigilo profissional",
+        "pertencem em comum ao auditor e à administração da entidade auditada"
+      ],
+      "correct": 2,
+      "explanation": "Os papéis de trabalho são de propriedade do auditor e confidenciais, observado o sigilo profissional; a entidade não pode deles dispor. Podem, contudo, ser examinados por tribunais de contas e pela fiscalização dos conselhos, no exercício de suas competências.",
+      "area": "Auditoria Contábil"
     }
   ],
   "52": [
@@ -391,7 +631,7 @@
         "40,0%"
       ],
       "correct": 2,
-      "explanation": "Risco de distorção relevante = 80% × 50% = 40%. Risco de detecção = risco de auditoria ÷ risco de distorção relevante = 5% ÷ 40% = 12,5%.",
+      "explanation": "O modelo é multiplicativo: risco de auditoria = RDR × risco de detecção, com RDR = RI × RC = 80% × 50% = 40%. Logo, RD = RA ÷ RDR = 5% ÷ 40% = 12,5%. Quanto maior o risco de distorção relevante, menor o RD admissível e mais extensos os procedimentos substantivos. Os 25% viriam de dividir 5% por 20% (RDR errado); 40% é o próprio RDR; e 2% resulta de multiplicar 5% por 40% em vez de dividir.",
       "area": "Auditoria Contábil"
     },
     {
@@ -440,6 +680,54 @@
       ],
       "correct": 0,
       "explanation": "Há relação inversa entre risco de distorção relevante e risco de detecção aceitável. Risco maior exige procedimentos substantivos mais robustos (NBC TA 330).",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "A materialidade de execução (ou de desempenho) fixada pelo auditor:",
+      "options": [
+        "é sempre igual à materialidade das demonstrações contábeis como um todo",
+        "é fixada acima da materialidade das demonstrações, para dar margem de segurança",
+        "é fixada abaixo da materialidade das demonstrações como um todo, para reduzir o risco de distorções não detectadas se acumularem",
+        "é definida em norma profissional, em percentual do lucro líquido"
+      ],
+      "correct": 2,
+      "explanation": "A materialidade de execução é fixada abaixo da materialidade das demonstrações como um todo, reduzindo a probabilidade de que a soma de distorções não detectadas a exceda. Sua definição decorre de julgamento profissional, com base em parâmetros como percentual do lucro, e não de valor fixado em norma.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "Na evidência de auditoria, a suficiência e a adequação referem-se, respectivamente, a:",
+      "options": [
+        "qualidade e quantidade da evidência",
+        "quantidade e qualidade da evidência",
+        "origem externa e origem interna da evidência",
+        "relevância e tempestividade do relatório"
+      ],
+      "correct": 1,
+      "explanation": "A suficiência mede a quantidade de evidência, que cresce com o risco e com a materialidade, e a adequação mede a qualidade, ou seja, a relevância e a confiabilidade. Inverter os conceitos e confundi-los com a origem das evidências são os erros clássicos.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "No modelo COSO de controle interno, os cinco componentes incluem:",
+      "options": [
+        "ambiente de controle, avaliação de riscos, atividades de controle, informação e comunicação e monitoramento",
+        "risco inerente, risco de controle, risco de detecção, risco de negócio e risco de auditoria",
+        "planejamento, execução, revisão, aprovação e arquivamento de transações",
+        "controles preventivos, detectivos, corretivos, diretivos e de recuperação"
+      ],
+      "correct": 0,
+      "explanation": "O COSO compreende ambiente de controle, avaliação de riscos, atividades de controle, informação e comunicação e monitoramento. Os riscos integram o modelo de risco de auditoria, e a classificação por natureza (preventivos, detectivos) diz respeito às atividades de controle, não ao modelo como um todo.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "No modelo de risco de auditoria, o componente cujo nível o auditor controla diretamente é o risco:",
+      "options": [
+        "inerente",
+        "de controle",
+        "de negócio",
+        "de detecção"
+      ],
+      "correct": 3,
+      "explanation": "O risco de detecção decorre da natureza, da época e da extensão dos procedimentos do auditor — é o único que ele controla. Os riscos inerente e de controle existem na entidade e apenas são avaliados, respondendo o auditor a eles com o ajuste do risco de detecção.",
       "area": "Auditoria Contábil"
     }
   ],
@@ -515,6 +803,54 @@
       "correct": 1,
       "explanation": "O parágrafo de ênfase (NBC TA 706) chama a atenção para assunto adequadamente divulgado e fundamental, sem modificar a opinião. A modificação só ocorreria com distorção relevante ou limitação de escopo.",
       "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "Em fevereiro de 2027, antes da emissão do relatório de auditoria relativo a 31/12/2026, o auditor tomou conhecimento de que um grande cliente da empresa auditada havia pedido falência em novembro de 2026. Esse fato:",
+      "options": [
+        "não exige ajuste, por ter sido conhecido após a data-base, requerendo apenas nota explicativa",
+        "exige abstenção de opinião, pela perda de evidência sobre o saldo do cliente",
+        "origina ajuste nas demonstrações de 2026, pois evidencia condição já existente na data-base",
+        "deve ser ignorado, pois o relatório só considera fatos ocorridos até a data-base"
+      ],
+      "correct": 2,
+      "explanation": "A falência requerida em novembro de 2026 evidencia condição existente na data-base de 31/12/2026: o risco de perda já estava presente, e a perda esperada no saldo de contas a receber deve ser reconhecida em 2026 — evento que origina ajuste (NBC TA 560). Fatos posteriores que não evidenciam condições existentes é que se limitam à divulgação.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "Em janeiro de 2027, após a data-base de 31/12/2026, uma enchente destruiu estoques materiais da empresa auditada. O fato é relevante. Na auditoria de 2026, o tratamento correto é:",
+      "options": [
+        "ajustar os estoques de 2026, pois a destruição é fato definitivo",
+        "não ajustar as demonstrações de 2026, com divulgação do fato em notas explicativas",
+        "emitir opinião adversa, pela impossibilidade de uso da premissa de continuidade",
+        "retirar-se do trabalho, por não mais ser responsável pelos eventos"
+      ],
+      "correct": 1,
+      "explanation": "A enchente ocorreu após a data-base e não decorre de condição existente em 31/12/2026: é evento que não origina ajuste, mas, sendo material, deve ser divulgado em notas explicativas (NBC TA 560). Ajustar 2026 traria para o período fato do exercício seguinte.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "O auditor concluiu que existe incerteza relevante sobre a capacidade de continuidade operacional da auditada, e que a incerteza está adequadamente divulgada nas demonstrações contábeis. Nessa situação, o auditor deve:",
+      "options": [
+        "manter a opinião não modificada e incluir no relatório seção específica que evidencia a incerteza",
+        "emitir opinião com ressalva, obrigatoriamente",
+        "abster-se de opinião, pois a premissa de continuidade foi refutada",
+        "emitir opinião adversa, ainda que a divulgação seja adequada"
+      ],
+      "correct": 0,
+      "explanation": "Com a incerteza relevante adequadamente divulgada, o auditor mantém a opinião não modificada e inclui no relatório seção específica sobre a incerteza (NBC TA 570), chamando atenção para a nota explicativa. A opinião é modificada (com ressalva ou adversa) quando a divulgação for insuficiente; a adversa por base indevida caberia se a premissa de continuidade deixasse de ser apropriada.",
+      "area": "Auditoria Contábil"
+    },
+    {
+      "stem": "Se a administração da auditada se recusar a fornecer as declarações escritas exigidas pela NBC TA 580, o auditor deve:",
+      "options": [
+        "emitir opinião não modificada, desde que os demais procedimentos tenham sido executados",
+        "encerrar o trabalho e arquivar os papéis, sem emissão de relatório",
+        "emitir opinião com ressalva limitada ao assunto da recusa, em qualquer caso",
+        "avaliar o efeito sobre a evidência obtida e, em geral, abster-se de opinião, considerando ainda a retirada do trabalho quando a legislação permitir"
+      ],
+      "correct": 3,
+      "explanation": "A recusa configura limitação ao alcance do trabalho: o auditor comunica o assunto aos responsáveis pela governança, avalia os efeitos sobre a confiabilidade das demais representações e da evidência obtida e, em regra, deve abster-se de opinião (NBC TA 580), considerando a retirada do trabalho quando legalmente permitida. Não cabe opinião não modificada nem ressalva automática.",
+      "area": "Auditoria Contábil"
     }
   ],
   "54": [
@@ -588,6 +924,54 @@
       ],
       "correct": 0,
       "explanation": "O exercício da perícia contábil exige contador (bacharel em Ciências Contábeis) com registro regular no CRC e habilitação legal (DL 9.295/46, arts. 25 e 26; CPC, art. 156, §1º).",
+      "area": "Perícia Contábil"
+    },
+    {
+      "stem": "Uma perícia contábil é contratada para subsidiar um tribunal arbitral na apuração de valores em disputa entre sócios. Essa perícia é classificada como:",
+      "options": [
+        "judicial, por ser conduzida no âmbito de um procedimento decisório",
+        "extrajudicial estatal, por envolver valores de empresa",
+        "extrajudicial voluntária, pois as partes contrataram livremente",
+        "extrajudicial arbitral"
+      ],
+      "correct": 3,
+      "explanation": "A perícia que subsidia a arbitragem é extrajudicial arbitral: ocorre fora do Poder Judiciário, no âmbito do procedimento arbitral (Lei 9.307/96). A judicial decorre de determinação do juiz em processo; a estatal, de órgão administrativo; e a voluntária, de livre contratação sem procedimento contencioso.",
+      "area": "Perícia Contábil"
+    },
+    {
+      "stem": "O perito nomeado pelo juiz pode ser substituído quando:",
+      "options": [
+        "carecer de conhecimento técnico ou científico ou, sem motivo legítimo, deixar de cumprir o encargo no prazo assinado",
+        "a parte contrária discordar das conclusões do laudo apresentado",
+        "o juiz discordar do teor das respostas dadas aos quesitos",
+        "as partes recusarem o perito sem motivação, após a entrega do laudo"
+      ],
+      "correct": 0,
+      "explanation": "O CPC (art. 468) prevê a substituição do perito que careça de conhecimento técnico ou científico ou que, sem motivo legítimo, não cumpra o encargo no prazo. Discordância sobre o mérito do laudo não substitui o perito; a recusa por impedimento ou suspeição é arguida antes do trabalho.",
+      "area": "Perícia Contábil"
+    },
+    {
+      "stem": "Sobre os honorários do perito nomeado pelo juiz, o Código de Processo Civil estabelece que:",
+      "options": [
+        "são fixados livremente pelo perito, sem controle judicial",
+        "apresentada a proposta, as partes podem manifestar-se no prazo comum de 5 dias, após o que o juiz arbitrará o valor",
+        "o valor é sempre rateado por igual entre as partes, sem manifestação prévia",
+        "o pagamento integral precede ao início dos trabalhos, como condição da nomeação"
+      ],
+      "correct": 1,
+      "explanation": "O perito apresenta proposta de honorários; as partes são intimadas para manifestar-se no prazo comum de 5 dias e, em seguida, o juiz arbitra o valor (CPC, art. 465, § 3º). O juiz pode autorizar pagamento de até 50% no início dos trabalhos; a fixação não é livre do perito nem exige pagamento integral antecipado.",
+      "area": "Perícia Contábil"
+    },
+    {
+      "stem": "Na perícia contábil, o procedimento que consiste na análise de livros, registros e documentos contábeis, visando à verificação de fato, é denominado:",
+      "options": [
+        "vistoria",
+        "arbitramento",
+        "exame",
+        "certificação"
+      ],
+      "correct": 2,
+      "explanation": "O exame é a análise de livros, registros das transações e documentos (NBC TP 01 (R2)). A vistoria é a verificação in loco de pessoas e coisas para constatação de fatos; o arbitramento determina valores por critérios técnicos; e a certificação atesta o fato constatado.",
       "area": "Perícia Contábil"
     }
   ],
