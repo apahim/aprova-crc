@@ -59,9 +59,10 @@ for (const f of ['simulado-a.json', 'simulado-b.json', 'simulado-c.json']) {
   }
 }
 
-// --- Mini-simulados ---
+// --- Mini-simulados (sessões kind "simulado" com título "Mini-simulado …") ---
 const minis = {...read('src/content/minis-a.json'), ...read('src/content/minis-b.json')};
-const miniExpect = {20: 12, 25: 12, 35: 12, 40: 12, 50: 12, 55: 12};
+const miniExpect = Object.fromEntries(curriculum.filter(s => s.kind === 'simulado' && String(s.title || '').startsWith('Mini-simulado')).map(s => [String(s.id), 12]));
+for (const id of Object.keys(minis)) if (!(id in miniExpect)) errors.push(`minis[${id}]: banco sem sessão "Mini-simulado" correspondente no currículo`);
 for (const [id, n] of Object.entries(miniExpect)) {
   const qs = minis[id];
   if (!Array.isArray(qs) || qs.length !== n) errors.push(`minis[${id}]: ${qs?.length ?? 0} questões (esperado ${n})`);

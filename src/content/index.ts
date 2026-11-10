@@ -13,8 +13,8 @@ export const demo:Question[]=[
 {stem:'Uma obrigação presente decorrente de eventos passados, cuja liquidação deve resultar em saída de recursos, corresponde, em termos gerais, a:',options:['Ativo','Passivo','Receita','Despesa antecipada'],correct:1,explanation:'Passivo é uma obrigação presente da entidade de transferir um recurso econômico como resultado de eventos passados.',area:'Contabilidade Geral'},
 {stem:'Uma empresa tem ativo de R$ 90.000 e patrimônio líquido de R$ 25.000. Quanto é o passivo?',options:['R$ 25.000','R$ 65.000','R$ 90.000','R$ 115.000'],correct:1,explanation:'Passivo = Ativo − Patrimônio Líquido = 90.000 − 25.000 = R$ 65.000.',area:'Contabilidade Geral'}];
 
-/** Sessions that have a mini-simulado bank (minis-a.json / minis-b.json). */
-export const miniSessions=new Set([20,25,35,40,50,55]);
+/** Sessions that have a mini-simulado bank (minis-a.json / minis-b.json): kind "simulado" titled "Mini-simulado …". */
+export const miniSessions=new Set(curriculum.filter(s=>s.kind==='simulado'&&s.title.startsWith('Mini-simulado')).map(s=>s.id));
 
 const cache=new Map<string,Promise<unknown>>();
 function once<T>(key:string,load:()=>Promise<T>):Promise<T>{

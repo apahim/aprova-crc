@@ -1,4 +1,4 @@
-export type SessionProgress={done:boolean;best:number;total:number;attempts:number;lastAt:number};
+export type SessionProgress={done:boolean;best:number;total:number;attempts:number;lastAt:number;bestTotal?:number};
 export type AttemptResult={id:string;correct:boolean};
 export type ProgressStore={last:number|null;sessions:Record<string,SessionProgress>;missed:Record<string,number>};
 
@@ -45,7 +45,8 @@ export function applyAttempt(store:ProgressStore,sessionId:number|null,results:A
   if(sessionId!=null){
     const key=String(sessionId);
     const prev=store.sessions[key];
-    sessions={...store.sessions,[key]:{done:true,best:Math.max(score,prev?.best??0),total,attempts:(prev?.attempts??0)+1,lastAt:Date.now()}};
+    const better=score>(prev?.best??-1);
+    sessions={...store.sessions,[key]:{done:true,best:better?score:(prev?.best??0),total,bestTotal:better?total:(prev?.bestTotal??prev?.total??total),attempts:(prev?.attempts??0)+1,lastAt:Date.now()}};
   }
   const missed={...store.missed};
   for(const r of results){if(r.correct)delete missed[r.id];else missed[r.id]=(missed[r.id]||0)+1}
