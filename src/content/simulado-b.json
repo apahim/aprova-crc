@@ -156,15 +156,15 @@
     "area": "Teoria da Contabilidade e Princípios"
   },
   {
-    "stem": "Segundo o CPC 00 (R2), ativo é:",
+    "stem": "Segundo a Estrutura Conceitual para Relatório Financeiro (CPC 00), a definição de passivo é:",
     "options": [
-      "Um bem de propriedade jurídica da entidade, com valor monetário conhecido",
-      "Um direito cujo custo seja mensurável com segurança e que gere caixa certo no futuro",
-      "Um recurso econômico presente controlado pela entidade como resultado de eventos passados",
-      "Um item adquirido com recursos próprios que seja registrado ao custo histórico"
+      "um compromisso futuro decorrente de decisão atual da administração, sem obrigação presente",
+      "toda obrigação de valor e prazo certos e determinados, o que exclui valores incertos",
+      "um recurso econômico presente controlado pela entidade como resultado de eventos passados",
+      "uma obrigação presente de transferir um recurso econômico, como resultado de eventos passados"
     ],
-    "correct": 2,
-    "explanation": "A definição vigente baseia-se em recurso econômico presente (direito com potencial de gerar benefícios) controlado como resultado de evento passado, sem exigir propriedade jurídica.",
+    "correct": 3,
+    "explanation": "A Estrutura Conceitual define passivo como obrigação presente de transferir um recurso econômico, como resultado de eventos passados. A decisão futura da administração não cria obrigação presente; passivos podem ter valor ou prazo incertos, como as provisões; e recurso econômico controlado é a definição de ativo.",
     "area": "Teoria da Contabilidade e Princípios"
   },
   {
@@ -284,7 +284,7 @@
       "R$ 180.000"
     ],
     "correct": 1,
-    "explanation": "Custo do capital = 18% × 1.000.000 = 180.000. EVA = 240.000 − 180.000 = 60.000.",
+    "explanation": "O valor econômico adicionado (EVA) deduz do resultado operacional líquido após impostos o custo do capital investido: custo do capital = 18% × 1.000.000 = 180.000; EVA = 240.000 − 180.000 = 60.000. R$ 240.000 ignora o custo do capital; R$ 180.000 é apenas esse custo; R$ 420.000 soma em vez de subtrair.",
     "area": "Controladoria"
   },
   {
@@ -384,15 +384,15 @@
     "area": "Auditoria Contábil"
   },
   {
-    "stem": "No processo judicial civil, é correto afirmar sobre o assistente técnico:",
+    "stem": "Perito-contador nomeado pelo juiz verificou, ao aceitar o encargo, que tem interesse pessoal no resultado da ação. Segundo as normas processuais e a NBC TP 01, ele deve:",
     "options": [
-      "É nomeado pelo juiz e se sujeita às mesmas hipóteses de suspeição do perito",
-      "É profissional de confiança da parte e não está sujeito a impedimento ou suspeição",
-      "É auxiliar do juízo e deve ser pago por ambas as partes igualmente",
-      "É vedado de acompanhar as diligências do perito"
+      "permanecer no processo e declarar o interesse apenas no laudo pericial",
+      "transferir o encargo ao assistente técnico contratado por uma das partes",
+      "requerer sua escusa ao juízo, declarando o motivo legítimo",
+      "continuar os trabalhos, pois o perito é de confiança do juiz e não se escusa"
     ],
-    "correct": 1,
-    "explanation": "O assistente técnico é indicado pela parte, de sua confiança, e, diferentemente do perito, não está sujeito a impedimento ou suspeição.",
+    "correct": 2,
+    "explanation": "O perito nomeado pelo juiz está sujeito a impedimento e suspeição, segundo as regras processuais, e deve se escusar quando houver motivo legítimo, podendo ser substituído se descumprir o encargo (CPC, art. 468; NBC TP 01). O interesse pessoal no resultado caracteriza situação de suspeição, que não se resolve com mera menção no laudo; e o assistente técnico, contratado pela parte, não pode receber o encargo do perito do juízo.",
     "area": "Perícia Contábil"
   },
   {
@@ -404,7 +404,7 @@
       "50% dos honorários arbitrados"
     ],
     "correct": 3,
-    "explanation": "O CPC admite o levantamento de até 50% no início dos trabalhos, ficando o remanescente para depois de entregue o laudo e prestados os esclarecimentos.",
+    "explanation": "Pelo CPC/2015 (art. 465, § 4º), o juiz pode autorizar, no início dos trabalhos, o pagamento ao perito de até 50% dos honorários periciais arbitrados, ficando o remanescente para depois de entregue o laudo e prestados os esclarecimentos.",
     "area": "Perícia Contábil"
   },
   {
@@ -492,15 +492,15 @@
     "area": "Noções de Direito e Legislação Aplicada"
   },
   {
-    "stem": "Na sociedade limitada, de acordo com o Código Civil, a responsabilidade dos sócios é:",
+    "stem": "Na sociedade anônima, a deliberação sobre a reforma do estatuto social compete:",
     "options": [
-      "Ilimitada e subsidiária por todas as dívidas da sociedade",
-      "Restrita ao valor das quotas, mas todos respondem solidariamente pela integralização do capital social",
-      "Limitada à quota de cada sócio, sem responsabilidade solidária pelo capital",
-      "Ilimitada para o sócio administrador e limitada para os demais"
+      "à diretoria, por ser o órgão executivo da companhia",
+      "à assembleia geral, órgão deliberativo máximo",
+      "ao conselho fiscal, em funcionamento permanente",
+      "ao conselho de administração, por delegação estatutária"
     ],
     "correct": 1,
-    "explanation": "Cada sócio responde até o valor de suas quotas, mas todos respondem solidariamente pela integralização do capital.",
+    "explanation": "A assembleia geral é o órgão deliberativo máximo da sociedade anônima (Lei 6.404/76), e a reforma do estatuto é matéria de sua competência, não delegável. A diretoria executa; o conselho fiscal fiscaliza os administradores; o conselho de administração, quando existente, tem competências próprias, mas não altera o estatuto.",
     "area": "Noções de Direito e Legislação Aplicada"
   },
   {
@@ -524,7 +524,7 @@
       "R$ 4.500"
     ],
     "correct": 2,
-    "explanation": "O terço constitucional é 3.000 ÷ 3 = 1.000. Total = 3.000 + 1.000 = 4.000.",
+    "explanation": "Férias vencidas são remuneradas pelo salário-base mais o adicional constitucional de 1/3 (CF, art. 7º, XVII): 3.000 + (3.000 ÷ 3) = 3.000 + 1.000 = R$ 4.000. R$ 3.300 aplica 10% em vez do terço; R$ 4.500 acresce 50%; R$ 3.000 omite o adicional.",
     "area": "Noções de Direito e Legislação Aplicada"
   },
   {
@@ -572,7 +572,7 @@
       "10%"
     ],
     "correct": 3,
-    "explanation": "(1 + i)² = 1,21, logo 1 + i = 1,10 e i = 10% ao semestre.",
+    "explanation": "Taxas equivalentes, no regime composto, guardam a relação (1 + taxa do prazo maior) = (1 + taxa do prazo menor)^n: (1 + i)² = 1,21, logo 1 + i = 1,10 e i = 10% ao semestre. Os 10,5% são a taxa proporcional (21% ÷ 2), que não coincide com a equivalente no regime composto; 11% soma as metades; 9,5% não decorre de nenhuma operação válida.",
     "area": "Matemática Financeira e Estatística"
   },
   {

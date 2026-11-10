@@ -144,15 +144,15 @@
   "area": "Teoria da Contabilidade e Princípios"
  },
  {
-  "stem": "A empresa pagou, em 01/10, o prêmio anual de seguro de R$ 12.000, com vigência de 12 meses a partir dessa data. Em 31/12, em obediência ao regime de competência, devem constar:",
+  "stem": "Uma imobiliária recebeu, em 01/11/X1, o aluguel de novembro e de dezembro, de R$ 4.500 por mês, pago antecipadamente pelo locatário. Em 31/12/X1, pelo regime de competência, a imobiliária deve ter reconhecido:",
   "options": [
-   "Despesa de seguros de R$ 12.000 e nenhum ativo",
-   "Despesa de seguros de R$ 3.000 e Seguros a Apropriar (ativo) de R$ 9.000",
-   "Despesa de seguros de R$ 9.000 e Seguros a Apropriar de R$ 3.000",
-   "Despesa de seguros de R$ 1.000 e Seguros a Apropriar de R$ 11.000"
+   "receita de aluguéis de R$ 4.500 e passivo de aluguéis a apropriar de R$ 4.500",
+   "receita de aluguéis de R$ 9.000 apenas quando dos vencimentos contratuais de X2",
+   "receita de aluguéis de R$ 9.000 e ativo de rendas antecipadas de R$ 4.500",
+   "receita de aluguéis de R$ 9.000, sem saldo residual de renda antecipada"
   ],
-  "correct": 1,
-  "explanation": "Três meses decorridos: 12.000 × 3/12 = 3.000 de despesa; o restante (9.000) é despesa antecipada no ativo, apropriada nos meses seguintes.",
+  "correct": 3,
+  "explanation": "Pela competência, a receita é reconhecida nos períodos a que se refere, independentemente do recebimento: novembro e dezembro pertencem a X1, logo receita de 2 × 4.500 = R$ 9.000 e, em 31/12/X1, nada resta por apropriar. Haveria passivo (renda antecipada) se parte do período coberto caísse em X2 — por exemplo, se o pagamento antecipado alcançasse janeiro.",
   "area": "Teoria da Contabilidade e Princípios"
  },
  {
@@ -224,7 +224,7 @@
    "0,53"
   ],
   "correct": 1,
-  "explanation": "Liquidez seca = (AC − Estoques)/PC = (240.000 − 120.000)/150.000 = 0,80.",
+  "explanation": "A liquidez seca exclui os estoques, o componente menos líquido do ativo circulante: (AC − Estoques) ÷ PC = (240.000 − 120.000) ÷ 150.000 = 0,80. O 1,60 é a liquidez corrente (240.000 ÷ 150.000); 0,53 considera apenas os clientes, ignorando o caixa (80.000 ÷ 150.000); 0,27 inverte a razão (PC ÷ AC).",
   "area": "Contabilidade Gerencial"
  },
  {
@@ -236,7 +236,7 @@
    "65%"
   ],
   "correct": 2,
-  "explanation": "Lucro operacional = 500.000 − 325.000 − 105.000 = 70.000; 70.000/500.000 = 14%.",
+  "explanation": "Na DRE, a análise vertical toma a receita líquida como base 100%: lucro operacional = 500.000 − 325.000 − 105.000 = 70.000, e 70.000 ÷ 500.000 = 14%. Os 65% são o peso do CMV; 21%, o das despesas operacionais; 35%, a margem bruta (175.000 ÷ 500.000).",
   "area": "Contabilidade Gerencial"
  },
  {
@@ -248,7 +248,7 @@
    "5 dias"
   ],
   "correct": 0,
-  "explanation": "Ciclo operacional = 45 + 30 = 75 dias; ciclo financeiro = 75 − 40 = 35 dias.",
+  "explanation": "O ciclo operacional soma o prazo médio de estocagem e o de recebimento (45 + 30 = 75 dias); o ciclo financeiro deduz o prazo médio de pagamento a fornecedores: 75 − 40 = 35 dias. Os 75 dias respondem apenas ao ciclo operacional; 115 dias soma os três prazos; 5 dias desconta também o recebimento.",
   "area": "Contabilidade Gerencial"
  },
  {
@@ -288,15 +288,15 @@
   "area": "Controladoria"
  },
  {
-  "stem": "Na execução da despesa pública orçamentária, o estágio em que a Administração verifica o direito adquirido pelo credor, com base nos documentos comprobatórios da entrega do material ou da prestação do serviço, é a:",
+  "stem": "Um ente público empenhou despesa com material de consumo; o material foi entregue, conferido pelo almoxarifado e o fornecimento atestado pelo gestor competente. O pagamento ao fornecedor, porém, ainda não foi realizado. Nesse momento, a despesa se encontra:",
   "options": [
-   "Licitação",
-   "Empenho",
-   "Programação financeira",
-   "Liquidação"
+   "apenas empenhada, pois não houve desembolso",
+   "fora dos estágios da despesa, por ausência de liquidação",
+   "com a execução concluída, com quitação automática do credor",
+   "empenhada e liquidada, pendente o estágio do pagamento"
   ],
   "correct": 3,
-  "explanation": "A liquidação (Lei 4.320/64) apura a origem e o objeto do que se deve pagar, a importância exata e a quem se deve pagar, após o empenho e antes do pagamento.",
+  "explanation": "A liquidação é o estágio que apura o direito adquirido pelo credor, com base nos títulos e documentos comprobatórios da entrega e do atesto (Lei 4.320/64). Recebido e conferido o material, a despesa está liquidada, restando o pagamento. O empenho antecede a liquidação e não há quitação antes do desembolso.",
   "area": "Contabilidade Aplicada ao Setor Público"
  },
  {
@@ -360,15 +360,15 @@
   "area": "Auditoria Contábil"
  },
  {
-  "stem": "O auditor não conseguiu obter evidência apropriada e suficiente sobre os estoques, e os possíveis efeitos dessa limitação são relevantes e generalizados nas demonstrações contábeis. O relatório deve conter:",
+  "stem": "Ao concluir a auditoria, o auditor obteve evidência apropriada e suficiente de que as demonstrações contábeis contêm distorções relevantes e generalizadas. O tipo de opinião que deve emitir é:",
   "options": [
-   "Opinião com ressalva",
-   "Opinião adversa",
-   "Opinião sem ressalva, com parágrafo de ênfase",
-   "Abstenção de opinião"
+   "opinião com ressalva",
+   "opinião sem modificação, com parágrafo de ênfase",
+   "abstenção de opinião",
+   "opinião adversa"
   ],
   "correct": 3,
-  "explanation": "Quando não obtém evidência e os possíveis efeitos são relevantes e generalizados, o auditor se abstém de opinar. A ressalva caberia se os efeitos não fossem generalizados.",
+  "explanation": "Com evidência obtida e distorções relevantes e generalizadas, o auditor emite opinião adversa (NBC TA 705): tem base para concluir que as demonstrações, tomadas em conjunto, distorcem. A abstenção caberia se não fosse possível obter evidência suficiente e os possíveis efeitos fossem relevantes e generalizados; a ressalva, se os efeitos fossem relevantes, mas não generalizados.",
   "area": "Auditoria Contábil"
  },
  {
@@ -380,19 +380,19 @@
    "R$ 2.100.000"
   ],
   "correct": 1,
-  "explanation": "Global = 5% × 3.000.000 = 150.000. Execução = 70% × 150.000 = 105.000.",
+  "explanation": "A materialidade de execução é fixada como parcela da materialidade global, menor, para reduzir o risco de não detectar distorções não corrigidas em agregado: global = 5% × 3.000.000 = 150.000; execução = 70% × 150.000 = 105.000. R$ 150.000 é a global; R$ 45.000 é apenas a diferença entre as duas; R$ 2.100.000 aplica 70% sobre o lucro, e não sobre a materialidade.",
   "area": "Auditoria Contábil"
  },
  {
-  "stem": "O documento escrito em que o perito-contador assistente técnico apresenta sua opinião fundamentada sobre a matéria periciada ou sobre o laudo do perito nomeado pelo juízo denomina-se:",
+  "stem": "No processo judicial em que se realiza perícia contábil, as perguntas formuladas pelas partes e pelo juiz, que devem ser respondidas de forma objetiva no laudo pericial, denominam-se:",
   "options": [
-   "Parecer técnico contábil",
-   "Laudo pericial contábil",
-   "Termo de diligência",
-   "Relatório de auditoria"
+   "quesitos",
+   "diligências",
+   "arbitramentos",
+   "autos da perícia"
   ],
   "correct": 0,
-  "explanation": "O laudo é a peça do perito nomeado; o parecer técnico contábil (nomenclatura da NBC TP 01 (R2)) é a manifestação técnica do assistente. O termo de diligência formaliza solicitações.",
+  "explanation": "Quesitos são as perguntas técnicas formuladas pelas partes, por seus advogados, e pelo juiz, que o perito deve responder de forma objetiva no laudo (NBC TP 01). A diligência é o ato de obter dados fora dos autos; o arbitramento é procedimento técnico de determinação de valores; e autos são os documentos do processo.",
   "area": "Perícia Contábil"
  },
  {
@@ -432,15 +432,15 @@
   "area": "Legislação e Ética Profissional"
  },
  {
-  "stem": "Constitui infração ao Código de Ética Profissional do Contabilista:",
+  "stem": "Um contador presta assessoria contábil e fiscal a duas empresas que concorrem pela aquisição do mesmo cliente estratégico, sem que uma conheça o trabalho do contador para a outra. Diante desse conflito de interesses, pela NBC PG 01, ele deve:",
   "options": [
-   "Cobrar honorários por serviço efetivamente prestado",
-   "Assinar demonstrações contábeis elaboradas por outra pessoa sem orientação, supervisão e fiscalização suas",
-   "Solicitar ao cliente a documentação necessária à escrituração",
-   "Recusar serviço incompatível com sua capacidade técnica"
+   "manter os dois trabalhos, pois o dever de sigilo impede revelar a outra contratação",
+   "encerrar o trabalho do cliente que paga menos, sem comunicar o motivo",
+   "continuar os trabalhos, já que conflitos de interesses só configuram ameaça na auditoria",
+   "identificar e avaliar o conflito, informar as partes envolvidas e, quando não for possível neutralizá-lo, declinar de um dos trabalhos"
   ],
-  "correct": 1,
-  "explanation": "É vedado assinar documentos ou peças contábeis elaborados por outrem, alheio à sua orientação, supervisão e fiscalização.",
+  "correct": 3,
+  "explanation": "A NBC PG 01 determina identificar os conflitos de interesses, avaliá-los e, quando não forem neutralizados por salvaguardas, informar as partes envolvidas e recusar ou encerrar o trabalho. O sigilo não legitima manter o conflito oculto; encerrar pelo menor honorário sem comunicação agrava a conduta; e o conflito alcança qualquer trabalho profissional, não apenas a auditoria.",
   "area": "Legislação e Ética Profissional"
  },
  {
@@ -480,27 +480,27 @@
   "area": "Noções de Direito e Legislação Aplicada"
  },
  {
-  "stem": "Em um contrato bilateral de compra e venda, o fornecedor, que deveria entregar primeiro a mercadoria, exige o pagamento sem tê-la entregue. O comprador pode opor:",
+  "stem": "Um adolescente de 15 anos celebrou, sem representação, contrato de prestação de serviços contábeis com uma empresa. Pelo Código Civil, esse negócio jurídico é:",
   "options": [
-   "A exceção de contrato não cumprido",
-   "A resolução por onerosidade excessiva",
-   "A evicção",
-   "O vício redibitório"
+   "anulável, e se confirma com o decurso do tempo",
+   "válido, pois a capacidade plena se adquire aos 14 anos",
+   "anulável, podendo ser confirmado ao atingir a maioridade",
+   "nulo, pois celebrado por absolutamente incapaz, e não se convalida com o tempo"
   ],
-  "correct": 0,
-  "explanation": "Nos contratos bilaterais, nenhuma das partes pode exigir a obrigação da outra antes de cumprir a sua (CC, art. 476).",
+  "correct": 3,
+  "explanation": "Menores de 16 anos são absolutamente incapazes, e o negócio por eles celebrado sem representação é nulo, não se convalidando com o decurso do tempo (Código Civil). Entre 16 e 18 anos, sem assistência, o negócio seria apenas anulável e admitiria confirmação — é a distinção entre nulidade e anulabilidade.",
   "area": "Noções de Direito e Legislação Aplicada"
  },
  {
-  "stem": "O contribuinte apura o ICMS do mês, antecipa o pagamento e fica sujeito à posterior conferência da autoridade fiscal. Essa modalidade de lançamento é:",
+  "stem": "A autoridade administrativa, com base nas informações e nos documentos prestados pelo contribuinte, apura o valor do imposto e lavra o lançamento. Essa modalidade de lançamento, pelo CTN, é:",
   "options": [
-   "De ofício",
-   "Por declaração",
-   "Por homologação",
-   "Por arbitramento"
+   "de ofício",
+   "por declaração",
+   "por homologação",
+   "por arbitramento"
   ],
-  "correct": 2,
-  "explanation": "No lançamento por homologação (CTN, art. 150), o sujeito passivo apura e antecipa o pagamento, e a autoridade o homologa posteriormente.",
+  "correct": 1,
+  "explanation": "No lançamento por declaração (CTN, art. 147), a autoridade constitui o crédito com base na declaração e nos documentos do sujeito passivo. No por homologação, o próprio contribuinte antecipa o pagamento e o Fisco depois confere, como no ICMS; no de ofício, a autoridade lança de forma independente; o arbitramento é meio de determinar a base de cálculo, não modalidade de lançamento.",
   "area": "Noções de Direito e Legislação Aplicada"
  },
  {
