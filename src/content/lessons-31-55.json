@@ -10,7 +10,8 @@
    {
     "h": "Terminologia essencial",
     "p": [
-     "Gasto é o sacrifício financeiro para obter bem ou serviço, qualquer que seja a finalidade; é o conceito mais amplo. Quando o gasto é consumido na produção de bens ou serviços, vira custo; quando é consumido na administração, em vendas ou no financiamento, vira despesa. Se o bem adquirido fica estocado ou vai para o ativo permanente, o gasto é um investimento, que só será baixado no futuro.",
+     "Gasto é o sacrifício financeiro para obter bem ou serviço, qualquer que seja a finalidade; é o conceito mais amplo.",
+     "Quando o gasto é consumido na produção de bens ou serviços, vira custo; quando é consumido na administração, em vendas ou no financiamento, vira despesa. Se o bem adquirido fica estocado ou vai para o ativo permanente, o gasto é um investimento, que só será baixado no futuro.",
      "Perda é o consumo anormal e involuntário (incêndio, greve) e vai direto ao resultado. Perdas normais do processo integram o custo do produto."
     ],
     "list": [
@@ -24,12 +25,16 @@
     "h": "Classificações dos custos",
     "p": [
      "Quanto ao volume produzido, custos fixos permanecem constantes no total dentro da faixa relevante (aluguel da fábrica), enquanto os variáveis oscilam em proporção à produção (matéria-prima). O fixo é unitário decrescente; o variável é unitário constante.",
-     "Quanto à apropriação ao produto, custos diretos são identificados objetivamente a cada unidade (matéria-prima, mão de obra direta), e indiretos exigem critério de rateio (depreciação, supervisão). Custo primário é a soma de matéria-prima e mão de obra direta; custo de transformação (ou de conversão) é a soma de mão de obra direta e custos indiretos de fabricação.",
+     "Custo primário é a soma de matéria-prima e mão de obra direta; custo de transformação (ou de conversão) é a soma de mão de obra direta e custos indiretos de fabricação.",
      "A mão de obra direta ociosa (tempo sem atividade produtiva, por espera de material ou falta de programação) não integra o custo dos produtos: por não decorrer da produção normal, é tratada como custo do período e, na ociosidade anormal (greve, acidente), como perda. Só as horas efetivamente aplicadas ao produto são apropriadas como MOD."
+    ],
+    "list": [
+     "Custos diretos: identificados objetivamente a cada unidade (matéria-prima, mão de obra direta)",
+     "Custos indiretos: exigem critério de rateio (depreciação, supervisão)"
     ]
    },
    {
-    "h": "Separação de custos fixos e variáveis: método do alto e baixo",
+    "h": "Método do alto e baixo",
     "p": [
      "Para separar a parcela fixa da variável a partir de custos históricos, o método do alto e baixo compara o nível mais alto e o mais baixo de atividade: o custo variável unitário é a variação do custo total dividida pela variação da atividade, e o custo fixo sai por diferença.",
      "Exemplo: custo total de R$ 60.000 para 1.000 horas de atividade e de R$ 120.000 para 3.000 horas. Variável unitário = (120.000 − 60.000) ÷ (3.000 − 1.000) = R$ 30,00 por hora. Fixo = 60.000 − 1.000 × 30 = R$ 30.000 (ou 120.000 − 3.000 × 30)."
@@ -66,7 +71,7 @@
   ],
   "refs": [
    "Lei 6.404/76",
-   "CPC 16 (R1) – Estoques",
+   "CPC 16 (R1)",
    "Conceitos de contabilidade de custos"
   ]
  },
@@ -88,7 +93,9 @@
    {
     "h": "Departamentalização e centros de custo",
     "p": [
-     "Departamento é a unidade mínima administrativa, com um responsável; centro de custo é a unidade de acumulação de custos, que pode coincidir com o departamento. Departamentos de produção atuam diretamente sobre o produto (corte, montagem); departamentos de serviços (manutenção, administração da fábrica) apoiam os demais, e seus custos são redistribuídos aos departamentos produtivos. Essa redistribuição segue métodos: no direto, os custos dos auxiliares vão apenas aos departamentos produtivos, ignorando os serviços recíprocos entre auxiliares; no escalonado (step-down), os auxiliares são distribuídos em sequência, reconhecendo parte desses fluxos."
+     "Departamento é a unidade mínima administrativa, com um responsável; centro de custo é a unidade de acumulação de custos, que pode coincidir com o departamento.",
+     "Departamentos de produção atuam diretamente sobre o produto (corte, montagem); departamentos de serviços (manutenção, administração da fábrica) apoiam os demais, e seus custos são redistribuídos aos departamentos produtivos.",
+     "Essa redistribuição segue métodos: no direto, os custos dos auxiliares vão apenas aos departamentos produtivos, ignorando os serviços recíprocos entre auxiliares; no escalonado (step-down), os auxiliares são distribuídos em sequência, reconhecendo parte desses fluxos."
     ]
    },
    {
@@ -109,7 +116,8 @@
     "h": "Taxa predeterminada de CIF e sub/superaplicação",
     "p": [
      "Como o CIF real só é conhecido no fim do período, as empresas costumam aplicar aos produtos uma taxa predeterminada: CIF orçado ÷ base orçada (por exemplo, horas-máquina previstas). A taxa permite custear os produtos à medida que são produzidos.",
-     "Exemplo: CIF orçado de R$ 120.000 para 10.000 horas-máquina gera taxa de R$ 12,00 por hora. Se no período foram utilizadas 9.800 horas, aplicam-se 9.800 × 12 = R$ 117.600 aos produtos. Encerrado o período com CIF real de R$ 125.000, há subaplicação (aplicado menor que real) de R$ 7.400; se o aplicado excedesse o real, haveria superaplicação.",
+     "Exemplo: CIF orçado de R$ 120.000 para 10.000 horas-máquina gera taxa de R$ 12,00 por hora. Se no período foram utilizadas 9.800 horas, aplicam-se 9.800 × 12 = R$ 117.600 aos produtos.",
+     "Encerrado o período com CIF real de R$ 125.000, há subaplicação (aplicado menor que real) de R$ 7.400; se o aplicado excedesse o real, haveria superaplicação.",
      "A diferença, se imaterial, é lançada diretamente no resultado do período; se material, é alocada entre estoques e CMV proporcionalmente aos CIF aplicados."
     ]
    },
@@ -130,7 +138,7 @@
   ],
   "refs": [
    "Lei 6.404/76",
-   "CPC 16 (R1) – Estoques",
+   "CPC 16 (R1)",
    "Legislação do Imposto de Renda (custo de produção)"
   ]
  },
@@ -165,9 +173,14 @@
    {
     "h": "Pontos de equilíbrio",
     "p": [
-     "O ponto de equilíbrio contábil (PEC) é o volume em que lucro é zero. O econômico (PEE) inclui no numerador o lucro mínimo desejado, normalmente o custo de oportunidade do capital. O financeiro (PEF) exclui dos custos fixos os itens que não representam desembolso, como depreciação, e inclui, se houver, desembolsos que não são custos."
+     "O ponto de equilíbrio contábil (PEC) é o volume em que o lucro é zero. As variantes mudam o numerador:"
     ],
-    "formula": "PE (unidades) = Custos fixos ÷ MCu; PE (R$) = Custos fixos ÷ Índice de MC"
+    "formula": "PE (unidades) = Custos fixos ÷ MCu; PE (R$) = Custos fixos ÷ Índice de MC",
+    "list": [
+     "PEC (contábil): custos fixos ÷ MCu",
+     "PEE (econômico): inclui no numerador o lucro mínimo desejado, normalmente o custo de oportunidade do capital",
+     "PEF (financeiro): exclui dos custos fixos os itens que não representam desembolso, como depreciação, e inclui, se houver, desembolsos que não são custos"
+    ]
    },
    {
     "h": "Exemplo numérico",
@@ -185,7 +198,8 @@
     "h": "Margem de segurança e alavancagem",
     "p": [
      "Margem de segurança é o quanto as vendas podem cair antes de chegar ao ponto de equilíbrio. Com vendas de 5.000 unidades e PEC de 4.000, ela é (5.000 − 4.000) ÷ 5.000 = 20%.",
-     "O grau de alavancagem operacional (GAO) mede quanto o lucro varia para cada 1% de variação nas vendas: GAO = MC total ÷ lucro operacional. Nas 5.000 unidades, MC total é R$ 100.000 e o lucro é R$ 20.000; o GAO é 5. Um aumento de 10% nas vendas (5.500 unidades) eleva o lucro para 5.500 × 20 − 80.000 = R$ 30.000, ou seja, +50%."
+     "O grau de alavancagem operacional (GAO) mede quanto o lucro varia para cada 1% de variação nas vendas: GAO = MC total ÷ lucro operacional. Nas 5.000 unidades, MC total é R$ 100.000 e o lucro é R$ 20.000; o GAO é 5.",
+     "Um aumento de 10% nas vendas (5.500 unidades) eleva o lucro para 5.500 × 20 − 80.000 = R$ 30.000, ou seja, +50%."
     ],
     "formula": "Margem de segurança = (Vendas − PE) ÷ Vendas; GAO = MC total ÷ Lucro operacional"
    }
@@ -213,8 +227,11 @@
    {
     "h": "Por ordem e por processo",
     "p": [
-     "No custeio por ordem (ou encomenda), os custos são acumulados por pedido ou lote específico, comum em estaleiros, construção civil e gráficas sob encomenda; o custo da ordem só é conhecido ao final. No custeio por processo, a produção é contínua e padronizada (cimento, química, alimentos), e os custos são acumulados por departamento ou etapa em um período.",
      "Em processo, o custo médio do período é obtido dividindo-se os custos pela produção, usando-se a produção equivalente quando há produtos em elaboração."
+    ],
+    "list": [
+     "Por ordem (ou encomenda): custos acumulados por pedido ou lote específico; comum em estaleiros, construção civil e gráficas sob encomenda; o custo da ordem só é conhecido ao final",
+     "Por processo: produção contínua e padronizada (cimento, química, alimentos); custos acumulados por departamento ou etapa em um período"
     ]
    },
    {
@@ -232,15 +249,22 @@
    {
     "h": "Custos conjuntos",
     "p": [
-     "Quando um mesmo processo gera vários produtos, o custo até o ponto de separação é conjunto e precisa ser distribuído. Coprodutos têm valor de venda relevante; subprodutos têm valor menor e pouca participação; sucata é o resíduo com valor residual mínimo. Subprodutos e sucatas, em geral, reduzem o custo dos produtos principais.",
+     "Quando um mesmo processo gera vários produtos, o custo até o ponto de separação é conjunto e precisa ser distribuído.",
+     "Subprodutos e sucatas, em geral, reduzem o custo dos produtos principais.",
      "Critérios comuns: valor de mercado no ponto de separação, quantidade física ou valor realizável líquido. Se o custo conjunto é R$ 100.000 e as vendas no ponto de separação são A R$ 120.000 e B R$ 80.000, o rateio é A 60% = R$ 60.000 e B 40% = R$ 40.000."
+    ],
+    "list": [
+     "Coprodutos: valor de venda relevante",
+     "Subprodutos: valor menor e pouca participação",
+     "Sucata: resíduo com valor residual mínimo"
     ]
    },
    {
     "h": "Custo-padrão e variações",
     "p": [
      "Custo-padrão é um custo-meta, determinado com base em consumo e preço esperados e usado para controle. As variações são a diferença entre o custo real e o padrão, separadas em preço e quantidade (ou eficiência).",
-     "Exemplo: padrão de 2 kg a R$ 5 por unidade; foram produzidas 1.000 unidades, consumindo 2.200 kg a R$ 4,80. Variação de quantidade = (2.200 − 2.000) × 5 = R$ 1.000 desfavorável; variação de preço = (4,80 − 5,00) × 2.200 = R$ 440 favorável; variação total = R$ 560 desfavorável (real R$ 10.560 contra padrão R$ 10.000)."
+     "Exemplo: padrão de 2 kg a R$ 5 por unidade; foram produzidas 1.000 unidades, consumindo 2.200 kg a R$ 4,80. Variação de quantidade = (2.200 − 2.000) × 5 = R$ 1.000 desfavorável; variação de preço = (4,80 − 5,00) × 2.200 = R$ 440 favorável.",
+     "Variação total = R$ 560 desfavorável (real R$ 10.560 contra padrão R$ 10.000)."
     ],
     "formula": "Var. preço = (Preço real − Preço padrão) × Qtd real; Var. quantidade = (Qtd real − Qtd padrão) × Preço padrão"
    }
@@ -253,7 +277,7 @@
    "Achar que o custo-padrão é incompatível com contabilidade; é aceito se próximo do real"
   ],
   "refs": [
-   "CPC 16 (R1) – Estoques",
+   "CPC 16 (R1)",
    "Conceitos de contabilidade de custos"
   ]
  },
@@ -318,7 +342,7 @@
   ],
   "refs": [
    "Conteúdo das sessões 31 a 34",
-   "Edital do Exame de Suficiência do CFC"
+   "Edital do Exame de Suficiência vigente"
   ]
  },
  "36": {
@@ -470,8 +494,11 @@
    {
     "h": "Conceitos",
     "p": [
-     "A análise vertical (AV) mede a participação de cada conta em relação a um total de referência na mesma data, mostrando a estrutura da demonstração. A análise horizontal (AH) compara a evolução de cada conta ao longo de períodos, em relação a um ano-base, mostrando a tendência.",
      "Ambas são técnicas de análise de estrutura e evolução; não substituem os índices, mas os complementam."
+    ],
+    "list": [
+     "Análise vertical (AV): participação de cada conta em relação a um total de referência na mesma data, mostrando a estrutura da demonstração",
+     "Análise horizontal (AH): evolução de cada conta ao longo dos períodos, em relação a um ano-base, mostrando a tendência"
     ]
    },
    {
@@ -514,7 +541,7 @@
    "Interpretar aumento absoluto de despesas como ruim sem comparar com o crescimento da receita"
   ],
   "refs": [
-   "CPC 26 (R1) – Apresentação das Demonstrações Contábeis",
+   "CPC 26 (R1)",
    "Técnicas de análise das demonstrações contábeis"
   ]
  },
@@ -550,19 +577,29 @@
    },
    {
     "h": "Endividamento e rentabilidade",
-    "p": [
-     "Endividamento geral = capitais de terceiros ÷ ativo total = 350.000 ÷ 600.000 = 58,33%. Composição do endividamento = PC ÷ capitais de terceiros = 150.000 ÷ 350.000 = 42,86%. Participação de capitais de terceiros sobre o PL = 350.000 ÷ 250.000 = 1,40.",
-     "Margem líquida = 50.000 ÷ 900.000 = 5,56%. Giro do ativo = 900.000 ÷ 600.000 = 1,5. ROA = lucro ÷ ativo = 8,33%, que é igual a margem × giro (5,56% × 1,5). ROE = lucro ÷ patrimônio líquido = 50.000 ÷ 250.000 = 20%."
-    ],
-    "formula": "ROA = Margem líquida × Giro do ativo"
+    "p": [],
+    "formula": "ROA = Margem líquida × Giro do ativo",
+    "list": [
+     "Endividamento geral = capitais de terceiros ÷ ativo total = 350.000 ÷ 600.000 = 58,33%",
+     "Composição do endividamento = PC ÷ capitais de terceiros = 150.000 ÷ 350.000 = 42,86%",
+     "Capitais de terceiros sobre o PL = 350.000 ÷ 250.000 = 1,40",
+     "Margem líquida = 50.000 ÷ 900.000 = 5,56%",
+     "Giro do ativo = 900.000 ÷ 600.000 = 1,5",
+     "ROA = lucro ÷ ativo = 8,33%, que é igual a margem × giro (5,56% × 1,5)",
+     "ROE = lucro ÷ patrimônio líquido = 50.000 ÷ 250.000 = 20%"
+    ]
    },
    {
     "h": "Prazos, ciclo operacional e financeiro",
     "p": [
-     "Prazo médio de recebimento de vendas = 120.000 ÷ 900.000 × 360 = 48 dias. Prazo médio de renovação de estoques = 150.000 ÷ 540.000 × 360 = 100 dias. Prazo médio de pagamento (com compras ≈ CMV) = 90.000 ÷ 540.000 × 360 = 60 dias.",
      "O ciclo operacional é o tempo entre a compra do insumo e o recebimento da venda: 100 + 48 = 148 dias. O ciclo financeiro é o período em que a empresa precisa financiar suas operações: 148 − 60 = 88 dias."
     ],
-    "formula": "Ciclo financeiro = PMRE + PMRV − PMPF"
+    "formula": "Ciclo financeiro = PMRE + PMRV − PMPF",
+    "list": [
+     "PMRV (recebimento de vendas) = 120.000 ÷ 900.000 × 360 = 48 dias",
+     "PMRE (renovação de estoques) = 150.000 ÷ 540.000 × 360 = 100 dias",
+     "PMPF (pagamento a fornecedores, com compras ≈ CMV) = 90.000 ÷ 540.000 × 360 = 60 dias"
+    ]
    }
   ],
   "pitfalls": [
@@ -573,7 +610,7 @@
    "Interpretar liquidez maior como sempre melhor; excesso pode indicar ociosidade de recursos"
   ],
   "refs": [
-   "CPC 26 (R1) – Apresentação das Demonstrações Contábeis",
+   "CPC 26 (R1)",
    "Técnicas de análise das demonstrações contábeis"
   ]
  },
@@ -632,7 +669,7 @@
   ],
   "refs": [
    "Conteúdo das sessões 36 a 39",
-   "Edital do Exame de Suficiência do CFC"
+   "Edital do Exame de Suficiência vigente"
   ]
  },
  "41": {
@@ -1095,8 +1132,13 @@
     "h": "Bens públicos",
     "p": [
      "Bens públicos de uso comum, de uso especial e dominicais são registrados no patrimônio, e o reconhecimento exige controle e a expectativa de benefícios econômicos ou potencial de serviços. Bens de infraestrutura e bens de uso comum do povo seguem tratamento específico, de acordo com as NBC TSP e o MCASP.",
-     "Pelo Código Civil (art. 99), os bens de uso comum são destinados ao uso coletivo (ruas, praças, rios), os de uso especial são os utilizados pelo serviço público (prédios de repartições, escolas, hospitais) e os dominicais constituem o patrimônio disponível do ente, como terrenos e imóveis sem destinação pública específica.",
+     "Pelo Código Civil (art. 99):",
      "O inventário periódico confere a existência física e o valor dos bens, e as diferenças são regularizadas por ajustes e responsabilização, quando for o caso."
+    ],
+    "list": [
+     "Bens de uso comum: destinados ao uso coletivo (ruas, praças, rios)",
+     "Bens de uso especial: utilizados pelo serviço público (prédios de repartições, escolas, hospitais)",
+     "Bens dominicais: patrimônio disponível do ente, como terrenos e imóveis sem destinação pública específica"
     ]
    },
    {
@@ -1180,7 +1222,7 @@
   ],
   "refs": [
    "Conteúdo das sessões 41 a 49",
-   "Edital do Exame de Suficiência do CFC"
+   "Edital do Exame de Suficiência vigente"
   ]
  },
  "51": {
@@ -1250,10 +1292,14 @@
    {
     "h": "Risco de auditoria",
     "p": [
-     "O risco de auditoria é o de o auditor expressar opinião inadequada quando as demonstrações contêm distorção relevante. Ele é composto pelo risco de distorção relevante (RDR) e pelo risco de detecção (RD).",
-     "O risco inerente (RI) é a suscetibilidade da afirmação a distorção, antes de considerar controles. O risco de controle (RC) é o de que controles da entidade não previnam ou detectem a distorção. O risco de detecção é o de que os procedimentos do auditor não detectem a distorção existente; é o único que o auditor controla."
+     "O risco de auditoria é o de o auditor expressar opinião inadequada quando as demonstrações contêm distorção relevante. Ele é composto pelo risco de distorção relevante (RDR) e pelo risco de detecção (RD)."
     ],
-    "formula": "RDR = RI × RC; Risco de auditoria = RDR × RD"
+    "formula": "RDR = RI × RC; Risco de auditoria = RDR × RD",
+    "list": [
+     "Risco inerente (RI): suscetibilidade da afirmação a distorção, antes de considerar controles",
+     "Risco de controle (RC): risco de que os controles da entidade não previnam ou detectem a distorção",
+     "Risco de detecção (RD): risco de que os procedimentos do auditor não detectem a distorção existente; é o único que o auditor controla"
+    ]
    },
    {
     "h": "Exemplo numérico",
@@ -1333,24 +1379,32 @@
     ]
    },
    {
-    "h": "Fraude e erro",
+    "h": "Fraude, erro e comunicações do auditor",
     "p": [
      "Fraude é ato intencional de um ou mais indivíduos para obter vantagem ilícita, e erro é ato não intencional. O auditor não é responsável por prevenir fraudes, que cabe à administração e aos responsáveis pela governança, mas deve planejar e executar o trabalho com ceticismo e obter segurança razoável sobre distorções relevantes, inclusive por fraude.",
-     "Presume-se risco de fraude no reconhecimento de receitas e no desrespeito aos controles pela administração. A NBC TA 240 trata dessa responsabilidade."
-    ]
-   },
-   {
-    "h": "Comunicações do auditor",
-    "p": [
+     "Presume-se risco de fraude no reconhecimento de receitas e no desrespeito aos controles pela administração. A NBC TA 240 trata dessa responsabilidade.",
      "O auditor comunica aos responsáveis pela governança os assuntos relevantes, como deficiências significativas de controle interno, e comunica ao órgão competente os indícios de atos ilícitos, nos termos da legislação aplicável."
     ]
    },
    {
-    "h": "Continuidade, eventos subsequentes e declarações escritas",
+    "h": "Continuidade (NBC TA 570)",
     "p": [
-     "A premissa de continuidade sustenta a elaboração das demonstrações, e avaliá-la é responsabilidade da administração, considerando o futuro previsível de pelo menos doze meses a partir da data do balanço. Quando existir incerteza relevante sobre a continuidade e ela estiver adequadamente divulgada, o auditor mantém a opinião não modificada e inclui no relatório seção específica que evidencia a incerteza; se a divulgação for insuficiente, a opinião é modificada (com ressalva ou adversa); e, se a premissa de continuidade deixar de ser apropriada, o efeito sobre o relatório é ainda mais severo (NBC TA 570).",
-     "Eventos subsequentes são os fatos ocorridos entre a data-base e a data do relatório. Os que evidenciam condições já existentes na data-base — como a falência, em novembro, de cliente cujo saldo era negociável em 31/12 — originam ajuste nas demonstrações. Condições surgidas após a data-base — uma enchente que destrói estoques em janeiro — não originam ajuste, mas, se materiais, devem ser divulgadas em notas explicativas (NBC TA 560).",
-     "A administração deve fornecer ao auditor declarações escritas sobre suas responsabilidades e sobre matérias relevantes do trabalho, em documento datado tão próximo quanto possível da data do relatório e nunca posterior a ela (NBC TA 580). A recusa configura limitação ao alcance do trabalho e pode levar à abstenção de opinião, cabendo considerar a retirada do trabalho quando a legislação permitir."
+     "A premissa de continuidade sustenta a elaboração das demonstrações, e avaliá-la é responsabilidade da administração, considerando o futuro previsível de pelo menos doze meses a partir da data do balanço.",
+     "Quando existir incerteza relevante sobre a continuidade, o tratamento no relatório depende da divulgação:"
+    ],
+    "list": [
+     "Incerteza divulgada adequadamente: opinião não modificada, com seção específica do relatório evidenciando a incerteza",
+     "Divulgação insuficiente: opinião modificada (com ressalva ou adversa)",
+     "Premissa de continuidade inadequada: efeito ainda mais severo sobre o relatório (NBC TA 570)"
+    ]
+   },
+   {
+    "h": "Eventos subsequentes e declarações escritas",
+    "p": [
+     "Eventos subsequentes são os fatos ocorridos entre a data-base e a data do relatório. Os que evidenciam condições já existentes na data-base — como a falência, em novembro, de cliente cujo saldo era negociável em 31/12 — originam ajuste nas demonstrações.",
+     "Condições surgidas após a data-base — uma enchente que destrói estoques em janeiro — não originam ajuste, mas, se materiais, devem ser divulgadas em notas explicativas (NBC TA 560).",
+     "A administração deve fornecer ao auditor declarações escritas sobre suas responsabilidades e sobre matérias relevantes do trabalho, em documento datado tão próximo quanto possível da data do relatório e nunca posterior a ela (NBC TA 580).",
+     "A recusa configura limitação ao alcance do trabalho e pode levar à abstenção de opinião, cabendo considerar a retirada do trabalho quando a legislação permitir."
     ]
    }
   ],
@@ -1482,7 +1536,7 @@
   ],
   "refs": [
    "Conteúdo das sessões 51 a 54",
-   "Edital do Exame de Suficiência do CFC"
+   "Edital do Exame de Suficiência vigente"
   ]
  }
 }

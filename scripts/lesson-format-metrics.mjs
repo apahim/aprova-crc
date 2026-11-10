@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 // Métricas de formatação visual das lições (fase 8 — rubrica em docs/avaliacoes/fase-8-formatacao-visual.md).
+// Banda de extensão calibrada por tipo de sessão: aulas e minis 180–550 · roteiros (revisões/simulados) 90–270.
 // Uso: node scripts/lesson-format-metrics.mjs
 import {readFileSync, readdirSync} from 'node:fs';
 import {fileURLToPath} from 'node:url';
@@ -12,6 +13,13 @@ for (const f of files) {
   const o = JSON.parse(readFileSync(path.join(root, 'src/content', f), 'utf8'));
   for (const [id, l] of Object.entries(o)) lessons.set(Number(id), l);
 }
+const curriculum = JSON.parse(readFileSync(path.join(root, 'src/curriculum.json'), 'utf8'));
+const sessionOf = id => curriculum.find(s => s.id === id);
+const extBand = id => {
+  const s = sessionOf(id);
+  if (s?.kind === 'aula' || (s?.kind === 'simulado' && String(s.title ?? '').startsWith('Mini-simulado'))) return [180, 550];
+  return [90, 270]; // roteiros: revisões e simulados
+};
 
 const words = s => String(s ?? '').split(/\s+/).filter(Boolean).length;
 const isNumeric = s => /(R\$|\d\s*[×x]\s*\d|\d+%|=\s*\d|= ?R\$)/.test(s);
@@ -39,7 +47,8 @@ for (const id of [...lessons.keys()].sort((a, b) => a - b)) {
   if (over120) flags.push('MURI');
   if (w.length && pct60 < 80) flags.push('DENSA');
   if (numericN >= 4 && !formulas) flags.push('CALC');
-  if (bodyWords > 1400) flags.push('EXT-A'); else if (bodyWords < 400) flags.push('EXT-B');
+  const [extLo, extHi] = extBand(id);
+  if (bodyWords > extHi) flags.push('EXT-A'); else if (bodyWords < extLo) flags.push('EXT-B');
   if (secN < 3 || secN > 6) flags.push('SEC');
   if (obj < 3 || obj > 5) flags.push('OBJ');
   if (pit < 3 || pit > 6) flags.push('PIT');

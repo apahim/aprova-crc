@@ -202,7 +202,7 @@
       "Confundir contas de resultado (zeradas no encerramento) com as patrimoniais (permanentes).",
       "Tratar a depreciação acumulada como passivo; é retificadora do ativo."
     ],
-    "refs": ["ITG 2000 (R1) – Escrituração Contábil", "Lei 6.404/76", "CPC 00 (R2)"]
+    "refs": ["ITG 2000 (R1) – Escrituração Contábil", "Lei 6.404/76", "CPC 00 (R2) – Estrutura Conceitual"]
   },
   "5": {
     "objectives": [
@@ -316,7 +316,8 @@
         "p": [
           "No regime de caixa, receitas e despesas são reconhecidas quando há entrada ou saída de dinheiro. No regime de competência, são reconhecidas quando ocorrem, independentemente do recebimento ou pagamento.",
           "As demonstrações contábeis seguem a base da competência, conforme a Estrutura Conceitual e o CPC 26. O regime de caixa pode ser usado, em alguns casos, apenas para fins fiscais."
-        ]
+        ],
+        "formula": "Competência: resultado = receitas − despesas do período; Caixa: resultado = recebimentos − pagamentos"
       },
       {
         "h": "Reconhecimento na competência",
@@ -332,8 +333,12 @@
         "h": "Exemplo comparativo",
         "p": [
           "Em 2025, uma empresa: (a) vendeu serviços de R$ 30.000 em dezembro, a receber em fevereiro de 2026; (b) pagou em 01/10 um seguro de R$ 12.000 para 12 meses; (c) incorreu em salários de dezembro de R$ 8.000, pagos em janeiro.",
-          "Competência: receita R$ 30.000; despesa de seguro (3 meses × R$ 1.000) R$ 3.000; salários R$ 8.000. Resultado = 30.000 − 3.000 − 8.000 = R$ 19.000. O seguro a apropriar (ativo) é R$ 9.000 e os salários a pagar (passivo) são R$ 8.000.",
-          "Caixa: entradas zero; saídas R$ 12.000 (seguro). Resultado = −R$ 12.000. A diferença entre os regimes é de R$ 31.000."
+          "Os saldos de fim de período seguem a competência: seguro a apropriar (ativo) de R$ 9.000 e salários a pagar (passivo) de R$ 8.000."
+        ],
+        "list": [
+          "Competência: receita de R$ 30.000, seguro de R$ 3.000 (3 meses × R$ 1.000) e salários de R$ 8.000 — resultado de R$ 19.000",
+          "Caixa: entradas zero e saída de R$ 12.000 (seguro) — resultado de −R$ 12.000",
+          "Diferença entre os regimes: R$ 31.000"
         ]
       },
       {
@@ -349,7 +354,7 @@
       "Esquecer a despesa incorrida e não paga (salários, juros, energia).",
       "Dizer que o regime de caixa é aceito para as demonstrações contábeis em geral."
     ],
-    "refs": ["CPC 00 (R2) – Estrutura Conceitual", "CPC 26 (R1) – Apresentação das Demonstrações Contábeis", "CPC 47 – Receita de Contrato com Cliente"]
+    "refs": ["CPC 00 (R2) – Estrutura Conceitual", "CPC 26 (R1)", "CPC 47"]
   },
   "8": {
     "objectives": [
@@ -449,7 +454,7 @@
       "Aplicar mudança de estimativa de forma retrospectiva; ela é prospectiva.",
       "Tratar o erro como mudança de estimativa e não reapresentar os períodos anteriores."
     ],
-    "refs": ["CPC 25 – Provisões, Passivos Contingentes e Ativos Contingentes", "CPC 23 – Políticas Contábeis, Mudança de Estimativa e Retificação de Erro"]
+    "refs": ["CPC 25", "CPC 23"]
   },
   "10": {
     "objectives": [
@@ -498,7 +503,7 @@
       "Dizer que balancete equilibrado garante a correção da escrituração.",
       "Esquecer a divulgação de passivos contingentes possíveis em nota explicativa."
     ],
-    "refs": ["ITG 2000 (R1)", "CPC 23", "CPC 25", "CPC 26 (R1)"]
+    "refs": ["ITG 2000 (R1) – Escrituração Contábil", "CPC 23", "CPC 25", "CPC 26 (R1)"]
   },
   "11": {
     "objectives": [
@@ -546,15 +551,10 @@
         ]
       },
       {
-        "h": "Moeda estrangeira (CPC 02)",
+        "h": "Câmbio e instrumentos financeiros (CPC 02 e CPC 48)",
         "p": [
           "Direitos e obrigações em moeda estrangeira (duplicatas, empréstimos) são ativos e passivos monetários: são convertidos pela cotação de fechamento em cada balanço, e a diferença vai ao resultado do período como variação cambial.",
-          "Exemplo: dívida de US$ 10.000 registrada a R$ 5,00 (R$ 50.000). Com a cotação de fechamento a R$ 5,30, o passivo passa a R$ 53.000 e reconhece-se despesa cambial de R$ 3.000. A valorização da moeda estrangeira encarece dívidas (despesa) e aumenta direitos a receber (ganho)."
-        ]
-      },
-      {
-        "h": "Instrumentos financeiros: categorias de mensuração (CPC 48)",
-        "p": [
+          "Exemplo: dívida de US$ 10.000 registrada a R$ 5,00 (R$ 50.000). Com a cotação de fechamento a R$ 5,30, o passivo passa a R$ 53.000 e reconhece-se despesa cambial de R$ 3.000. A valorização da moeda estrangeira encarece dívidas (despesa) e aumenta direitos a receber (ganho).",
           "Aplicações em ações e títulos são instrumentos financeiros. A categoria de mensuração depende do objetivo do negócio:"
         ],
         "list": [
@@ -591,8 +591,11 @@
         "h": "Métodos de custeio",
         "p": [
           "O CPC 16 admite PEPS (primeiro a entrar, primeiro a sair) e custo médio ponderado, e veda o UEPS.",
-          "Exemplo: saldo inicial de 100 un. a R$ 10 (R$ 1.000) e compra de 100 un. a R$ 12 (R$ 1.200). Venda de 150 un.",
-          "PEPS: CMV = 100 × 10 + 50 × 12 = R$ 1.600; estoque final = 50 × 12 = R$ 600. Média ponderada: custo médio = 2.200 ÷ 200 = R$ 11; CMV = 150 × 11 = R$ 1.650; estoque final = 50 × 11 = R$ 550."
+          "Exemplo: saldo inicial de 100 un. a R$ 10 (R$ 1.000) e compra de 100 un. a R$ 12 (R$ 1.200). Venda de 150 un."
+        ],
+        "list": [
+          "PEPS: CMV = 100 × 10 + 50 × 12 = R$ 1.600; estoque final = 50 × 12 = R$ 600",
+          "Média ponderada: custo médio = 2.200 ÷ 200 = R$ 11; CMV = 150 × 11 = R$ 1.650; estoque final = 50 × 11 = R$ 550"
         ]
       },
       {
@@ -605,7 +608,8 @@
       {
         "h": "Ativos biológicos (CPC 29)",
         "p": [
-          "Ativo biológico é animal ou planta vivos. É mensurado ao valor justo menos despesas de venda no reconhecimento e ao final de cada período; a variação vai ao resultado. Exemplo: rebanho com valor justo de R$ 500.000 e despesas de venda de R$ 20.000 vale R$ 480.000; se o valor justo subir para R$ 550.000 (mantidas as despesas de venda), o valor líquido passa a R$ 530.000 e o ganho é R$ 50.000.",
+          "Ativo biológico é animal ou planta vivos. É mensurado ao valor justo menos despesas de venda no reconhecimento e ao final de cada período; a variação vai ao resultado.",
+          "Exemplo: rebanho com valor justo de R$ 500.000 e despesas de venda de R$ 20.000 vale R$ 480.000; se o valor justo subir para R$ 550.000 (mantidas as despesas de venda), o valor líquido passa a R$ 530.000 e o ganho é R$ 50.000.",
           "O produto agrícola colhido é medido ao valor justo menos despesas de venda no ponto de colheita e, depois, tratado como estoque (CPC 16). Plantas portadoras (como cafeeiros e laranjeiras em produção) não são ativos biológicos: são imobilizado (CPC 27); apenas os frutos em desenvolvimento seguem o CPC 29."
         ]
       },
@@ -613,8 +617,11 @@
         "h": "Ficha de estoques passo a passo",
         "p": [
           "A ficha de estoques registra entradas, saídas e saldo em quantidade e valor. Exemplo completo: saldo inicial de 100 unidades a R$ 12 (R$ 1.200); compra de 200 unidades a R$ 15 (R$ 3.000); venda de 250 unidades.",
-          "Pelo PEPS, saem primeiro as 100 unidades a R$ 12 e depois 150 unidades a R$ 15: CMV = 1.200 + 2.250 = R$ 3.450, e o estoque final fica em 50 unidades a R$ 15 = R$ 750.",
-          "Pela média ponderada, o custo médio após a compra é (1.200 + 3.000) ÷ 300 = R$ 14. CMV = 250 × 14 = R$ 3.500 e estoque final = 50 × 14 = R$ 700. Em preços crescentes, o PEPS apura CMV menor e estoque final maior que a média."
+          "Em preços crescentes, o PEPS apura CMV menor e estoque final maior que a média."
+        ],
+        "list": [
+          "PEPS: saem primeiro as 100 unidades a R$ 12 e depois 150 unidades a R$ 15 — CMV = 1.200 + 2.250 = R$ 3.450; estoque final = 50 × 15 = R$ 750",
+          "Média ponderada: custo médio = (1.200 + 3.000) ÷ 300 = R$ 14 — CMV = 250 × 14 = R$ 3.500; estoque final = 50 × 14 = R$ 700"
         ]
       }
     ],
@@ -624,7 +631,7 @@
       "Comparar custo com preço de venda bruto, sem deduzir as despesas de venda.",
       "Registrar mercadoria em consignação no estoque do consignatário."
     ],
-    "refs": ["CPC 16 (R1) – Estoques", "CPC 29 – Ativo Biológico e Produto Agrícola"]
+    "refs": ["CPC 16 (R1)", "CPC 29"]
   },
   "13": {
     "objectives": [
@@ -672,7 +679,7 @@
       "Capitalizar manutenção rotineira como se fosse substituição de parte.",
       "Usar o menor valor, e não o maior, para obter o valor recuperável."
     ],
-    "refs": ["CPC 27 – Ativo Imobilizado", "CPC 01 (R1) – Redução ao Valor Recuperável de Ativos", "CPC 23"]
+    "refs": ["CPC 27", "CPC 01 (R1)", "CPC 23"]
   },
   "14": {
     "objectives": [
@@ -724,7 +731,7 @@
       "Reconhecer marca ou goodwill gerados internamente.",
       "Esquecer que o teste de recuperabilidade do intangível de vida indefinida é anual."
     ],
-    "refs": ["CPC 04 (R1) – Ativo Intangível", "CPC 15 (R1) – Combinação de Negócios", "CPC 01 (R1)"]
+    "refs": ["CPC 04 (R1)", "CPC 15 (R1)", "CPC 01 (R1)"]
   },
   "15": {
     "objectives": [

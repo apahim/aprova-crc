@@ -71,13 +71,15 @@
       {
         "h": "Tributos sobre vendas como dedução",
         "p": [
-          "ICMS, PIS, COFINS e ISS incidem sobre a venda e são deduções da receita bruta na DRE, por isso a receita líquida é menor que o valor faturado. O débito é na dedução e o crédito é em obrigação tributária no passivo circulante. O IPI é tratado de forma diferente: ele é cobrado do comprador por fora e, em regra, não compõe a receita da empresa."
+          "ICMS, PIS, COFINS e ISS incidem sobre a venda e são deduções da receita bruta na DRE, por isso a receita líquida é menor que o valor faturado.",
+          "O débito é na dedução e o crédito é em obrigação tributária no passivo circulante. O IPI é tratado de forma diferente: ele é cobrado do comprador por fora e, em regra, não compõe a receita da empresa."
         ]
       },
       {
         "h": "ICMS e não cumulatividade",
         "p": [
-          "O ICMS é não cumulativo: o imposto destacado nas compras gera crédito, e o destacado nas vendas gera débito. Paga-se a diferença. Exemplo: compra de mercadorias por R$ 10.000 com ICMS de 18% (R$ 1.800 de crédito, estoque de R$ 8.200) e venda por R$ 20.000 com ICMS de 18% (R$ 3.600 de débito). O ICMS a recolher é R$ 3.600 − R$ 1.800 = R$ 1.800."
+          "O ICMS é não cumulativo: o imposto destacado nas compras gera crédito, e o destacado nas vendas gera débito. Paga-se a diferença.",
+          "Exemplo: compra de mercadorias por R$ 10.000 com ICMS de 18% (R$ 1.800 de crédito, estoque de R$ 8.200) e venda por R$ 20.000 com ICMS de 18% (R$ 3.600 de débito). O ICMS a recolher é R$ 3.600 − R$ 1.800 = R$ 1.800."
         ],
         "formula": "ICMS a recolher = ICMS sobre vendas − ICMS recuperável das compras"
       },
@@ -170,13 +172,25 @@
       {
         "h": "IRPJ e CSLL no lucro real",
         "p": [
-          "No lucro real, parte-se do lucro contábil e fazem-se adições (despesas indedutíveis) e exclusões, chegando ao lucro tributável. A alíquota do IRPJ é de 15%, mais adicional de 10% sobre a parcela do lucro que excede R$ 20.000 por mês (R$ 240.000 por ano). A CSLL tem, em geral, alíquota de 9%. A soma de 25% de IRPJ com 9% de CSLL é 34%, usada nos exemplos de tributos diferidos."
+          "No lucro real, parte-se do lucro contábil e fazem-se adições (despesas indedutíveis) e exclusões, chegando ao lucro tributável.",
+          "A alíquota do IRPJ é de 15%, mais adicional de 10% sobre a parcela do lucro que excede R$ 20.000 por mês (R$ 240.000 por ano). A CSLL tem, em geral, alíquota de 9%. A soma de 25% de IRPJ com 9% de CSLL é 34%, usada nos exemplos de tributos diferidos."
         ]
       },
       {
         "h": "Lucro presumido",
         "p": [
-          "No lucro presumido, a base é um percentual da receita bruta definido em lei conforme a atividade (por exemplo, 8% para comércio no IRPJ e 32% para serviços). Exemplo trimestral de comércio com receita de R$ 1.000.000: base do IRPJ = R$ 80.000; IRPJ de 15% = R$ 12.000; adicional = (80.000 − 60.000) × 10% = R$ 2.000; total de R$ 14.000. Na CSLL, com presunção de 12%, a base é R$ 120.000 e o valor, a 9%, é R$ 10.800. Desde 2026, a LC 224/2025 acresce 10% a esses percentuais de presunção na parcela da receita bruta anual que exceder R$ 5 milhões (R$ 1,25 milhão por trimestre): por exemplo, 8% passa a 8,8% e 32% a 35,2%. O acréscimo alcança o IRPJ a partir do 1º trimestre de 2026 e, por sujeitar-se à anterioridade nonagesimal, a CSLL apenas a partir do 2º trimestre de 2026 — quando o limite anual de receita que dispara o acréscimo fica proporcionalizado em R$ 3,75 milhões (3 trimestres × R$ 1,25 milhão)."
+          "No lucro presumido, a base é um percentual da receita bruta definido em lei conforme a atividade: por exemplo, 8% para comércio no IRPJ e 32% para serviços. Na CSLL, a presunção usual é de 12%.",
+          "Exemplo trimestral de comércio com receita de R$ 1.000.000:",
+          "Desde 2026, a LC 224/2025 acresce 10% a esses percentuais de presunção na parcela da receita bruta anual que exceder R$ 5 milhões (R$ 1,25 milhão por trimestre): por exemplo, 8% passa a 8,8% e 32% a 35,2%.",
+          "O acréscimo alcança o IRPJ a partir do 1º trimestre de 2026 e, por sujeitar-se à anterioridade nonagesimal, a CSLL apenas a partir do 2º trimestre de 2026 — quando o limite anual de receita que dispara o acréscimo fica proporcionalizado em R$ 3,75 milhões (3 trimestres × R$ 1,25 milhão)."
+        ],
+        "formula": "Base presumida = % de presunção × receita bruta da atividade",
+        "list": [
+          "Base do IRPJ: 8% × 1.000.000 = R$ 80.000",
+          "IRPJ de 15%: R$ 12.000",
+          "Adicional: (80.000 − 60.000) × 10% = R$ 2.000",
+          "IRPJ total: R$ 14.000",
+          "CSLL: base de 12% = R$ 120.000; a 9%, R$ 10.800"
         ]
       },
       {
@@ -214,7 +228,8 @@
       {
         "h": "Como aplicar",
         "p": [
-          "O mini-simulado tem 12 questões: três de operações com mercadorias e custo de aquisição (sessão 16), quatro de tributos sobre vendas, ICMS, PIS e COFINS (sessão 17), três de folha de pagamento e encargos (sessão 18) e duas de IRPJ, CSLL e tributos diferidos (sessão 19). Resolva em ambiente silencioso, sem consulta a materiais, anotações, internet ou calculadora externa, usando apenas papel para rascunho."
+          "O mini-simulado tem 12 questões: três de operações com mercadorias e custo de aquisição (sessão 16), quatro de tributos sobre vendas, ICMS, PIS e COFINS (sessão 17), três de folha de pagamento e encargos (sessão 18) e duas de IRPJ, CSLL e tributos diferidos (sessão 19).",
+          "Resolva em ambiente silencioso, sem consulta a materiais, anotações, internet ou calculadora externa, usando apenas papel para rascunho."
         ],
         "list": [
           "Tempo máximo de 55 minutos, cronometrado do início ao fim.",
@@ -266,7 +281,8 @@
       {
         "h": "Estrutura e equação fundamental",
         "p": [
-          "O Balanço Patrimonial é a demonstração da posição patrimonial e financeira em uma data. O ativo (bens e direitos) é financiado por capital de terceiros (passivo) e capital próprio (patrimônio líquido). No exemplo, ativo circulante de R$ 120.000 mais não circulante de R$ 280.000 somam R$ 400.000, igual a passivo circulante de R$ 90.000, não circulante de R$ 110.000 e PL de R$ 200.000."
+          "O Balanço Patrimonial é a demonstração da posição patrimonial e financeira em uma data. O ativo (bens e direitos) é financiado por capital de terceiros (passivo) e capital próprio (patrimônio líquido).",
+          "No exemplo, ativo circulante de R$ 120.000 mais não circulante de R$ 280.000 somam R$ 400.000, igual a passivo circulante de R$ 90.000, não circulante de R$ 110.000 e PL de R$ 200.000."
         ],
         "formula": "Ativo = Passivo + Patrimônio Líquido"
       },
@@ -277,13 +293,15 @@
           "Passivo: circulante e não circulante.",
           "Patrimônio líquido: capital social, reservas de capital, ajustes de avaliação patrimonial, reservas de lucros, ações em tesouraria e prejuízos acumulados.",
           "O ativo é ordenado por grau decrescente de liquidez, e o passivo por grau decrescente de exigibilidade.",
-          "O grupo Ativo Diferido foi extinto: o inciso V do art. 179 da Lei 6.404/76 foi revogado pela Lei 11.941/2009; o saldo existente em 31/12/2008 que não pudesse ser alocado a outro grupo de contas pôde permanecer no ativo até a completa amortização, sujeito ao teste de recuperação do art. 183, § 3º (art. 299-A)."
+          "O grupo Ativo Diferido foi extinto: o inciso V do art. 179 da Lei 6.404/76 foi revogado pela Lei 11.941/2009",
+          "O saldo existente em 31/12/2008 que não pudesse ser alocado a outro grupo pôde permanecer no ativo até a completa amortização, sujeito ao teste de recuperação do art. 183, § 3º (art. 299-A)"
         ]
       },
       {
         "h": "Circulante versus não circulante",
         "p": [
-          "São circulantes os ativos que se realizam, e os passivos que se vencem, no exercício social seguinte, ou seja, em até 12 meses após a data do balanço. Quando o ciclo operacional da empresa for superior a 12 meses, ele substitui esse prazo. O ciclo operacional vai da aquisição do insumo até o recebimento da venda; é comum em construção civil, estaleiros e vinícolas.",
+          "São circulantes os ativos que se realizam, e os passivos que se vencem, no exercício social seguinte, ou seja, em até 12 meses após a data do balanço. Quando o ciclo operacional da empresa for superior a 12 meses, ele substitui esse prazo.",
+          "O ciclo operacional vai da aquisição do insumo até o recebimento da venda; é comum em construção civil, estaleiros e vinícolas.",
           "Uma dívida de longo prazo cuja parcela vence no ano seguinte tem essa parcela reclassificada para o passivo circulante."
         ]
       },
@@ -320,26 +338,51 @@
       {
         "h": "Estrutura da DRE",
         "p": [
-          "A DRE apresenta o desempenho da entidade no período, pelo regime de competência. Começa na receita bruta, deduz devoluções, abatimentos e tributos sobre vendas, e chega à receita líquida. Subtraído o CMV, CPV ou CSP, tem-se o lucro bruto. Seguem as despesas operacionais (vendas, gerais e administrativas, outras receitas e despesas), o resultado financeiro, o resultado antes dos tributos, o IRPJ e a CSLL, e o lucro líquido."
+          "A DRE apresenta o desempenho da entidade no período, pelo regime de competência. A sequência legal é:"
+        ],
+        "list": [
+          "Receita bruta",
+          "(−) Deduções: devoluções, abatimentos e tributos sobre vendas",
+          "= Receita líquida",
+          "(−) CMV, CPV ou CSP",
+          "= Lucro bruto",
+          "(−) Despesas operacionais: vendas, gerais e administrativas, e outras receitas e despesas",
+          "(−) Resultado financeiro",
+          "= Resultado antes dos tributos",
+          "(−) IRPJ e CSLL",
+          "= Lucro líquido"
         ]
       },
       {
         "h": "Exemplo numérico",
         "p": [
-          "Receita bruta de R$ 500.000, menos deduções de R$ 90.000, resulta em receita líquida de R$ 410.000. Com CMV de R$ 220.000, o lucro bruto é R$ 190.000. Despesas de vendas de R$ 40.000 e administrativas de R$ 30.000 levam a R$ 120.000. O resultado financeiro líquido de −R$ 10.000 leva o resultado antes dos tributos a R$ 110.000. Com IRPJ e CSLL de 34% (R$ 37.400), o lucro líquido é R$ 72.600."
+          "Exemplo:"
         ],
-        "formula": "Lucro líquido = Resultado antes dos tributos − IRPJ e CSLL"
+        "formula": "Lucro líquido = Resultado antes dos tributos − IRPJ e CSLL",
+        "list": [
+          "Receita bruta de R$ 500.000, menos deduções de R$ 90.000: receita líquida de R$ 410.000",
+          "CMV de R$ 220.000: lucro bruto de R$ 190.000",
+          "Despesas de vendas de R$ 40.000 e administrativas de R$ 30.000: R$ 120.000",
+          "Resultado financeiro líquido de −R$ 10.000: resultado antes dos tributos de R$ 110.000",
+          "IRPJ e CSLL de 34% (R$ 37.400): lucro líquido de R$ 72.600"
+        ]
       },
       {
         "h": "Despesas por natureza e por função",
         "p": [
-          "Na classificação por função, as despesas são agrupadas pela atividade a que servem (custo das vendas, vendas, administração); é a forma usual das companhias brasileiras. Na classificação por natureza, agrupam-se por tipo (salários, depreciação, matéria-prima consumida). O CPC 26 permite ambas e, se a função for usada, exige divulgação adicional da natureza, ao menos de depreciação e de benefícios a empregados."
+          "O CPC 26 permite classificar as despesas de duas formas:",
+          "Se a função for usada, o CPC 26 exige divulgação adicional da natureza, ao menos de depreciação e de benefícios a empregados."
+        ],
+        "list": [
+          "Por função: despesas agrupadas pela atividade a que servem (custo das vendas, vendas, administração); é a forma usual das companhias brasileiras",
+          "Por natureza: despesas agrupadas por tipo (salários, depreciação, matéria-prima consumida)"
         ]
       },
       {
         "h": "Resultado abrangente",
         "p": [
-          "O resultado abrangente é o lucro líquido somado aos outros resultados abrangentes (ORA), que são variações do patrimônio líquido que não passam pelo resultado. Exemplos: ajustes de conversão de investidas no exterior, ganhos e perdas de instrumentos financeiros mensurados ao valor justo por ORA e remensurações de planos de benefício definido. Com ORA de R$ 5.000, o resultado abrangente do exemplo seria R$ 72.600 + R$ 5.000 = R$ 77.600."
+          "O resultado abrangente é o lucro líquido somado aos outros resultados abrangentes (ORA), que são variações do patrimônio líquido que não passam pelo resultado.",
+          "Exemplos de ORA: ajustes de conversão de investidas no exterior, ganhos e perdas de instrumentos financeiros mensurados ao valor justo por ORA e remensurações de planos de benefício definido. Com ORA de R$ 5.000, o resultado abrangente do exemplo seria R$ 72.600 + R$ 5.000 = R$ 77.600."
         ],
         "formula": "Resultado abrangente = Lucro líquido + ORA"
       }
@@ -364,7 +407,8 @@
       {
         "h": "Objetivo e natureza",
         "p": [
-          "A DLPA (Demonstração de Lucros ou Prejuízos Acumulados) mostra apenas a movimentação da conta Lucros ou Prejuízos Acumulados: saldo inicial, ajustes de exercícios anteriores, reversões de reservas, lucro líquido do período e as destinações. A DMPL (Demonstração das Mutações do Patrimônio Líquido) é mais ampla: mostra a variação de todas as contas do PL e a evolução de cada uma, inclusive as de ORA."
+          "A DLPA (Demonstração de Lucros ou Prejuízos Acumulados) mostra apenas a movimentação da conta Lucros ou Prejuízos Acumulados: saldo inicial, ajustes de exercícios anteriores, reversões de reservas, lucro líquido do período e as destinações.",
+          "A DMPL (Demonstração das Mutações do Patrimônio Líquido) é mais ampla: mostra a variação de todas as contas do PL e a evolução de cada uma, inclusive as de ORA."
         ]
       },
       {
@@ -383,14 +427,22 @@
       {
         "h": "Exemplo de destinação do lucro",
         "p": [
-          "Lucro líquido de R$ 100.000. A reserva legal é de 5% do lucro líquido (R$ 5.000), até o limite de 20% do capital social. Pelo estatuto do exemplo, o dividendo obrigatório é de 25% do lucro líquido ajustado, de R$ 100.000 − R$ 5.000 = R$ 95.000, ou seja, R$ 23.750. O saldo, R$ 100.000 − R$ 5.000 − R$ 23.750 = R$ 71.250, é retido em reserva de lucros. Essas movimentações aparecem na DLPA e na DMPL."
+          "Lucro líquido de R$ 100.000. A reserva legal é de 5% do lucro líquido (R$ 5.000), até o limite de 20% do capital social. Pelo estatuto do exemplo, o dividendo obrigatório é de 25% do lucro líquido ajustado:",
+          "Essas movimentações aparecem na DLPA e na DMPL."
         ],
-        "formula": "Dividendo = % do estatuto × (Lucro líquido − Reserva legal)"
+        "formula": "Dividendo = % do estatuto × (Lucro líquido − Reserva legal)",
+        "list": [
+          "Lucro líquido ajustado: R$ 100.000 − R$ 5.000 = R$ 95.000",
+          "Dividendo obrigatório: 25% × 95.000 = R$ 23.750",
+          "Saldo retido em reserva de lucros: R$ 100.000 − R$ 5.000 − R$ 23.750 = R$ 71.250"
+        ]
       },
       {
         "h": "Quando usar cada uma",
         "p": [
-          "A DMPL é exigida para as companhias abertas e é a demonstração usual das demais sociedades que seguem o CPC; a DLPA pode ser incluída na DMPL, que a substitui quando apresentada. Nas sociedades por ações, a Lei exige que o lucro seja totalmente destinado, sem manter saldo de lucros acumulados no balanço do fim do exercício. Outras entidades, como sociedades limitadas, podem manter saldo. A destinação total admite exceções legais: a retenção de parte do lucro para investimento previsto no orçamento de capital por mais de um exercício social (art. 196) e a suspensão do dividendo obrigatório em razão de situação financeira difícil, por deliberação da assembleia-geral (art. 191)."
+          "A DMPL é exigida para as companhias abertas e é a demonstração usual das demais sociedades que seguem o CPC; a DLPA pode ser incluída na DMPL, que a substitui quando apresentada.",
+          "Nas sociedades por ações, a Lei exige que o lucro seja totalmente destinado, sem manter saldo de lucros acumulados no balanço do fim do exercício. Outras entidades, como sociedades limitadas, podem manter saldo.",
+          "A destinação total admite exceções legais: a retenção de parte do lucro para investimento previsto no orçamento de capital por mais de um exercício social (art. 196) e a suspensão do dividendo obrigatório em razão de situação financeira difícil, por deliberação da assembleia-geral (art. 191)."
         ]
       }
     ],
@@ -588,7 +640,8 @@
       {
         "h": "Passivo e ativo contingentes",
         "p": [
-          "Passivo contingente é uma obrigação possível, dependente de evento futuro incerto, ou uma obrigação presente que não satisfaz os critérios (saída improvável ou sem estimativa confiável). Não é reconhecido no balanço. Ativo contingente é um possível ativo, dependente de evento incerto, e também não é reconhecido. Quando o ganho é praticamente certo, o ativo deixa de ser contingente e é reconhecido."
+          "Passivo contingente é uma obrigação possível, dependente de evento futuro incerto, ou uma obrigação presente que não satisfaz os critérios (saída improvável ou sem estimativa confiável). Não é reconhecido no balanço.",
+          "Ativo contingente é um possível ativo, dependente de evento incerto, e também não é reconhecido. Quando o ganho é praticamente certo, o ativo deixa de ser contingente e é reconhecido."
         ]
       },
       {
@@ -641,7 +694,13 @@
       {
         "h": "Ao longo do tempo ou em um ponto no tempo",
         "p": [
-          "A receita é reconhecida ao longo do tempo se um dos critérios for atendido: o cliente recebe e consome os benefícios simultaneamente; o desempenho cria ou melhora um ativo controlado pelo cliente; ou o ativo não tem uso alternativo para a entidade e há direito executável ao pagamento pelo que foi feito. Caso contrário, é em um ponto no tempo, quando o controle é transferido (por exemplo, na entrega de mercadorias)."
+          "A receita é reconhecida ao longo do tempo se um dos critérios for atendido:",
+          "Caso contrário, é em um ponto no tempo, quando o controle é transferido (por exemplo, na entrega de mercadorias)."
+        ],
+        "list": [
+          "O cliente recebe e consome os benefícios simultaneamente",
+          "O desempenho cria ou melhora um ativo controlado pelo cliente",
+          "O ativo não tem uso alternativo para a entidade e há direito executável ao pagamento pelo que foi feito"
         ]
       },
       {
@@ -686,8 +745,10 @@
         "h": "Exemplo numérico",
         "p": [
           "Contrato de 3 anos, com pagamentos de R$ 10.000 ao fim de cada ano, taxa de 10% ao ano. Valor presente = 10.000/1,1 + 10.000/1,21 + 10.000/1,331 = 9.090,91 + 8.264,46 + 7.513,15 = R$ 24.868,52. Lançamento inicial: D Ativo de direito de uso e C Passivo de arrendamento, ambos de R$ 24.868,52.",
-          "No ano 1, os juros são 10% × 24.868,52 = R$ 2.486,85. Dos R$ 10.000 pagos, R$ 7.513,15 amortizam o principal, e o saldo cai para R$ 17.355,37. No ano 2, os juros são R$ 1.735,54, a amortização é R$ 8.264,46 e o saldo é R$ 9.090,91. No ano 3, os juros são R$ 909,09 e a amortização é R$ 9.090,91, zerando o passivo. O direito de uso é depreciado, em linha reta, em 24.868,52 ÷ 3 = cerca de R$ 8.289,51 ao ano."
-        ]
+          "No ano 1, os juros são 10% × 24.868,52 = R$ 2.486,85. Dos R$ 10.000 pagos, R$ 7.513,15 amortizam o principal, e o saldo cai para R$ 17.355,37.",
+          "Os anos seguintes seguem a mesma mecânica — juros sobre o saldo de abertura — e a evolução completa está no cronograma da última seção."
+        ],
+        "formula": "Passivo de arrendamento = Σ pagamentos ÷ (1 + taxa)ⁿ"
       },
       {
         "h": "Efeito no resultado",
@@ -737,14 +798,18 @@
       {
         "h": "Influência significativa e controle",
         "p": [
-          "Influência significativa é o poder de participar das decisões financeiras e operacionais da investida, sem controlá-las. Presume-se a partir de 20% do poder de voto, salvo prova em contrário. A investida é coligada e é avaliada pelo método da equivalência patrimonial (CPC 18). Quando há controle (CPC 36), a investida é controlada e suas demonstrações são consolidadas. Em um acordo conjunto aplica-se o CPC 19: na operação em conjunto, cada parte reconhece seus próprios ativos, passivos, receitas e despesas; no empreendimento controlado em conjunto (joint venture), usa-se a equivalência patrimonial (CPC 18)."
+          "Influência significativa é o poder de participar das decisões financeiras e operacionais da investida, sem controlá-las. Presume-se a partir de 20% do poder de voto, salvo prova em contrário. A investida é coligada e é avaliada pelo método da equivalência patrimonial (CPC 18).",
+          "Quando há controle (CPC 36), a investida é controlada e suas demonstrações são consolidadas.",
+          "Em um acordo conjunto aplica-se o CPC 19: na operação em conjunto, cada parte reconhece seus próprios ativos, passivos, receitas e despesas; no empreendimento controlado em conjunto (joint venture), usa-se a equivalência patrimonial (CPC 18)."
         ]
       },
       {
         "h": "Método da equivalência patrimonial",
         "p": [
           "O investimento inicia ao custo e é ajustado pela participação do investidor nas variações do patrimônio líquido da investida. O lucro aumenta o investimento e o resultado, o prejuízo os reduz, e os dividendos recebidos reduzem o investimento, pois são devolução do capital já reconhecido.",
-          "Exemplo: a investida tem PL de R$ 1.000.000. A empresa adquire 30% por R$ 300.000 (igual ao valor patrimonial proporcional). A investida lucra R$ 200.000 e o investidor reconhece 30% × 200.000 = R$ 60.000 (D Investimentos, C Resultado de equivalência). A investida distribui R$ 50.000 de dividendos, e o investidor recebe R$ 15.000 (D Caixa, C Investimentos). Saldo final: 300.000 + 60.000 − 15.000 = R$ 345.000, que confere com 30% × (1.000.000 + 200.000 − 50.000) = 30% × 1.150.000."
+          "Exemplo: a investida tem PL de R$ 1.000.000. A empresa adquire 30% por R$ 300.000 (igual ao valor patrimonial proporcional).",
+          "A investida lucra R$ 200.000 e o investidor reconhece 30% × 200.000 = R$ 60.000 (D Investimentos, C Resultado de equivalência). A investida distribui R$ 50.000 de dividendos, e o investidor recebe R$ 15.000 (D Caixa, C Investimentos).",
+          "Saldo final: 300.000 + 60.000 − 15.000 = R$ 345.000, que confere com 30% × (1.000.000 + 200.000 − 50.000) = 30% × 1.150.000."
         ],
         "formula": "Equivalência = % de participação × Lucro (ou prejuízo) da investida"
       },
@@ -757,7 +822,9 @@
       {
         "h": "Goodwill",
         "p": [
-          "O goodwill é o excedente da contraprestação transferida (mais a participação dos não controladores) sobre o valor justo dos ativos líquidos identificáveis. Exemplo: pagamento de R$ 900.000 por 100% de empresa cujos ativos líquidos identificáveis valem R$ 750.000 dá goodwill de R$ 150.000. Se o preço fosse menor que o valor justo, haveria ganho por compra vantajosa no resultado. O goodwill não é amortizado e passa por teste de redução ao valor recuperável (CPC 01 (R1)) ao menos uma vez por ano."
+          "O goodwill é o excedente da contraprestação transferida (mais a participação dos não controladores) sobre o valor justo dos ativos líquidos identificáveis.",
+          "Exemplo: pagamento de R$ 900.000 por 100% de empresa cujos ativos líquidos identificáveis valem R$ 750.000 dá goodwill de R$ 150.000. Se o preço fosse menor que o valor justo, haveria ganho por compra vantajosa no resultado.",
+          "O goodwill não é amortizado e passa por teste de redução ao valor recuperável (CPC 01 (R1)) ao menos uma vez por ano."
         ],
         "formula": "Goodwill = Contraprestação + Não controladores − Valor justo dos ativos líquidos identificáveis"
       },

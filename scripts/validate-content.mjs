@@ -88,6 +88,12 @@ for (const f of quizChunks) {
 // --- Lições (lessons-*.json, dinâmico) ---
 const lessonChunks = contentFiles.filter(f => f.startsWith('lessons-'));
 const lessonIds = new Set();
+const fmtWarn = (id, msg) => warnings.push(`formatação s${id}: ${msg} (rubrica fase 8 — docs/avaliacoes/fase-8-formatacao-visual.md)`);
+const extBandOf = id => {
+  const s = curriculum.find(x => x.id === Number(id));
+  if (s?.kind === 'aula' || (s?.kind === 'simulado' && String(s.title ?? '').startsWith('Mini-simulado'))) return [180, 550];
+  return [90, 270]; // roteiros: revisões e simulados
+};
 for (const f of lessonChunks) {
   const o = read(`src/content/${f}`);
   for (const [id, l] of Object.entries(o)) {
@@ -96,9 +102,27 @@ for (const f of lessonChunks) {
     if (!Array.isArray(l?.objectives) || !l.objectives.length) errors.push(`${f}[${id}]: sem objectives`);
     if (!Array.isArray(l?.sections) || !l.sections.length) errors.push(`${f}[${id}]: sem sections`);
     if (!Array.isArray(l?.pitfalls) || !l.pitfalls.length) errors.push(`${f}[${id}]: sem pitfalls`);
-    for (const [i, sec] of (l.sections ?? []).entries()) {
-      if (!sec.h) errors.push(`${f}[${id}].sections[${i}]: sem título (h)`);
+    // rubrica de formatação (fase 8) — avisos não-bloqueantes
+    const words = s => String(s ?? '').split(/\s+/).filter(Boolean).length;
+    const paras = [], items = [];
+    let formulas = 0, numericN = 0;
+    for (const sec of l.sections ?? []) {
+      if (!sec.h) errors.push(`${f}[${id}].sections: seção sem título (h)`);
+      if (sec.formula) formulas++;
+      for (const p of sec.p ?? []) { paras.push(p); if (/(R\$|\d\s*[×x]\s*\d|\d+%|=\s*\d|= ?R\$)/.test(p)) numericN++; }
+      for (const li of sec.list ?? []) { items.push(li); if (/(R\$|\d\s*[×x]\s*\d|\d+%|=\s*\d|= ?R\$)/.test(li)) numericN++; }
     }
+    const secN = (l.sections ?? []).length;
+    const w = paras.map(words);
+    const longest = w.length ? Math.max(...w) : 0;
+    const pct60 = w.length ? Math.round(100 * w.filter(x => x <= 60).length / w.length) : 100;
+    if (longest > 120) fmtWarn(id, `parágrafo de ${longest} palavras (muri)`);
+    if (w.length && pct60 < 80) fmtWarn(id, `só ${pct60}% dos parágrafos ≤60 palavras`);
+    if (numericN >= 4 && !formulas) fmtWarn(id, `lição de cálculo sem bloco formula`);
+    if (secN < 3 || secN > 6) fmtWarn(id, `${secN} seções (rubrica: 3–6)`);
+    const bodyWords = paras.concat(items).reduce((a, s) => a + words(s), 0);
+    const [lo, hi] = extBandOf(id);
+    if (bodyWords < lo || bodyWords > hi) fmtWarn(id, `${bodyWords} palavras (banda ${lo}–${hi})`);
   }
 }
 
