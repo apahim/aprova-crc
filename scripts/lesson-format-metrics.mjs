@@ -28,7 +28,7 @@ const isComparative = s => /(×| x |versus|diferenç|compara)/i.test(s);
 const rows = [];
 for (const id of [...lessons.keys()].sort((a, b) => a - b)) {
   const l = lessons.get(id);
-  const paras = [], items = [];
+  const paras = [], items = [], cells = [];
   let formulas = 0, numericN = 0, compHits = 0, secN = 0;
   for (const sec of l.sections ?? []) {
     secN++;
@@ -36,8 +36,10 @@ for (const id of [...lessons.keys()].sort((a, b) => a - b)) {
     if (sec.formula) { formulas++; if (isComparative(sec.formula)) compHits++; }
     for (const p of sec.p ?? []) { paras.push(p); if (isNumeric(p)) numericN++; if (isComparative(p)) compHits++; }
     for (const li of sec.list ?? []) { items.push(li); if (isNumeric(li)) numericN++; if (isComparative(li)) compHits++; }
+    // células de tabela contam para a extensão do corpo, não para densidade/heurísticas (tabela já é o formato escaneável)
+    if (sec.table) { cells.push(...sec.table.head, ...sec.table.rows.flat()); }
   }
-  const bodyWords = paras.concat(items).reduce((a, s) => a + words(s), 0);
+  const bodyWords = paras.concat(items, cells).reduce((a, s) => a + words(s), 0);
   const w = paras.map(words);
   const longest = w.length ? Math.max(...w) : 0;
   const pct60 = w.length ? Math.round(100 * w.filter(x => x <= 60).length / w.length) : 100;

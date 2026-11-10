@@ -111,6 +111,20 @@ for (const f of lessonChunks) {
       if (sec.formula) formulas++;
       for (const p of sec.p ?? []) { paras.push(p); if (/(R\$|\d\s*[×x]\s*\d|\d+%|=\s*\d|= ?R\$)/.test(p)) numericN++; }
       for (const li of sec.list ?? []) { items.push(li); if (/(R\$|\d\s*[×x]\s*\d|\d+%|=\s*\d|= ?R\$)/.test(li)) numericN++; }
+      if (sec.table) {
+        const t = sec.table;
+        if (!Array.isArray(t.head) || !t.head.length || t.head.some(x => typeof x !== 'string' || !x.trim())) {
+          errors.push(`${f}[${id}].sections.table: head inválida (strings não vazias)`);
+        } else if (!Array.isArray(t.rows) || !t.rows.length) {
+          errors.push(`${f}[${id}].sections.table: sem rows`);
+        } else {
+          t.rows.forEach((r, j) => {
+            if (!Array.isArray(r) || r.length !== t.head.length || r.some(c => typeof c !== 'string' || !c.trim())) {
+              errors.push(`${f}[${id}].sections.table.rows[${j}]: ${Array.isArray(r) ? r.length : '≈'} células (esperado ${t.head.length})`);
+            }
+          });
+        }
+      }
     }
     const secN = (l.sections ?? []).length;
     const w = paras.map(words);

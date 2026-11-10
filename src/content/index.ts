@@ -2,7 +2,8 @@ import curriculum from '../curriculum.json';
 
 export type Session=(typeof curriculum)[number];
 export type Question={stem:string;options:string[];correct:number;explanation:string;area?:string};
-export type LessonSection={h:string;p?:string[];list?:string[];formula?:string};
+export type LessonTable={head:string[];rows:string[][]};
+export type LessonSection={h:string;p?:string[];list?:string[];formula?:string;table?:LessonTable};
 export type Lesson={objectives?:string[];sections?:LessonSection[];pitfalls?:string[];refs?:string[]};
 export type Item={id:string;q:Question;src?:string};
 

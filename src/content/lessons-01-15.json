@@ -335,11 +335,35 @@
           "Em 2025, uma empresa: (a) vendeu serviços de R$ 30.000 em dezembro, a receber em fevereiro de 2026; (b) pagou em 01/10 um seguro de R$ 12.000 para 12 meses; (c) incorreu em salários de dezembro de R$ 8.000, pagos em janeiro.",
           "Os saldos de fim de período seguem a competência: seguro a apropriar (ativo) de R$ 9.000 e salários a pagar (passivo) de R$ 8.000."
         ],
-        "list": [
-          "Competência: receita de R$ 30.000, seguro de R$ 3.000 (3 meses × R$ 1.000) e salários de R$ 8.000 — resultado de R$ 19.000",
-          "Caixa: entradas zero e saída de R$ 12.000 (seguro) — resultado de −R$ 12.000",
-          "Diferença entre os regimes: R$ 31.000"
-        ]
+        "table": {
+          "head": [
+            "Item do exemplo",
+            "Competência",
+            "Caixa"
+          ],
+          "rows": [
+            [
+              "Receita de serviços (dezembro)",
+              "R$ 30.000",
+              "zero (recebimento em fevereiro de 2026)"
+            ],
+            [
+              "Seguro pago em 01/10",
+              "R$ 3.000 (3 meses × R$ 1.000)",
+              "R$ 12.000 de saída"
+            ],
+            [
+              "Salários de dezembro",
+              "R$ 8.000",
+              "—"
+            ],
+            [
+              "Resultado",
+              "R$ 19.000",
+              "−R$ 12.000"
+            ]
+          ]
+        }
       },
       {
         "h": "Princípio da confrontação",
@@ -593,10 +617,25 @@
           "O CPC 16 admite PEPS (primeiro a entrar, primeiro a sair) e custo médio ponderado, e veda o UEPS.",
           "Exemplo: saldo inicial de 100 un. a R$ 10 (R$ 1.000) e compra de 100 un. a R$ 12 (R$ 1.200). Venda de 150 un."
         ],
-        "list": [
-          "PEPS: CMV = 100 × 10 + 50 × 12 = R$ 1.600; estoque final = 50 × 12 = R$ 600",
-          "Média ponderada: custo médio = 2.200 ÷ 200 = R$ 11; CMV = 150 × 11 = R$ 1.650; estoque final = 50 × 11 = R$ 550"
-        ]
+        "table": {
+          "head": [
+            "Método",
+            "CMV",
+            "Estoque final"
+          ],
+          "rows": [
+            [
+              "PEPS",
+              "100 × 10 + 50 × 12 = R$ 1.600",
+              "50 × 12 = R$ 600"
+            ],
+            [
+              "Média ponderada",
+              "custo médio 2.200 ÷ 200 = R$ 11 → 150 × 11 = R$ 1.650",
+              "50 × 11 = R$ 550"
+            ]
+          ]
+        }
       },
       {
         "h": "Menor entre custo e VRL",
@@ -619,10 +658,25 @@
           "A ficha de estoques registra entradas, saídas e saldo em quantidade e valor. Exemplo completo: saldo inicial de 100 unidades a R$ 12 (R$ 1.200); compra de 200 unidades a R$ 15 (R$ 3.000); venda de 250 unidades.",
           "Em preços crescentes, o PEPS apura CMV menor e estoque final maior que a média."
         ],
-        "list": [
-          "PEPS: saem primeiro as 100 unidades a R$ 12 e depois 150 unidades a R$ 15 — CMV = 1.200 + 2.250 = R$ 3.450; estoque final = 50 × 15 = R$ 750",
-          "Média ponderada: custo médio = (1.200 + 3.000) ÷ 300 = R$ 14 — CMV = 250 × 14 = R$ 3.500; estoque final = 50 × 14 = R$ 700"
-        ]
+        "table": {
+          "head": [
+            "Método",
+            "CMV",
+            "Estoque final"
+          ],
+          "rows": [
+            [
+              "PEPS",
+              "100 un. × R$ 12 + 150 un. × R$ 15 = R$ 3.450",
+              "50 × 15 = R$ 750"
+            ],
+            [
+              "Média ponderada",
+              "custo médio (1.200 + 3.000) ÷ 300 = R$ 14 → 250 × 14 = R$ 3.500",
+              "50 × 14 = R$ 700"
+            ]
+          ]
+        }
       }
     ],
     "pitfalls": [

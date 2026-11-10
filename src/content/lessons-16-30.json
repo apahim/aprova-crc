@@ -370,13 +370,28 @@
       {
         "h": "Despesas por natureza e por função",
         "p": [
-          "O CPC 26 permite classificar as despesas de duas formas:",
-          "Se a função for usada, o CPC 26 exige divulgação adicional da natureza, ao menos de depreciação e de benefícios a empregados."
+          "O CPC 26 permite classificar as despesas de duas formas.",
+          "A forma usual das companhias brasileiras é por função; quando ela é usada, o CPC 26 exige divulgação adicional da natureza, ao menos de depreciação e de benefícios a empregados."
         ],
-        "list": [
-          "Por função: despesas agrupadas pela atividade a que servem (custo das vendas, vendas, administração); é a forma usual das companhias brasileiras",
-          "Por natureza: despesas agrupadas por tipo (salários, depreciação, matéria-prima consumida)"
-        ]
+        "table": {
+          "head": [
+            "Classificação",
+            "Agrupa as despesas por",
+            "Exemplos"
+          ],
+          "rows": [
+            [
+              "Por função",
+              "atividade a que servem",
+              "custo das vendas, vendas, administração"
+            ],
+            [
+              "Por natureza",
+              "tipo de gasto",
+              "salários, depreciação, matéria-prima consumida"
+            ]
+          ]
+        }
       },
       {
         "h": "Resultado abrangente",
@@ -407,9 +422,27 @@
       {
         "h": "Objetivo e natureza",
         "p": [
-          "A DLPA (Demonstração de Lucros ou Prejuízos Acumulados) mostra apenas a movimentação da conta Lucros ou Prejuízos Acumulados: saldo inicial, ajustes de exercícios anteriores, reversões de reservas, lucro líquido do período e as destinações.",
-          "A DMPL (Demonstração das Mutações do Patrimônio Líquido) é mais ampla: mostra a variação de todas as contas do PL e a evolução de cada uma, inclusive as de ORA."
-        ]
+          "A DLPA (Demonstração de Lucros ou Prejuízos Acumulados) e a DMPL (Demonstração das Mutações do Patrimônio Líquido) se diferenciam pela abrangência:"
+        ],
+        "table": {
+          "head": [
+            "Demonstração",
+            "O que mostra",
+            "Movimentações típicas"
+          ],
+          "rows": [
+            [
+              "DLPA",
+              "só a conta Lucros ou Prejuízos Acumulados",
+              "saldo inicial, ajustes de exercícios anteriores, reversões de reservas, lucro líquido e destinações"
+            ],
+            [
+              "DMPL",
+              "todas as contas do PL, inclusive as de ORA",
+              "a evolução de cada conta, da abertura ao fechamento"
+            ]
+          ]
+        }
       },
       {
         "h": "Estrutura da DMPL",
@@ -771,11 +804,34 @@
           "Organizar o passivo em um cronograma evita erros: os juros de cada período incidem sobre o saldo de abertura, e a amortização é o pagamento menos os juros.",
           "No exemplo (passivo inicial de R$ 24.868,52, pagamentos anuais de R$ 10.000 e taxa de 10% ao ano):"
         ],
-        "list": [
-          "Ano 1: juros 10% × 24.868,52 = 2.486,85; amortização = 7.513,15; saldo final = 17.355,37",
-          "Ano 2: juros = 1.735,54; amortização = 8.264,46; saldo final = 9.090,91",
-          "Ano 3: juros = 909,09; amortização = 9.090,91; saldo final = zero"
-        ]
+        "table": {
+          "head": [
+            "Ano",
+            "Juros (10% sobre o saldo)",
+            "Amortização",
+            "Saldo final"
+          ],
+          "rows": [
+            [
+              "1",
+              "R$ 2.486,85",
+              "R$ 7.513,15",
+              "R$ 17.355,37"
+            ],
+            [
+              "2",
+              "R$ 1.735,54",
+              "R$ 8.264,46",
+              "R$ 9.090,91"
+            ],
+            [
+              "3",
+              "R$ 909,09",
+              "R$ 9.090,91",
+              "zero"
+            ]
+          ]
+        }
       }
     ],
     "pitfalls": [
@@ -798,10 +854,37 @@
       {
         "h": "Influência significativa e controle",
         "p": [
-          "Influência significativa é o poder de participar das decisões financeiras e operacionais da investida, sem controlá-las. Presume-se a partir de 20% do poder de voto, salvo prova em contrário. A investida é coligada e é avaliada pelo método da equivalência patrimonial (CPC 18).",
-          "Quando há controle (CPC 36), a investida é controlada e suas demonstrações são consolidadas.",
-          "Em um acordo conjunto aplica-se o CPC 19: na operação em conjunto, cada parte reconhece seus próprios ativos, passivos, receitas e despesas; no empreendimento controlado em conjunto (joint venture), usa-se a equivalência patrimonial (CPC 18)."
-        ]
+          "Influência significativa é o poder de participar das decisões financeiras e operacionais da investida, sem controlá-las. Presume-se a partir de 20% do poder de voto, salvo prova em contrário; a investida, nesse caso, é coligada."
+        ],
+        "table": {
+          "head": [
+            "Vínculo com a investida",
+            "Avaliação no investidor",
+            "Norma"
+          ],
+          "rows": [
+            [
+              "Coligada (influência significativa)",
+              "equivalência patrimonial",
+              "CPC 18"
+            ],
+            [
+              "Controlada (controle)",
+              "consolidação linha a linha das demonstrações",
+              "CPC 36"
+            ],
+            [
+              "Operação em conjunto",
+              "cada parte reconhece seus próprios ativos, passivos, receitas e despesas",
+              "CPC 19"
+            ],
+            [
+              "Empreendimento controlado em conjunto (joint venture)",
+              "equivalência patrimonial (CPC 18)",
+              "CPC 19"
+            ]
+          ]
+        }
       },
       {
         "h": "Método da equivalência patrimonial",
@@ -834,11 +917,6 @@
           "Quando uma controladora possui controladas, as demonstrações consolidadas apresentam o grupo como uma única entidade econômica: somam-se linha a linha os ativos, passivos, receitas e despesas da controladora e das controladas.",
           "O investimento da controladora em cada controlada é eliminado contra o patrimônio líquido correspondente, e a parcela do PL pertencente a sócios externos aparece destacada como participação de não controladores, dentro do patrimônio líquido (não é passivo).",
           "Saldos e transações entre empresas do grupo são eliminados na consolidação, como vendas intragrupo, receitas de equivalência e dividendos entre elas."
-        ],
-        "list": [
-          "Controladas (controle, CPC 36): consolidadas linha a linha, com eliminação do investimento",
-          "Coligadas (influência significativa, CPC 18): método da equivalência patrimonial, sem consolidação",
-          "Participação de não controladores: destacada dentro do PL consolidado"
         ]
       }
     ],

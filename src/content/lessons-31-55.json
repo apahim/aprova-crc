@@ -24,14 +24,33 @@
    {
     "h": "Classificações dos custos",
     "p": [
-     "Quanto ao volume produzido, custos fixos permanecem constantes no total dentro da faixa relevante (aluguel da fábrica), enquanto os variáveis oscilam em proporção à produção (matéria-prima). O fixo é unitário decrescente; o variável é unitário constante.",
-     "Custo primário é a soma de matéria-prima e mão de obra direta; custo de transformação (ou de conversão) é a soma de mão de obra direta e custos indiretos de fabricação.",
+     "Quanto ao volume produzido, custos fixos permanecem constantes no total dentro da faixa relevante, enquanto os variáveis oscilam em proporção à produção. O fixo é unitário decrescente; o variável é unitário constante.",
      "A mão de obra direta ociosa (tempo sem atividade produtiva, por espera de material ou falta de programação) não integra o custo dos produtos: por não decorrer da produção normal, é tratada como custo do período e, na ociosidade anormal (greve, acidente), como perda. Só as horas efetivamente aplicadas ao produto são apropriadas como MOD."
     ],
-    "list": [
-     "Custos diretos: identificados objetivamente a cada unidade (matéria-prima, mão de obra direta)",
-     "Custos indiretos: exigem critério de rateio (depreciação, supervisão)"
-    ]
+    "table": {
+     "head": [
+      "Classificação",
+      "Critério",
+      "Exemplos"
+     ],
+     "rows": [
+      [
+       "Fixos × variáveis",
+       "comportamento com o volume produzido",
+       "aluguel da fábrica × matéria-prima"
+      ],
+      [
+       "Diretos × indiretos",
+       "apropriação ao produto (direta ou por rateio)",
+       "matéria-prima e MOD × depreciação e supervisão"
+      ],
+      [
+       "Custo primário × de transformação",
+       "composição das parcelas",
+       "MP + MOD × MOD + CIF"
+      ]
+     ]
+    }
    },
    {
     "h": "Método do alto e baixo",
@@ -164,11 +183,31 @@
      "A diferença de lucro entre os métodos vem do destino dos custos fixos de produção: no absorção, ficam nos estoques até a venda; no variável, vão inteiros ao período. Exemplo: produção de 1.000 unidades, vendas de 800, custo variável de R$ 30 por unidade, custos fixos de produção de R$ 20.000 e preço de R$ 60."
     ],
     "list": [
-     "Absorção: custo unitário = 30 + 20.000 ÷ 1.000 = R$ 50; CMV = 800 × 50 = 40.000; lucro = 48.000 − 40.000 = R$ 8.000",
-     "Variável: CMV = 800 × 30 = 24.000; fixos inteiros no período; lucro = 48.000 − 24.000 − 20.000 = R$ 4.000",
      "Diferença de R$ 4.000 = custo fixo estocado (200 unidades × R$ 20)",
      "Regra: estoque crescendo, o absorção apura lucro maior; estoque diminuindo, o variável apura lucro maior; estoque estável, lucros iguais"
-    ]
+    ],
+    "table": {
+     "head": [
+      "Custeio",
+      "Custo unitário",
+      "CMV (800 un.)",
+      "Lucro"
+     ],
+     "rows": [
+      [
+       "Por absorção",
+       "30 + 20.000 ÷ 1.000 = R$ 50",
+       "800 × 50 = R$ 40.000",
+       "R$ 8.000 (48.000 − 40.000)"
+      ],
+      [
+       "Variável",
+       "R$ 30; os fixos vão inteiros ao período",
+       "800 × 30 = R$ 24.000",
+       "R$ 4.000 (48.000 − 24.000 − 20.000)"
+      ]
+     ]
+    }
    },
    {
     "h": "Pontos de equilíbrio",
@@ -229,10 +268,25 @@
     "p": [
      "Em processo, o custo médio do período é obtido dividindo-se os custos pela produção, usando-se a produção equivalente quando há produtos em elaboração."
     ],
-    "list": [
-     "Por ordem (ou encomenda): custos acumulados por pedido ou lote específico; comum em estaleiros, construção civil e gráficas sob encomenda; o custo da ordem só é conhecido ao final",
-     "Por processo: produção contínua e padronizada (cimento, química, alimentos); custos acumulados por departamento ou etapa em um período"
-    ]
+    "table": {
+     "head": [
+      "Custeio",
+      "Acumulação de custos",
+      "Produção típica"
+     ],
+     "rows": [
+      [
+       "Por ordem (encomenda)",
+       "por pedido ou lote; o custo da ordem só é conhecido ao final",
+       "estaleiros, construção civil, gráficas sob encomenda"
+      ],
+      [
+       "Por processo",
+       "por departamento ou etapa, a cada período",
+       "contínua e padronizada: cimento, química, alimentos"
+      ]
+     ]
+    }
    },
    {
     "h": "Produção equivalente",
@@ -249,14 +303,37 @@
    {
     "h": "Custos conjuntos",
     "p": [
-     "Quando um mesmo processo gera vários produtos, o custo até o ponto de separação é conjunto e precisa ser distribuído.",
-     "Subprodutos e sucatas, em geral, reduzem o custo dos produtos principais.",
-     "Critérios comuns: valor de mercado no ponto de separação, quantidade física ou valor realizável líquido. Se o custo conjunto é R$ 100.000 e as vendas no ponto de separação são A R$ 120.000 e B R$ 80.000, o rateio é A 60% = R$ 60.000 e B 40% = R$ 40.000."
+     "Quando um mesmo processo gera vários produtos, o custo até o ponto de separação é conjunto e precisa ser distribuído."
     ],
-    "list": [
-     "Coprodutos: valor de venda relevante",
-     "Subprodutos: valor menor e pouca participação",
-     "Sucata: resíduo com valor residual mínimo"
+    "table": {
+     "head": [
+      "Classe",
+      "Valor de venda",
+      "Tratamento no custeio conjunto"
+     ],
+     "rows": [
+      [
+       "Coprodutos",
+       "relevante",
+       "produtos principais: recebem o rateio do custo conjunto"
+      ],
+      [
+       "Subprodutos",
+       "menor, com pouca participação",
+       "em geral, reduzem o custo dos produtos principais"
+      ],
+      [
+       "Sucata",
+       "residual mínimo",
+       "em geral, reduz o custo dos produtos principais"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Rateio dos custos conjuntos",
+    "p": [
+     "Critérios comuns: valor de mercado no ponto de separação, quantidade física ou valor realizável líquido. Se o custo conjunto é R$ 100.000 e as vendas no ponto de separação são A R$ 120.000 e B R$ 80.000, o rateio é A 60% = R$ 60.000 e B 40% = R$ 40.000."
     ]
    },
    {
@@ -496,10 +573,25 @@
     "p": [
      "Ambas são técnicas de análise de estrutura e evolução; não substituem os índices, mas os complementam."
     ],
-    "list": [
-     "Análise vertical (AV): participação de cada conta em relação a um total de referência na mesma data, mostrando a estrutura da demonstração",
-     "Análise horizontal (AH): evolução de cada conta ao longo dos períodos, em relação a um ano-base, mostrando a tendência"
-    ]
+    "table": {
+     "head": [
+      "Análise",
+      "O que mede",
+      "Comparação"
+     ],
+     "rows": [
+      [
+       "Vertical (AV)",
+       "participação de cada conta em relação a um total de referência",
+       "na mesma data — estrutura da demonstração"
+      ],
+      [
+       "Horizontal (AH)",
+       "evolução de cada conta ao longo dos períodos",
+       "contra um ano-base — tendência"
+      ]
+     ]
+    }
    },
    {
     "h": "Base de cálculo",
@@ -1132,14 +1224,33 @@
     "h": "Bens públicos",
     "p": [
      "Bens públicos de uso comum, de uso especial e dominicais são registrados no patrimônio, e o reconhecimento exige controle e a expectativa de benefícios econômicos ou potencial de serviços. Bens de infraestrutura e bens de uso comum do povo seguem tratamento específico, de acordo com as NBC TSP e o MCASP.",
-     "Pelo Código Civil (art. 99):",
-     "O inventário periódico confere a existência física e o valor dos bens, e as diferenças são regularizadas por ajustes e responsabilização, quando for o caso."
+     "O inventário periódico confere a existência física e o valor dos bens, e as diferenças são regularizadas por ajustes e responsabilização, quando for o caso.",
+     "Pelo Código Civil (art. 99):"
     ],
-    "list": [
-     "Bens de uso comum: destinados ao uso coletivo (ruas, praças, rios)",
-     "Bens de uso especial: utilizados pelo serviço público (prédios de repartições, escolas, hospitais)",
-     "Bens dominicais: patrimônio disponível do ente, como terrenos e imóveis sem destinação pública específica"
-    ]
+    "table": {
+     "head": [
+      "Categoria",
+      "Destinação",
+      "Exemplos"
+     ],
+     "rows": [
+      [
+       "Bens de uso comum",
+       "uso coletivo",
+       "ruas, praças, rios"
+      ],
+      [
+       "Bens de uso especial",
+       "utilizados pelo serviço público",
+       "prédios de repartições, escolas, hospitais"
+      ],
+      [
+       "Bens dominicais",
+       "patrimônio disponível do ente",
+       "terrenos e imóveis sem destinação pública específica"
+      ]
+     ]
+    }
    },
    {
     "h": "Depreciação e reavaliação",
@@ -1295,11 +1406,30 @@
      "O risco de auditoria é o de o auditor expressar opinião inadequada quando as demonstrações contêm distorção relevante. Ele é composto pelo risco de distorção relevante (RDR) e pelo risco de detecção (RD)."
     ],
     "formula": "RDR = RI × RC; Risco de auditoria = RDR × RD",
-    "list": [
-     "Risco inerente (RI): suscetibilidade da afirmação a distorção, antes de considerar controles",
-     "Risco de controle (RC): risco de que os controles da entidade não previnam ou detectem a distorção",
-     "Risco de detecção (RD): risco de que os procedimentos do auditor não detectem a distorção existente; é o único que o auditor controla"
-    ]
+    "table": {
+     "head": [
+      "Componente",
+      "O que é",
+      "De quem depende"
+     ],
+     "rows": [
+      [
+       "Risco inerente (RI)",
+       "suscetibilidade da afirmação a distorção, antes de considerar controles",
+       "da natureza da afirmação"
+      ],
+      [
+       "Risco de controle (RC)",
+       "de que os controles da entidade não previnam ou detectem a distorção",
+       "dos controles da entidade"
+      ],
+      [
+       "Risco de detecção (RD)",
+       "de que os procedimentos do auditor não detectem a distorção existente",
+       "do auditor — o único risco que ele controla"
+      ]
+     ]
+    }
    },
    {
     "h": "Exemplo numérico",
@@ -1370,13 +1500,34 @@
    },
    {
     "h": "Tipos de opinião",
-    "list": [
-     "Sem ressalva (não modificada): demonstrações adequadas em todos os aspectos relevantes",
-     "Com ressalva: distorção relevante, mas não generalizada, ou limitação de escopo com efeito relevante, mas não generalizado",
-     "Adversa: distorções relevantes e generalizadas",
-     "Abstenção de opinião: impossibilidade de obter evidência, com possíveis efeitos relevantes e generalizados",
-     "Parágrafos de ênfase e outros assuntos não modificam a opinião"
-    ]
+    "table": {
+     "head": [
+      "Tipo de opinião",
+      "Condição que a determina"
+     ],
+     "rows": [
+      [
+       "Sem ressalva (não modificada)",
+       "demonstrações adequadas em todos os aspectos relevantes"
+      ],
+      [
+       "Com ressalva",
+       "distorção relevante, mas não generalizada, ou limitação de escopo com efeito relevante, mas não generalizado"
+      ],
+      [
+       "Adversa",
+       "distorções relevantes e generalizadas"
+      ],
+      [
+       "Abstenção de opinião",
+       "impossibilidade de obter evidência, com possíveis efeitos relevantes e generalizados"
+      ],
+      [
+       "Parágrafos de ênfase e outros assuntos",
+       "não modificam a opinião"
+      ]
+     ]
+    }
    },
    {
     "h": "Fraude, erro e comunicações do auditor",
