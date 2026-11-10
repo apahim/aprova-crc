@@ -24,8 +24,22 @@ curriculum.forEach((s, i) => {
 });
 
 // --- Questões (formato comum) ---
+const stemIndex = new Map(); // indexa stems normalizados p/ detectar duplicatas entre arquivos
+const trackStem = (stem, where) => {
+  const key = stem.toLowerCase().replace(/\s+/g, ' ').trim();
+  const prev = stemIndex.get(key);
+  if (prev) errors.push(`questão duplicada: ${where} e ${prev}`);
+  else stemIndex.set(key, where);
+};
+const warnBalance = (qs, where) => {
+  const counts = [0, 0, 0, 0];
+  qs.forEach(q => { if (Number.isInteger(q.correct) && q.correct >= 0 && q.correct <= 3) counts[q.correct]++; });
+  const worst = Math.max(...counts);
+  if (worst >= 4 && worst / qs.length > 0.35) warnings.push(`${where}: gabarito concentrado [${counts.join(', ')}]`);
+};
 const checkQ = (q, where) => {
   if (typeof q.stem !== 'string' || !q.stem.trim()) errors.push(`${where}: stem vazio`);
+  else trackStem(q.stem, where);
   if (!Array.isArray(q.options) || q.options.length !== 4) errors.push(`${where}: deve ter exatamente 4 opções`);
   else if (q.options.some(o => typeof o !== 'string' || !o.trim())) errors.push(`${where}: opção vazia`);
   if (!Number.isInteger(q.correct) || q.correct < 0 || q.correct > 3) errors.push(`${where}: correct inválido (${q.correct})`);
@@ -52,6 +66,7 @@ for (const [id, n] of Object.entries(miniExpect)) {
   const qs = minis[id];
   if (!Array.isArray(qs) || qs.length !== n) errors.push(`minis[${id}]: ${qs?.length ?? 0} questões (esperado ${n})`);
   (Array.isArray(qs) ? qs : []).forEach((q, i) => checkQ(q, `minis[${id}][${i}]`));
+  if (Array.isArray(qs)) warnBalance(qs, `minis[${id}]`);
 }
 
 // --- Bancos por sessão (quizzes-*.json, dinâmico) ---
@@ -63,8 +78,9 @@ for (const f of quizChunks) {
   for (const [id, qs] of Object.entries(o)) {
     if (quizIds.has(id)) errors.push(`${f}: id ${id} duplicado entre arquivos`);
     quizIds.add(id);
-    if (!Array.isArray(qs) || qs.length !== 6) errors.push(`${f}[${id}]: ${qs?.length ?? 0} questões (esperado 6)`);
+    if (!Array.isArray(qs) || qs.length < 6 || qs.length > 12) errors.push(`${f}[${id}]: ${qs?.length ?? 0} questões (esperado 6 a 12)`);
     (Array.isArray(qs) ? qs : []).forEach((q, i) => checkQ(q, `${f}[${id}][${i}]`));
+    if (Array.isArray(qs)) warnBalance(qs, `${f}[${id}]`);
   }
 }
 

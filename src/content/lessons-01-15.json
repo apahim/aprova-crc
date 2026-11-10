@@ -544,6 +544,24 @@
         "p": [
           "Pelo CPC 01, o ativo não pode ficar registrado acima do valor recuperável, que é o maior entre o valor justo líquido de despesas de venda e o valor em uso."
         ]
+      },
+      {
+        "h": "Moeda estrangeira (CPC 02)",
+        "p": [
+          "Direitos e obrigações em moeda estrangeira (duplicatas, empréstimos) são ativos e passivos monetários: são convertidos pela cotação de fechamento em cada balanço, e a diferença vai ao resultado do período como variação cambial.",
+          "Exemplo: dívida de US$ 10.000 registrada a R$ 5,00 (R$ 50.000). Com a cotação de fechamento a R$ 5,30, o passivo passa a R$ 53.000 e reconhece-se despesa cambial de R$ 3.000. A valorização da moeda estrangeira encarece dívidas (despesa) e aumenta direitos a receber (ganho)."
+        ]
+      },
+      {
+        "h": "Instrumentos financeiros: categorias de mensuração (CPC 48)",
+        "p": [
+          "Aplicações em ações e títulos são instrumentos financeiros. A categoria de mensuração depende do objetivo do negócio:"
+        ],
+        "list": [
+          "Custo amortizado: títulos mantidos para receber os fluxos contratuais (juros e principal) até o vencimento, com juros pela taxa efetiva",
+          "Valor justo por outros resultados abrangentes (FVOCI): eleição para investimentos em ações mantidos a longo prazo; as variações vão ao ORA, sem passar pelo resultado",
+          "Valor justo pelo resultado (FVTPL): ativos mantidos para negociação de curto prazo; as variações vão ao resultado do período"
+        ]
       }
     ],
     "pitfalls": [
@@ -552,7 +570,7 @@
       "Usar o preço de venda bruto, sem deduzir custos de venda, para obter o valor realizável líquido.",
       "Esquecer que o ajuste a valor presente é reconhecido ao longo do prazo, e não no ato."
     ],
-    "refs": ["CPC 00 (R2) – Estrutura Conceitual", "CPC 01 (R1)", "CPC 12", "CPC 16 (R1)", "CPC 46"]
+    "refs": ["CPC 00 (R2) – Estrutura Conceitual", "CPC 01 (R1)", "CPC 12", "CPC 16 (R1)", "CPC 46", "CPC 02 – Taxas de Câmbio", "CPC 48 – Instrumentos Financeiros"]
   },
   "12": {
     "objectives": [
@@ -589,6 +607,14 @@
         "p": [
           "Ativo biológico é animal ou planta vivos. É mensurado ao valor justo menos despesas de venda no reconhecimento e ao final de cada período; a variação vai ao resultado. Exemplo: rebanho com valor justo de R$ 500.000 e despesas de venda de R$ 20.000 vale R$ 480.000; se o valor justo subir para R$ 550.000 (mantidas as despesas de venda), o valor líquido passa a R$ 530.000 e o ganho é R$ 50.000.",
           "O produto agrícola colhido é medido ao valor justo menos despesas de venda no ponto de colheita e, depois, tratado como estoque (CPC 16). Plantas portadoras (como cafeeiros e laranjeiras em produção) não são ativos biológicos: são imobilizado (CPC 27); apenas os frutos em desenvolvimento seguem o CPC 29."
+        ]
+      },
+      {
+        "h": "Ficha de estoques passo a passo",
+        "p": [
+          "A ficha de estoques registra entradas, saídas e saldo em quantidade e valor. Exemplo completo: saldo inicial de 100 unidades a R$ 12 (R$ 1.200); compra de 200 unidades a R$ 15 (R$ 3.000); venda de 250 unidades.",
+          "Pelo PEPS, saem primeiro as 100 unidades a R$ 12 e depois 150 unidades a R$ 15: CMV = 1.200 + 2.250 = R$ 3.450, e o estoque final fica em 50 unidades a R$ 15 = R$ 750.",
+          "Pela média ponderada, o custo médio após a compra é (1.200 + 3.000) ÷ 300 = R$ 14. CMV = 250 × 14 = R$ 3.500 e estoque final = 50 × 14 = R$ 700. Em preços crescentes, o PEPS apura CMV menor e estoque final maior que a média."
         ]
       }
     ],

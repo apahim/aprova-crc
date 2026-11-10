@@ -11,14 +11,14 @@
       "stem": "Uma empresa possui ativo total de R$ 480.000 e passivo exigível de R$ 310.000. Qual é o seu patrimônio líquido?",
       "options": ["R$ 790.000", "R$ 480.000", "R$ 170.000", "R$ 310.000"],
       "correct": 2,
-      "explanation": "PL = Ativo − Passivo = 480.000 − 310.000 = R$ 170.000.",
+      "explanation": "PL = Ativo − Passivo = 480.000 − 310.000 = R$ 170.000. R$ 790.000 soma ativo e passivo; R$ 480.000 e R$ 310.000 apenas repetem dados do enunciado. Só existiria passivo a descoberto se o passivo superasse o ativo.",
       "area": "Contabilidade Geral"
     },
     {
       "stem": "Uma entidade apresenta patrimônio líquido de R$ 250.000 e passivo exigível de R$ 150.000. Qual é o valor do seu ativo total?",
       "options": ["R$ 100.000", "R$ 150.000", "R$ 250.000", "R$ 400.000"],
       "correct": 3,
-      "explanation": "Pela equação patrimonial, Ativo = Passivo + PL = 150.000 + 250.000 = R$ 400.000.",
+      "explanation": "Pela equação patrimonial, Ativo = Passivo + PL = 150.000 + 250.000 = R$ 400.000. Subtrair os valores (R$ 100.000) inverte a lógica da equação; R$ 250.000 e R$ 150.000 repetem dados do enunciado.",
       "area": "Contabilidade Geral"
     },
     {
@@ -50,6 +50,54 @@
       "options": ["R$ 135.000", "R$ 190.000", "R$ 325.000", "R$ 270.000"],
       "correct": 1,
       "explanation": "Ativo = 20.000 + 45.000 + 60.000 + 200.000 = 325.000. Passivo = 55.000 + 80.000 = 135.000. PL = 325.000 − 135.000 = R$ 190.000.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Uma empresa utiliza, há dois anos, um equipamento obtido por contrato que lhe confere o controle do direito de uso, embora a propriedade jurídica do bem permaneça com terceiros. Para fins de reconhecimento contábil, esse equipamento:",
+      "options": [
+        "Não é ativo, pois a empresa não é a proprietária jurídica do bem",
+        "É ativo, pois a definição exige controle do recurso econômico, e não propriedade jurídica",
+        "É ativo apenas quando o contrato previr a compra do bem ao final do prazo",
+        "Só é ativo se for registrado em contas de compensação"
+      ],
+      "correct": 1,
+      "explanation": "Pela Estrutura Conceitual, ativo é um recurso econômico presente controlado pela entidade em razão de eventos passados. O controle, e não a propriedade jurídica, é o critério central: por isso bens controlados sem serem propriedade podem ser ativos.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Uma entidade possui ativo total de R$ 210.000 e passivo exigível de R$ 210.000. A situação patrimonial líquida é:",
+      "options": [
+        "Positiva em R$ 420.000",
+        "Negativa em R$ 210.000 (passivo a descoberto)",
+        "Nula, com patrimônio líquido igual a zero",
+        "Positiva em R$ 210.000"
+      ],
+      "correct": 2,
+      "explanation": "PL = Ativo − Passivo = 210.000 − 210.000 = zero. Quando ativo e passivo se igualam, a situação líquida é nula; só há passivo a descoberto se o passivo superar o ativo.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Em dezembro, uma empresa contratou e consumiu serviços de manutenção que serão faturados pelo prestador apenas em janeiro do ano seguinte. Em 31 de dezembro, a empresa:",
+      "options": [
+        "Reconhece a obrigação presente, pois o evento gerador já ocorreu, independentemente da fatura",
+        "Não registra nada, pois ainda não há documento fiscal",
+        "Registra um ativo, pois a despesa só será paga no futuro",
+        "Reconhece a despesa apenas na data do pagamento"
+      ],
+      "correct": 0,
+      "explanation": "O passivo nasce do evento passado (serviço já prestado), e não da emissão da fatura. A ausência de formalização não elimina a obrigação presente: despesa e passivo são reconhecidos pela competência.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Uma empresa apresenta: Caixa R$ 30.000; Duplicatas a Receber R$ 70.000; Fornecedores R$ 25.000; Empréstimos a Pagar R$ 35.000; Capital Social R$ 50.000; Prejuízos Acumulados R$ 10.000. O patrimônio líquido é:",
+      "options": [
+        "R$ 50.000",
+        "R$ 60.000",
+        "R$ 10.000",
+        "R$ 40.000"
+      ],
+      "correct": 3,
+      "explanation": "Ativo = 30.000 + 70.000 = 100.000. Passivo = 25.000 + 35.000 = 60.000. PL = 100.000 − 60.000 = R$ 40.000, que também resulta de Capital (50.000) menos Prejuízos Acumulados (10.000). R$ 50.000 ignora o prejuízo acumulado, que reduz o PL.",
       "area": "Contabilidade Geral"
     }
   ],
@@ -125,6 +173,54 @@
       "correct": 1,
       "explanation": "Caixa cai R$ 22.000; o passivo cai R$ 20.000 e a despesa financeira de R$ 2.000 reduz o PL. É fato misto diminutivo.",
       "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Um sócio integraliza capital social em dinheiro, no valor de R$ 50.000. Esse fato é classificado como:",
+      "options": [
+        "Permutativo, pois altera apenas a composição do ativo",
+        "Modificativo aumentativo, pois aumenta o ativo e o patrimônio líquido",
+        "Modificativo aumentativo, pois aumenta o passivo e o ativo",
+        "Misto, pois combina efeitos permutativos e modificativos"
+      ],
+      "correct": 1,
+      "explanation": "O dinheiro entra no Caixa (ativo) e o Capital Social aumenta (PL). Como o PL cresce sem contrapartida de passivo, o fato é modificativo aumentativo. Não há troca entre elementos do próprio ativo, o que afastaria o caráter permutativo.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Uma empresa presta serviços a prazo por R$ 9.000, a receber em 60 dias. O efeito imediato do reconhecimento é:",
+      "options": [
+        "Aumento do ativo e do passivo, sem alterar o PL",
+        "Aumento do caixa e do PL",
+        "Fato permutativo, pois não há entrada de dinheiro",
+        "Aumento do ativo (clientes) e do PL (receita)"
+      ],
+      "correct": 3,
+      "explanation": "Nasce um direito (Clientes) e reconhece-se a receita: aumento simultâneo de ativo e PL, fato modificativo aumentativo. A ausência de caixa não torna o fato permutativo.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Em 31/12, reconhece-se despesa de energia elétrica de dezembro, de R$ 2.000, ainda não paga. Esse fato:",
+      "options": [
+        "É modificativo diminutivo: aumenta o passivo e reduz o PL, sem alterar o ativo",
+        "É permutativo: troca despesa por passivo",
+        "É misto diminutivo: reduz o ativo e o PL",
+        "Não altera o patrimônio até o pagamento"
+      ],
+      "correct": 0,
+      "explanation": "A despesa incorrida e não paga gera obrigação (Energia a Pagar) e reduz o resultado. Não há movimento no ativo; a saída de caixa só ocorrerá no pagamento, quando o fato será permutativo.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Uma empresa tem ativo de R$ 200.000 e patrimônio líquido de R$ 120.000. Ocorrem: (1) compra de mercadorias a prazo por R$ 30.000; (2) pagamento de salários de R$ 10.000. Após os dois fatos, ativo e PL valem, respectivamente:",
+      "options": [
+        "R$ 230.000 e R$ 120.000",
+        "R$ 230.000 e R$ 110.000",
+        "R$ 220.000 e R$ 110.000",
+        "R$ 220.000 e R$ 120.000"
+      ],
+      "correct": 2,
+      "explanation": "(1) Compra a prazo: ativo 230.000, passivo 110.000, PL 120.000 (permutativo). (2) Salários pagos: caixa cai 10.000 e a despesa reduz o PL: ativo 220.000 e PL 110.000. R$ 230.000 esquece a saída de caixa; manter o PL em 120.000 esquece a despesa.",
+      "area": "Contabilidade Geral"
     }
   ],
   "3": [
@@ -189,6 +285,54 @@
       "correct": 2,
       "explanation": "Se débito e crédito têm o mesmo valor, mas são lançados em contas erradas, a igualdade se mantém e o balancete não acusa o erro. Os demais geram diferença entre débitos e créditos.",
       "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Para aumentar o saldo de uma conta de passivo, deve-se:",
+      "options": [
+        "Debitar a conta",
+        "Creditar a conta",
+        "Debitar e creditar a conta no mesmo valor",
+        "Abrir uma conta retificadora correspondente"
+      ],
+      "correct": 1,
+      "explanation": "Contas de passivo têm natureza credora: crescem por crédito e diminuem por débito. Débito aumenta contas de natureza devedora, como ativo e despesas.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Uma empresa paga duplicata de R$ 5.000 ao fornecedor, obtendo desconto financeiro de R$ 400 pelo pagamento antecipado. O lançamento correto é:",
+      "options": [
+        "D – Fornecedores R$ 5.000; C – Caixa R$ 5.000",
+        "D – Fornecedores R$ 4.600; C – Caixa R$ 4.600",
+        "D – Fornecedores R$ 5.000 e D – Descontos Obtidos R$ 400; C – Caixa R$ 5.400",
+        "D – Fornecedores R$ 5.000; C – Caixa R$ 4.600 e C – Descontos Obtidos R$ 400"
+      ],
+      "correct": 3,
+      "explanation": "Baixa-se a obrigação integral (R$ 5.000), sai caixa de R$ 4.600 e o desconto obtido é receita financeira: um débito e dois créditos (segunda fórmula). Somar o desconto ao débito ou lançar tudo a caixa são erros de natureza de conta.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Compra de mercadorias a prazo por R$ 7.000, com frete de R$ 300 pago em dinheiro. O lançamento é:",
+      "options": [
+        "D – Estoques R$ 7.300; C – Fornecedores R$ 7.000 e C – Caixa R$ 300",
+        "D – Estoques R$ 7.000; C – Fornecedores R$ 7.300",
+        "D – Estoques R$ 7.000 e D – Fretes (despesa) R$ 300; C – Fornecedores R$ 7.300",
+        "D – Caixa R$ 300; C – Estoques R$ 300 e C – Fornecedores R$ 7.000"
+      ],
+      "correct": 0,
+      "explanation": "O frete de compra integra o custo do estoque: débito único em Estoques por R$ 7.300, com dois créditos (Fornecedores e Caixa). Tratar frete de compra como despesa é a pegadinha clássica.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "A conta Clientes tinha saldo devedor de R$ 15.000. No período, houve vendas a prazo (débitos) de R$ 12.000 e recebimentos (créditos) de R$ 9.000. O saldo final de Clientes é:",
+      "options": [
+        "Credor de R$ 18.000",
+        "Devedor de R$ 6.000",
+        "Devedor de R$ 18.000",
+        "Devedor de R$ 36.000"
+      ],
+      "correct": 2,
+      "explanation": "Saldo = 15.000 + 12.000 − 9.000 = R$ 18.000 devedor, compatível com a natureza de conta de ativo. Saldo credor em Clientes indicaria erro de escrituração.",
+      "area": "Contabilidade Geral"
     }
   ],
   "4": [
@@ -222,14 +366,14 @@
       "stem": "O capital social subscrito é de R$ 200.000 e há saldo de R$ 60.000 na conta Capital a Integralizar. Qual o valor do capital efetivamente realizado, evidenciado no patrimônio líquido?",
       "options": ["R$ 260.000", "R$ 200.000", "R$ 140.000", "R$ 60.000"],
       "correct": 2,
-      "explanation": "Capital a Integralizar é retificadora do PL, com saldo devedor: 200.000 − 60.000 = R$ 140.000.",
+      "explanation": "Capital a Integralizar é conta retificadora do PL, de saldo devedor: capital realizado = 200.000 − 60.000 = R$ 140.000. Somar (R$ 260.000) trata a retificadora como se fosse reserva; o subscrito continua sendo R$ 200.000.",
       "area": "Contabilidade Geral"
     },
     {
       "stem": "O saldo de Duplicatas a Receber é de R$ 80.000 e o da conta de perdas estimadas com créditos de liquidação duvidosa é de R$ 6.000. Qual o valor líquido a ser apresentado no ativo?",
       "options": ["R$ 86.000", "R$ 74.000", "R$ 80.000", "R$ 6.000"],
       "correct": 1,
-      "explanation": "A conta de perdas estimadas é retificadora do ativo, com saldo credor: 80.000 − 6.000 = R$ 74.000.",
+      "explanation": "A conta de perdas estimadas (PECLD) é retificadora do ativo, de saldo credor: valor líquido = 80.000 − 6.000 = R$ 74.000. Somar (R$ 86.000) trata a retificadora como direito; apresentar R$ 80.000 ignora a perda estimada.",
       "area": "Contabilidade Geral"
     },
     {
@@ -242,6 +386,54 @@
       ],
       "correct": 3,
       "explanation": "As contas analíticas são as movimentadas por lançamentos; as sintéticas apenas agregam os saldos das analíticas. Contas de receita têm saldo credor, o que invalida a terceira alternativa.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "A conta Duplicatas Descontadas, no plano de contas tradicional brasileiro, é:",
+      "options": [
+        "Passivo, pois representa obrigação com o banco",
+        "Ativo, pois representa direito junto ao banco",
+        "Retificadora do ativo, de saldo credor, redutora de Duplicatas a Receber",
+        "Conta de resultado, encerrada com as despesas financeiras"
+      ],
+      "correct": 2,
+      "explanation": "Duplicatas Descontadas reduz o valor de Duplicatas a Receber apresentado no balanço: conta retificadora do ativo, de saldo credor. Enquanto persistir a responsabilidade pela duplicata, a apresentação é líquida.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "A conta Ações em Tesouraria, no patrimônio líquido, tem:",
+      "options": [
+        "Saldo devedor, por ser retificadora do PL",
+        "Saldo credor, por ser reserva de capital",
+        "Saldo devedor, por ser conta do ativo",
+        "Saldo credor, por representar ganho na recompra de ações"
+      ],
+      "correct": 0,
+      "explanation": "Ações em tesouraria são ações próprias readquiridas: reduzem o PL e têm saldo devedor. Não são ativo (a empresa não reconhece investimento em si mesma) nem reserva de capital.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Em um plano de contas, a conta 1.1.03.002 – Clientes do Interior, desdobramento de 1.1.03 – Clientes, é:",
+      "options": [
+        "Conta sintética que agrega saldos de outras contas",
+        "Conta analítica, de último nível, que pode receber lançamentos",
+        "Conta sintética de segundo grau, usada apenas em relatórios",
+        "Conta de compensação, sem saldo patrimonial"
+      ],
+      "correct": 1,
+      "explanation": "O desdobramento de último nível é analítico e movimentável; as contas superiores (1, 1.1, 1.1.03) são sintéticas e apenas totalizam. Lançar em conta sintética é erro de escrituração.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "No encerramento do exercício, as contas de receitas e despesas são:",
+      "options": [
+        "Transferidas para o ativo, gerando direitos futuros",
+        "Retroativas ao exercício anterior, com correção de saldos",
+        "Mantidas com os mesmos saldos do início do exercício",
+        "Zeradas contra a conta de apuração do resultado e não aparecem no balanço"
+      ],
+      "correct": 3,
+      "explanation": "Contas de resultado são transitórias: encerram-se contra a Apuração do Resultado do Exercício e o lucro ou prejuízo vai ao PL. Só as contas patrimoniais permanecem no balanço com seus saldos.",
       "area": "Contabilidade Geral"
     }
   ],
@@ -307,6 +499,54 @@
       "correct": 0,
       "explanation": "A norma exige termos de abertura e encerramento assinados nos livros em forma não digital (na escrituração digital, a validade decorre da assinatura digital), e veda rasuras, emendas e espaços em branco na escrituração.",
       "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Um lançamento foi feito na conta Caixa, mas o correto seria Bancos Conta Movimento. A retificação registra:",
+      "options": [
+        "Estorno integral do lançamento original",
+        "Transferência: débito em Bancos e crédito em Caixa pelo mesmo valor",
+        "Complementação da metade do valor original",
+        "Rasura com visto do responsável"
+      ],
+      "correct": 1,
+      "explanation": "A transferência corrige o erro de conta: debita-se a conta devida (Bancos) e credita-se a indevidamente usada (Caixa). Estorno anula todo o lançamento; complementação ajusta valor lançado a menor.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "O livro que registra os fatos contábeis em ordem cronológica e diária, sendo obrigatório na escrituração, é o:",
+      "options": [
+        "Livro Razão",
+        "Livro Balancete",
+        "Livro Diário",
+        "Livro Registro de Duplicatas"
+      ],
+      "correct": 2,
+      "explanation": "O Diário é o livro obrigatório, registrando os fatos em ordem cronológica. O Razão organiza os mesmos lançamentos por conta, servindo à apuração de saldos e ao balancete.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Um lançamento indevido deve ser anulado integralmente por lançamento inverso, de valores iguais e histórico próprio. Essa técnica é o:",
+      "options": [
+        "Estorno",
+        "Transferência",
+        "Complementação",
+        "Compensação"
+      ],
+      "correct": 0,
+      "explanation": "O estorno anula integralmente o lançamento errado, invertendo débitos e créditos. A transferência corrige a conta errada e a complementação ajusta valor lançado a menor, sem anular o original.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Segundo a norma de escrituração contábil, é vedado:",
+      "options": [
+        "Escrever em idioma nacional e moeda corrente do País",
+        "Registrar os fatos em ordem cronológica",
+        "Exigir documentação hábil que comprove os lançamentos",
+        "Deixar espaços em branco, entrelinhas, borrões e rasuras"
+      ],
+      "correct": 3,
+      "explanation": "A escrituração é cronológica, em idioma e moeda nacionais, apoiada em documentação hábil. Espaços em branco, entrelinhas, borrões e rasuras são vedados; correções apenas por estorno, transferência ou complementação.",
+      "area": "Contabilidade Geral"
     }
   ],
   "7": [
@@ -360,6 +600,54 @@
       "options": ["R$ 5.000", "R$ 11.000", "R$ 20.000", "R$ 9.000"],
       "correct": 1,
       "explanation": "CMV = 60% × 15.000 = 9.000. Lucro bruto = 20.000 − 9.000 = R$ 11.000. Os 40% não vendidos permanecem em estoque (ativo).",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Juros de dezembro, de R$ 1.500, venceram em 31/12 e serão pagos em janeiro. Pela competência, em 31/12 a empresa registra:",
+      "options": [
+        "Despesa apenas em janeiro, no pagamento",
+        "Ativo de juros a receber, sem despesa",
+        "Despesa de juros e passivo de juros a pagar",
+        "Receita diferida no passivo"
+      ],
+      "correct": 2,
+      "explanation": "Os juros incorreram em dezembro: despesa do período e obrigação presente (passivo). Não há direito, pois o pagamento será feito pela empresa — logo, não se trata de ativo.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Uma empresa recebeu, em novembro, R$ 2.000 de aluguel relativo ao mês de dezembro de seu imóvel. Em novembro, o valor é:",
+      "options": [
+        "Passivo (receita diferida), sem reconhecimento de receita",
+        "Receita de novembro, pelo regime de caixa",
+        "Ativo, pela entrada de recursos",
+        "Receita de novembro, pois o recebimento antecipado gera direito"
+      ],
+      "correct": 0,
+      "explanation": "Aluguel recebido antecipadamente é obrigação de permitir o uso futuro: passivo (receita diferida). A receita será reconhecida em dezembro, quando o aluguel for ganho. O caixa aumentou, mas nas demonstrações prevalece a competência.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Uma empresa vendeu a prazo R$ 40.000 no período, recebendo R$ 25.000; incorreu em despesas de R$ 30.000, pagando R$ 20.000. Os resultados pela competência e pelo caixa são, respectivamente:",
+      "options": [
+        "R$ 5.000 e R$ 10.000",
+        "R$ 10.000 e R$ 5.000",
+        "R$ 10.000 e R$ 10.000",
+        "R$ 40.000 e R$ 5.000"
+      ],
+      "correct": 1,
+      "explanation": "Competência: 40.000 − 30.000 = R$ 10.000. Caixa: 25.000 − 20.000 = R$ 5.000. A competência ignora o calendário de recebimentos e pagamentos.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Pela confrontação, o custo das mercadorias vendidas é reconhecido:",
+      "options": [
+        "No período do pagamento dos fornecedores",
+        "No período da compra das mercadorias",
+        "Metade na compra e metade na venda",
+        "No mesmo período da receita da venda correspondente"
+      ],
+      "correct": 3,
+      "explanation": "Despesas são confrontadas com as receitas que ajudaram a gerar: o CMV pertence ao período da venda, ainda que o fornecedor tenha sido pago antes ou depois dela.",
       "area": "Contabilidade Geral"
     }
   ],
@@ -420,6 +708,54 @@
       "correct": 3,
       "explanation": "36.000 ÷ 12 = 3.000 por mês. Receita de X1 = 4 meses × 3.000 = 12.000. Receita diferida = 36.000 − 12.000 = R$ 24.000.",
       "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Uma aplicação financeira rendeu juros de R$ 800 em dezembro, a creditar em janeiro. O ajuste de 31/12 registra:",
+      "options": [
+        "Despesa e passivo de R$ 800",
+        "Ativo (juros a receber) e receita de R$ 800",
+        "Receita apenas quando do crédito em janeiro",
+        "Receita diferida no passivo"
+      ],
+      "correct": 1,
+      "explanation": "Juros ganhos e não recebidos geram direito e receita pela competência. Receita diferida no passivo ocorre no caso oposto: o recebimento antecipado.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Sobre o balancete de verificação, é correto afirmar que:",
+      "options": [
+        "O analítico apresenta os saldos de todas as contas movimentadas; o sintético apresenta apenas grupos totalizados",
+        "O sintético apresenta todas as contas, e o analítico apenas os grupos",
+        "Só o sintético garante a igualdade entre débitos e créditos",
+        "O balancete só é elaborado no encerramento do exercício"
+      ],
+      "correct": 0,
+      "explanation": "O balancete pode ser levantado em qualquer data, em nível sintético (grupos) ou analítico (contas). Ambos partem dos mesmos saldos do Razão, e a igualdade débitos = créditos vale para os dois.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "No encerramento, a conta Receita de Serviços tem saldo credor de R$ 90.000 e as despesas somam R$ 60.000. A transferência do resultado para o PL registra:",
+      "options": [
+        "D – Receita de Serviços; C – Lucros Acumulados, R$ 90.000",
+        "D – Lucros Acumulados; C – Apuração do Resultado, R$ 30.000",
+        "D – Apuração do Resultado do Exercício; C – Lucros Acumulados, R$ 30.000",
+        "D – Lucros Acumulados; C – Receita de Serviços, R$ 30.000"
+      ],
+      "correct": 2,
+      "explanation": "Receitas e despesas encerram-se contra a Apuração do Resultado do Exercício (ARE): credita-se a ARE pelas receitas (90.000) e debita-se pelas despesas (60.000). O saldo credor de 30.000 é transferido: débito na ARE e crédito em Lucros Acumulados.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Ficou omitido integralmente o lançamento de uma compra a prazo de R$ 5.000 (débito em Estoques e crédito em Fornecedores). O balancete de verificação, por isso:",
+      "options": [
+        "Ficará desequilibrado em R$ 5.000 a débito",
+        "Ficará desequilibrado em R$ 5.000 a crédito",
+        "Ficará desequilibrado em R$ 10.000",
+        "Permanece equilibrado, pois a omissão de partida completa não altera a igualdade"
+      ],
+      "correct": 3,
+      "explanation": "Omitir as duas partidas do lançamento mantém débitos = créditos, mascarando o erro. Só a omissão de um dos lados, ou valores diferentes entre os lados, desequilibra o balancete.",
+      "area": "Contabilidade Geral"
     }
   ],
   "9": [
@@ -475,7 +811,7 @@
       "stem": "Duplicatas a receber somam R$ 200.000 e a estimativa de perdas é de 3%. O saldo atual da conta de perdas estimadas é de R$ 2.500. Qual o valor a lançar como complemento da estimativa?",
       "options": ["R$ 6.000", "R$ 2.500", "R$ 3.500", "R$ 8.500"],
       "correct": 2,
-      "explanation": "Saldo necessário = 3% × 200.000 = 6.000. Complemento = 6.000 − 2.500 = R$ 3.500, debitado em despesa.",
+      "explanation": "A estimativa deve alcançar 3% dos direitos: 3% × 200.000 = 6.000. Como o saldo da conta já é 2.500, o complemento é 6.000 − 2.500 = R$ 3.500, debitado em despesa. Lançar R$ 6.000 ignoraria o saldo existente; R$ 8.500 somaria em vez de complementar.",
       "area": "Contabilidade Geral"
     },
     {
@@ -483,6 +819,54 @@
       "options": ["R$ 80.000", "R$ 100.000", "R$ 120.000", "R$ 200.000"],
       "correct": 1,
       "explanation": "Quando há faixa de resultados igualmente prováveis e sem melhor estimativa, o CPC 25 indica o ponto médio: (80.000 + 120.000) ÷ 2 = R$ 100.000.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Na terminologia contábil vigente, o termo “provisão” designa:",
+      "options": [
+        "Passivo de prazo ou valor incerto, como a provisão para contingências do CPC 25",
+        "Qualquer conta retificadora do ativo, como a depreciação acumulada",
+        "Reserva de lucros constituída por prudência",
+        "Aplicação de resultado para investimento previsto no orçamento"
+      ],
+      "correct": 0,
+      "explanation": "Provisão, no CPC 25, é passivo de prazo ou valor incerto. As antigas “provisões” redutoras do ativo hoje são perdas estimadas (PECLD, redução ao valor recuperável) e as do PL são reservas. Misturar os três usos da palavra é a pegadinha clássica.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Uma máquina custou R$ 80.000, com vida útil de 8 anos e valor residual zero (depreciação linear). Ao fim do 3º ano, com base em novas informações, a vida útil total é revista para 7 anos. A depreciação anual a partir daí é de:",
+      "options": [
+        "R$ 10.000, mantida a estimativa original",
+        "R$ 11.428,57, rateando o custo pelos 7 anos",
+        "R$ 5.000, pois restam apenas valores residuais",
+        "R$ 12.500, pois o valor contábil de R$ 50.000 será rateado nos 4 anos restantes"
+      ],
+      "correct": 3,
+      "explanation": "Depreciação acumulada em 3 anos = 30.000; valor contábil = 50.000. Com a vida total revista para 7 anos, restam 4 anos: 50.000 ÷ 4 = R$ 12.500 por ano, aplicados prospectivamente, sem ajuste dos anos anteriores.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Uma rede varejista mantém, por política pública reiterada há muitos anos, o reembolso de clientes insatisfeitos, mesmo sem obrigação legal. Essa prática criou:",
+      "options": [
+        "Mera possibilidade de passivo, sem registro",
+        "Obrigação presente não formalizada, capaz de gerar passivo",
+        "Passivo contingente remoto, sem divulgação",
+        "Ativo contingente, pela economia com processos"
+      ],
+      "correct": 1,
+      "explanation": "A prática reiterada cria expectativa válida em terceiros: obrigação presente não formalizada (construtiva). Se a saída de recursos for provável e estimável, há provisão; a ausência de lei ou contrato não afasta o passivo.",
+      "area": "Contabilidade Geral"
+    },
+    {
+      "stem": "Um erro material foi descoberto em dezembro de X2, antes da divulgação das demonstrações de X2, afetando apenas contas de X2. Segundo o CPC 23, o tratamento é:",
+      "options": [
+        "Retrospectivo, com reapresentação de X1",
+        "Ajuste no saldo inicial de lucros acumulados de X2",
+        "Correção no próprio período X2, pois as demonstrações ainda não foram divulgadas",
+        "Ignorar o erro, pois o exercício já está encerrado"
+      ],
+      "correct": 2,
+      "explanation": "Erro de período anterior é o descoberto depois da divulgação. Descoberto antes, corrige-se nas demonstrações do próprio exercício em elaboração. A retrospectividade aplica-se a erros de períodos já divulgados.",
       "area": "Contabilidade Geral"
     }
   ]

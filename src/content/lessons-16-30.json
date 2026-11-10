@@ -41,6 +41,14 @@
           "Exemplo: receita bruta de R$ 50.000, devoluções de R$ 2.000 e tributos sobre vendas de R$ 8.000 resultam em receita líquida de R$ 40.000. Com CMV de R$ 24.000, o lucro bruto é R$ 16.000, ou seja, margem bruta de 40% sobre a receita líquida."
         ],
         "formula": "Lucro bruto = Receita líquida − CMV"
+      },
+      {
+        "h": "Sequência completa de lançamentos (com ICMS)",
+        "p": [
+          "Compra de mercadorias por R$ 10.000, com ICMS de 18% incluso: D – Estoques R$ 8.200 e D – ICMS a Recuperar R$ 1.800; C – Fornecedores R$ 10.000.",
+          "Venda dessas mercadorias por R$ 16.000, com ICMS de 18% incluso: (1) D – Clientes R$ 16.000; C – Receita de Vendas R$ 16.000. (2) D – ICMS sobre Vendas (dedução da receita) R$ 2.880; C – ICMS a Recolher R$ 2.880. (3) Baixa do custo: D – CMV R$ 8.200; C – Estoques R$ 8.200.",
+          "Recebimento da duplicata com desconto financeiro de 2%: D – Caixa R$ 15.680 e D – Descontos Concedidos (despesa financeira) R$ 320; C – Clientes R$ 16.000. O ICMS a recolher do período será 2.880 − 1.800 = R$ 1.080."
+        ]
       }
     ],
     "pitfalls": [
@@ -168,7 +176,7 @@
       {
         "h": "Lucro presumido",
         "p": [
-          "No lucro presumido, a base é um percentual da receita bruta definido em lei conforme a atividade (por exemplo, 8% para comércio no IRPJ e 32% para serviços). Exemplo trimestral de comércio com receita de R$ 1.000.000: base do IRPJ = R$ 80.000; IRPJ de 15% = R$ 12.000; adicional = (80.000 − 60.000) × 10% = R$ 2.000; total de R$ 14.000. Na CSLL, com presunção de 12%, a base é R$ 120.000 e o valor, a 9%, é R$ 10.800. Desde 2026, a LC 224/2025 acresce 10% a esses percentuais de presunção na parcela da receita bruta anual que exceder R$ 5 milhões (R$ 1,25 milhão por trimestre): por exemplo, 8% passa a 8,8% e 32% a 35,2%."
+          "No lucro presumido, a base é um percentual da receita bruta definido em lei conforme a atividade (por exemplo, 8% para comércio no IRPJ e 32% para serviços). Exemplo trimestral de comércio com receita de R$ 1.000.000: base do IRPJ = R$ 80.000; IRPJ de 15% = R$ 12.000; adicional = (80.000 − 60.000) × 10% = R$ 2.000; total de R$ 14.000. Na CSLL, com presunção de 12%, a base é R$ 120.000 e o valor, a 9%, é R$ 10.800. Desde 2026, a LC 224/2025 acresce 10% a esses percentuais de presunção na parcela da receita bruta anual que exceder R$ 5 milhões (R$ 1,25 milhão por trimestre): por exemplo, 8% passa a 8,8% e 32% a 35,2%. O acréscimo alcança o IRPJ a partir do 1º trimestre de 2026 e, por sujeitar-se à anterioridade nonagesimal, a CSLL apenas a partir do 2º trimestre de 2026 — quando o limite anual de receita que dispara o acréscimo fica proporcionalizado em R$ 3,75 milhões (3 trimestres × R$ 1,25 milhão)."
         ]
       },
       {
@@ -269,7 +277,7 @@
           "Passivo: circulante e não circulante.",
           "Patrimônio líquido: capital social, reservas de capital, ajustes de avaliação patrimonial, reservas de lucros, ações em tesouraria e prejuízos acumulados.",
           "O ativo é ordenado por grau decrescente de liquidez, e o passivo por grau decrescente de exigibilidade.",
-          "O grupo Ativo Diferido foi extinto."
+          "O grupo Ativo Diferido foi extinto: o inciso V do art. 179 da Lei 6.404/76 foi revogado pela Lei 11.941/2009; o saldo existente em 31/12/2008 que não pudesse ser alocado a outro grupo de contas pôde permanecer no ativo até a completa amortização, sujeito ao teste de recuperação do art. 183, § 3º (art. 299-A)."
         ]
       },
       {
@@ -382,7 +390,7 @@
       {
         "h": "Quando usar cada uma",
         "p": [
-          "A DMPL é exigida para as companhias abertas e é a demonstração usual das demais sociedades que seguem o CPC; a DLPA pode ser incluída na DMPL, que a substitui quando apresentada. Nas sociedades por ações, a Lei exige que o lucro seja totalmente destinado, sem manter saldo de lucros acumulados no balanço do fim do exercício. Outras entidades, como sociedades limitadas, podem manter saldo."
+          "A DMPL é exigida para as companhias abertas e é a demonstração usual das demais sociedades que seguem o CPC; a DLPA pode ser incluída na DMPL, que a substitui quando apresentada. Nas sociedades por ações, a Lei exige que o lucro seja totalmente destinado, sem manter saldo de lucros acumulados no balanço do fim do exercício. Outras entidades, como sociedades limitadas, podem manter saldo. A destinação total admite exceções legais: a retenção de parte do lucro para investimento previsto no orçamento de capital por mais de um exercício social (art. 196) e a suspensão do dividendo obrigatório em razão de situação financeira difícil, por deliberação da assembleia-geral (art. 191)."
         ]
       }
     ],
@@ -433,6 +441,13 @@
         "h": "DVA e riqueza criada",
         "p": [
           "A DVA (CPC 09) mostra a riqueza gerada e como foi distribuída. Exemplo: receitas de R$ 300.000 menos insumos de R$ 150.000 dão valor adicionado bruto de R$ 150.000. Menos depreciação de R$ 10.000, o valor líquido é R$ 140.000. Somando R$ 5.000 recebidos em transferência (equivalência e receitas financeiras), há R$ 145.000 a distribuir, divididos em pessoal (R$ 60.000), tributos (R$ 45.000), remuneração de capital de terceiros (R$ 12.000) e de capital próprio (R$ 28.000). É obrigatória para companhias abertas."
+        ]
+      },
+      {
+        "h": "DFC completa a partir de um balancete",
+        "p": [
+          "Exemplo encadeado. Caixa inicial de R$ 20.000. Durante o ano: lucro líquido de R$ 60.000, depreciação de R$ 15.000, aumento de clientes de R$ 12.000, aumento de fornecedores de R$ 8.000, compra de imobilizado de R$ 40.000, empréstimo tomado de R$ 30.000 e dividendos pagos de R$ 10.000.",
+          "FCO (método indireto) = 60.000 + 15.000 − 12.000 + 8.000 = R$ 71.000. FCI = −R$ 40.000. FCF = 30.000 − 10.000 = R$ 20.000. Variação do caixa = 71.000 − 40.000 + 20.000 = R$ 51.000, e o caixa final é 20.000 + 51.000 = R$ 71.000."
         ]
       }
     ],
@@ -688,6 +703,18 @@
           "Venda com arrendamento de volta: se a transferência atender ao CPC 47 como venda, o vendedor-arrendatário reconhece o direito de uso pela parte do valor contábil retida e o ganho apenas sobre os direitos transferidos.",
           "Se a transferência não for venda, é um financiamento."
         ]
+      },
+      {
+        "h": "Cronograma do passivo de arrendamento",
+        "p": [
+          "Organizar o passivo em um cronograma evita erros: os juros de cada período incidem sobre o saldo de abertura, e a amortização é o pagamento menos os juros.",
+          "No exemplo (passivo inicial de R$ 24.868,52, pagamentos anuais de R$ 10.000 e taxa de 10% ao ano):"
+        ],
+        "list": [
+          "Ano 1: juros 10% × 24.868,52 = 2.486,85; amortização = 7.513,15; saldo final = 17.355,37",
+          "Ano 2: juros = 1.735,54; amortização = 8.264,46; saldo final = 9.090,91",
+          "Ano 3: juros = 909,09; amortização = 9.090,91; saldo final = zero"
+        ]
       }
     ],
     "pitfalls": [
@@ -733,6 +760,19 @@
           "O goodwill é o excedente da contraprestação transferida (mais a participação dos não controladores) sobre o valor justo dos ativos líquidos identificáveis. Exemplo: pagamento de R$ 900.000 por 100% de empresa cujos ativos líquidos identificáveis valem R$ 750.000 dá goodwill de R$ 150.000. Se o preço fosse menor que o valor justo, haveria ganho por compra vantajosa no resultado. O goodwill não é amortizado e passa por teste de redução ao valor recuperável (CPC 01 (R1)) ao menos uma vez por ano."
         ],
         "formula": "Goodwill = Contraprestação + Não controladores − Valor justo dos ativos líquidos identificáveis"
+      },
+      {
+        "h": "Consolidação: noções (CPC 36)",
+        "p": [
+          "Quando uma controladora possui controladas, as demonstrações consolidadas apresentam o grupo como uma única entidade econômica: somam-se linha a linha os ativos, passivos, receitas e despesas da controladora e das controladas.",
+          "O investimento da controladora em cada controlada é eliminado contra o patrimônio líquido correspondente, e a parcela do PL pertencente a sócios externos aparece destacada como participação de não controladores, dentro do patrimônio líquido (não é passivo).",
+          "Saldos e transações entre empresas do grupo são eliminados na consolidação, como vendas intragrupo, receitas de equivalência e dividendos entre elas."
+        ],
+        "list": [
+          "Controladas (controle, CPC 36): consolidadas linha a linha, com eliminação do investimento",
+          "Coligadas (influência significativa, CPC 18): método da equivalência patrimonial, sem consolidação",
+          "Participação de não controladores: destacada dentro do PL consolidado"
+        ]
       }
     ],
     "pitfalls": [
