@@ -2,9 +2,9 @@ import React,{useEffect,useLayoutEffect,useMemo,useRef,useState} from 'react';
 import {createRoot} from 'react-dom/client';
 import {BookOpen,CalendarDays,GraduationCap,ChevronLeft,ChevronRight,CheckCircle2,RotateCcw,Info,Timer,Moon,Sun} from 'lucide-react';
 import curriculum from './curriculum.json';
-import {demo,loadAllQuizzes,loadLesson,loadMini,loadQuizBank,loadQuizzes,loadSimulado,miniSessions,quizRange,resolveItems} from './content';
+import {demo,loadAllQuizzes,loadLesson,loadMini,loadQuizBank,loadQuizzes,loadSimulado,miniSessions,qid,quizRange,resolveItems} from './content';
 import type {Item,Lesson,Question,Session} from './content';
-import {applyAttempt,loadProgress,resetProgress,setLast,toggleDone} from './progress';
+import {applyAttempt,hasLegacyIds,loadProgress,resetProgress,setLast,toggleDone,translateProgress} from './progress';
 import type {ProgressStore} from './progress';
 import './style.css';
 
@@ -67,7 +67,7 @@ function parseHash():Route{
 
 type Quiz={sessionId:number|null;title:string;eyebrow:string;lead:string;list:Item[];simulado:boolean};
 
-const tag=(key:(i:number)=>string,qs:Question[]):Item[]=>qs.map((q,i)=>({q,id:key(i)}));
+const tag=(src:(i:number)=>string,qs:Question[]):Item[]=>qs.map((q,i)=>({q,id:qid(q),src:src(i)}));
 function shuffle<T>(a:T[]):T[]{const c=[...a];for(let i=c.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[c[i],c[j]]=[c[j],c[i]]}return c}
 
 async function quizFor(s:Session,missedIds:string[]):Promise<Quiz>{
@@ -79,8 +79,8 @@ const rv=reviewMap[s.id];
 if(rv){const th=themeMap[s.id];
 const resolved=await resolveItems(missedIds);
 const inTheme=(it:Item)=>!th||th.areas.includes(it.q.area??'');
-const simMiss=resolved.filter(it=>it.id.startsWith('x:'+rv+':')&&inTheme(it));
-const otherMiss=resolved.filter(it=>!it.id.startsWith('x:'+rv+':')&&inTheme(it));
+const simMiss=resolved.filter(it=>(it.src??'').startsWith('x:'+rv+':')&&inTheme(it));
+const otherMiss=resolved.filter(it=>!(it.src??'').startsWith('x:'+rv+':')&&inTheme(it));
 const miss=[...simMiss,...otherMiss].slice(0,12);
 if(miss.length)return{sessionId:s.id,title:s.title,eyebrow:th?'REVISÃO DE '+th.theme.toUpperCase():s.id===84?'REVISÃO DOS TEMAS MAIS FRACOS':'REVISÃO FINAL DE ERROS',lead:th?'As questões que você errou de '+th.theme+' — no simulado '+rv+' e nas aulas do curso. Acertar uma questão a remove da sua lista de erros.':'Suas questões erradas ainda pendentes, priorizando o simulado '+rv+'. Acertar uma questão a remove da sua lista de erros.',list:miss,simulado:false}
 if(th){const all=await loadAllQuizzes();
@@ -93,7 +93,7 @@ if(s.kind==='aula'){const own=await loadQuizBank(s.id);
 if(own&&own.length){
 if(s.day==='Sexta'){ // semana sem mini nem revisão (hoje só s30/s70): a aula de sexta também consolida os erros da semana
 const weekSet=new Set(curriculum.filter(x=>x.week===s.week&&x.kind==='aula'&&x.id!==s.id).map(x=>x.id));
-const weekMiss=(await resolveItems(missedIds.filter(id=>id.startsWith('s:')&&weekSet.has(Number(id.split(':')[1]))))).slice(0,10);
+const weekMiss=(await resolveItems(missedIds)).filter(it=>{const src=it.src??'';return src.startsWith('s:')&&weekSet.has(Number(src.split(':')[1]))}).slice(0,10);
 if(weekMiss.length)return{sessionId:s.id,title:s.title,eyebrow:'PRÁTICA + REVISÃO DA SEMANA',lead:'Primeiro, até 10 questões que você errou nas aulas desta semana (repetição espaçada); depois, '+own.length+' questões originais sobre '+s.title.toLowerCase()+', no formato do exame (4 alternativas).',list:[...shuffle(weekMiss),...tag(i=>'s:'+s.id+':'+i,own)],simulado:false}}
 return{sessionId:s.id,title:s.title,eyebrow:'PRÁTICA',lead:'Questões originais sobre '+s.title.toLowerCase()+', no formato do exame (4 alternativas).',list:tag(i=>'s:'+s.id+':'+i,own),simulado:false}}
 }
@@ -101,7 +101,7 @@ if(s.kind==='revisao'){
 const weekAulas=curriculum.filter(x=>x.week===s.week&&x.kind==='aula');
 const weekIds=weekAulas.map(x=>x.id);
 const weekSet=new Set(weekIds);
-const weekMiss=(await resolveItems(missedIds.filter(id=>id.startsWith('s:')&&weekSet.has(Number(id.split(':')[1]))))).slice(0,12);
+const weekMiss=(await resolveItems(missedIds)).filter(it=>{const src=it.src??'';return src.startsWith('s:')&&weekSet.has(Number(src.split(':')[1]))}).slice(0,12);
 const files=await Promise.all([...new Set(weekIds.map(quizRange))].map(loadQuizzes));
 const merged=Object.assign({},...files);
 const agg=weekAulas.flatMap(x=>tag(i=>'s:'+x.id+':'+i,merged[String(x.id)]??[]));
@@ -143,7 +143,7 @@ quiz?.list.forEach((it,i)=>{const a=it.q.area??'Outros';const e=areaStats.get(a)
 const areas=[...areaStats.entries()].sort((x,y)=>y[1].n-x[1].n);
 useEffect(()=>{onPhase(!showResult);return()=>onPhase(false)},[showResult]);
 useEffect(()=>{if(!quiz?.simulado||showResult)return;const t=setInterval(()=>setSeconds(s=>s+1),1000);return()=>clearInterval(t)},[quiz,showResult]);
-const submit=()=>{if(!quiz)return;const results=quiz.list.map((it,i)=>({id:it.id,correct:answers[i]===it.q.correct}));const sc=results.filter(r=>r.correct).length;setShowResult(true);setProgress(applyAttempt(progress,quiz.sessionId,results,sc,quiz.list.length));window.scrollTo(0,0)};
+const submit=()=>{if(!quiz)return;const results=quiz.list.map((it,i)=>({id:it.id,src:it.src,correct:answers[i]===it.q.correct}));const sc=results.filter(r=>r.correct).length;setShowResult(true);setProgress(applyAttempt(progress,quiz.sessionId,results,sc,quiz.list.length));window.scrollTo(0,0)};
 const retry=()=>{setQuiz(null);setShowResult(false);setNonce(n=>n+1);window.scrollTo(0,0)};
 if(error)return <div className="panel"><h3>Não foi possível carregar as questões.</h3><p>Verifique sua conexão e tente novamente.</p><button className="primary" onClick={retry}><RotateCcw size={17}/> Tentar novamente</button></div>;
 if(!quiz)return <div className="loading"><span className="spinner"/>Carregando questões…</div>;
@@ -177,6 +177,8 @@ return <><button className="back" onClick={()=>{setWeek(session.week);go('#/plan
 function App(){
 const [route,setRoute]=useState<Route>(()=>parseHash());
 const [progress,setProgress]=useState<ProgressStore>(loadProgress);
+const [booted,setBooted]=useState(()=>!hasLegacyIds(progress));
+const progressRef=useRef(progress);
 const [week,setWeek]=useState(()=>{const s=curriculum.find(x=>x.id===progress.last);return s?s.week:1});
 const [quizActive,setQuizActive]=useState(false);
 const [theme,setTheme]=useState<Theme>(readTheme);
@@ -191,6 +193,13 @@ useEffect(()=>{
   window.addEventListener('hashchange',onHash);
   return()=>window.removeEventListener('hashchange',onHash);
 },[]);
+useEffect(()=>{progressRef.current=progress});
+useEffect(()=>{
+  let live=true;
+  // Migração v1→v2 (ids posicionais → hashes estáveis); indexa todo o conteúdo uma única vez.
+  translateProgress(()=>progressRef.current).then(p=>{if(!live)return;if(p!==progressRef.current)setProgress(p);setBooted(true)},()=>{if(live)setBooted(true)});
+  return()=>{live=false};
+},[]);
 useEffect(()=>{if(activeId!=null&&progress.last!==activeId)setProgress(setLast(progress,activeId))},[route]);
 useEffect(()=>{if(route.page==='plan')weekSelRef.current?.querySelector('.active')?.scrollIntoView({inline:'center',block:'nearest'})},[route,week]);
 const bankCount=Object.keys(progress.missed).length;
@@ -200,9 +209,12 @@ const continueS=nextUp??(progress.last!=null?curriculum.find(s=>s.id===progress.
 const aulaTarget=activeId!=null?selected:continueS;
 return <div className="app"><header className="top"><div className="brand" onClick={()=>{go('#/');window.scrollTo(0,0)}}><span className="logo"><GraduationCap size={23}/></span><span><b>Aprova CRC</b><small>Exame de Suficiência CFC</small></span></div><div className="top-actions"><span className="tag">Gratuito</span><button className="theme-toggle" aria-label={theme==='dark'?'Mudar para tema claro':'Mudar para tema escuro'} onClick={()=>setTheme(t=>t==='dark'?'light':'dark')}>{theme==='dark'?<Sun size={18}/>:<Moon size={18}/>}</button></div></header>
 <main>
+{!booted?<div className="loading"><span className="spinner"/>Preparando seu progresso…</div>:<>
+
 {route.page==='home'&&<><div className="eyebrow">SEU PLANO DE ESTUDOS</div><h1>Seu caminho até o CRC começa aqui.</h1><p className="lead">Um roteiro direto para estudar no celular, com 2 horas por dia, de segunda a sexta.</p><div className="hero"><div className="hero-head">Plano de preparação <span>17 semanas</span></div><div className="stats"><div><strong>85</strong><small>sessões</small></div><div><strong>{totalHours}h</strong><small>de estudo</small></div><div><strong>35/50</strong><small>meta (mín. 25/50)</small></div></div></div>{doneCount>0||progress.last!=null?<><h2>Continue de onde parou</h2><div className="panel"><div className="progress-line"><small>Semana {continueS.week} · Dia {pad(continueS.id)} · {continueS.block}</small><b>{doneCount}/85</b></div><div className="progress-bar"><span style={{width:Math.round(doneCount/85*100)+'%'}}/></div><h3>{continueS.title}</h3><p>{kindLabel(continueS.kind)} de {durLabel(continueS.minutes)} · Semana {continueS.week}, dia {pad(continueS.id)}</p><button className="primary" onClick={()=>open(continueS)}>Continuar <ChevronRight size={18}/></button></div><button className="secondary" onClick={()=>go('#/plano')}><CalendarDays size={18}/> Ver as 85 sessões</button></>:<><h2>Por onde começar?</h2><div className="panel"><div className="eyebrow">DIA 01 · CONTABILIDADE GERAL</div><h3>{curriculum[0].title}</h3><p>Conheça os conceitos essenciais e teste seu conhecimento com questões comentadas.</p><button className="primary" onClick={()=>open(curriculum[0])}>Abrir primeira aula <ChevronRight size={18}/></button></div><button className="secondary" onClick={()=>go('#/plano')}><CalendarDays size={18}/> Ver as 85 sessões</button></>}{bankCount>0&&<button className="review-link" onClick={()=>go('#/revisar')}><RotateCcw size={17}/> Revisar {bankCount} {bankCount===1?'questão errada':'questões erradas'}</button>}<div className="notice"><Info size={18}/><span>Calendário de estudo sugerido, não data oficial da prova. Confira o edital da edição em que for prestar o exame.</span></div>{doneCount>0&&<div className="privacy-note">Seu progresso fica salvo apenas neste navegador, neste dispositivo.<button className="link-danger" onClick={()=>{if(window.confirm('Apagar todo o progresso salvo neste navegador?')){resetProgress();setProgress({last:null,sessions:{},missed:{}})}}}>Apagar progresso</button></div>}</>}
 {route.page==='plan'&&<><div className="eyebrow">CALENDÁRIO COMPLETO</div><h1>17 semanas. 85 sessões.</h1><p className="lead">Escolha uma semana e toque em qualquer sessão. Sem criação de conta: o progresso fica salvo neste navegador.</p><div className="week-nav"><button aria-label="Semana anterior" disabled={week===1} onClick={()=>setWeek(w=>w-1)}><ChevronLeft/></button><span>Semana {week} de 17</span><button aria-label="Próxima semana" disabled={week===17} onClick={()=>setWeek(w=>w+1)}><ChevronRight/></button></div><div className="phases" ref={weekSelRef}>{phases.map(ph=>{const done=curriculum.filter(s=>s.block===ph.block&&progress.sessions[String(s.id)]?.done).length;const complete=done===ph.total;const jump=()=>setWeek(ph.weeks.find(w=>curriculum.filter(s=>s.week===w).some(x=>!progress.sessions[String(x.id)]?.done))??ph.weeks[ph.weeks.length-1]);return<div className="phase" key={ph.block}><button className="phase-head" onClick={jump} aria-label={'Ir para a próxima semana pendente de '+ph.block}><span>{ph.block}</span><span className={'phase-count'+(complete?' all-done':'')}>{complete&&<CheckCircle2 size={13}/>}{done}/{ph.total}</span></button><div className="week-select">{ph.weeks.map(w=>{const n=curriculum.filter(s=>s.week===w&&progress.sessions[String(s.id)]?.done).length;return<button key={w} className={(week===w?'active ':'')+(n===5?'complete':'')} onClick={()=>setWeek(w)}><b>{w}</b><small>{n}/5</small></button>})}</div></div>})}</div><h2>{curriculum[(week-1)*5].weekTitle}</h2><p className="muted">{curriculum[(week-1)*5].block} · {durLabel(curriculum.filter(x=>x.week===week).reduce((a,x)=>a+x.minutes,0))}</p><div className="sessions">{curriculum.filter(s=>s.week===week).map(s=>{const e=progress.sessions[String(s.id)];return<button className="session" key={s.id} onClick={()=>open(s)}><span className="session-day">{s.day}<small>Dia {pad(s.id)}</small></span><span className="session-name">{s.title}<small>{durLabel(s.minutes)} · {kindLabel(s.kind)}{e&&e.attempts>0?` · melhor ${e.best}/${e.bestTotal??e.total}`:''}</small></span>{e?.done?<CheckCircle2 size={20} className="ic-done"/>:<ChevronRight size={18}/>}</button>})}</div></>}
 {route.page==='lesson'&&<LessonView key={selected.id} session={selected} progress={progress} setProgress={setProgress} go={go} open={open} setWeek={setWeek}/>}
 {(route.page==='quiz'||route.page==='review')&&<QuizView key={route.page==='quiz'?'q'+route.id:'review'} session={route.page==='quiz'?selected:null} progress={progress} setProgress={setProgress} go={go} onPhase={setQuizActive}/>}
-</main><nav className={'bottom'+(quizActive?' hidden':'')}><button className={route.page==='home'?'active':''} onClick={()=>{go('#/');window.scrollTo(0,0)}}><GraduationCap size={21}/>Início</button><button className={route.page==='plan'?'active':''} onClick={()=>{go('#/plano');window.scrollTo(0,0)}}><CalendarDays size={21}/>Plano</button><button className={route.page==='lesson'||route.page==='quiz'?'active':''} onClick={()=>open(aulaTarget)}><BookOpen size={21}/>Aula</button></nav></div>}
+</>}
+</main><nav className={'bottom'+(quizActive||!booted?' hidden':'')}><button className={route.page==='home'?'active':''} onClick={()=>{go('#/');window.scrollTo(0,0)}}><GraduationCap size={21}/>Início</button><button className={route.page==='plan'?'active':''} onClick={()=>{go('#/plano');window.scrollTo(0,0)}}><CalendarDays size={21}/>Plano</button><button className={route.page==='lesson'||route.page==='quiz'?'active':''} onClick={()=>open(aulaTarget)}><BookOpen size={21}/>Aula</button></nav></div>}
 createRoot(document.getElementById('root')!).render(<React.StrictMode><App/></React.StrictMode>);

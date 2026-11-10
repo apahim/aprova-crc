@@ -4,7 +4,7 @@ export type Session=(typeof curriculum)[number];
 export type Question={stem:string;options:string[];correct:number;explanation:string;area?:string};
 export type LessonSection={h:string;p?:string[];list?:string[];formula?:string};
 export type Lesson={objectives?:string[];sections?:LessonSection[];pitfalls?:string[];refs?:string[]};
-export type Item={id:string;q:Question};
+export type Item={id:string;q:Question;src?:string};
 
 export const demo:Question[]=[
 {stem:'Uma empresa possui R$ 180.000 em ativos e R$ 65.000 em obrigações. Qual é o patrimônio líquido?',options:['R$ 65.000','R$ 115.000','R$ 180.000','R$ 245.000'],correct:1,explanation:'Patrimônio líquido = Ativo − Passivo = 180.000 − 65.000 = R$ 115.000.',area:'Contabilidade Geral'},
@@ -65,17 +65,39 @@ export async function loadAllQuizzes():Promise<BankFile>{
   return Object.assign({},...files);
 }
 
-async function resolveQuestion(id:string):Promise<Question|undefined>{
-  const parts=id.split(':');
-  if(parts[0]==='d')return demo[Number(parts[1])];
-  if(parts[0]==='x')return (await loadSimulado(parts[1] as 'A'|'B'|'C'))[Number(parts[2])];
-  if(parts[0]==='s'){const bank=await loadQuizBank(Number(parts[1]));return bank?.[Number(parts[2])]}
-  if(parts[0]==='m'){const bank=await loadMini(Number(parts[1]));return bank?.[Number(parts[2])]}
-  return undefined;
+/** Hash estável do enunciado normalizado — mesma normalização usada pela checagem de duplicatas do validador. */
+const normalizeStem=(s:string)=>s.toLowerCase().replace(/\s+/g,' ').trim();
+const fnv1a=(s:string)=>{let h=0x811c9dc5;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619)}return h>>>0};
+const djb2=(s:string)=>{let h=5381;for(let i=0;i<s.length;i++){h=(Math.imul(h,33)+s.charCodeAt(i))|0}return h>>>0};
+const base36=(n:number)=>n.toString(36).padStart(7,'0');
+export const stemHash=(s:string)=>{const n=normalizeStem(s);return base36(fnv1a(n))+base36(djb2(n))};
+/** ID estável da questão (hash do enunciado): sobrevive a inserções e reordenações nos bancos. */
+export const qid=(q:Question):string=>'q:'+stemHash(q.stem);
+
+export type QuestionIndex={byId:Map<string,Item>;bySrc:Map<string,Item>};
+let indexP:Promise<QuestionIndex>|null=null;
+/** Índice global de questões (bancos, minis, simulados e demo): busca por id estável e por localizador posicional. */
+export function loadQuestionIndex():Promise<QuestionIndex>{
+  if(!indexP)indexP=(async()=>{
+    const byId=new Map<string,Item>(),bySrc=new Map<string,Item>();
+    const add=(qs:Question[],src:(i:number)=>string)=>qs.forEach((q,i)=>{
+      const s=src(i);const it:Item={id:qid(q),q,src:s};
+      if(!byId.has(it.id))byId.set(it.id,it); // enunciados são únicos (validador); demo cede a bancos/simulados
+      bySrc.set(s,it);
+    });
+    const banks=await loadAllQuizzes();
+    for(const [sid,qs] of Object.entries(banks))add(qs,i=>'s:'+sid+':'+i);
+    for(const f of ['a','b'] as const){const minis=await loadMinis(f);for(const [sid,qs] of Object.entries(minis))add(qs,i=>'m:'+sid+':'+i)}
+    for(const L of ['A','B','C'] as const)add(await loadSimulado(L),i=>'x:'+L+':'+i);
+    add(demo,i=>'d:'+i);
+    return{byId,bySrc};
+  })().catch(e=>{indexP=null;throw e});
+  return indexP;
 }
 
-/** Resolve stable question ids (e.g. "s:12:3", "x:A:17") to their questions, loading only the files that contain them. */
+/** Resolve ids estáveis ("q:…") e legados posicionais ("s:12:3", "x:A:17") para as questões atuais. */
 export async function resolveItems(ids:string[]):Promise<Item[]>{
-  const items=await Promise.all(ids.map(id=>resolveQuestion(id).then(q=>q?{id,q}:null)));
-  return items.filter((x):x is Item=>x!=null);
+  if(!ids.length)return[];
+  const {byId,bySrc}=await loadQuestionIndex();
+  return ids.map(id=>id.startsWith('q:')?byId.get(id):bySrc.get(id)).filter((x):x is Item=>x!=null);
 }
