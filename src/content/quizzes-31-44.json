@@ -71,6 +71,54 @@
    "correct": 0,
    "explanation": "Custo fixo total é constante dentro da faixa relevante; o unitário diminui: 120.000 ÷ 10.000 = R$ 12,00 e 120.000 ÷ 15.000 = R$ 8,00.",
    "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Pelo método do alto e baixo, uma empresa observa custo total de R$ 80.000,00 para 1.500 horas de atividade e R$ 140.000,00 para 3.500 horas. O custo fixo do período é de:",
+   "options": [
+    "R$ 35.000,00",
+    "R$ 80.000,00",
+    "R$ 45.000,00",
+    "R$ 140.000,00"
+   ],
+   "correct": 0,
+   "explanation": "Custo variável unitário = (140.000 − 80.000) ÷ (3.500 − 1.500) = R$ 30,00 por hora. Custo fixo = 80.000 − 1.500 × 30 = R$ 35.000,00 (conferindo: 140.000 − 3.500 × 30 = 35.000). R$ 80.000,00 e R$ 140.000,00 são os custos totais dos níveis baixo e alto, não a parcela fixa; R$ 45.000,00 é o custo variável do nível baixo (1.500 × 30).",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Durante uma parada não programada da linha de produção por falta de matéria-prima, os salários pagos à mão de obra direta no período de inatividade são, em regra, tratados como:",
+   "options": [
+    "Custo do produto, pois integram a folha da fábrica",
+    "Custo do período ou perda, pois a ociosidade não agrega valor ao produto",
+    "Despesa comercial, por não haver produção",
+    "Investimento em mão de obra"
+   ],
+   "correct": 1,
+   "explanation": "O tempo ocioso não decorre da produção normal e não é apropriado ao produto: trata-se de custo do período (ociosidade estrutural) ou perda (ociosidade anormal). Somente as horas efetivamente aplicadas integram a MOD dos produtos.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Em um processo produtivo, é normal perder 2% do material incorporado, por características do próprio processo. Essa perda normal:",
+   "options": [
+    "É lançada diretamente ao resultado como perda do período",
+    "É classificada como despesa industrial do período",
+    "Integra o custo dos produtos acabados",
+    "Reduz a receita bruta na demonstração do resultado"
+   ],
+   "correct": 2,
+   "explanation": "Perdas normais e inevitáveis do processo integram o custo dos produtos: o custo dos produtos sãos absorve o material perdido. Somente perdas anormais e involuntárias (incêndio, greve) vão direto ao resultado.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Uma indústria comprou matéria-prima por R$ 50.000,00 em agosto; metade foi consumida na produção no mesmo mês e o restante ficou estocado. O custo do mês de agosto foi de:",
+   "options": [
+    "R$ 50.000,00",
+    "R$ 0,00",
+    "R$ 25.000,00",
+    "R$ 75.000,00"
+   ],
+   "correct": 2,
+   "explanation": "Só o material consumido na produção vira custo: R$ 25.000,00. A metade estocada permanece no ativo (investimento) e só será custo quando consumida. Comprar não é custear — confundir gasto com custo é o erro clássico.",
+   "area": "Contabilidade de Custos"
   }
  ],
  "32": [
@@ -145,6 +193,54 @@
    "correct": 3,
    "explanation": "O ABC aloca custos conforme o consumo de atividades. Produtos complexos e de pequeno lote consomem muitas atividades e tendem a ficar mais caros; no rateio por volume eram subsidiados pelos produtos de alto volume.",
    "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "A indústria orçou CIF de R$ 200.000,00 para 8.000 horas-máquina no ano. No período foram utilizadas 7.600 horas e o CIF real totalizou R$ 196.000,00. O CIF aplicado aos produtos e a situação ao final do período são:",
+   "options": [
+    "R$ 196.000,00 aplicados, sem diferença",
+    "R$ 190.000,00 aplicados e CIF subaplicado em R$ 6.000,00",
+    "R$ 200.000,00 aplicados e CIF superaplicado em R$ 4.000,00",
+    "R$ 190.000,00 aplicados e CIF superaplicado em R$ 6.000,00"
+   ],
+   "correct": 1,
+   "explanation": "Taxa predeterminada = 200.000 ÷ 8.000 = R$ 25,00 por hora. CIF aplicado = 7.600 × 25 = R$ 190.000,00. Como o real (R$ 196.000,00) supera o aplicado, há subaplicação de R$ 6.000,00, ajustada ao resultado (ou entre estoques e CMV, se material). R$ 4.000,00 é a diferença entre o CIF orçado e o real, que não é a base do ajuste.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Quando o CIF aplicado aos produtos mediante taxa predeterminada excede o CIF real do período, ocorre:",
+   "options": [
+    "Subaplicação de CIF, que eleva o custo do período",
+    "Custeio por absorção indevido, vedado em lei",
+    "Superaplicação de CIF, com ajuste que reduz o custo do período",
+    "Variação de eficiência favorável da mão de obra direta"
+   ],
+   "correct": 2,
+   "explanation": "Aplicado maior que real é superaplicação: os produtos absorveram mais CIF do que o incorrido, e o ajuste credita o resultado (ou reduz estoques e CMV). O contrário — aplicado menor que o real — é subaplicação.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "No rateio dos custos dos departamentos auxiliares pelo método direto, os custos da Manutenção são distribuídos:",
+   "options": [
+    "Aos departamentos produtivos e também aos demais departamentos auxiliares",
+    "Diretamente aos produtos, sem passar pelos departamentos produtivos",
+    "Ao resultado do período, como despesa",
+    "Exclusivamente aos departamentos produtivos, ignorando os serviços prestados a outros departamentos auxiliares"
+   ],
+   "correct": 3,
+   "explanation": "No método direto, os custos dos centros auxiliares vão apenas aos departamentos produtivos, ignorando-se os serviços recíprocos entre auxiliares — simplificação em relação ao método escalonado (step-down), que reconhece parte desses fluxos.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "No custeio baseado em atividades (ABC), o indutor de custo mais adequado para a atividade de emissão de pedidos de compra é:",
+   "options": [
+    "O número de pedidos de compra emitidos",
+    "As horas de mão de obra direta",
+    "O valor dos estoques movimentados",
+    "A área do almoxarifado em metros quadrados"
+   ],
+   "correct": 0,
+   "explanation": "O indutor deve guardar relação de causa e efeito com o consumo da atividade: o custo de emitir pedidos varia com a quantidade de pedidos emitidos, e não com horas de MOD, valor estocado ou área.",
+   "area": "Contabilidade de Custos"
   }
  ],
  "33": [
@@ -157,7 +253,7 @@
     "R$ 30,00"
    ],
    "correct": 3,
-   "explanation": "MC = preço − custos variáveis − despesas variáveis = 100 − 60 − 10 = R$ 30,00.",
+   "explanation": "MC = preço − custos variáveis − despesas variáveis = 100 − 60 − 10 = R$ 30,00. R$ 40,00 esquece as despesas variáveis (100 − 60); R$ 70,00 soma custos e despesas variáveis (60 + 10); R$ 10,00 é a própria despesa variável unitária.",
    "area": "Contabilidade de Custos"
   },
   {
@@ -169,7 +265,7 @@
     "4.000 unidades"
    ],
    "correct": 2,
-   "explanation": "PE = CF ÷ MC unitária = 90.000 ÷ 30 = 3.000 unidades.",
+   "explanation": "PE contábil = custos e despesas fixos ÷ MC unitária = 90.000 ÷ 30 = 3.000 unidades. As demais alternativas viriam de margens erradas: 90.000 ÷ 40 = 2.250 e 90.000 ÷ 60 = 1.500; e 4.000 unidades corresponderia a somar ao numerador um lucro desejado de R$ 30.000 — a lógica do ponto de equilíbrio econômico, não do contábil.",
    "area": "Contabilidade de Custos"
   },
   {
@@ -205,7 +301,7 @@
     "10%"
    ],
    "correct": 0,
-   "explanation": "Margem de segurança = (vendas − PE) ÷ vendas = (5.000 − 4.000) ÷ 5.000 = 20%.",
+   "explanation": "Margem de segurança = (vendas − PE) ÷ vendas = (5.000 − 4.000) ÷ 5.000 = 20%: as vendas podem cair até 20% antes de o resultado se tornar prejuízo. 25% resultaria de dividir a folga (1.000 unidades) pelo ponto de equilíbrio (4.000); 80% é o próprio PE em relação às vendas, leitura invertida; 10% não corresponde a nenhum cálculo com os dados.",
    "area": "Contabilidade de Custos"
   },
   {
@@ -218,6 +314,54 @@
    ],
    "correct": 3,
    "explanation": "GAO = MC ÷ lucro operacional = 200.000 ÷ 50.000 = 4. Variação do lucro = 4 × 10% = 40% (de R$ 50.000,00 para R$ 70.000,00).",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Uma empresa produziu 2.000 unidades e vendeu 1.500, sem estoque inicial. O custo variável unitário é R$ 40,00, os custos fixos de produção somam R$ 60.000,00 e o preço de venda é R$ 100,00. Desconsiderando tributos e outras despesas, o lucro pelo custeio por absorção e pelo custeio variável são, respectivamente:",
+   "options": [
+    "R$ 30.000,00 e R$ 45.000,00",
+    "Iguais, pois o total de custos do período é o mesmo",
+    "R$ 45.000,00 e R$ 15.000,00",
+    "R$ 45.000,00 e R$ 30.000,00"
+   ],
+   "correct": 3,
+   "explanation": "Absorção: custo unitário = 40 + 60.000 ÷ 2.000 = R$ 70,00; CMV = 1.500 × 70 = 105.000; lucro = 150.000 − 105.000 = R$ 45.000,00. Variável: 150.000 − (1.500 × 40) − 60.000 = R$ 30.000,00. A diferença de R$ 15.000,00 é o custo fixo retido nas 500 unidades estocadas (500 × 30); quando o estoque for vendido, a diferença se inverte.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Um produto é vendido por R$ 80,00, com custos e despesas variáveis unitários de R$ 50,00. O índice (razão) de margem de contribuição é:",
+   "options": [
+    "37,5%",
+    "62,5%",
+    "60%",
+    "30%"
+   ],
+   "correct": 0,
+   "explanation": "MCu = 80 − 50 = R$ 30,00; índice = 30 ÷ 80 = 37,5%. Esse índice permite calcular o ponto de equilíbrio em reais (custos fixos ÷ 0,375). Os 62,5% representam a participação dos custos e despesas variáveis no preço.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Custos e despesas fixos de R$ 75.000,00 por período, MCu de R$ 30,00 e índice de margem de contribuição de 40%. O ponto de equilíbrio contábil, em reais, é:",
+   "options": [
+    "R$ 150.000,00",
+    "R$ 187.500,00",
+    "R$ 250.000,00",
+    "R$ 300.000,00"
+   ],
+   "correct": 1,
+   "explanation": "PE em reais = custos fixos ÷ índice de MC = 75.000 ÷ 0,40 = R$ 187.500,00 — equivalente a 2.500 unidades (75.000 ÷ 30) ao preço de R$ 75,00. R$ 250.000,00 resultaria de dividir pela MCu em vez do índice.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Uma empresa tem grau de alavancagem operacional (GAO) igual a 4 no nível atual de vendas. Se as vendas caírem 10%, o lucro operacional:",
+   "options": [
+    "cai 2,5%",
+    "cai 10%",
+    "cai 40%",
+    "permanece constante"
+   ],
+   "correct": 2,
+   "explanation": "O GAO amplifica o efeito nas duas direções: queda de 10% nas vendas reduz o lucro em 4 × 10% = 40%. Por isso a alavancagem alta é risco na queda e alavanca na alta.",
    "area": "Contabilidade de Custos"
   }
  ],
@@ -293,6 +437,54 @@
    "correct": 2,
    "explanation": "Quantidade padrão para 500 un = 1.500 kg. Variação de quantidade = (1.600 − 1.500) × preço padrão 8 = R$ 800,00, desfavorável (consumo acima do padrão).",
    "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Em um processo contínuo, o material é adicionado no início da produção e a conversão ocorre de modo uniforme. Há 500 unidades em elaboração com 100% dos materiais e 40% de conversão. Em unidades equivalentes de conversão, o estoque em elaboração corresponde a:",
+   "options": [
+    "500 unidades",
+    "200 unidades",
+    "350 unidades",
+    "450 unidades"
+   ],
+   "correct": 1,
+   "explanation": "Equivalentes de conversão = 500 × 40% = 200 unidades. Em materiais seriam 500 unidades (100% já adicionadas): a produção equivalente pode ser diferente para cada insumo, conforme o estágio de adição.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "O padrão de mão de obra direta é de 2 horas por unidade a R$ 25,00 a hora. Foram produzidas 1.000 unidades, com 2.100 horas trabalhadas a R$ 24,00. A variação de eficiência (quantidade) da mão de obra é:",
+   "options": [
+    "R$ 2.500,00 desfavorável",
+    "R$ 2.100,00 favorável",
+    "R$ 2.500,00 favorável",
+    "R$ 2.100,00 desfavorável"
+   ],
+   "correct": 0,
+   "explanation": "Horas padrão = 1.000 × 2 = 2.000. Variação de eficiência = (2.100 − 2.000) × preço padrão R$ 25,00 = R$ 2.500,00 desfavorável. (A variação de preço seria (24 − 25) × 2.100 = R$ 2.100,00 favorável.) Usar o preço real na variação de eficiência é o erro clássico.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "Um processo conjunto de custo total de R$ 90.000,00 gerou 300 kg do coproduto A e 600 kg do coproduto B. Pelo critério da quantidade física, o custo atribuído a B é:",
+   "options": [
+    "R$ 30.000,00",
+    "R$ 45.000,00",
+    "R$ 60.000,00",
+    "R$ 90.000,00"
+   ],
+   "correct": 2,
+   "explanation": "Pela quantidade física, B responde por 600 ÷ 900 = 66,7% do volume: 66,7% × 90.000 = R$ 60.000,00. O critério físico ignora o valor de mercado e pode distorcer quando os produtos têm valores unitários muito diferentes.",
+   "area": "Contabilidade de Custos"
+  },
+  {
+   "stem": "No ponto de separação, além dos coprodutos, obtém-se um subproduto cuja receita líquida estimada é de R$ 5.000,00. O tratamento usual desse valor na apropriação dos custos conjuntos é:",
+   "options": [
+    "Reconhecê-lo como receita integral, sem afetar o custo dos coprodutos",
+    "Ativá-lo como intangível até a venda",
+    "Rateá-lo entre os coprodutos na proporção do valor de mercado",
+    "Deduzi-lo do custo conjunto antes do rateio aos coprodutos"
+   ],
+   "correct": 3,
+   "explanation": "A receita líquida estimada do subproduto usualmente deduz o custo conjunto, e o saldo é rateado aos coprodutos. O subproduto, por irrelevância, não recebe custo: sua venda compensa o custo do processo.",
+   "area": "Contabilidade de Custos"
   }
  ],
  "36": [
@@ -366,6 +558,54 @@
    ],
    "correct": 2,
    "explanation": "Com fator limitante, compara-se a MC por unidade do recurso escasso: X = 20 ÷ 4 = R$ 5,00/h; Y = 15 ÷ 2 = R$ 7,50/h.",
+   "area": "Contabilidade Gerencial"
+  },
+  {
+   "stem": "O preço de mercado de um produto é R$ 600,00 e a empresa deseja margem de lucro de 25% sobre o preço de venda. Pela lógica do custeio-meta (target costing), o custo-alvo é:",
+   "options": [
+    "R$ 450,00",
+    "R$ 480,00",
+    "R$ 150,00",
+    "R$ 750,00"
+   ],
+   "correct": 0,
+   "explanation": "No custeio-meta o preço vem do mercado e o custo é a variável de controle: custo-alvo = 600 − (25% × 600) = R$ 450,00. R$ 480,00 resulta de dividir 600 por 1,25, aplicando a margem sobre o custo; R$ 150,00 é a própria margem desejada. Se o custo atual excede o alvo, há meta de redução a perseguir.",
+   "area": "Contabilidade Gerencial"
+  },
+  {
+   "stem": "A diferença conceitual entre o custeio-meta e a formação de preço pelo markup é que, no custeio-meta:",
+   "options": [
+    "o custo é calculado antes do preço, como no markup",
+    "o preço vem do mercado e o custo é a variável a ser alcançada",
+    "a margem de lucro é sempre maior",
+    "os tributos sobre vendas são ignorados"
+   ],
+   "correct": 1,
+   "explanation": "O markup parte do custo para chegar ao preço (cost-plus); o custeio-meta parte do preço competitivo de mercado, menos a margem desejada, para definir o custo máximo admissível. Um é orientado pelo custo; o outro, pelo mercado.",
+   "area": "Contabilidade Gerencial"
+  },
+  {
+   "stem": "Com capacidade ociosa, chega um pedido especial de 2.000 unidades a R$ 35,00 cada, quando o custo variável unitário é de R$ 36,00 e os custos fixos não se alteram. A decisão correta é:",
+   "options": [
+    "Aceitar, pois a capacidade ociosa não tem custo",
+    "Rejeitar, pois a margem de contribuição do pedido é negativa",
+    "Aceitar, pois o preço cobre os custos fixos rateados",
+    "Rejeitar apenas se houver outra demanda pela capacidade"
+   ],
+   "correct": 1,
+   "explanation": "Preço abaixo do custo variável destrói valor: MC = 35 − 36 = −R$ 1,00 por unidade, reduzindo o lucro em R$ 2.000,00. Capacidade ociosa não justifica vender abaixo do custo variável; fixos rateados são irrelevantes na decisão.",
+   "area": "Contabilidade Gerencial"
+  },
+  {
+   "stem": "Os produtos A (MC de R$ 24,00 por unidade, 2 horas de máquina por unidade) e B (MC de R$ 30,00 por unidade, 3 horas de máquina por unidade) disputam a mesma máquina, recurso escasso. As margens por hora de máquina e o produto prioritário são:",
+   "options": [
+    "A = R$ 12,00/h e B = R$ 10,00/h, priorizando A",
+    "A = R$ 24,00/h e B = R$ 30,00/h, priorizando B",
+    "A = R$ 10,00/h e B = R$ 12,00/h, priorizando B",
+    "As margens por hora são iguais"
+   ],
+   "correct": 0,
+   "explanation": "MC por unidade do recurso escasso: A = 24 ÷ 2 = R$ 12,00 por hora; B = 30 ÷ 3 = R$ 10,00 por hora. Prioriza-se A, embora B tenha a maior margem unitária — com fator limitante, decide-se pela margem por unidade do recurso escasso.",
    "area": "Contabilidade Gerencial"
   }
  ],
@@ -441,6 +681,54 @@
    "correct": 1,
    "explanation": "Orçamento flexível = 20 × 12.000 + 50.000 = R$ 290.000,00. Variação = 300.000 − 290.000 = R$ 10.000,00 desfavorável. Contra o estático (R$ 250.000,00) seria R$ 50.000,00, comparação distorcida pelo volume.",
    "area": "Controladoria"
+  },
+  {
+   "stem": "No Balanced Scorecard, indicadores como taxa de retenção e satisfação de clientes pertencem à perspectiva:",
+   "options": [
+    "Financeira",
+    "dos clientes",
+    "dos processos internos",
+    "do aprendizado e crescimento"
+   ],
+   "correct": 1,
+   "explanation": "As quatro perspectivas do BSC são financeira, clientes, processos internos e aprendizado e crescimento. Retenção e satisfação são típicas da perspectiva de clientes; lucratividade é financeira; qualidade do processo é interna; treinamento e inovação são do aprendizado.",
+   "area": "Controladoria"
+  },
+  {
+   "stem": "A lógica do Balanced Scorecard é que investimentos em treinamento melhoram a qualidade dos processos, que elevam a satisfação dos clientes e, por fim, o resultado financeiro. Essa sequência caracteriza o BSC como:",
+   "options": [
+    "um sistema de avaliação de estoques",
+    "um orçamento flexível por perspectiva",
+    "um mapa estratégico de relações de causa e efeito entre indicadores",
+    "um painel exclusivamente financeiro de curto prazo"
+   ],
+   "correct": 2,
+   "explanation": "O BSC traduz a estratégia em um mapa de causa e efeito entre perspectivas: aprendizado melhora processos, processos geram valor aos clientes e clientes satisfeitos sustentam o resultado financeiro. Combina indicadores financeiros e não financeiros.",
+   "area": "Controladoria"
+  },
+  {
+   "stem": "No orçamento de caixa: saldo inicial de R$ 15.000,00, recebimentos de R$ 180.000,00 e pagamentos de R$ 200.000,00. O saldo mínimo desejado é de R$ 10.000,00. A necessidade de financiamento do período é:",
+   "options": [
+    "R$ 5.000,00",
+    "R$ 20.000,00",
+    "Não há necessidade de financiamento",
+    "R$ 15.000,00"
+   ],
+   "correct": 3,
+   "explanation": "Saldo projetado = 15.000 + 180.000 − 200.000 = −R$ 5.000,00. Para alcançar o mínimo de R$ 10.000,00, o financiamento deve cobrir 5.000 + 10.000 = R$ 15.000,00. Considerar apenas o déficit de R$ 5.000,00 esquece o saldo mínimo.",
+   "area": "Controladoria"
+  },
+  {
+   "stem": "Um centro de investimento apresenta lucro operacional de R$ 60.000,00 e ativos controlados de R$ 400.000,00. O retorno sobre o investimento (ROI) e a avaliação adequada do gestor são:",
+   "options": [
+    "ROI de 15%, respondendo o gestor também pelos ativos empregados",
+    "ROI de 6,67%, respondendo o gestor apenas pelos custos",
+    "ROI de 15%, respondendo o gestor apenas pelas receitas",
+    "ROI de 40%, respondendo o gestor pelo capital próprio"
+   ],
+   "correct": 0,
+   "explanation": "ROI = lucro ÷ ativos = 60.000 ÷ 400.000 = 15%. No centro de investimento o gestor responde pelo resultado e pelos ativos empregados — por isso é avaliado por ROI (ou EVA), e não apenas por lucro ou custo.",
+   "area": "Controladoria"
   }
  ],
  "38": [
@@ -515,6 +803,54 @@
    "correct": 1,
    "explanation": "Variação real = 1,08 ÷ 1,10 − 1 ≈ −1,82%. Em termos reais, a receita encolheu, apesar do crescimento nominal.",
    "area": "Análise das Demonstrações Contábeis"
+  },
+  {
+   "stem": "No balanço, o passivo exigível total é de R$ 350.000,00 e o patrimônio líquido, de R$ 150.000,00. Na análise vertical, as contas do passivo devem ter como base:",
+   "options": [
+    "O ativo total",
+    "Apenas o passivo exigível",
+    "O passivo exigível somado ao patrimônio líquido",
+    "A receita líquida do período"
+   ],
+   "correct": 2,
+   "explanation": "A AV do passivo usa passivo exigível + PL (R$ 500.000,00), que financia o ativo total. Usar apenas o exigível faria a soma das contas do lado direito do balanço não alcançar 100%; a receita líquida é base da DRE.",
+   "area": "Análise das Demonstrações Contábeis"
+  },
+  {
+   "stem": "Vendas: 2022 R$ 200.000,00; 2023 R$ 240.000,00; 2024 R$ 300.000,00. Tomando 2022 como base 100, o número-índice de 2024 e a variação percentual de 2024 em relação a 2023 são, respectivamente:",
+   "options": [
+    "150 e +25%",
+    "115 e +20%",
+    "150 e +50%",
+    "125 e +25%"
+   ],
+   "correct": 0,
+   "explanation": "Número-índice com base fixa: 300.000 ÷ 200.000 × 100 = 150. A variação anual compara com o ano imediatamente anterior: (300 − 240) ÷ 240 = +25%. Confundir base fixa com variação encadeada é o erro clássico; 115 é o índice de 2023.",
+   "area": "Análise das Demonstrações Contábeis"
+  },
+  {
+   "stem": "Receita bruta de R$ 500.000,00; deduções (devoluções e tributos sobre vendas) de R$ 100.000,00; CMV de R$ 260.000,00. Na análise vertical com base na receita líquida, o CMV representa:",
+   "options": [
+    "52%",
+    "60%",
+    "75%",
+    "65%"
+   ],
+   "correct": 3,
+   "explanation": "Receita líquida = 500.000 − 100.000 = R$ 400.000,00. AV = 260.000 ÷ 400.000 = 65%. Os 52% resultam de usar a receita bruta como base — na DRE, a AV toma a receita líquida.",
+   "area": "Análise das Demonstrações Contábeis"
+  },
+  {
+   "stem": "Em um ano, o ativo total cresceu 30% e a receita líquida cresceu 10%. A leitura gerencial mais adequada é:",
+   "options": [
+    "Melhora de eficiência, pois a empresa investiu mais",
+    "Possível queda do giro do ativo, sugerindo ativos subutilizados",
+    "Aumento garantido do ROA no período",
+    "Redução do endividamento, por força do crescimento"
+   ],
+   "correct": 1,
+   "explanation": "Ativo crescendo bem mais que a receita comprime o giro (receita ÷ ativo) e sugere ociosidade — o ROA tende a cair se a margem não compensar. Investimento não é, por si, indicador de eficiência.",
+   "area": "Análise das Demonstrações Contábeis"
   }
  ],
  "39": [
@@ -527,7 +863,7 @@
     "2,50"
    ],
    "correct": 0,
-   "explanation": "LC = ativo circulante ÷ passivo circulante = 300.000 ÷ 200.000 = 1,50.",
+   "explanation": "LC = ativo circulante ÷ passivo circulante = 300.000 ÷ 200.000 = 1,50: para cada R$ 1,00 de obrigação de curto prazo há R$ 1,50 de ativo circulante. A liquidez seca destes mesmos dados é 0,75 ((300.000 − 150.000 de estoques) ÷ 200.000); 1,00 e 2,50 não correspondem a nenhum índice calculável com o enunciado.",
    "area": "Análise das Demonstrações Contábeis"
   },
   {
@@ -588,6 +924,54 @@
    ],
    "correct": 0,
    "explanation": "Ciclo operacional = PMRE + PMRV (não inclui fornecedores). Ciclo financeiro = ciclo operacional − PMPC; prazo maior de pagamento reduz o ciclo financeiro.",
+   "area": "Análise das Demonstrações Contábeis"
+  },
+  {
+   "stem": "Ativo circulante de R$ 420.000,00; passivo circulante de R$ 180.000,00; ativo não circulante de R$ 580.000,00; passivo não circulante de R$ 320.000,00; patrimônio líquido de R$ 500.000,00. O capital circulante líquido (CCL) é:",
+   "options": [
+    "R$ 240.000,00",
+    "R$ 420.000,00",
+    "Negativo em R$ 240.000,00",
+    "R$ 80.000,00"
+   ],
+   "correct": 0,
+   "explanation": "CCL = AC − PC = 420.000 − 180.000 = R$ 240.000,00. A identidade alternativa confirma: (PL + PNC) − ANC = (500.000 + 320.000) − 580.000 = R$ 240.000,00. CCL positivo indica que fontes de longo prazo financiam parte do giro. R$ 420.000,00 é o próprio ativo circulante; R$ 80.000,00 resulta de (PC + PNC) − AC.",
+   "area": "Análise das Demonstrações Contábeis"
+  },
+  {
+   "stem": "Ativo circulante de R$ 200.000,00; realizável a longo prazo de R$ 50.000,00; passivo circulante de R$ 100.000,00; passivo não circulante de R$ 125.000,00. A liquidez geral é:",
+   "options": [
+    "2,00",
+    "0,89",
+    "1,25",
+    "1,11"
+   ],
+   "correct": 3,
+   "explanation": "Liquidez geral = (AC + RLP) ÷ (PC + PNC) = 250.000 ÷ 225.000 = 1,11. A corrente seria 2,00 (só circulantes) e a divisão invertida daria 0,90 — cada índice tem numerador e denominador próprios.",
+   "area": "Análise das Demonstrações Contábeis"
+  },
+  {
+   "stem": "Uma empresa tem margem líquida de 8%, giro do ativo de 1,25 e multiplicador de capital (ativo total ÷ patrimônio líquido) de 2. O retorno sobre o patrimônio líquido (ROE) é:",
+   "options": [
+    "10%",
+    "16%",
+    "20%",
+    "12,5%"
+   ],
+   "correct": 2,
+   "explanation": "Pela decomposição DuPont: ROE = margem líquida × giro do ativo × multiplicador de capital = 8% × 1,25 × 2 = 20%. O ROA seria 8% × 1,25 = 10%; a alavancagem financeira dobra o retorno ao PL.",
+   "area": "Análise das Demonstrações Contábeis"
+  },
+  {
+   "stem": "Estoque médio de R$ 60.000,00 e CMV anual de R$ 432.000,00 (ano de 360 dias). O prazo médio de renovação de estoques é:",
+   "options": [
+    "60 dias",
+    "50 dias",
+    "72 dias",
+    "45 dias"
+   ],
+   "correct": 1,
+   "explanation": "PMRE = estoque médio ÷ CMV × 360 = 60.000 ÷ 432.000 × 360 = 50 dias. Usar a receita em vez do CMV no denominador é o erro típico desta medida.",
    "area": "Análise das Demonstrações Contábeis"
   }
  ],

@@ -33,56 +33,56 @@
       "options": ["Coordenar a elaboração do orçamento, consolidar as propostas das áreas e acompanhar as variações entre o orçado e o realizado", "Elaborar sozinha o orçamento de todas as áreas, sem participação dos gestores responsáveis", "Autorizar pagamentos e movimentar recursos financeiros da empresa", "Substituir a auditoria independente na opinião sobre as demonstrações contábeis"],
       "correct": 0,
       "explanation": "A controladoria coordena e consolida o processo e analisa as variações entre orçado e realizado, mas a responsabilidade pelos números é dos gestores de cada área. Autorizar pagamentos é função da tesouraria, e a opinião sobre as demonstrações é da auditoria independente.",
-      "area": "Contabilidade Gerencial"
+      "area": "Controladoria"
     },
     {
       "stem": "Uma empresa prevê vender 8.000 unidades no próximo período. O estoque inicial de produtos acabados é de 1.000 unidades, e a política da empresa determina estoque final desejado de 1.500 unidades. O orçamento de produção, em unidades, deve ser de:",
       "options": ["7.500", "9.500", "8.000", "8.500"],
       "correct": 3,
       "explanation": "Produção = vendas + estoque final desejado − estoque inicial = 8.000 + 1.500 − 1.000 = 8.500 unidades.",
-      "area": "Contabilidade Gerencial"
+      "area": "Controladoria"
     },
     {
       "stem": "A demonstração do resultado de uma empresa apresenta receita líquida de R$ 500.000, custo das mercadorias vendidas de R$ 300.000 e despesas operacionais de R$ 100.000. Na análise vertical, tomando a receita líquida como base 100%, o lucro operacional representa:",
       "options": ["40%", "20%", "60%", "25%"],
       "correct": 1,
       "explanation": "Lucro operacional = 500.000 − 300.000 − 100.000 = R$ 100.000. Análise vertical = 100.000 / 500.000 = 20%. Os 40% correspondem ao lucro bruto e os 60% ao CMV.",
-      "area": "Contabilidade Gerencial"
+      "area": "Análise das Demonstrações Contábeis"
     },
     {
       "stem": "A receita líquida de uma empresa foi de R$ 800.000 no ano 1 e de R$ 920.000 no ano 2. Utilizando o ano 1 como base 100 na análise horizontal, o número-índice da receita do ano 2 é:",
       "options": ["15", "87", "115", "120"],
       "correct": 2,
       "explanation": "Número-índice = 920.000 / 800.000 × 100 = 115. Isso indica crescimento de 15% sobre a base. O valor 87 resultaria da divisão inversa (800.000 / 920.000).",
-      "area": "Contabilidade Gerencial"
+      "area": "Análise das Demonstrações Contábeis"
     },
     {
       "stem": "O balanço de uma empresa apresenta ativo circulante de R$ 360.000, dos quais R$ 120.000 são estoques, e passivo circulante de R$ 200.000. O índice de liquidez seca é de:",
       "options": ["1,80", "0,60", "1,50", "1,20"],
       "correct": 3,
       "explanation": "Liquidez seca = (ativo circulante − estoques) / passivo circulante = (360.000 − 120.000) / 200.000 = 1,20. O valor 1,80 é a liquidez corrente (360.000 / 200.000).",
-      "area": "Contabilidade Gerencial"
+      "area": "Análise das Demonstrações Contábeis"
     },
     {
       "stem": "Uma empresa tem passivo circulante de R$ 150.000, passivo não circulante de R$ 250.000 e patrimônio líquido de R$ 400.000. O índice de composição do endividamento é de:",
       "options": ["37,5%", "62,5%", "50,0%", "100,0%"],
       "correct": 0,
       "explanation": "Composição do endividamento = passivo circulante / capital de terceiros = 150.000 / (150.000 + 250.000) = 37,5%. Os 62,5% representam a parcela de longo prazo, e os 50% são a participação do capital de terceiros no total de recursos.",
-      "area": "Contabilidade Gerencial"
+      "area": "Análise das Demonstrações Contábeis"
     },
     {
       "stem": "Em determinado exercício, uma empresa obteve lucro líquido de R$ 90.000. O patrimônio líquido era de R$ 400.000 no início e de R$ 500.000 no final do exercício. Considerando o patrimônio líquido médio, a rentabilidade do patrimônio líquido (ROE) foi de:",
       "options": ["22,5%", "20,0%", "18,0%", "15,0%"],
       "correct": 1,
       "explanation": "PL médio = (400.000 + 500.000) / 2 = 450.000. ROE = 90.000 / 450.000 = 20%. O valor de 22,5% usaria o PL inicial, e o de 18% usaria o PL final.",
-      "area": "Contabilidade Gerencial"
+      "area": "Análise das Demonstrações Contábeis"
     },
     {
       "stem": "Pela análise DuPont, uma empresa apresenta margem líquida de 8% e giro do ativo de 1,5 vez. A rentabilidade do ativo (ROA) é de:",
       "options": ["5,3%", "9,5%", "12,0%", "18,8%"],
       "correct": 2,
       "explanation": "ROA = margem líquida × giro do ativo = 8% × 1,5 = 12%.",
-      "area": "Contabilidade Gerencial"
+      "area": "Análise das Demonstrações Contábeis"
     }
   ],
   "50": [

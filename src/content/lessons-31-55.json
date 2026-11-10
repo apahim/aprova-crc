@@ -24,8 +24,17 @@
     "h": "Classificações dos custos",
     "p": [
      "Quanto ao volume produzido, custos fixos permanecem constantes no total dentro da faixa relevante (aluguel da fábrica), enquanto os variáveis oscilam em proporção à produção (matéria-prima). O fixo é unitário decrescente; o variável é unitário constante.",
-     "Quanto à apropriação ao produto, custos diretos são identificados objetivamente a cada unidade (matéria-prima, mão de obra direta), e indiretos exigem critério de rateio (depreciação, supervisão). Custo primário é a soma de matéria-prima e mão de obra direta; custo de transformação (ou de conversão) é a soma de mão de obra direta e custos indiretos de fabricação."
+     "Quanto à apropriação ao produto, custos diretos são identificados objetivamente a cada unidade (matéria-prima, mão de obra direta), e indiretos exigem critério de rateio (depreciação, supervisão). Custo primário é a soma de matéria-prima e mão de obra direta; custo de transformação (ou de conversão) é a soma de mão de obra direta e custos indiretos de fabricação.",
+     "A mão de obra direta ociosa (tempo sem atividade produtiva, por espera de material ou falta de programação) não integra o custo dos produtos: por não decorrer da produção normal, é tratada como custo do período e, na ociosidade anormal (greve, acidente), como perda. Só as horas efetivamente aplicadas ao produto são apropriadas como MOD."
     ]
+   },
+   {
+    "h": "Separação de custos fixos e variáveis: método do alto e baixo",
+    "p": [
+     "Para separar a parcela fixa da variável a partir de custos históricos, o método do alto e baixo compara o nível mais alto e o mais baixo de atividade: o custo variável unitário é a variação do custo total dividida pela variação da atividade, e o custo fixo sai por diferença.",
+     "Exemplo: custo total de R$ 60.000 para 1.000 horas de atividade e de R$ 120.000 para 3.000 horas. Variável unitário = (120.000 − 60.000) ÷ (3.000 − 1.000) = R$ 30,00 por hora. Fixo = 60.000 − 1.000 × 30 = R$ 30.000 (ou 120.000 − 3.000 × 30)."
+    ],
+    "formula": "Custo variável unitário = variação do custo total ÷ variação da atividade; Custo fixo = custo total − atividade × custo variável unitário"
    },
    {
     "h": "Exemplo numérico",
@@ -79,7 +88,7 @@
    {
     "h": "Departamentalização e centros de custo",
     "p": [
-     "Departamento é a unidade mínima administrativa, com um responsável; centro de custo é a unidade de acumulação de custos, que pode coincidir com o departamento. Departamentos de produção atuam diretamente sobre o produto (corte, montagem); departamentos de serviços (manutenção, administração da fábrica) apoiam os demais, e seus custos são redistribuídos aos departamentos produtivos."
+     "Departamento é a unidade mínima administrativa, com um responsável; centro de custo é a unidade de acumulação de custos, que pode coincidir com o departamento. Departamentos de produção atuam diretamente sobre o produto (corte, montagem); departamentos de serviços (manutenção, administração da fábrica) apoiam os demais, e seus custos são redistribuídos aos departamentos produtivos. Essa redistribuição segue métodos: no direto, os custos dos auxiliares vão apenas aos departamentos produtivos, ignorando os serviços recíprocos entre auxiliares; no escalonado (step-down), os auxiliares são distribuídos em sequência, reconhecendo parte desses fluxos."
     ]
    },
    {
@@ -95,6 +104,14 @@
      "CIF total: A R$ 60.400 e B R$ 59.600 (soma R$ 120.000)"
     ],
     "formula": "Taxa de rateio = CIF do departamento ÷ base de rateio (horas, unidades, etc.)"
+   },
+   {
+    "h": "Taxa predeterminada de CIF e sub/superaplicação",
+    "p": [
+     "Como o CIF real só é conhecido no fim do período, as empresas costumam aplicar aos produtos uma taxa predeterminada: CIF orçado ÷ base orçada (por exemplo, horas-máquina previstas). A taxa permite custear os produtos à medida que são produzidos.",
+     "Exemplo: CIF orçado de R$ 120.000 para 10.000 horas-máquina gera taxa de R$ 12,00 por hora. Se no período foram utilizadas 9.800 horas, aplicam-se 9.800 × 12 = R$ 117.600 aos produtos. Encerrado o período com CIF real de R$ 125.000, há subaplicação (aplicado menor que real) de R$ 7.400; se o aplicado excedesse o real, haveria superaplicação.",
+     "A diferença, se imaterial, é lançada diretamente no resultado do período; se material, é alocada entre estoques e CMV proporcionalmente aos CIF aplicados."
+    ]
    },
    {
     "h": "Custeio baseado em atividades (ABC)",
@@ -132,6 +149,18 @@
      "A margem de contribuição (MC) é o que sobra do preço de venda após deduzir custos e despesas variáveis; ela contribui para cobrir os custos fixos e formar o lucro."
     ],
     "formula": "MCu = Preço de venda − Custos e despesas variáveis unitários; Índice de MC = MCu ÷ Preço"
+   },
+   {
+    "h": "Absorção × variável: reconciliação do lucro",
+    "p": [
+     "A diferença de lucro entre os métodos vem do destino dos custos fixos de produção: no absorção, ficam nos estoques até a venda; no variável, vão inteiros ao período. Exemplo: produção de 1.000 unidades, vendas de 800, custo variável de R$ 30 por unidade, custos fixos de produção de R$ 20.000 e preço de R$ 60."
+    ],
+    "list": [
+     "Absorção: custo unitário = 30 + 20.000 ÷ 1.000 = R$ 50; CMV = 800 × 50 = 40.000; lucro = 48.000 − 40.000 = R$ 8.000",
+     "Variável: CMV = 800 × 30 = 24.000; fixos inteiros no período; lucro = 48.000 − 24.000 − 20.000 = R$ 4.000",
+     "Diferença de R$ 4.000 = custo fixo estocado (200 unidades × R$ 20)",
+     "Regra: estoque crescendo, o absorção apura lucro maior; estoque diminuindo, o variável apura lucro maior; estoque estável, lucros iguais"
+    ]
    },
    {
     "h": "Pontos de equilíbrio",
@@ -239,7 +268,7 @@
    {
     "h": "Preparação",
     "p": [
-     "O mini-simulado contém 12 questões de múltipla escolha cobrindo as sessões 31 a 34: três de conceitos e classificação de custos, três de absorção, departamentalização e ABC, três de custeio variável e ponto de equilíbrio, e três de ordem/processo, conjuntos e custo-padrão.",
+     "O mini-simulado contém 12 questões de múltipla escolha cobrindo as sessões 31 a 34: duas de conceitos e classificação de custos, três de absorção, departamentalização e ABC, cinco de custeio variável e ponto de equilíbrio, e duas de custos conjuntos e custo-padrão.",
      "Reserve um ambiente silencioso, com calculadora simples, papel de rascunho e cronômetro. Não consulte material, celular ou resumos."
     ]
    },
@@ -321,6 +350,14 @@
     ]
    },
    {
+    "h": "Custeio-meta (target costing)",
+    "p": [
+     "No custeio-meta, o preço vem do mercado e o lucro é definido pela estratégia; o custo passa a ser a variável a ser alcançada: custo-alvo = preço de mercado − margem de lucro desejada.",
+     "Exemplo: preço de mercado de R$ 500 e margem desejada de 20% sobre o preço dão custo-alvo de R$ 400. Se o custo atual projetado for R$ 430, há uma meta de redução de R$ 30 por unidade a perseguir no projeto e no processo (engenharia de valor, padronização).",
+     "É a lógica inversa do markup: em vez de partir do custo para chegar ao preço (cost-plus), parte-se do preço competitivo para limitar o custo."
+    ]
+   },
+   {
     "h": "Comprar ou fabricar",
     "p": [
      "A decisão deve considerar apenas custos relevantes: aqueles futuros e que diferem entre as alternativas. Custos fixos que continuarão existindo, ainda que se compre de terceiros, são irrelevantes; os que forem evitados com a compra (supervisor exclusivo, aluguel de máquina) são relevantes.",
@@ -385,11 +422,27 @@
    },
    {
     "h": "Centros de responsabilidade",
+    "p": [
+     "A avaliação acompanha a responsabilidade: o centro de custos é avaliado por relatórios de custo, o de lucro por margens, e o de investimento pelo retorno sobre o capital empregado. O retorno sobre o investimento (ROI) = lucro operacional ÷ ativos controlados: lucro de R$ 50.000 com ativos de R$ 250.000 dá ROI de 20%. Outra medida é o EVA (valor econômico agregado), que deduz do lucro operacional o custo do capital investido."
+    ],
     "list": [
      "Centro de custos: responde apenas pelos custos",
      "Centro de receitas: responde pelas vendas",
      "Centro de lucro: responde por receitas e custos",
      "Centro de investimento: responde também pelo retorno sobre o capital empregado"
+    ]
+   },
+   {
+    "h": "Indicadores de desempenho e Balanced Scorecard",
+    "p": [
+     "Indicadores de desempenho traduzem objetivos em medidas: os financeiros (ROI, margem, EVA) mostram o resultado; os não financeiros (satisfação, defeitos, treinamento) antecipam as causas.",
+     "O Balanced Scorecard (Kaplan e Norton) organiza a estratégia em quatro perspectivas ligadas por relações de causa e efeito: competências e treinamento melhoram os processos; processos melhores geram valor aos clientes; clientes satisfeitos sustentam o resultado financeiro."
+    ],
+    "list": [
+     "Financeira: lucratividade, ROI, crescimento da receita",
+     "Clientes: satisfação, retenção, participação de mercado",
+     "Processos internos: qualidade, tempo de ciclo, produtividade",
+     "Aprendizado e crescimento: treinamento, inovação, competências"
     ]
    }
   ],
@@ -402,7 +455,8 @@
   ],
   "refs": [
    "Conceitos de planejamento e controladoria",
-   "Lei 12.846/13 (Lei Anticorrupção) para compliance"
+   "Lei 12.846/13 (Lei Anticorrupção) para compliance",
+   "Balanced Scorecard (Kaplan e Norton)"
   ]
  },
  "38": {
@@ -488,6 +542,13 @@
     ]
    },
    {
+    "h": "Capital circulante líquido (CCL)",
+    "p": [
+     "O capital circulante líquido (CCL), ou capital de giro líquido, é AC − PC. Nos dados do exemplo: 300.000 − 150.000 = R$ 150.000. A mesma medida surge por outra via: CCL = (PL + passivo não circulante) − ativo não circulante = (250.000 + 200.000) − 300.000 = R$ 150.000.",
+     "CCL positivo significa que parte das fontes de longo prazo financia o giro; CCL negativo só é sustentável quando o ciclo financeiro também é negativo, típico de varejistas que vendem à vista e pagam fornecedores a prazo. Índices de liquidez e CCL se complementam: os índices medem proporção, o CCL mede volume."
+    ]
+   },
+   {
     "h": "Endividamento e rentabilidade",
     "p": [
      "Endividamento geral = capitais de terceiros ÷ ativo total = 350.000 ÷ 600.000 = 58,33%. Composição do endividamento = PC ÷ capitais de terceiros = 150.000 ÷ 350.000 = 42,86%. Participação de capitais de terceiros sobre o PL = 350.000 ÷ 250.000 = 1,40.",
@@ -527,7 +588,7 @@
    {
     "h": "Preparação",
     "p": [
-     "O mini-simulado tem 12 questões cobrindo as sessões 36 a 39: três de formação de preço e decisões de produção, três de orçamento e controladoria, três de análise vertical e horizontal, e três de liquidez, endividamento e rentabilidade.",
+     "O mini-simulado tem 12 questões cobrindo as sessões 36 a 39: quatro de formação de preço e decisões de produção, duas de orçamento e controladoria, duas de análise vertical e horizontal, e quatro de liquidez, endividamento e rentabilidade.",
      "Tenha calculadora simples, rascunho e cronômetro. Revise antes apenas as fórmulas que costumam ser esquecidas, e depois feche o material."
     ]
    },
