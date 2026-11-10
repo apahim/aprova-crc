@@ -1047,6 +1047,54 @@
       "correct": 1,
       "explanation": "A assinatura de documentos elaborados por terceiros sem orientação, supervisão ou revisão é vedada. As demais condutas são deveres do contador.",
       "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Um contador é processado judicialmente por antigo cliente que alega erro na execução de serviços contábeis. Para se defender na ação, o contador pode utilizar as informações confidenciais obtidas na relação profissional porque:",
+      "options": [
+        "a tutela de direitos próprios em processo judicial autoriza a divulgação, ainda que sem consentimento do cliente",
+        "o dever de sigilo se extingue com o encerramento da relação profissional",
+        "qualquer processo judicial equivale a autorização do cliente para a quebra de sigilo",
+        "o interesse pessoal do contador prevalece sobre o sigilo em qualquer hipótese"
+      ],
+      "correct": 0,
+      "explanation": "O sigilo é dever permanente, que subsiste após o encerramento da relação, mas cede quando necessário à tutela de direitos próprios em processo judicial ou administrativo, além das hipóteses de autorização do cliente, dever legal e ordem judicial (NBC PG 01). As demais alternativas extinguem o sigilo sem base legal ou tratam todo processo como autorização automática.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Sobre honorários profissionais, a NBC PG 01 estabelece que o contador deve:",
+      "options": [
+        "formalizar por escrito a proposta e o contrato de honorários e cumprir as condições pactuadas",
+        "reter os livros e documentos do cliente até o pagamento de honorários em atraso",
+        "ajustar os honorários apenas verbalmente, quando o cliente for pessoa física",
+        "praticar concorrência desleal para evitar a perda do cliente"
+      ],
+      "correct": 0,
+      "explanation": "É dever geral do contador formalizar por escrito a proposta e o contrato de honorários e cumprir as condições pactuadas (NBC PG 01). A retenção abusiva de livros e documentos do cliente é vedada — a cobrança deve seguir o caminho legal —, e a concorrência desleal é infração ética.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Contador com registro ativo no CRC permite que um escritório utilize seu nome para assinar as declarações e balanços dos clientes desse escritório, sem qualquer orientação, supervisão ou revisão. Essa conduta é:",
+      "options": [
+        "regular, pois o registro ativo autoriza a assinatura",
+        "vedada, pois configura assinar trabalho não executado nem supervisionado e ceder o nome a terceiros",
+        "permitida, se houver pagamento de honorários ao contador",
+        "irrelevante para a ética profissional, pois o contador não participou da elaboração"
+      ],
+      "correct": 1,
+      "explanation": "A NBC PG 01 veda assinar documentos e trabalhos contábeis elaborados por outrem sem sua orientação, supervisão ou revisão, e ceder nome ou registro a quem não seja habilitado. Nem o registro ativo nem a contraprestação financeira convalidam a conduta.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Durante a execução de um encerramento de exercício, o contador percebe que não dispõe de sistema adequado para processar a parte fiscal do trabalho no prazo combinado. Segundo a NBC PG 01, ele deve:",
+      "options": [
+        "entregar o trabalho incompleto, sem mencionar a limitação",
+        "devolver imediatamente todos os documentos do cliente, sem qualquer comunicação",
+        "comunicar ao cliente, de forma clara, o impedimento ou a limitação para executar o trabalho",
+        "subcontratar terceiro para concluir a etapa, sem ciência do cliente"
+      ],
+      "correct": 2,
+      "explanation": "É dever geral do contador comunicar ao cliente ou empregador, de forma clara, qualquer impedimento ou limitação para executar o trabalho (NBC PG 01). Omitir a limitação, agir sem ciência do cliente ou devolver os documentos sem comunicação violam o zelo e a diligência devidos.",
+      "area": "Legislação e Ética Profissional"
     }
   ],
   "57": [
@@ -1120,6 +1168,54 @@
       ],
       "correct": 0,
       "explanation": "A Lei 9.873/1999 estabelece prazo de cinco anos para a ação punitiva da administração pública federal, contado da prática do ato, e de três anos para a prescrição intercorrente (procedimento paralisado pendente de julgamento ou despacho).",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Sobre a multa como penalidade disciplinar prevista no DL 9.295/46 (art. 27), é correto afirmar:",
+      "options": [
+        "é a sanção mais grave que o Sistema CFC/CRCs pode aplicar",
+        "é sanção pecuniária prevista para hipóteses legais especificadas, aplicável cumulativamente ou não com as demais penalidades",
+        "substitui automaticamente a censura pública em qualquer infração ética",
+        "só pode ser aplicada pelo CFC, em grau de recurso"
+      ],
+      "correct": 1,
+      "explanation": "A multa é sanção pecuniária do art. 27 do DL 9.295/46, para as hipóteses legais especificadas, aplicável cumulativa ou não com as demais penalidades. A penalidade mais grave é a cassação do exercício profissional; as penalidades éticas são aplicadas em primeira instância pelos CRCs.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Profissional cuja incapacidade técnica para o exercício da profissão contábil ficou comprovada em processo disciplinar está sujeito, pelo DL 9.295/46 (art. 27), a:",
+      "options": [
+        "cassação do exercício, com homologação de dois terços do Plenário do TSED",
+        "advertência reservada, em qualquer hipótese",
+        "suspensão do exercício profissional por até dois anos",
+        "suspensão do exercício da profissão de seis meses a um ano"
+      ],
+      "correct": 3,
+      "explanation": "O art. 27, e, do DL 9.295/46 prevê suspensão de seis meses a um ano nos casos de incapacidade técnica comprovada. A suspensão de até dois anos (alínea d) alcança a falsidade de documentos assinados e as irregularidades de escrituração para fraudar rendas públicas; a cassação (alínea f) depende de hipóteses graves e de homologação por 2/3 do Plenário do TSED.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Em processo ético-disciplinar, o CRC constata que o contador já foi punido, por decisão transitada em julgado, em processo anterior, e que a nova conduta maculou publicamente a imagem da profissão. Essas circunstâncias, na aplicação da sanção, caracterizam:",
+      "options": [
+        "atenuantes, pois revelam apenas reincidência técnica involuntária",
+        "agravantes, que recomendam sanção mais severa",
+        "causas extintivas da punibilidade",
+        "condições para a absolvição, por ausência de dolo"
+      ],
+      "correct": 1,
+      "explanation": "São agravantes a punição ética anterior transitada em julgado e a ação ou omissão que macule publicamente a imagem do contador ou da profissão (NBC PG 01). São atenuantes, por exemplo, a ausência de punição anterior e os relevantes serviços prestados à Contabilidade.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Um contador foi absolvido na esfera criminal, por insuficiência de provas, quanto ao mesmo fato que motivou processo ético-disciplinar no CRC. Considerando a independência das responsabilidades civil, penal e disciplinar, o CRC:",
+      "options": [
+        "deve arquivar de imediato o processo ético, por força da absolvição",
+        "só pode prosseguir após condenação na esfera civil",
+        "fica impedido de punir, sob pena de bis in idem",
+        "pode julgar e aplicar sanção disciplinar, pois as esferas são independentes"
+      ],
+      "correct": 3,
+      "explanation": "A responsabilidade disciplinar é independente da civil e da penal: o mesmo fato pode gerar sanção administrativa no Conselho, indenização na Justiça e processo criminal. A absolvição criminal por insuficiência de provas não vincula o julgamento ético.",
       "area": "Legislação e Ética Profissional"
     }
   ],
@@ -1195,6 +1291,54 @@
       "correct": 1,
       "explanation": "O sigilo é dever permanente, que subsiste após o fim da relação. As exceções são autorização do cliente, obrigação legal ou judicial e dever profissional de divulgar. O inadimplemento não libera o contador do sigilo.",
       "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "O sócio responsável pela auditoria mantém, há muitos anos, relação de amizade estreita com os diretores da entidade auditada, o que reduz seu ceticismo nas avaliações. A ameaça à independência caracterizada é de:",
+      "options": [
+        "familiaridade",
+        "interesse próprio",
+        "autorrevisão",
+        "intimidação"
+      ],
+      "correct": 0,
+      "explanation": "A ameaça de familiaridade decorre de relacionamento longo ou próximo com o cliente, que leva o auditor a aceitar com benevolência o trabalho de conhecidos. Interesse próprio pressupõe interesse financeiro; intimidação, pressão ou ameaça; autorrevisão, avaliação do próprio trabalho.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Firma de auditoria contratada para auditar as demonstrações contábeis de um cliente passa, simultaneamente, a representá-lo em disputa judicial, defendendo sua posição contra ex-sócios. A ameaça à independência resultante é de:",
+      "options": [
+        "familiaridade",
+        "intimidação",
+        "defesa de interesses",
+        "autorrevisão"
+      ],
+      "correct": 2,
+      "explanation": "Há defesa de interesses quando o auditor promove a posição do cliente até o ponto de tornar-se, na prática, seu defensor, comprometendo a imparcialidade exigida na auditoria (NBC PA 400). Familiaridade exigiria proximidade prolongada; intimidação, pressão; autorrevisão, avaliar o próprio trabalho.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "A norma do CFC que fixa o código de ética de todos os contadores e a norma que disciplina a independência na auditoria de demonstrações contábeis são, respectivamente:",
+      "options": [
+        "NBC PG 01 e NBC PA 400",
+        "NBC PA 400 e NBC PG 01",
+        "NBC PG 100 e NBC PO 900",
+        "NBC PG 300 e NBC PG 200"
+      ],
+      "correct": 0,
+      "explanation": "A NBC PG 01 é o Código de Ética Profissional do Contador, aplicável a todos os contadores. A NBC PA 400 disciplina a independência em auditoria e revisão; a NBC PO 900, nos demais trabalhos de asseguração; a NBC PG 100 trata do cumprimento do código e dos princípios fundamentais; a NBC PG 200 e a NBC PG 300, dos contadores em serviços internos e externos.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Ao identificar ameaça significativa à independência em trabalho de auditoria, o enfoque das normas profissionais determina que o auditor:",
+      "options": [
+        "prossiga normalmente, pois toda ameaça é presumidamente aceitável",
+        "renuncie de imediato ao trabalho, em qualquer hipótese",
+        "avalie a ameaça e aplique salvaguardas que a eliminem ou a reduzam a nível aceitável e, se não for possível, recuse ou renuncie ao trabalho",
+        "comunique a ameaça ao cliente e lhe delegue a decisão sobre a continuidade"
+      ],
+      "correct": 2,
+      "explanation": "O enfoque conceitual é identificar as ameaças, avaliar se são significativas e aplicar salvaguardas, como rodízio de pessoal, revisão por segundo profissional e recusa de serviço incompatível. A recusa ou a renúncia só se impõe quando a ameaça não pode ser reduzida a nível aceitável.",
+      "area": "Legislação e Ética Profissional"
     }
   ],
   "59": [
@@ -1268,6 +1412,54 @@
       ],
       "correct": 0,
       "explanation": "O art. 6º, f, atribui ao CFC regular princípios contábeis, o Exame de Suficiência, o cadastro de qualificação técnica e a educação continuada, e editar as NBC. O registro e a carteira profissional são competência dos CRCs.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Um contador encerra suas atividades contábeis e passa a dedicar-se exclusivamente à docência em universidade pública, sem exercer funções contábeis. Para deixar de pagar anuidades futuras, ele deve:",
+      "options": [
+        "aguardar o cancelamento automático do registro pelo decurso de tempo",
+        "requerer ao CRC a baixa de seu registro, mediante quitação de pendências",
+        "solicitar ao TSED a cassação de seu registro",
+        "pedir a suspensão do registro por prazo indeterminado"
+      ],
+      "correct": 1,
+      "explanation": "A baixa de registro é o pedido do profissional para afastar-se do exercício da profissão e deixar de pagar anuidades futuras, mediante quitação de pendências. O cancelamento decorre de falecimento, cassação transitada em julgado, revisão administrativa ou decisão judicial; a suspensão é penalidade temporária.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Após decisão transitada em julgado que cassa o exercício profissional de um contador, o registro dele no CRC será:",
+      "options": [
+        "suspenso por dois anos, com reativação automática",
+        "mantido ativo, com restrição às atribuições privativas",
+        "cancelado, ficando o profissional impedido de exercer a profissão",
+        "convertido em registro de técnico em contabilidade"
+      ],
+      "correct": 2,
+      "explanation": "O cancelamento do registro decorre de falecimento, cassação transitada em julgado, revisão administrativa ou decisão judicial. Cassada definitivamente a habilitação, o registro é cancelado e o exercício da profissão fica impedido.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Sobre o registro profissional nos CRCs após a Resolução CFC nº 1.471/2014, é correto afirmar:",
+      "options": [
+        "existe apenas o registro definitivo, pois o antigo registro provisório foi extinto",
+        "o registro provisório é concedido ao bacharel que ainda não prestou o Exame de Suficiência",
+        "o registro definitivo exige dois anos de estágio supervisionado",
+        "as organizações contábeis dispensam registro no Sistema CFC/CRCs"
+      ],
+      "correct": 0,
+      "explanation": "Desde o fim de 2014 existe apenas o registro definitivo — de contador (bacharel aprovado no Exame de Suficiência) e de técnico em contabilidade nas condições da lei —, hoje disciplinado pela Res. CFC 1.707/2023; o antigo registro provisório foi extinto. As organizações contábeis também devem ser registradas.",
+      "area": "Legislação e Ética Profissional"
+    },
+    {
+      "stem": "Quanto à natureza jurídica e ao financiamento do Sistema CFC/CRCs, é correto afirmar que:",
+      "options": [
+        "são órgãos do Poder Executivo federal, custeados pelo orçamento da União",
+        "são entidades privadas de utilidade pública, mantidas por doações",
+        "os CRCs são subordinados aos governos estaduais onde atuam",
+        "têm natureza de autarquia, com autonomia administrativa e financeira, e receitas próprias, principalmente anuidades, taxas e multas"
+      ],
+      "correct": 3,
+      "explanation": "CFC e CRCs têm natureza de autarquia, com autonomia administrativa e financeira, e receitas próprias, principalmente anuidades, taxas e multas. Os CRCs integram o sistema federal CFC/CRCs, sem subordinação aos governos estaduais.",
       "area": "Legislação e Ética Profissional"
     }
   ]

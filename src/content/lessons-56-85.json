@@ -607,7 +607,8 @@
    {
     "h": "Regime de juros compostos",
     "p": [
-     "No regime composto, ou exponencial, os juros de cada período são incorporados ao capital e passam a render juros no período seguinte, o chamado juro sobre juro. É o regime usado no mercado financeiro, nos financiamentos e nas aplicações em geral."
+     "No regime composto, ou exponencial, os juros de cada período são incorporados ao capital e passam a render juros no período seguinte, o chamado juro sobre juro. É o regime usado no mercado financeiro, nos financiamentos e nas aplicações em geral.",
+     "O valor presente (VP) é o capital que, aplicado hoje, gera o montante desejado: isolando C na fórmula do montante, VP = M ÷ (1 + i)^n. Assim, para um montante de R$ 13.310,00 devido em 3 anos, à taxa composta de 10% ao ano, o valor presente é 13.310 ÷ 1,331 = R$ 10.000,00."
     ],
     "formula": "M = C × (1 + i)^n   e   J = M − C"
    },
@@ -766,7 +767,8 @@
     "h": "Medidas de dispersão",
     "p": [
      "A variância é a média dos quadrados dos desvios em relação à média, e o desvio-padrão é sua raiz quadrada, expresso na mesma unidade dos dados. Na variância amostral, divide-se por n − 1, e na populacional, por n.",
-     "O coeficiente de variação (desvio-padrão ÷ média) permite comparar a dispersão de conjuntos com unidades ou escalas diferentes."
+     "O coeficiente de variação (desvio-padrão ÷ média) permite comparar a dispersão de conjuntos com unidades ou escalas diferentes.",
+     "Se todos os valores de um conjunto forem multiplicados por uma constante k, a média e o desvio-padrão ficam multiplicados por k, e a variância, por k². Ao dobrar todos os dados, a média e o desvio-padrão dobram e a variância quadruplica; o coeficiente de variação, por ser razão entre desvio e média, permanece inalterado."
     ],
     "formula": "σ² = Σ(x − média)² / n   (amostral: dividir por n − 1)"
    },
@@ -799,7 +801,7 @@
    "Aplicar estratégias de leitura e interpretação de textos técnicos",
    "Distinguir coesão de coerência",
    "Reconhecer a função dos conectivos de oposição, causa e conclusão",
-   "Aplicar concordância, regência e pontuação essenciais"
+   "Aplicar concordância, regência, crase e pontuação essenciais"
   ],
   "sections": [
    {
@@ -827,7 +829,14 @@
    {
     "h": "Concordância e regência",
     "p": [
-     "Na concordância verbal, o verbo concorda com o sujeito: As demonstrações contábeis foram publicadas. Em expressões como houve, que significa existir, o verbo fica no singular: Houve divergências. Na regência, atente a verbos como visar (visar ao lucro, no sentido de objetivar), assistir (assistir ao julgamento) e obedecer (obedecer às normas)."
+     "Na concordância verbal, o verbo concorda com o sujeito: As demonstrações contábeis foram publicadas. Em expressões como houve, que significa existir, o verbo fica no singular: Houve divergências. Na regência, atente a verbos como visar (visar ao lucro, no sentido de objetivar), assistir (assistir ao julgamento) e obedecer (obedecer às normas). O verbo fazer, indicando tempo decorrido, é igualmente impessoal e permanece no singular: faz dois anos que a sociedade foi constituída."
+    ]
+   },
+   {
+    "h": "Crase",
+    "p": [
+     "A crase é a fusão da preposição a com o artigo a, e só ocorre antes de palavra feminina determinada: compareceu à reunião, submeteu o processo à diretoria. Para decidir, use o truque do masculino: se, ao trocar a palavra por uma masculina, aparece ao (vou à feira → vou ao mercado), há crase; se aparece apenas o (andou a pé), não há.",
+     "Não há crase diante de pronomes pessoais (entregou o laudo a ele), antes de palavra masculina (relatório enviado a todos os diretores), quando o a se repete (frente a frente, gota a gota) nem na locução a partir de (a auditoria começou a partir de janeiro)."
     ]
    },
    {
